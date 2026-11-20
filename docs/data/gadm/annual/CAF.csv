@@ -1,0 +1,27 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2012,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2013,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2014,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2015,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2016,1.222,0.0,0.72,1.222,1.222,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2017,1.625,1e-05,0.851,1.625,1.625,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2018,3.457,1e-05,1.301,3.457,3.457,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2019,5.879,2e-05,1.66,5.879,5.879,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2020,2.722,1e-05,1.151,2.722,2.722,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2021,2.501,1e-05,1.121,2.501,2.501,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2022,12.92,5e-05,3.03,12.92,12.92,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2023,33.789,0.00012,6.09,33.789,33.789,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.1_1,Bamingui-Bangoran,2024,37.527,0.00014,6.147,37.527,37.527,,,0,1.0,0.0,1.0,0.0,0.0,276551,1,0.9996,name
+CAF,Central African Republic,CAF.2_1,Bangui,2012,1152.615,3.58156,20.071,1152.615,1152.615,,,0,1.0,0.0,0.9775,0.0225,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2013,1016.458,3.15848,15.785,1016.458,1016.458,,,0,1.0,0.0,0.99,0.01,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2014,972.345,3.0214,15.43,972.345,972.345,,,0,1.0,0.0,0.995,0.005,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2015,932.209,2.89669,16.612,932.209,932.209,,,0,1.0,0.0,0.99,0.01,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2016,921.328,2.86287,13.511,921.328,921.328,,,0,1.0,0.0,0.99,0.01,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2017,971.621,3.01915,15.529,971.621,971.621,,,0,1.0,0.0,0.9925,0.0075,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2018,1064.469,3.30766,22.165,1064.469,1064.469,,,0,1.0,0.0,0.995,0.005,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2019,987.733,3.06922,18.096,987.733,987.733,,,0,1.0,0.0,0.9975,0.0025,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2020,992.339,3.08353,15.51,992.339,992.339,,,0,1.0,0.0,0.9875,0.0125,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2021,972.375,3.02149,16.591,972.375,972.375,,,0,1.0,0.0,0.9875,0.0125,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2022,1281.304,3.98144,15.653,1281.304,1281.304,,,0,1.0,0.0,0.99,0.01,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2023,1131.498,3.51594,19.46,1131.498,1131.498,,,0,1.0,0.0,0.9975,0.0025,0.0,322,1,0.5377,name
+CAF,Central African Republic,CAF.2_1,Bangui,2024,1237.052,3.84393,22.504,1237.052,1237.052,,,0,1.0,0.0,0.995,0.005,0.0,322,1,0.5377,name

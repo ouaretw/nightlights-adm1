@@ -1,0 +1,1009 @@
+ISO_A3,NAM_0,GID_1,NAME_1,date,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-01,324.19,0.46689,6.944,324.19,324.19,,,0,0.98473,0.0166,0.0,0.71775,0.26564,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-02,360.301,0.51939,5.371,360.301,360.301,,,0,0.9838,0.01916,0.0,0.79949,0.18135,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-03,340.75,0.502,7.704,340.75,340.75,,,0,0.96265,0.03576,0.0,0.55045,0.41379,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-04,351.53,0.49854,7.392,351.53,351.53,,,0,1.0,0.0,0.0,0.76756,0.23244,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-05,308.093,0.44372,6.803,308.093,308.093,,,0,0.9847,0.0166,0.0,0.4751,0.5083,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-06,329.571,0.48363,4.947,329.571,329.571,,,0,0.96643,0.03959,0.00383,0.63857,0.31801,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-07,371.524,0.52689,6.399,371.524,371.524,,,0,1.0,0.0,0.01022,0.77778,0.21201,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-08,280.253,0.39745,5.707,280.253,280.253,,,0,1.0,0.0,0.0,0.79693,0.20307,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-09,377.939,0.53599,5.669,377.939,377.939,,,0,1.0,0.0,0.15198,0.67688,0.17114,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-10,311.414,0.44165,6.418,311.414,311.414,,,0,1.0,0.0,0.0,0.74968,0.25032,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-11,268.656,0.38101,5.147,268.656,268.656,,,0,1.0,0.0,0.07152,0.8378,0.09068,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2012-12,289.623,0.41074,5.211,289.623,289.623,,,0,1.0,0.0,0.15964,0.71264,0.12771,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-01,266.495,0.37794,6.507,266.495,266.495,,,0,1.0,0.0,0.08301,0.67688,0.2401,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-02,277.473,0.39463,8.617,277.473,277.473,,,0,0.99716,0.00255,0.23116,0.60153,0.16475,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-03,407.569,0.58048,6.41,407.569,407.569,,,0,0.99575,0.00383,0.01022,0.74202,0.24393,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-04,278.053,0.39433,5.475,278.053,278.053,,,0,1.0,0.0,0.02043,0.60153,0.37803,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-05,289.295,0.41028,5.413,289.295,289.295,,,0,1.0,0.0,0.0,0.6871,0.3129,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-06,333.296,0.53072,7.371,333.296,333.296,,,0,0.89063,0.12516,0.0,0.50064,0.3742,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-07,365.468,0.5183,5.021,365.468,365.468,,,0,1.0,0.0,0.28736,0.65773,0.05492,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-08,273.774,0.38827,6.261,273.774,273.774,,,0,1.0,0.0,0.2567,0.73946,0.00383,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-09,205.588,0.29156,4.984,205.588,205.588,,,0,1.0,0.0,0.3295,0.64368,0.02682,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-10,223.878,0.3175,3.991,223.878,223.878,,,0,1.0,0.0,0.08685,0.80204,0.11111,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-11,245.658,0.3484,4.551,245.658,245.658,,,0,0.99998,0.00255,0.47382,0.52235,0.00128,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2013-12,235.066,0.33521,4.692,235.066,235.066,,,0,0.9945,0.00639,0.06897,0.57982,0.34483,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-01,218.78,0.31027,4.084,218.78,218.78,,,0,1.0,0.0,0.22989,0.50319,0.26692,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-02,171.492,0.24565,6.138,171.492,171.492,,,0,0.99007,0.01022,0.02937,0.81992,0.14049,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-03,296.991,0.42119,5.028,296.991,296.991,,,0,1.0,0.0,0.16603,0.76884,0.06513,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-04,310.143,0.45279,3.871,310.143,310.143,,,0,0.97141,0.03065,0.01533,0.76884,0.18519,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-05,384.001,0.55005,4.763,384.001,384.001,,,0,0.99007,0.00894,0.09195,0.79438,0.10473,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-06,283.242,0.41166,4.711,283.242,283.242,,,0,0.97578,0.03065,0.00383,0.61558,0.34994,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-07,256.917,0.3696,4.429,256.917,256.917,,,0,0.98581,0.01916,0.0,0.59259,0.38825,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-08,228.859,0.32457,3.443,228.859,228.859,,,0,1.0,0.0,0.05875,0.90932,0.03193,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-09,223.424,0.31686,4.549,223.424,223.424,,,0,1.0,0.0,0.62069,0.37803,0.00128,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-10,321.129,0.45542,8.891,321.129,321.129,,,0,1.0,0.0,0.0,0.90038,0.09962,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-11,235.704,0.33432,6.802,235.704,235.704,,,0,0.99987,0.00383,0.09451,0.89783,0.00383,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2014-12,274.761,0.38966,5.282,274.761,274.761,,,0,1.0,0.0,0.48404,0.49042,0.02554,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-01,202.951,0.28862,6.891,202.951,202.951,,,0,0.99723,0.00383,0.06003,0.68072,0.25543,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-02,301.999,0.42829,8.785,301.999,301.999,,,0,1.0,0.0,0.03193,0.75096,0.21711,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-03,258.719,0.37131,12.502,258.719,258.719,,,0,0.98817,0.01149,0.0,0.67305,0.31545,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-04,322.73,0.4665,13.777,322.73,322.73,,,0,0.98113,0.01916,0.01277,0.84674,0.12133,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-05,279.886,0.39803,13.467,279.886,279.886,,,0,0.99725,0.00639,0.00255,0.84802,0.14304,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-06,384.12,0.55707,19.282,384.12,384.12,,,0,0.9779,0.02554,0.03448,0.39336,0.54662,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-07,347.633,0.50466,8.937,347.633,347.633,,,0,0.97691,0.02682,0.02299,0.53001,0.42018,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-08,320.085,0.45394,13.38,320.085,320.085,,,0,1.0,0.0,0.0,0.60409,0.39591,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-09,238.405,0.33811,10.5,238.405,238.405,,,0,1.0,0.0,0.33333,0.63857,0.0281,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-10,283.756,0.40299,6.522,283.756,283.756,,,0,0.99858,0.00128,0.0,0.84674,0.15198,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-11,292.002,0.41412,6.196,292.002,292.002,,,0,1.0,0.0,0.0,0.80204,0.19796,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2015-12,334.048,0.47458,8.989,334.048,334.048,,,0,0.99825,0.00255,0.00383,0.82248,0.17114,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-01,236.54,0.33546,6.139,236.54,236.54,,,0,1.0,0.0,0.15326,0.74585,0.10089,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-02,269.592,0.38246,7.241,269.592,269.592,,,0,0.99966,0.00128,0.20817,0.66411,0.12644,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-03,241.374,0.34476,6.682,241.374,241.374,,,0,0.9929,0.00766,0.19157,0.70754,0.09323,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-04,338.468,0.48001,11.989,338.468,338.468,,,0,1.0,0.0,0.09323,0.73563,0.17114,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-05,278.854,0.39547,7.861,278.854,278.854,,,0,1.0,0.0,0.00128,0.82759,0.17114,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-06,272.046,0.39027,8.69,272.046,272.046,,,0,0.98859,0.01405,0.0,0.75607,0.22989,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-07,319.991,0.45489,8.164,319.991,319.991,,,0,0.99763,0.00255,0.18135,0.67688,0.13921,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-08,254.53,0.36097,8.069,254.53,254.53,,,0,1.0,0.0,0.05236,0.9387,0.00894,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-09,268.183,0.38034,6.693,268.183,268.183,,,0,1.0,0.0,0.01149,0.91443,0.07407,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-10,184.898,0.26222,5.696,184.898,184.898,,,0,1.0,0.0,0.0,0.96041,0.03959,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-11,299.948,0.42811,5.854,299.948,299.948,,,0,0.99363,0.00639,0.02171,0.90294,0.06897,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2016-12,179.842,0.25627,4.794,179.842,179.842,,,0,0.99525,0.00511,0.16731,0.68327,0.14432,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-01,201.206,0.28535,4.716,201.206,201.206,,,0,0.99998,0.00255,0.659,0.33589,0.00255,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-02,211.196,0.29952,10.268,211.196,211.196,,,0,1.0,0.0,0.0,0.53512,0.46488,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-03,316.671,0.45221,18.418,316.671,316.671,,,0,0.99312,0.01149,0.0281,0.73819,0.22222,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-04,344.014,0.48788,39.278,344.014,344.014,,,0,1.0,0.0,0.00255,0.78544,0.21201,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-05,382.753,0.54592,52.957,382.753,382.753,,,0,0.99432,0.00766,0.0,0.79693,0.1954,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-06,380.088,0.55786,79.59,380.088,380.088,,,0,0.96627,0.03831,0.0,0.54023,0.42146,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-07,387.87,0.55008,54.259,387.87,387.87,,,0,1.0,0.0,0.06513,0.85185,0.08301,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-08,300.434,0.42607,25.123,300.434,300.434,,,0,1.0,0.0,0.04342,0.74968,0.2069,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-09,247.21,0.35207,24.689,247.21,247.21,,,0,0.9958,0.00383,0.0,0.27969,0.71648,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-10,308.705,0.4378,58.514,308.705,308.705,,,0,1.0,0.0,0.0,0.72414,0.27586,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-11,301.479,0.42756,45.723,301.479,301.479,,,0,1.0,0.0,0.28608,0.63091,0.08301,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2017-12,301.822,0.42804,55.722,301.822,301.822,,,0,1.0,0.0,0.17241,0.78416,0.04342,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-01,265.656,0.3832,30.932,265.656,265.656,,,0,0.98316,0.0166,0.03193,0.73052,0.22095,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-02,307.89,0.43918,39.954,307.89,307.89,,,0,0.99424,0.00894,0.0,0.79949,0.19157,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-03,257.49,0.36517,53.266,257.49,257.49,,,0,1.0,0.0,0.12771,0.77905,0.09323,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-04,369.116,0.52868,49.614,369.116,369.116,,,0,0.99015,0.01405,0.03193,0.78672,0.16731,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-05,380.637,0.54243,45.226,380.637,380.637,,,0,0.99518,0.00639,0.12005,0.66922,0.20434,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-06,390.604,0.55632,47.927,390.604,390.604,,,0,0.99575,0.00383,0.00511,0.97957,0.01149,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-07,290.834,0.41974,42.643,290.834,290.834,,,0,0.98264,0.01916,0.12005,0.68072,0.18008,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-08,389.936,0.55301,69.628,389.936,389.936,,,0,1.0,0.0,0.00639,0.81992,0.17369,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-09,348.3,0.49401,30.514,348.3,348.3,,,0,0.99989,0.00128,0.27203,0.61941,0.10728,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-10,388.66,0.5512,63.221,388.66,388.66,,,0,1.0,0.0,0.01277,0.87995,0.10728,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-11,326.922,0.46369,20.082,326.922,326.922,,,0,0.99988,0.00255,0.11622,0.80077,0.08046,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2018-12,324.549,0.46307,47.553,324.549,324.549,,,0,0.99396,0.00639,0.24521,0.62324,0.12516,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-01,387.205,0.552,40.518,387.205,387.205,,,0,0.9948,0.00639,0.13538,0.66411,0.19413,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-02,328.784,0.46827,30.118,328.784,328.784,,,0,0.99575,0.00383,0.07663,0.75862,0.16092,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-03,321.893,0.48309,22.375,321.893,321.893,,,0,0.94497,0.05619,0.16858,0.66539,0.10983,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-04,340.556,0.49784,26.349,340.556,340.556,,,0,0.97014,0.03321,0.00255,0.4304,0.53384,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-05,250.524,0.37106,38.902,250.524,250.524,,,0,0.9575,0.04853,0.0,0.4917,0.45977,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-06,378.342,0.55389,37.119,378.342,378.342,,,0,0.96872,0.03065,0.0,0.70881,0.26054,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-07,294.958,0.41831,10.516,294.958,294.958,,,0,1.0,0.0,0.14049,0.74457,0.11494,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-08,232.434,0.32964,11.46,232.434,232.434,,,0,1.0,0.0,0.03831,0.894,0.06769,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-09,281.382,0.39905,15.58,281.382,281.382,,,0,1.0,0.0,0.00255,0.79566,0.20179,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-10,276.178,0.39167,14.842,276.178,276.178,,,0,1.0,0.0,0.03065,0.79693,0.17241,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-11,270.703,0.38391,17.12,270.703,270.703,,,0,1.0,0.0,0.00766,0.74968,0.24266,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2019-12,306.366,0.4351,8.445,306.366,306.366,,,0,0.99858,0.00128,0.31162,0.59387,0.09323,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-01,279.856,0.39689,12.649,279.856,279.856,,,0,1.0,0.0,0.31801,0.58748,0.09451,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-02,204.478,0.29133,16.193,204.478,204.478,,,0,0.99541,0.00511,0.00128,0.70881,0.2848,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-03,273.804,0.38831,18.056,273.804,273.804,,,0,1.0,0.0,0.39719,0.58365,0.01916,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-04,308.612,0.43767,6.316,308.612,308.612,,,0,1.0,0.0,0.29885,0.59387,0.10728,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-05,298.167,0.42286,8.78,298.167,298.167,,,0,1.0,0.0,0.07663,0.85441,0.06897,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-06,274.423,0.39181,5.977,274.423,274.423,,,0,0.99329,0.00766,0.12133,0.63985,0.23116,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-07,229.397,0.32533,4.493,229.397,229.397,,,0,1.0,0.0,0.26437,0.67178,0.06386,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-08,236.057,0.33477,6.647,236.057,236.057,,,0,1.0,0.0,0.01022,0.8378,0.15198,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-09,177.302,0.25145,10.714,177.302,177.302,,,0,1.0,0.0,0.11239,0.87867,0.00894,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-10,222.168,0.31508,10.407,222.168,222.168,,,0,1.0,0.0,0.32567,0.65262,0.02171,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-11,198.673,0.28216,9.376,198.673,198.673,,,0,0.99858,0.00128,0.0,0.447,0.55172,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2020-12,223.869,0.31749,12.439,223.869,223.869,,,0,1.0,0.0,0.48148,0.47893,0.03959,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-01,201.789,0.29035,8.845,201.789,201.789,,,0,0.98562,0.01788,0.00128,0.41635,0.5645,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-02,241.936,0.35236,15.42,241.936,241.936,,,0,0.97376,0.03193,0.03959,0.82248,0.106,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-03,241.029,0.34183,9.254,241.029,241.029,,,0,1.0,0.0,0.0,0.88506,0.11494,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-04,261.553,0.37199,7.525,261.553,261.553,,,0,0.99716,0.00255,0.0,0.85696,0.14049,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-05,237.65,0.33847,9.767,237.65,237.65,,,0,0.99575,0.00383,0.00639,0.6986,0.29119,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-06,198.61,0.28247,12.502,198.61,198.61,,,0,0.99716,0.00511,0.00383,0.82503,0.16603,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-07,247.455,0.35094,11.833,247.455,247.455,,,0,1.0,0.0,0.3576,0.59387,0.04853,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-08,267.168,0.3789,9.464,267.168,267.168,,,0,1.0,0.0,0.00639,0.95275,0.04087,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-09,269.236,0.38183,9.664,269.236,269.236,,,0,1.0,0.0,0.57088,0.4189,0.01022,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-10,258.45,0.36653,8.017,258.45,258.45,,,0,1.0,0.0,0.20817,0.71775,0.07407,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-11,253.695,0.35979,6.277,253.695,253.695,,,0,1.0,0.0,0.11367,0.70626,0.18008,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2021-12,221.712,0.31804,7.029,221.712,221.712,,,0,0.98865,0.01022,0.36015,0.55683,0.0728,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-01,216.609,0.30719,6.993,216.609,216.609,,,0,1.0,0.0,0.14943,0.82631,0.02427,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-02,205.854,0.29194,12.361,205.854,205.854,,,0,1.0,0.0,0.14049,0.78161,0.07791,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-03,230.02,0.32643,7.719,230.02,230.02,,,0,0.99935,0.00255,0.33333,0.50447,0.15964,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-04,289.162,0.42365,13.523,289.162,289.162,,,0,0.96799,0.03065,0.18263,0.61303,0.17369,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-05,325.318,0.46578,12.74,325.318,325.318,,,0,0.99051,0.01149,0.01533,0.84547,0.12771,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-06,233.411,0.33244,6.435,233.411,233.411,,,0,0.99575,0.00383,0.0,0.10983,0.88633,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-07,289.868,0.41109,6.906,289.868,289.868,,,0,1.0,0.0,0.0,0.71009,0.28991,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-08,313.249,0.44425,7.873,313.249,313.249,,,0,1.0,0.0,0.0,0.71009,0.28991,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-09,275.462,0.39066,8.798,275.462,275.462,,,0,1.0,0.0,0.26437,0.66539,0.07024,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-10,280.679,0.39806,8.369,280.679,280.679,,,0,1.0,0.0,0.0,0.94125,0.05875,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-11,241.282,0.34218,9.645,241.282,241.282,,,0,1.0,0.0,0.0,0.37292,0.62708,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2022-12,199.25,0.28258,10.961,199.25,199.25,,,0,1.0,0.0,0.0447,0.94891,0.00639,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-01,303.655,0.43182,6.466,303.655,303.655,,,0,0.99727,0.00639,0.31801,0.57471,0.10089,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-02,311.824,0.44544,10.532,311.824,311.824,,,0,0.99279,0.00894,0.0166,0.82886,0.14559,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-03,359.728,0.51016,6.45,359.728,359.728,,,0,1.0,0.0,0.14815,0.6143,0.23755,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-04,397.61,0.56389,9.887,397.61,397.61,,,0,1.0,0.0,0.01533,0.90549,0.07918,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-05,425.534,0.60349,8.507,425.534,425.534,,,0,1.0,0.0,0.06769,0.80587,0.12644,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-06,372.337,0.52805,7.668,372.337,372.337,,,0,1.0,0.0,0.0,0.79821,0.20179,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-07,360.392,0.51111,8.424,360.392,360.392,,,0,1.0,0.0,0.0,0.91571,0.08429,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-08,342.486,0.48571,5.933,342.486,342.486,,,0,1.0,0.0,0.42784,0.57216,0.0,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-09,284.954,0.40412,10.92,284.954,284.954,,,0,1.0,0.0,0.77139,0.22861,0.0,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-10,325.013,0.46093,10.256,325.013,325.013,,,0,1.0,0.0,0.20307,0.79566,0.00128,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-11,335.855,0.47631,6.495,335.855,335.855,,,0,1.0,0.0,0.0728,0.86462,0.06258,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2023-12,218.189,0.30943,5.803,218.189,218.189,,,0,1.0,0.0,0.37037,0.6258,0.00383,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-01,273.899,0.38844,4.945,273.899,273.899,,,0,1.0,0.00128,0.30396,0.60409,0.09068,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-02,296.623,0.42067,8.917,296.623,296.623,,,0,1.0,0.0,0.20817,0.7599,0.03193,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-03,255.984,0.36304,9.94,255.984,255.984,,,0,1.0,0.0,0.23116,0.74074,0.0281,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-04,348.21,0.49657,8.779,348.21,348.21,,,0,0.99448,0.00639,0.0166,0.81481,0.1622,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-05,293.828,0.41671,6.555,293.828,293.828,,,0,1.0,0.0,0.0,0.89144,0.10856,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-06,320.606,0.45495,8.918,320.606,320.606,,,0,0.99942,0.00128,0.01149,0.74713,0.2401,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-07,235.114,0.33344,5.507,235.114,235.114,,,0,1.0,0.0,0.00128,0.89272,0.106,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-08,355.816,0.50462,6.321,355.816,355.816,,,0,1.0,0.0,0.10856,0.80587,0.08557,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-09,238.113,0.33769,6.685,238.113,238.113,,,0,1.0,0.0,0.25415,0.68582,0.06003,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-10,314.548,0.44609,5.8,314.548,314.548,,,0,1.0,0.0,0.12005,0.85824,0.02171,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-11,249.049,0.3532,9.348,249.049,249.049,,,0,1.0,0.0,0.01277,0.95402,0.03321,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2024-12,314.64,0.44622,4.643,314.64,314.64,,,0,1.0,0.0,0.0,0.44317,0.55683,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-01,255.348,0.36265,6.338,255.348,255.348,,,0,0.99858,0.00128,0.14176,0.83014,0.02682,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-02,333.986,0.4763,6.811,333.986,333.986,,,0,0.99445,0.00511,0.14943,0.78672,0.05875,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-03,300.146,0.42571,6.759,300.146,300.146,,,0,0.99988,0.00255,0.44572,0.51724,0.03448,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-04,400.053,0.56897,8.733,400.053,400.053,,,0,0.99716,0.00255,0.00383,0.87101,0.12261,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-05,310.699,0.44126,6.493,310.699,310.699,,,0,0.99858,0.00128,0.0,0.82631,0.17241,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-06,327.985,0.46891,7.355,327.985,327.985,,,0,0.99197,0.01277,0.0,0.87995,0.10728,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-07,303.999,0.43113,7.521,303.999,303.999,,,0,1.0,0.0,0.03959,0.91188,0.04853,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-08,282.386,0.40048,5.883,282.386,282.386,,,0,1.0,0.0,0.13665,0.83142,0.03193,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-09,291.622,0.41358,6.17,291.622,291.622,,,0,1.0,0.0,0.42273,0.57599,0.00128,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-10,371.627,0.52704,9.047,371.627,371.627,,,0,1.0,0.0,0.48531,0.50192,0.01277,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-11,334.499,0.47439,9.029,334.499,334.499,,,0,1.0,0.0,0.00383,0.90038,0.09579,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.1_1,Charlotte,2025-12,283.548,0.40406,10.885,283.548,283.548,,,0,0.99521,0.00511,0.33844,0.51724,0.13921,705,1,0.9163,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-01,167.161,0.82194,7.437,167.161,167.161,,,0,1.0,0.0,0.0,0.93947,0.06053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-02,130.581,0.64208,10.26,130.581,130.581,,,0,1.0,0.0,0.01316,0.93421,0.05263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-03,129.741,0.63794,6.0,129.741,129.741,,,0,1.0,0.0,0.0,0.95,0.05,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-04,146.881,0.72222,4.948,146.881,146.881,,,0,1.0,0.0,0.00789,0.97105,0.02105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-05,130.297,0.64068,4.114,130.297,130.297,,,0,1.0,0.0,0.0,0.92368,0.07632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-06,104.904,0.51582,4.481,104.904,104.904,,,0,1.0,0.0,0.35263,0.64737,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-07,99.465,0.48908,3.822,99.465,99.465,,,0,1.0,0.0,0.12895,0.85789,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-08,110.244,0.54208,6.57,110.244,110.244,,,0,1.0,0.0,0.0,0.80789,0.19211,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-09,104.984,0.51621,5.579,104.984,104.984,,,0,1.0,0.0,0.34474,0.63947,0.01579,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-10,96.346,0.47374,4.725,96.346,96.346,,,0,1.0,0.0,0.0,0.72895,0.27105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-11,92.744,0.45603,4.562,92.744,92.744,,,0,1.0,0.0,0.17105,0.75789,0.07105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2012-12,104.645,0.51454,5.034,104.645,104.645,,,0,1.0,0.0,0.26842,0.72105,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-01,118.054,0.58048,6.067,118.054,118.054,,,0,1.0,0.0,0.68421,0.31579,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-02,122.846,0.60404,6.58,122.846,122.846,,,0,1.0,0.0,0.62895,0.36842,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-03,139.788,0.68734,5.327,139.788,139.788,,,0,1.0,0.0,0.17632,0.80789,0.01579,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-04,164.009,0.80644,42.195,164.009,164.009,,,0,1.0,0.0,0.18421,0.81316,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-05,172.461,0.848,25.315,172.461,172.461,,,0,1.0,0.0,0.0,0.55526,0.44474,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-06,122.688,0.60326,29.101,122.688,122.688,,,0,1.0,0.0,0.18947,0.78684,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-07,128.473,0.63171,7.24,128.473,128.473,,,0,1.0,0.0,0.33947,0.65,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-08,132.498,0.6515,8.77,132.498,132.498,,,0,1.0,0.0,0.0,0.99737,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-09,112.176,0.55157,10.385,112.176,112.176,,,0,1.0,0.0,0.12368,0.80263,0.07368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-10,89.521,0.44018,15.395,89.521,89.521,,,0,1.0,0.0,0.17105,0.65526,0.17368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-11,105.403,0.51827,11.514,105.403,105.403,,,0,1.0,0.0,0.58158,0.40526,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2013-12,107.122,0.52673,5.976,107.122,107.122,,,0,1.0,0.0,0.41053,0.57895,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-01,127.257,0.62573,4.911,127.257,127.257,,,0,1.0,0.0,0.36579,0.61053,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-02,100.394,0.49365,4.845,100.394,100.394,,,0,1.0,0.0,0.41842,0.57105,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-03,128.052,0.62964,4.941,128.052,128.052,,,0,1.0,0.0,0.62895,0.36842,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-04,147.315,0.72436,8.327,147.315,147.315,,,0,1.0,0.0,0.23684,0.75526,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-05,121.639,0.59811,5.146,121.639,121.639,,,0,1.0,0.0,0.67895,0.31842,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-06,106.2,0.52219,3.894,106.2,106.2,,,0,1.0,0.0,0.41053,0.57895,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-07,92.926,0.45692,3.907,92.926,92.926,,,0,1.0,0.0,0.06842,0.90263,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-08,86.362,0.42465,3.089,86.362,86.362,,,0,1.0,0.0,0.03158,0.81316,0.15526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-09,71.569,0.35191,4.47,71.569,71.569,,,0,1.0,0.0,0.28421,0.70526,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-10,100.25,0.49294,5.903,100.25,100.25,,,0,1.0,0.0,0.00263,0.71316,0.28421,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-11,94.47,0.46451,5.891,94.47,94.47,,,0,1.0,0.0,0.0,0.95526,0.04474,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2014-12,131.448,0.64634,8.885,131.448,131.448,,,0,1.0,0.0,0.77105,0.22895,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-01,88.65,0.4359,4.304,88.65,88.65,,,0,1.0,0.0,0.65,0.34737,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-02,126.608,0.62254,7.021,126.608,126.608,,,0,1.0,0.0,0.00526,0.96579,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-03,104.912,0.51586,5.881,104.912,104.912,,,0,1.0,0.0,0.0,0.95,0.05,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-04,115.759,0.5692,5.317,115.759,115.759,,,0,1.0,0.0,0.0,0.97895,0.02105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-05,100.804,0.49566,4.394,100.804,100.804,,,0,1.0,0.0,0.12105,0.85263,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-06,99.734,0.4904,4.322,99.734,99.734,,,0,1.0,0.0,0.02368,0.95,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-07,128.465,0.63167,3.121,128.465,128.465,,,0,1.0,0.0,0.61316,0.38684,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-08,121.122,0.59557,5.874,121.122,121.122,,,0,1.0,0.0,0.0,0.97632,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-09,115.988,0.57032,3.729,115.988,115.988,,,0,1.0,0.0,0.27632,0.70789,0.01579,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-10,133.211,0.65501,6.704,133.211,133.211,,,0,1.0,0.0,0.0,0.96842,0.03158,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-11,109.406,0.53795,6.737,109.406,109.406,,,0,1.0,0.0,0.0,0.97632,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2015-12,118.129,0.58085,4.397,118.129,118.129,,,0,1.0,0.0,0.04737,0.94211,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-01,104.404,0.51336,7.944,104.404,104.404,,,0,1.0,0.0,0.72895,0.26316,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-02,127.004,0.62449,4.277,127.004,127.004,,,0,1.0,0.0,0.81842,0.17895,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-03,113.118,0.55621,6.783,113.118,113.118,,,0,1.0,0.0,0.72368,0.27368,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-04,144.041,0.70826,9.542,144.041,144.041,,,0,1.0,0.0,0.14737,0.84211,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-05,104.017,0.51146,5.343,104.017,104.017,,,0,1.0,0.0,0.09737,0.87632,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-06,115.442,0.56764,7.776,115.442,115.442,,,0,1.0,0.0,0.0,1.0,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-07,102.286,0.50295,4.39,102.286,102.286,,,0,1.0,0.0,0.65789,0.34211,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-08,107.566,0.52891,5.306,107.566,107.566,,,0,1.0,0.0,0.51842,0.47105,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-09,103.963,0.51119,6.627,103.963,103.963,,,0,1.0,0.0,0.00263,0.92105,0.07632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-10,89.208,0.43864,9.733,89.208,89.208,,,0,1.0,0.0,0.0,0.83684,0.16316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-11,128.159,0.63017,6.875,128.159,128.159,,,0,1.0,0.0,0.0,0.60789,0.39211,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2016-12,95.534,0.46975,5.37,95.534,95.534,,,0,1.0,0.0,0.32632,0.66316,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-01,107.843,0.53027,13.42,107.843,107.843,,,0,1.0,0.0,0.71316,0.28684,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-02,93.874,0.46159,5.014,93.874,93.874,,,0,1.0,0.0,0.02895,0.94211,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-03,96.545,0.47472,3.946,96.545,96.545,,,0,1.0,0.0,0.06842,0.89474,0.03684,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-04,107.12,0.52671,5.387,107.12,107.12,,,0,1.0,0.0,0.0,0.95,0.05,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-05,132.773,0.65285,9.942,132.773,132.773,,,0,1.0,0.0,0.02632,0.96842,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-06,107.588,0.52902,5.536,107.588,107.588,,,0,1.0,0.0,0.0,0.72895,0.27105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-07,83.154,0.40888,5.456,83.154,83.154,,,0,1.0,0.0,0.01316,0.95526,0.03158,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-08,93.862,0.46153,7.41,93.862,93.862,,,0,1.0,0.0,0.00526,0.96579,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-09,87.85,0.43196,7.133,87.85,87.85,,,0,1.0,0.0,0.0,0.56316,0.43684,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-10,112.376,0.55256,6.538,112.376,112.376,,,0,1.0,0.0,0.0,0.95263,0.04737,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-11,103.1,0.50695,37.122,103.1,103.1,,,0,1.0,0.0,0.36053,0.62105,0.01842,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2017-12,118.355,0.58196,5.926,118.355,118.355,,,0,1.0,0.0,0.46316,0.52895,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-01,106.356,0.52296,4.82,106.356,106.356,,,0,1.0,0.0,0.32895,0.66316,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-02,103.026,0.50659,4.808,103.026,103.026,,,0,1.0,0.0,0.0,0.97105,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-03,108.743,0.5347,5.995,108.743,108.743,,,0,1.0,0.0,0.22632,0.77105,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-04,119.99,0.59,5.081,119.99,119.99,,,0,1.0,0.0,0.54474,0.45263,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-05,104.697,0.5148,4.888,104.697,104.697,,,0,1.0,0.0,0.67632,0.32368,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-06,120.253,0.59129,9.423,120.253,120.253,,,0,1.0,0.0,0.61316,0.38684,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-07,86.142,0.42357,3.638,86.142,86.142,,,0,1.0,0.0,0.22895,0.74211,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-08,95.891,0.4715,6.393,95.891,95.891,,,0,1.0,0.0,0.47895,0.51316,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-09,80.825,0.39742,3.627,80.825,80.825,,,0,1.0,0.0,0.28947,0.71053,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-10,97.479,0.47931,6.817,97.479,97.479,,,0,1.0,0.0,0.0,0.87105,0.12895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-11,95.614,0.47014,4.481,95.614,95.614,,,0,1.0,0.0,0.09737,0.88158,0.02105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2018-12,104.416,0.51342,7.315,104.416,104.416,,,0,1.0,0.0,0.46316,0.52895,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-01,104.862,0.51561,8.847,104.862,104.862,,,0,1.0,0.0,0.47895,0.50789,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-02,114.772,0.56434,4.776,114.772,114.772,,,0,1.0,0.0,0.58947,0.40263,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-03,105.277,0.51765,6.609,105.277,105.277,,,0,1.0,0.0,0.61842,0.37895,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-04,105.898,0.52071,4.151,105.898,105.898,,,0,1.0,0.0,0.08158,0.89211,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-05,64.68,0.31803,4.735,64.68,64.68,,,0,1.0,0.0,0.0,0.94737,0.05263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-06,76.859,0.37792,4.269,76.859,76.859,,,0,1.0,0.0,0.0,0.85526,0.14474,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-07,82.115,0.40376,12.725,82.115,82.115,,,0,1.0,0.0,0.19211,0.79211,0.01579,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-08,80.358,0.39512,3.947,80.358,80.358,,,0,1.0,0.0,0.0,0.95526,0.04474,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-09,86.428,0.42497,7.336,86.428,86.428,,,0,1.0,0.0,0.01053,0.96842,0.02105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-10,92.734,0.45598,8.0,92.734,92.734,,,0,1.0,0.0,0.03421,0.90526,0.06053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-11,97.403,0.47894,25.19,97.403,97.403,,,0,1.0,0.0,0.02895,0.88684,0.08421,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2019-12,95.179,0.468,4.189,95.179,95.179,,,0,1.0,0.0,0.28158,0.71842,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-01,112.443,0.55289,5.668,112.443,112.443,,,0,1.0,0.0,0.73684,0.25526,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-02,91.348,0.44916,6.218,91.348,91.348,,,0,1.0,0.0,0.28684,0.70789,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-03,135.049,0.66404,19.235,135.049,135.049,,,0,1.0,0.0,0.62895,0.36579,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-04,117.893,0.57969,11.71,117.893,117.893,,,0,1.0,0.0,0.79474,0.20526,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-05,106.627,0.52429,8.099,106.627,106.627,,,0,1.0,0.0,0.0,0.97368,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-06,89.546,0.4403,25.358,89.546,89.546,,,0,1.0,0.0,0.42105,0.57895,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-07,99.008,0.48683,6.408,99.008,99.008,,,0,1.0,0.0,0.20263,0.79211,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-08,85.139,0.41864,6.34,85.139,85.139,,,0,1.0,0.0,0.0,0.93684,0.06316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-09,87.628,0.43087,6.252,87.628,87.628,,,0,1.0,0.0,0.13158,0.86316,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-10,92.978,0.45718,6.506,92.978,92.978,,,0,1.0,0.0,0.00526,0.93158,0.06316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-11,75.288,0.37019,4.543,75.288,75.288,,,0,1.0,0.0,0.0,0.81579,0.18421,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2020-12,113.862,0.55987,5.167,113.862,113.862,,,0,1.0,0.0,0.75789,0.23947,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-01,73.857,0.36316,5.846,73.857,73.857,,,0,1.0,0.0,0.06579,0.91053,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-02,110.412,0.5429,15.757,110.412,110.412,,,0,1.0,0.0,0.61579,0.38421,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-03,111.173,0.54665,8.228,111.173,111.173,,,0,1.0,0.0,0.00526,0.96316,0.03158,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-04,101.366,0.49842,6.934,101.366,101.366,,,0,1.0,0.0,0.07105,0.91579,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-05,101.774,0.50043,15.646,101.774,101.774,,,0,1.0,0.0,0.42368,0.56579,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-06,76.734,0.37731,5.653,76.734,76.734,,,0,1.0,0.0,0.00526,0.76053,0.23421,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-07,94.627,0.46529,7.041,94.627,94.627,,,0,1.0,0.0,0.44737,0.54474,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-08,114.417,0.56259,7.458,114.417,114.417,,,0,1.0,0.0,0.16316,0.82368,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-09,91.245,0.44865,5.205,91.245,91.245,,,0,1.0,0.0,0.45263,0.52368,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-10,95.403,0.4691,7.126,95.403,95.403,,,0,1.0,0.0,0.04474,0.93158,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-11,104.118,0.51195,3.702,104.118,104.118,,,0,1.0,0.0,0.35526,0.63947,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2021-12,109.899,0.54038,11.966,109.899,109.899,,,0,1.0,0.0,0.58684,0.39474,0.01842,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-01,115.344,0.56715,6.756,115.344,115.344,,,0,1.0,0.0,0.66053,0.32632,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-02,113.763,0.55938,5.259,113.763,113.763,,,0,1.0,0.0,0.52895,0.46842,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-03,119.124,0.58574,4.963,119.124,119.124,,,0,1.0,0.0,0.66053,0.33947,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-04,175.503,0.86296,12.654,175.503,175.503,,,0,1.0,0.0,0.5,0.48947,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-05,141.144,0.69401,7.327,141.144,141.144,,,0,1.0,0.0,0.61316,0.38158,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-06,141.528,0.6959,6.65,141.528,141.528,,,0,1.0,0.0,0.0,0.92105,0.07895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-07,117.926,0.57985,7.095,117.926,117.926,,,0,1.0,0.0,0.0,0.97368,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-08,112.626,0.55379,6.474,112.626,112.626,,,0,1.0,0.0,0.0,0.99474,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-09,92.144,0.45308,5.821,92.144,92.144,,,0,1.0,0.0,0.12105,0.75789,0.12105,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-10,130.849,0.64339,14.049,130.849,130.849,,,0,1.0,0.0,0.00526,0.87632,0.11842,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-11,135.57,0.66661,5.545,135.57,135.57,,,0,1.0,0.0,0.0,0.90263,0.09737,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2022-12,124.508,0.61221,12.025,124.508,124.508,,,0,1.0,0.0,0.65526,0.33947,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-01,132.803,0.653,5.612,132.803,132.803,,,0,1.0,0.0,0.62895,0.36579,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-02,169.862,0.83522,6.304,169.862,169.862,,,0,1.0,0.0,0.43947,0.55789,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-03,179.369,0.88197,6.81,179.369,179.369,,,0,1.0,0.0,0.85263,0.14474,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-04,155.735,0.76576,6.974,155.735,155.735,,,0,1.0,0.0,0.07368,0.89474,0.03158,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-05,181.669,0.89328,7.85,181.669,181.669,,,0,1.0,0.0,0.54474,0.45,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-06,138.228,0.67968,5.688,138.228,138.228,,,0,1.0,0.0,0.10263,0.88421,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-07,118.708,0.58369,5.66,118.708,118.708,,,0,1.0,0.0,0.0,0.94474,0.05526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-08,135.548,0.6665,5.614,135.548,135.548,,,0,1.0,0.0,0.66579,0.33421,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-09,136.857,0.67293,5.693,136.857,136.857,,,0,1.0,0.0,0.63158,0.36579,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-10,156.424,0.76915,6.779,156.424,156.424,,,0,1.0,0.0,0.00789,0.98421,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-11,138.719,0.68209,4.318,138.719,138.719,,,0,1.0,0.0,0.13684,0.85526,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2023-12,129.856,0.63851,6.271,129.856,129.856,,,0,1.0,0.0,0.33421,0.62895,0.03684,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-01,123.442,0.60697,6.067,123.442,123.442,,,0,1.0,0.0,0.52105,0.47105,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-02,142.138,0.6989,5.164,142.138,142.138,,,0,1.0,0.0,0.62105,0.36842,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-03,139.519,0.68602,5.263,139.519,139.519,,,0,1.0,0.0,0.68421,0.31316,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-04,171.771,0.84461,4.996,171.771,171.771,,,0,1.0,0.0,0.02895,0.93158,0.03947,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-05,159.794,0.78572,5.983,159.794,159.794,,,0,1.0,0.0,0.0,0.94737,0.05263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-06,131.982,0.64896,5.836,131.982,131.982,,,0,1.0,0.0,0.21316,0.77632,0.01053,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-07,40.297,0.19814,4.504,40.297,40.297,,,0,1.0,0.0,0.00263,0.90789,0.08947,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-08,113.603,0.55859,5.181,113.603,113.603,,,0,1.0,0.0,0.46316,0.53158,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-09,67.555,0.33217,3.772,67.555,67.555,,,0,1.0,0.0,0.15526,0.81579,0.02895,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-10,86.625,0.42594,7.706,86.625,86.625,,,0,1.0,0.0,0.11579,0.87895,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-11,76.645,0.37687,3.443,76.645,76.645,,,0,1.0,0.0,0.00263,0.75263,0.24474,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2024-12,120.144,0.59076,3.882,120.144,120.144,,,0,1.0,0.0,0.10263,0.87105,0.02632,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-01,131.214,0.64519,6.471,131.214,131.214,,,0,1.0,0.0,0.77368,0.22632,0.0,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-02,131.603,0.6471,4.913,131.603,131.603,,,0,1.0,0.0,0.42105,0.57105,0.00789,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-03,144.553,0.71077,7.383,144.553,144.553,,,0,1.0,0.0,0.67895,0.31842,0.00263,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-04,175.228,0.86161,7.107,175.228,175.228,,,0,1.0,0.0,0.01579,0.97105,0.01316,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-05,114.298,0.56201,6.352,114.298,114.298,,,0,1.0,0.0,0.0,0.66579,0.33421,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-06,148.562,0.73049,5.702,148.562,148.562,,,0,1.0,0.0,0.0,0.91579,0.08421,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-07,124.078,0.6101,7.474,124.078,124.078,,,0,1.0,0.0,0.02105,0.94211,0.03684,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-08,111.712,0.54929,6.653,111.712,111.712,,,0,1.0,0.0,0.01053,0.94474,0.04474,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-09,128.828,0.63346,4.84,128.828,128.828,,,0,1.0,0.0,0.03421,0.85,0.11579,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-10,160.098,0.78721,6.012,160.098,160.098,,,0,1.0,0.0,0.0,0.61053,0.38947,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-11,135.087,0.66423,13.179,135.087,135.087,,,0,1.0,0.0,0.0,0.97632,0.02368,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.2_1,Grenadines,2025-12,171.384,0.84271,7.183,171.384,171.384,,,0,1.0,0.0,0.53684,0.45789,0.00526,203,1,0.9233,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-01,257.981,1.93577,19.71,257.981,257.981,,,0,1.0,0.0,0.0,0.77647,0.22353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-02,291.056,2.18396,27.185,291.056,291.056,,,0,1.0,0.0,0.0,0.6,0.4,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-03,291.692,2.18873,27.874,291.692,291.692,,,0,1.0,0.0,0.0,0.9,0.1,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-04,240.697,1.80608,16.269,240.697,240.697,,,0,1.0,0.0,0.0,0.97647,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-05,245.071,1.8389,14.117,245.071,245.071,,,0,1.0,0.0,0.0,0.77647,0.22353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-06,232.094,1.74153,9.853,232.094,232.094,,,0,1.0,0.0,0.20588,0.62353,0.17059,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-07,271.812,2.03955,15.804,271.812,271.812,,,0,1.0,0.0,0.0,0.96471,0.03529,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-08,226.439,1.69909,11.944,226.439,226.439,,,0,1.0,0.0,0.0,0.93529,0.06471,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-09,233.697,1.75356,14.022,233.697,233.697,,,0,1.0,0.0,0.57647,0.40588,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-10,239.353,1.79599,12.48,239.353,239.353,,,0,1.0,0.0,0.0,0.91176,0.08824,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-11,213.422,1.60142,13.733,213.422,213.422,,,0,1.0,0.0,0.04118,0.95294,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2012-12,209.447,1.57159,10.694,209.447,209.447,,,0,1.0,0.0,0.21765,0.77647,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-01,174.289,1.30778,8.546,174.289,174.289,,,0,1.0,0.0,0.71765,0.28235,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-02,183.622,1.37782,8.579,183.622,183.622,,,0,1.0,0.0,0.51765,0.47059,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-03,239.549,1.79747,14.755,239.549,239.549,,,0,1.0,0.0,0.25882,0.72941,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-04,208.896,1.56746,12.171,208.896,208.896,,,0,1.0,0.0,0.00588,0.97059,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-05,253.059,1.89884,12.997,253.059,253.059,,,0,1.0,0.0,0.0,0.83529,0.16471,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-06,242.938,1.90052,15.22,242.938,242.938,,,0,0.95916,0.05294,0.0,0.82353,0.12353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-07,235.521,1.76724,8.792,235.521,235.521,,,0,1.0,0.0,0.25294,0.72941,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-08,216.047,1.62112,10.203,216.047,216.047,,,0,1.0,0.0,0.35882,0.63529,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-09,172.105,1.2914,8.882,172.105,172.105,,,0,1.0,0.0,0.77059,0.22941,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-10,180.287,1.3528,11.006,180.287,180.287,,,0,1.0,0.0,0.01176,0.97059,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-11,160.948,1.20768,8.142,160.948,160.948,,,0,1.0,0.0,0.84118,0.15882,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2013-12,208.764,1.56647,10.444,208.764,208.764,,,0,1.0,0.0,0.01765,0.82941,0.15294,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-01,159.173,1.19436,10.62,159.173,159.173,,,0,1.0,0.0,0.34706,0.59412,0.05882,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-02,167.541,1.25715,11.887,167.541,167.541,,,0,1.0,0.0,0.03529,0.93529,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-03,186.005,1.3957,10.391,186.005,186.005,,,0,1.0,0.0,0.04706,0.93529,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-04,194.176,1.45701,10.575,194.176,194.176,,,0,1.0,0.0,0.0,0.91176,0.08824,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-05,238.167,1.7871,10.182,238.167,238.167,,,0,1.0,0.0,0.25882,0.73529,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-06,211.037,1.6059,7.568,211.037,211.037,,,0,0.98607,0.01765,0.17647,0.62353,0.18235,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-07,181.554,1.3623,7.558,181.554,181.554,,,0,1.0,0.0,0.0,0.75882,0.24118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-08,190.691,1.43086,8.368,190.691,190.691,,,0,1.0,0.0,0.02941,0.96471,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-09,176.09,1.3213,9.524,176.09,176.09,,,0,1.0,0.0,0.90588,0.09412,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-10,184.689,1.38582,12.11,184.689,184.689,,,0,1.0,0.0,0.0,0.97059,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-11,181.189,1.35956,8.453,181.189,181.189,,,0,1.0,0.0,0.32941,0.67059,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2014-12,198.191,1.48713,10.455,198.191,198.191,,,0,1.0,0.0,0.73529,0.26471,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-01,162.061,1.21603,8.105,162.061,162.061,,,0,1.0,0.0,0.19412,0.80588,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-02,158.387,1.18846,8.83,158.387,158.387,,,0,1.0,0.0,0.35294,0.61765,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-03,226.993,1.70326,9.548,226.993,226.993,,,0,1.0,0.0,0.0,0.8,0.2,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-04,197.808,1.4868,7.232,197.808,197.808,,,0,0.99829,0.00588,0.0,0.98235,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-05,216.406,1.62382,10.882,216.406,216.406,,,0,1.0,0.0,0.2,0.75882,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-06,223.527,1.67725,9.543,223.527,223.527,,,0,1.0,0.0,0.0,0.51765,0.48235,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-07,202.383,1.51859,7.96,202.383,202.383,,,0,1.0,0.0,0.04118,0.74706,0.21176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-08,193.898,1.45492,12.272,193.898,193.898,,,0,1.0,0.0,0.0,0.98824,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-09,167.587,1.25749,9.163,167.587,167.587,,,0,1.0,0.0,0.77059,0.22941,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-10,189.099,1.41891,8.613,189.099,189.099,,,0,1.0,0.0,0.0,0.94706,0.05294,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-11,179.021,1.34329,7.404,179.021,179.021,,,0,1.0,0.0,0.0,0.92941,0.07059,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2015-12,196.375,1.47351,7.688,196.375,196.375,,,0,1.0,0.0,0.0,0.85882,0.14118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-01,193.71,1.45351,8.091,193.71,193.71,,,0,1.0,0.0,0.37059,0.62941,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-02,196.15,1.47182,8.217,196.15,196.15,,,0,1.0,0.0,0.74118,0.23529,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-03,213.398,1.60124,8.732,213.398,213.398,,,0,1.0,0.0,0.42941,0.57059,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-04,222.975,1.6731,8.645,222.975,222.975,,,0,1.0,0.0,0.41765,0.57059,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-05,235.296,1.76555,10.903,235.296,235.296,,,0,1.0,0.0,0.01176,0.88824,0.1,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-06,192.479,1.44427,7.768,192.479,192.479,,,0,1.0,0.0,0.0,0.95294,0.04706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-07,217.01,1.63021,9.659,217.01,217.01,,,0,0.99886,0.00588,0.27647,0.63529,0.08235,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-08,204.115,1.53159,11.386,204.115,204.115,,,0,1.0,0.0,0.13529,0.86471,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-09,179.863,1.34961,11.175,179.863,179.863,,,0,1.0,0.0,0.01176,0.94706,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-10,163.696,1.2283,11.142,163.696,163.696,,,0,1.0,0.0,0.0,0.98824,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-11,214.071,1.60629,15.54,214.071,214.071,,,0,1.0,0.0,0.02353,0.78235,0.19412,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2016-12,166.693,1.25079,8.273,166.693,166.693,,,0,1.0,0.0,0.61765,0.35882,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-01,174.182,1.30698,8.335,174.182,174.182,,,0,1.0,0.0,0.85294,0.14706,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-02,180.159,1.35183,9.964,180.159,180.159,,,0,1.0,0.0,0.09412,0.84706,0.05882,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-03,164.258,1.23252,11.207,164.258,164.258,,,0,1.0,0.0,0.23529,0.74706,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-04,216.17,1.62204,11.795,216.17,216.17,,,0,1.0,0.0,0.0,0.92941,0.07059,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-05,202.361,1.51842,10.532,202.361,202.361,,,0,1.0,0.0,0.0,0.88824,0.11176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-06,179.47,1.35123,19.505,179.47,179.47,,,0,0.99662,0.01765,0.0,0.68235,0.3,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-07,179.503,1.34691,8.375,179.503,179.503,,,0,1.0,0.0,0.21765,0.77059,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-08,185.475,1.39172,9.61,185.475,185.475,,,0,1.0,0.0,0.01176,0.81176,0.17647,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-09,229.155,1.71947,22.39,229.155,229.155,,,0,1.0,0.0,0.0,0.34706,0.65294,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-10,214.542,1.60982,12.213,214.542,214.542,,,0,1.0,0.0,0.0,0.92941,0.07059,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-11,187.356,1.40583,10.483,187.356,187.356,,,0,1.0,0.0,0.85294,0.14706,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2017-12,172.611,1.29519,10.971,172.611,172.611,,,0,1.0,0.0,0.41765,0.57647,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-01,168.822,1.26676,11.689,168.822,168.822,,,0,1.0,0.0,0.29412,0.67647,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-02,174.845,1.31196,10.092,174.845,174.845,,,0,1.0,0.0,0.0,0.95882,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-03,169.399,1.27109,11.916,169.399,169.399,,,0,1.0,0.0,0.40588,0.58235,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-04,228.841,1.71712,12.983,228.841,228.841,,,0,1.0,0.0,0.18824,0.75882,0.05294,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-05,196.537,1.47472,10.461,196.537,196.537,,,0,1.0,0.0,0.17059,0.70588,0.12353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-06,226.498,1.69954,14.297,226.498,226.498,,,0,1.0,0.0,0.27059,0.72353,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-07,182.25,1.36752,9.481,182.25,182.25,,,0,1.0,0.0,0.65294,0.26471,0.08235,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-08,188.283,1.41279,11.818,188.283,188.283,,,0,1.0,0.0,0.08235,0.87647,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-09,212.041,1.59106,11.459,212.041,212.041,,,0,1.0,0.0,0.24118,0.73529,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-10,184.718,1.38604,9.703,184.718,184.718,,,0,1.0,0.0,0.0,0.96471,0.03529,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-11,156.612,1.17515,7.946,156.612,156.612,,,0,1.0,0.0,0.28235,0.71176,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2018-12,164.215,1.2322,8.186,164.215,164.215,,,0,1.0,0.0,0.62941,0.32353,0.04706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-01,167.978,1.26043,9.964,167.978,167.978,,,0,1.0,0.0,0.34706,0.63529,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-02,175.134,1.31412,8.222,175.134,175.134,,,0,1.0,0.0,0.47647,0.51765,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-03,181.508,1.36195,8.979,181.508,181.508,,,0,1.0,0.0,0.77059,0.20588,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-04,173.238,1.2999,7.283,173.238,173.238,,,0,1.0,0.0,0.0,0.93529,0.06471,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-05,220.976,1.65811,10.759,220.976,220.976,,,0,1.0,0.0,0.0,0.87059,0.12941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-06,201.512,1.51729,12.412,201.512,201.512,,,0,0.99655,0.00588,0.0,0.80588,0.18824,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-07,198.718,1.49109,7.959,198.718,198.718,,,0,1.0,0.0,0.11176,0.79412,0.09412,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-08,182.281,1.36776,9.433,182.281,182.281,,,0,1.0,0.0,0.0,0.95882,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-09,195.711,1.46853,9.099,195.711,195.711,,,0,1.0,0.0,0.0,0.95882,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-10,205.968,1.54549,8.202,205.968,205.968,,,0,1.0,0.0,0.0,0.95294,0.04706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-11,173.464,1.3016,7.798,173.464,173.464,,,0,1.0,0.0,0.0,0.99412,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2019-12,165.048,1.23845,8.085,165.048,165.048,,,0,1.0,0.0,0.58235,0.41176,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-01,175.705,1.31841,9.401,175.705,175.705,,,0,1.0,0.0,0.74118,0.23529,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-02,185.547,1.39226,9.595,185.547,185.547,,,0,1.0,0.0,0.00588,0.92941,0.06471,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-03,197.591,1.48264,8.546,197.591,197.591,,,0,1.0,0.0,0.34118,0.65882,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-04,235.061,1.76379,13.64,235.061,235.061,,,0,1.0,0.0,0.69412,0.24706,0.05882,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-05,204.852,1.53711,8.191,204.852,204.852,,,0,1.0,0.0,0.04706,0.95294,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-06,193.759,1.45388,9.305,193.759,193.759,,,0,1.0,0.0,0.21176,0.71765,0.07059,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-07,172.575,1.29493,7.279,172.575,172.575,,,0,1.0,0.0,0.38824,0.60588,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-08,176.42,1.32378,7.075,176.42,176.42,,,0,1.0,0.0,0.33529,0.62941,0.03529,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-09,147.864,1.10951,7.487,147.864,147.864,,,0,1.0,0.0,0.28235,0.71765,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-10,159.774,1.19887,7.289,159.774,159.774,,,0,1.0,0.0,0.00588,0.99412,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-11,133.411,1.00106,7.784,133.411,133.411,,,0,1.0,0.0,0.0,0.97059,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2020-12,157.655,1.18297,9.145,157.655,157.655,,,0,1.0,0.0,0.64118,0.35294,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-01,142.719,1.07406,7.368,142.719,142.719,,,0,0.99706,0.01176,0.0,0.64118,0.34706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-02,156.837,1.17683,7.608,156.837,156.837,,,0,1.0,0.0,0.21176,0.74118,0.04706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-03,166.389,1.24851,7.271,166.389,166.389,,,0,1.0,0.0,0.02353,0.89412,0.08235,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-04,182.481,1.36926,12.356,182.481,182.481,,,0,1.0,0.0,0.0,0.97647,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-05,205.882,1.54485,7.859,205.882,205.882,,,0,1.0,0.0,0.28235,0.71765,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-06,147.791,1.10895,12.429,147.791,147.791,,,0,1.0,0.0,0.0,0.99412,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-07,186.105,1.39644,8.611,186.105,186.105,,,0,1.0,0.0,0.54118,0.44706,0.01176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-08,183.579,1.3775,7.73,183.579,183.579,,,0,1.0,0.0,0.5,0.47647,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-09,179.49,1.34681,9.299,179.49,179.49,,,0,1.0,0.0,0.94118,0.05882,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-10,168.941,1.26766,7.846,168.941,168.941,,,0,1.0,0.0,0.75294,0.24706,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-11,182.906,1.37244,10.045,182.906,182.906,,,0,1.0,0.0,0.3,0.68235,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2021-12,164.989,1.238,8.347,164.989,164.989,,,0,1.0,0.0,0.39412,0.58824,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-01,162.577,1.21991,7.759,162.577,162.577,,,0,1.0,0.0,0.66471,0.33529,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-02,159.804,1.19909,9.059,159.804,159.804,,,0,1.0,0.0,0.59412,0.40588,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-03,177.008,1.32819,9.967,177.008,177.008,,,0,1.0,0.0,0.61176,0.35882,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-04,221.751,1.66392,10.66,221.751,221.751,,,0,1.0,0.0,0.02353,0.93529,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-05,221.692,1.66347,11.427,221.692,221.692,,,0,1.0,0.0,0.11765,0.82941,0.05294,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-06,232.343,1.7434,10.777,232.343,232.343,,,0,1.0,0.0,0.0,0.54118,0.45882,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-07,207.733,1.55873,8.68,207.733,207.733,,,0,1.0,0.0,0.0,0.96471,0.03529,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-08,209.742,1.57381,13.647,209.742,209.742,,,0,1.0,0.0,0.0,0.86471,0.13529,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-09,190.561,1.42988,10.779,190.561,190.561,,,0,1.0,0.0,0.54118,0.44118,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-10,198.243,1.48752,11.949,198.243,198.243,,,0,1.0,0.0,0.01765,0.96471,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-11,262.845,1.97227,13.205,262.845,262.845,,,0,1.0,0.0,0.0,0.82353,0.17647,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2022-12,165.688,1.24325,8.58,165.688,165.688,,,0,1.0,0.0,0.05294,0.94706,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-01,187.966,1.41041,9.759,187.966,187.966,,,0,1.0,0.0,0.67059,0.32353,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-02,226.003,1.69582,8.619,226.003,226.003,,,0,1.0,0.0,0.05882,0.9,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-03,251.395,1.88635,12.294,251.395,251.395,,,0,1.0,0.0,0.54706,0.45294,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-04,233.867,1.75483,11.205,233.867,233.867,,,0,1.0,0.0,0.02353,0.90588,0.07059,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-05,273.898,2.05521,10.745,273.898,273.898,,,0,1.0,0.0,0.52353,0.45882,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-06,237.264,1.78032,9.124,237.264,237.264,,,0,1.0,0.0,0.0,0.80588,0.19412,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-07,234.9,1.76258,6.708,234.9,234.9,,,0,1.0,0.0,0.0,0.87059,0.12941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-08,230.306,1.72811,8.951,230.306,230.306,,,0,1.0,0.0,0.68235,0.31765,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-09,218.971,1.64306,12.005,218.971,218.971,,,0,1.0,0.0,0.95294,0.04706,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-10,237.775,1.78415,10.283,237.775,237.775,,,0,1.0,0.0,0.47059,0.52941,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-11,216.282,1.62288,13.001,216.282,216.282,,,0,1.0,0.0,0.07647,0.90588,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2023-12,182.209,1.36721,8.115,182.209,182.209,,,0,1.0,0.0,0.68235,0.31765,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-01,219.941,1.65034,10.623,219.941,219.941,,,0,1.0,0.0,0.31765,0.67647,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-02,277.831,2.08472,25.086,277.831,277.831,,,0,1.0,0.0,0.75294,0.24706,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-03,309.82,2.32475,31.084,309.82,309.82,,,0,1.0,0.0,0.81176,0.18824,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-04,351.618,2.63838,25.549,351.618,351.618,,,0,1.0,0.0,0.0,0.87647,0.12353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-05,333.654,2.50359,61.899,333.654,333.654,,,0,1.0,0.0,0.0,0.95882,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-06,306.266,2.29808,50.148,306.266,306.266,,,0,1.0,0.0,0.02941,0.89412,0.07647,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-07,255.37,1.91618,36.259,255.37,255.37,,,0,1.0,0.0,0.0,0.97647,0.02353,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-08,311.6,2.33811,37.897,311.6,311.6,,,0,1.0,0.0,0.65882,0.34118,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-09,220.034,1.65103,31.466,220.034,220.034,,,0,1.0,0.0,0.0,0.88824,0.11176,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-10,271.256,2.03538,26.82,271.256,271.256,,,0,1.0,0.0,0.19412,0.80588,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-11,241.292,1.81055,33.382,241.292,241.292,,,0,1.0,0.0,0.0,0.98235,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2024-12,277.685,2.08362,17.296,277.685,277.685,,,0,1.0,0.0,0.0,0.65294,0.34706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-01,277.138,2.07951,23.826,277.138,277.138,,,0,1.0,0.0,0.16471,0.82941,0.00588,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-02,295.828,2.21976,21.969,295.828,295.828,,,0,1.0,0.0,0.50588,0.45294,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-03,310.203,2.32762,35.741,310.203,310.203,,,0,1.0,0.0,0.87059,0.12941,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-04,279.981,2.10085,26.331,279.981,279.981,,,0,1.0,0.0,0.0,0.98235,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-05,317.026,2.37882,33.551,317.026,317.026,,,0,1.0,0.0,0.0,0.95882,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-06,346.047,2.59658,31.95,346.047,346.047,,,0,1.0,0.0,0.0,0.85294,0.14706,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-07,264.258,1.98287,16.59,264.258,264.258,,,0,1.0,0.0,0.0,1.0,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-08,264.127,1.98189,28.704,264.127,264.127,,,0,1.0,0.0,0.05882,0.9,0.04118,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-09,315.597,2.36809,27.597,315.597,315.597,,,0,1.0,0.0,0.43529,0.56471,0.0,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-10,281.118,2.10938,21.954,281.118,281.118,,,0,1.0,0.0,0.45294,0.52941,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-11,270.822,2.03213,20.575,270.822,270.822,,,0,1.0,0.0,0.0,0.98235,0.01765,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.3_1,Saint Andrew,2025-12,255.714,1.91876,19.033,255.714,255.714,,,0,1.0,0.0,0.68235,0.28824,0.02941,133,1,0.94,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-01,48.362,0.11998,5.723,48.362,48.362,,,0,0.99204,0.01274,0.0,0.68365,0.30361,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-02,70.992,0.18031,6.048,70.992,70.992,,,0,0.96904,0.03397,0.0,0.69639,0.26964,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-03,76.309,0.18911,5.604,76.309,76.309,,,0,0.99313,0.00849,0.0,0.87473,0.11677,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-04,73.902,0.18189,3.962,73.902,73.902,,,0,1.0,0.0,0.0,0.83652,0.16348,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-05,67.637,0.17294,4.306,67.637,67.637,,,0,0.96255,0.03822,0.0,0.53928,0.42251,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-06,74.158,0.19163,4.685,74.158,74.158,,,0,0.95242,0.05096,0.00637,0.73248,0.21019,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-07,84.03,0.20681,6.038,84.03,84.03,,,0,1.0,0.0,0.0,0.7707,0.2293,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-08,31.515,0.07756,3.824,31.515,31.515,,,0,1.0,0.0,0.0,0.569,0.431,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-09,72.057,0.17734,6.152,72.057,72.057,,,0,1.0,0.0,0.12951,0.75584,0.11465,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-10,91.199,0.22446,4.782,91.199,91.199,,,0,1.0,0.0,0.0,0.90021,0.09979,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-11,61.209,0.15065,5.658,61.209,61.209,,,0,1.0,0.0,0.08068,0.83864,0.08068,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2012-12,57.53,0.14159,3.828,57.53,57.53,,,0,1.0,0.0,0.16773,0.73461,0.09766,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-01,57.824,0.14302,4.813,57.824,57.824,,,0,0.99508,0.00425,0.23779,0.6518,0.10616,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-02,50.224,0.12391,3.91,50.224,50.224,,,0,0.99754,0.00212,0.20807,0.60297,0.18684,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-03,75.076,0.18477,7.209,75.076,75.076,,,0,1.0,0.0,0.4586,0.42887,0.11253,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-04,66.49,0.16364,5.829,66.49,66.49,,,0,1.0,0.0,0.14225,0.74947,0.10828,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-05,78.222,0.19252,6.694,78.222,78.222,,,0,1.0,0.0,0.0,0.78132,0.21868,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-06,85.113,0.24164,7.823,85.113,85.113,,,0,0.86689,0.14225,0.0,0.4586,0.39915,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-07,68.666,0.169,4.609,68.666,68.666,,,0,1.0,0.0,0.08493,0.8811,0.03397,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-08,62.376,0.15352,4.907,62.376,62.376,,,0,1.0,0.0,0.27389,0.71762,0.00849,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-09,51.435,0.12659,4.599,51.435,51.435,,,0,1.0,0.0,0.46497,0.48832,0.04671,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-10,52.028,0.12805,2.784,52.028,52.028,,,0,1.0,0.0,0.05732,0.73036,0.21231,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-11,73.223,0.182,4.819,73.223,73.223,,,0,0.99018,0.00849,0.47558,0.51168,0.00425,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2013-12,59.682,0.14876,5.515,59.682,59.682,,,0,0.9874,0.01274,0.00849,0.66667,0.3121,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-01,44.216,0.10882,3.933,44.216,44.216,,,0,1.0,0.0,0.08705,0.73036,0.18259,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-02,34.95,0.08709,3.861,34.95,34.95,,,0,0.9877,0.01062,0.0,0.83015,0.15924,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-03,67.738,0.16671,4.657,67.738,67.738,,,0,1.0,0.0,0.23355,0.73461,0.03185,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-04,56.183,0.13994,5.405,56.183,56.183,,,0,0.98808,0.01911,0.03185,0.73673,0.21231,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-05,91.106,0.22478,6.253,91.106,91.106,,,0,0.99754,0.00425,0.29512,0.56476,0.13588,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-06,76.736,0.19769,5.032,76.736,76.736,,,0,0.95533,0.05308,0.05308,0.49257,0.40127,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-07,47.657,0.12304,5.494,47.657,47.657,,,0,0.95326,0.05308,0.0,0.33121,0.61571,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-08,68.858,0.16947,5.033,68.858,68.858,,,0,1.0,0.0,0.03609,0.91083,0.05308,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-09,47.936,0.11798,4.358,47.936,47.936,,,0,1.0,0.0,0.62633,0.37367,0.0,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-10,49.943,0.12292,4.336,49.943,49.943,,,0,1.0,0.0,0.03822,0.9172,0.04459,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-11,47.801,0.11938,3.607,47.801,47.801,,,0,0.98546,0.01274,0.20594,0.77919,0.00212,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2014-12,54.357,0.13378,5.255,54.357,54.357,,,0,1.0,0.0,0.6242,0.34183,0.03397,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-01,59.011,0.14561,5.137,59.011,59.011,,,0,0.99742,0.00425,0.04459,0.72399,0.22718,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-02,63.117,0.15534,7.342,63.117,63.117,,,0,1.0,0.0,0.31423,0.569,0.11677,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-03,61.111,0.15102,3.509,61.111,61.111,,,0,0.99593,0.00425,0.0,0.40552,0.59023,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-04,54.947,0.13683,3.524,54.947,54.947,,,0,0.98832,0.01274,0.0,0.83227,0.15499,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-05,80.524,0.20809,8.659,80.524,80.524,,,0,0.95241,0.04459,0.08917,0.68365,0.18259,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-06,101.093,0.26129,6.589,101.093,101.093,,,0,0.95222,0.05096,0.00212,0.39278,0.55414,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-07,61.39,0.154,4.497,61.39,61.39,,,0,0.9811,0.02548,0.00637,0.57537,0.39278,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-08,53.201,0.13094,3.209,53.201,53.201,,,0,1.0,0.0,0.0,0.56476,0.43524,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-09,39.395,0.09696,4.859,39.395,39.395,,,0,1.0,0.0,0.60722,0.36093,0.03185,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-10,53.105,0.1307,4.268,53.105,53.105,,,0,1.0,0.0,0.0,0.85138,0.14862,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-11,56.11,0.1381,7.358,56.11,56.11,,,0,1.0,0.0,0.06369,0.79406,0.14225,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2015-12,80.862,0.19939,4.726,80.862,80.862,,,0,0.99814,0.00212,0.00425,0.85138,0.14225,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-01,40.924,0.10072,4.052,40.924,40.924,,,0,1.0,0.0,0.24841,0.65393,0.09766,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-02,45.632,0.11252,3.142,45.632,45.632,,,0,0.99814,0.00212,0.55414,0.35669,0.08705,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-03,63.503,0.15706,4.282,63.503,63.503,,,0,0.9951,0.00425,0.18684,0.75796,0.05096,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-04,64.959,0.15988,4.957,64.959,64.959,,,0,1.0,0.0,0.15074,0.72824,0.12102,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-05,54.834,0.13496,5.232,54.834,54.834,,,0,1.0,0.0,0.0913,0.73248,0.17622,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-06,53.091,0.13398,3.917,53.091,53.091,,,0,0.97528,0.0276,0.0,0.83227,0.14013,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-07,54.873,0.13505,3.939,54.873,54.873,,,0,1.0,0.0,0.35456,0.59023,0.0552,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-08,44.118,0.10858,4.744,44.118,44.118,,,0,1.0,0.0,0.10191,0.86837,0.02972,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-09,54.445,0.134,5.081,54.445,54.445,,,0,1.0,0.0,0.0,0.87261,0.12739,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-10,39.129,0.0963,6.072,39.129,39.129,,,0,1.0,0.0,0.0,0.95754,0.04246,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-11,58.041,0.14445,5.353,58.041,58.041,,,0,0.9889,0.01274,0.0,0.89597,0.0913,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2016-12,44.354,0.10934,3.586,44.354,44.354,,,0,0.99839,0.00637,0.15287,0.65393,0.18684,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-01,39.368,0.0981,5.689,39.368,39.368,,,0,0.98772,0.01062,0.75372,0.23142,0.00425,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-02,47.811,0.11767,6.883,47.811,47.811,,,0,1.0,0.0,0.00637,0.67304,0.32059,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-03,49.783,0.12727,4.419,49.783,49.783,,,0,0.96272,0.03609,0.04883,0.75372,0.16136,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-04,57.394,0.14126,3.471,57.394,57.394,,,0,1.0,0.0,0.0,0.86412,0.13588,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-05,76.719,0.18979,4.634,76.719,76.719,,,0,0.99488,0.00849,0.03185,0.81953,0.14013,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-06,34.886,0.0884,2.717,34.886,34.886,,,0,0.9713,0.03609,0.0,0.35881,0.6051,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-07,45.23,0.11132,4.499,45.23,45.23,,,0,1.0,0.0,0.08493,0.84501,0.07006,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-08,49.419,0.12163,2.566,49.419,49.419,,,0,1.0,0.0,0.0,0.71338,0.28662,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-09,37.613,0.09258,5.236,37.613,37.613,,,0,0.99991,0.00212,0.0,0.26964,0.72824,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-10,60.677,0.14934,4.363,60.677,60.677,,,0,1.0,0.0,0.0,0.68365,0.31635,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-11,50.537,0.12438,4.644,50.537,50.537,,,0,1.0,0.0,0.63482,0.28875,0.07643,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2017-12,37.427,0.09211,3.065,37.427,37.427,,,0,1.0,0.0,0.47346,0.4586,0.06794,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-01,40.219,0.09925,3.381,40.219,40.219,,,0,0.99733,0.00849,0.32696,0.51168,0.15287,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-02,46.412,0.11621,4.903,46.412,46.412,,,0,0.98292,0.01911,0.0,0.65605,0.32484,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-03,33.155,0.0816,5.437,33.155,33.155,,,0,1.0,0.0,0.07431,0.8259,0.09979,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-04,57.371,0.14405,5.97,57.371,57.371,,,0,0.98017,0.02335,0.12739,0.69639,0.15287,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-05,40.842,0.10068,4.186,40.842,40.842,,,0,0.99842,0.00212,0.13163,0.6242,0.24204,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-06,80.925,0.20016,3.401,80.925,80.925,,,0,0.99508,0.00425,0.36306,0.60934,0.02335,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-07,45.673,0.11602,4.421,45.673,45.673,,,0,0.96887,0.03185,0.31423,0.50743,0.1465,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-08,38.561,0.09585,4.17,38.561,38.561,,,0,0.99016,0.00849,0.00425,0.82378,0.16348,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-09,50.611,0.12485,3.215,50.611,50.611,,,0,0.99774,0.00212,0.16561,0.75584,0.07643,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-10,50.638,0.12463,4.265,50.638,50.638,,,0,1.0,0.0,0.04459,0.84926,0.10616,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-11,42.427,0.10544,4.443,42.427,42.427,,,0,0.99036,0.00849,0.12527,0.80467,0.06157,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2018-12,34.013,0.08386,2.277,34.013,34.013,,,0,0.99818,0.00425,0.35244,0.52017,0.12314,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-01,48.748,0.12037,4.108,48.748,48.748,,,0,0.99671,0.00637,0.41189,0.44374,0.138,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-02,47.305,0.11671,3.768,47.305,47.305,,,0,0.99754,0.00212,0.12102,0.75796,0.1189,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-03,49.155,0.12575,5.638,49.155,49.155,,,0,0.96204,0.04671,0.55414,0.32272,0.07643,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-04,62.366,0.15936,4.712,62.366,62.366,,,0,0.96321,0.04671,0.0276,0.64119,0.2845,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-05,43.516,0.11289,3.66,43.516,43.516,,,0,0.94875,0.05945,0.0,0.78132,0.15924,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-06,78.612,0.197,2.94,78.612,78.612,,,0,0.9821,0.01911,0.0,0.73673,0.24416,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-07,44.417,0.10932,5.068,44.417,44.417,,,0,1.0,0.0,0.138,0.74735,0.11465,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-08,31.251,0.07691,3.783,31.251,31.251,,,0,1.0,0.0,0.04246,0.90446,0.05308,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-09,48.41,0.11915,6.235,48.41,48.41,,,0,1.0,0.0,0.0,0.92357,0.07643,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-10,40.823,0.10047,3.667,40.823,40.823,,,0,1.0,0.0,0.00637,0.8535,0.14013,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-11,62.097,0.15283,4.708,62.097,62.097,,,0,1.0,0.0,0.08493,0.78556,0.12951,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2019-12,50.029,0.12374,5.767,50.029,50.029,,,0,0.99508,0.00425,0.16561,0.73036,0.09979,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-01,39.059,0.09613,3.668,39.059,39.059,,,0,1.0,0.0,0.61996,0.29936,0.08068,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-02,31.853,0.07854,2.787,31.853,31.853,,,0,0.99814,0.00212,0.0,0.79193,0.20594,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-03,45.203,0.11125,2.418,45.203,45.203,,,0,1.0,0.0,0.36093,0.61571,0.02335,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-04,55.395,0.13634,5.35,55.395,55.395,,,0,1.0,0.0,0.38004,0.45435,0.16561,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-05,96.665,0.23791,16.833,96.665,96.665,,,0,1.0,0.0,0.00425,0.97028,0.02548,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-06,40.295,0.09948,4.32,40.295,40.295,,,0,0.99688,0.00849,0.15499,0.67728,0.15924,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-07,42.99,0.10581,2.883,42.99,42.99,,,0,1.0,0.0,0.23779,0.71125,0.05096,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-08,37.99,0.0935,3.211,37.99,37.99,,,0,1.0,0.0,0.18896,0.74098,0.07006,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-09,37.404,0.09206,3.07,37.404,37.404,,,0,1.0,0.0,0.63694,0.34183,0.02123,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-10,45.544,0.11209,3.338,45.544,45.544,,,0,1.0,0.0,0.12102,0.84501,0.03397,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-11,31.593,0.07776,5.2,31.593,31.593,,,0,1.0,0.0,0.0,0.4034,0.5966,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2020-12,32.265,0.07941,3.666,32.265,32.265,,,0,1.0,0.0,0.51592,0.43949,0.04459,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-01,37.237,0.09321,3.775,37.237,37.237,,,0,0.98321,0.01699,0.0,0.35032,0.6327,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-02,22.228,0.05766,3.566,22.228,22.228,,,0,0.9488,0.0552,0.11253,0.71338,0.1189,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-03,41.177,0.10134,3.111,41.177,41.177,,,0,1.0,0.0,0.00212,0.88535,0.11253,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-04,50.485,0.12425,13.247,50.485,50.485,,,0,1.0,0.0,0.0,0.91083,0.08917,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-05,48.9,0.12185,4.255,48.9,48.9,,,0,0.98769,0.01062,0.31847,0.53079,0.14013,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-06,24.055,0.05964,2.41,24.055,24.055,,,0,0.99262,0.00849,0.0,0.87686,0.11465,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-07,56.434,0.13889,2.957,56.434,56.434,,,0,1.0,0.0,0.29512,0.60722,0.09766,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-08,51.573,0.12693,3.005,51.573,51.573,,,0,1.0,0.0,0.05945,0.90234,0.03822,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-09,39.921,0.09825,4.464,39.921,39.921,,,0,1.0,0.0,0.77495,0.21019,0.01486,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-10,48.022,0.11819,3.412,48.022,48.022,,,0,1.0,0.0,0.41614,0.48832,0.09554,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-11,41.917,0.10393,2.815,41.917,41.917,,,0,0.99262,0.00637,0.40764,0.4586,0.12739,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2021-12,40.026,0.09851,4.067,40.026,40.026,,,0,1.0,0.0,0.28238,0.6242,0.09342,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-01,33.712,0.08318,3.567,33.712,33.712,,,0,0.99754,0.00212,0.42038,0.52229,0.0552,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-02,41.421,0.10195,3.021,41.421,41.421,,,0,1.0,0.0,0.35669,0.57749,0.06582,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-03,37.797,0.09361,2.591,37.797,37.797,,,0,0.99375,0.00637,0.25902,0.59023,0.14437,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-04,61.267,0.15132,4.234,61.267,61.267,,,0,0.99648,0.01062,0.07219,0.7431,0.1741,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-05,47.893,0.11863,2.422,47.893,47.893,,,0,0.99363,0.00637,0.10191,0.78981,0.10191,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-06,55.832,0.13741,3.264,55.832,55.832,,,0,1.0,0.0,0.0,0.54777,0.45223,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-07,53.774,0.13267,2.345,53.774,53.774,,,0,0.99754,0.00212,0.0,0.7155,0.28238,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-08,37.633,0.09262,3.015,37.633,37.633,,,0,1.0,0.0,0.0,0.72399,0.27601,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-09,36.946,0.09116,2.751,36.946,36.946,,,0,0.99754,0.00212,0.47134,0.49682,0.02972,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-10,48.747,0.11997,3.682,48.747,48.747,,,0,1.0,0.0,0.0,0.96178,0.03822,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-11,41.749,0.10352,2.7,41.749,41.749,,,0,0.99262,0.00637,0.0,0.6518,0.34183,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2022-12,26.1,0.06424,3.623,26.1,26.1,,,0,1.0,0.0,0.21444,0.75584,0.02972,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-01,35.017,0.08684,3.178,35.017,35.017,,,0,0.99244,0.01062,0.42251,0.46285,0.10403,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-02,74.976,0.18538,2.757,74.976,74.976,,,0,0.9954,0.00849,0.01699,0.86412,0.1104,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-03,70.42,0.17332,3.177,70.42,70.42,,,0,1.0,0.0,0.36943,0.32909,0.30149,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-04,57.044,0.1404,3.607,57.044,57.044,,,0,1.0,0.0,0.0,0.87261,0.12739,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-05,95.322,0.2346,4.048,95.322,95.322,,,0,1.0,0.0,0.30573,0.59236,0.10191,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-06,73.64,0.18124,2.543,73.64,73.64,,,0,1.0,0.0,0.00425,0.68365,0.3121,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-07,53.276,0.13112,2.693,53.276,53.276,,,0,1.0,0.0,0.0,0.9172,0.0828,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-08,41.993,0.10335,2.814,41.993,41.993,,,0,1.0,0.0,0.56476,0.43524,0.0,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-09,52.211,0.1285,3.091,52.211,52.211,,,0,1.0,0.0,0.81104,0.18896,0.0,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-10,65.296,0.16071,3.879,65.296,65.296,,,0,1.0,0.0,0.02972,0.95541,0.01486,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-11,54.422,0.13394,3.369,54.422,54.422,,,0,1.0,0.0,0.03609,0.90446,0.05945,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2023-12,27.258,0.06709,2.53,27.258,27.258,,,0,1.0,0.0,0.38217,0.61783,0.0,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-01,30.569,0.07542,2.488,30.569,30.569,,,0,0.99754,0.00212,0.3397,0.57962,0.07856,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-02,52.665,0.12962,3.324,52.665,52.665,,,0,1.0,0.0,0.48832,0.48832,0.02335,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-03,40.755,0.10031,3.137,40.755,40.755,,,0,1.0,0.0,0.61996,0.34607,0.03397,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-04,71.384,0.17704,3.246,71.384,71.384,,,0,0.99234,0.01062,0.11677,0.66454,0.20807,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-05,49.989,0.12334,3.886,49.989,49.989,,,0,0.99754,0.00212,0.0,0.88323,0.11465,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-06,79.224,0.19527,3.45,79.224,79.224,,,0,0.99855,0.00212,0.0,0.90234,0.09554,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-07,17.304,0.04259,1.727,17.304,17.304,,,0,1.0,0.0,0.0,0.86837,0.13163,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-08,67.497,0.16612,3.45,67.497,67.497,,,0,1.0,0.0,0.36093,0.5966,0.04246,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-09,39.241,0.09658,2.764,39.241,39.241,,,0,1.0,0.0,0.30361,0.67728,0.01911,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-10,41.52,0.10219,2.364,41.52,41.52,,,0,1.0,0.0,0.06157,0.8811,0.05732,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-11,54.705,0.13464,3.334,54.705,54.705,,,0,1.0,0.0,0.01062,0.98301,0.00637,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2024-12,54.087,0.13312,2.656,54.087,54.087,,,0,1.0,0.0,0.00849,0.47771,0.5138,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-01,39.884,0.0984,2.591,39.884,39.884,,,0,0.99754,0.00212,0.21656,0.77495,0.00637,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-02,47.451,0.11739,3.635,47.451,47.451,,,0,0.99487,0.00637,0.23779,0.72399,0.03185,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-03,51.208,0.12663,3.12,51.208,51.208,,,0,0.99528,0.00425,0.56263,0.39703,0.03609,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-04,65.528,0.16128,2.681,65.528,65.528,,,0,1.0,0.0,0.00212,0.8811,0.11677,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-05,54.404,0.1339,5.546,54.404,54.404,,,0,1.0,0.0,0.02548,0.85563,0.1189,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-06,77.711,0.19626,3.348,77.711,77.711,,,0,0.97455,0.02972,0.0,0.75796,0.21231,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-07,50.236,0.12364,3.367,50.236,50.236,,,0,1.0,0.0,0.07643,0.90021,0.02335,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-08,38.855,0.09563,2.969,38.855,38.855,,,0,1.0,0.0,0.05308,0.91507,0.03185,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-09,44.659,0.10991,4.014,44.659,44.659,,,0,1.0,0.0,0.64968,0.34395,0.00637,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-10,76.612,0.18856,3.585,76.612,76.612,,,0,1.0,0.0,0.3758,0.60085,0.02335,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-11,49.837,0.12266,3.154,49.837,49.837,,,0,1.0,0.0,0.04246,0.88747,0.07006,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.4_1,Saint David,2025-12,51.864,0.12784,2.573,51.864,51.864,,,0,0.99847,0.00425,0.42251,0.45435,0.1189,406,1,0.8588,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-01,747.253,3.464,29.287,747.253,747.253,,,0,1.0,0.0,0.0,0.92075,0.07925,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-02,747.926,3.46712,23.739,747.926,747.926,,,0,1.0,0.0,0.01509,0.86792,0.11698,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-03,761.82,3.53153,31.813,761.82,761.82,,,0,1.0,0.0,0.0,0.81509,0.18491,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-04,756.206,3.50551,30.535,756.206,756.206,,,0,1.0,0.0,0.0,1.0,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-05,804.098,3.72752,34.424,804.098,804.098,,,0,1.0,0.0,0.0,0.76226,0.23774,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-06,697.711,3.23435,36.308,697.711,697.711,,,0,1.0,0.0,0.16604,0.8,0.03396,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-07,783.748,3.63318,25.727,783.748,783.748,,,0,1.0,0.0,0.0,0.96981,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-08,734.142,3.40323,34.568,734.142,734.142,,,0,1.0,0.0,0.0,0.97736,0.02264,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-09,736.292,3.41319,29.6,736.292,736.292,,,0,1.0,0.0,0.57736,0.42264,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-10,691.924,3.20752,35.081,691.924,691.924,,,0,1.0,0.0,0.0,0.94717,0.05283,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-11,681.62,3.15976,27.371,681.62,681.62,,,0,1.0,0.0,0.10189,0.89811,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2012-12,684.989,3.17537,39.232,684.989,684.989,,,0,1.0,0.0,0.20377,0.77358,0.02264,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-01,653.599,3.02986,32.4,653.599,653.599,,,0,1.0,0.0,0.71321,0.28679,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-02,705.867,3.27215,27.875,705.867,705.867,,,0,1.0,0.0,0.69811,0.30189,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-03,788.686,3.65607,34.978,788.686,788.686,,,0,1.0,0.0,0.05283,0.9283,0.01887,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-04,702.968,3.25872,29.105,702.968,702.968,,,0,1.0,0.0,0.01887,0.9283,0.05283,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-05,797.503,3.69695,40.429,797.503,797.503,,,0,1.0,0.0,0.0,0.86038,0.13962,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-06,727.357,3.42051,24.283,727.357,727.357,,,0,0.98575,0.01887,0.00377,0.86415,0.11321,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-07,797.001,3.69462,22.473,797.001,797.001,,,0,1.0,0.0,0.1434,0.82264,0.03396,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-08,749.795,3.47579,23.322,749.795,749.795,,,0,1.0,0.0,0.13585,0.86415,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-09,642.71,2.97938,25.046,642.71,642.71,,,0,1.0,0.0,0.77358,0.22264,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-10,610.665,2.83083,26.694,610.665,610.665,,,0,1.0,0.0,0.08302,0.90189,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-11,670.595,3.10865,29.609,670.595,670.595,,,0,1.0,0.0,0.78491,0.21509,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2013-12,700.29,3.2463,30.912,700.29,700.29,,,0,1.0,0.0,0.09434,0.86415,0.04151,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-01,621.525,2.88117,19.485,621.525,621.525,,,0,1.0,0.0,0.30189,0.69811,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-02,622.919,2.88764,22.292,622.919,622.919,,,0,1.0,0.0,0.08302,0.89057,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-03,704.327,3.26501,24.917,704.327,704.327,,,0,1.0,0.0,0.26792,0.73208,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-04,795.778,3.68895,26.396,795.778,795.778,,,0,1.0,0.0,0.08302,0.86038,0.0566,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-05,717.591,3.3265,19.946,717.591,717.591,,,0,1.0,0.0,0.47925,0.51321,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-06,719.835,3.33691,28.361,719.835,719.835,,,0,1.0,0.0,0.01132,0.84528,0.1434,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-07,615.948,2.85532,17.157,615.948,615.948,,,0,1.0,0.0,0.0,0.97358,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-08,625.988,2.90187,21.492,625.988,625.988,,,0,1.0,0.0,0.10566,0.86792,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-09,656.503,3.04332,24.596,656.503,656.503,,,0,1.0,0.0,0.75849,0.23396,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-10,691.301,3.20463,24.647,691.301,691.301,,,0,1.0,0.0,0.0,0.94717,0.05283,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-11,648.867,3.00792,20.927,648.867,648.867,,,0,1.0,0.0,0.16226,0.83774,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2014-12,710.037,3.29149,28.998,710.037,710.037,,,0,1.0,0.0,0.90189,0.09811,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-01,653.854,3.03104,23.232,653.854,653.854,,,0,1.0,0.0,0.36981,0.62264,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-02,680.032,3.15239,26.572,680.032,680.032,,,0,1.0,0.0,0.25283,0.7434,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-03,801.717,3.71648,36.636,801.717,801.717,,,0,1.0,0.0,0.0,0.93585,0.06415,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-04,650.947,3.01756,28.018,650.947,650.947,,,0,1.0,0.0,0.06792,0.91321,0.01887,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-05,821.522,3.80829,36.48,821.522,821.522,,,0,1.0,0.0,0.00377,0.96604,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-06,864.377,4.00695,22.5,864.377,864.377,,,0,1.0,0.0,0.0,0.6566,0.3434,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-07,784.921,3.63862,26.871,784.921,784.921,,,0,1.0,0.0,0.07925,0.83774,0.08302,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-08,776.637,3.60022,31.02,776.637,776.637,,,0,1.0,0.0,0.0,0.97358,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-09,669.014,3.10132,18.684,669.014,669.014,,,0,1.0,0.0,0.40755,0.59245,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-10,629.784,2.91946,26.277,629.784,629.784,,,0,1.0,0.0,0.0,0.95849,0.04151,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-11,737.473,3.41867,25.049,737.473,737.473,,,0,1.0,0.0,0.0,0.98868,0.01132,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2015-12,666.067,3.08766,24.785,666.067,666.067,,,0,1.0,0.0,0.01887,0.93208,0.04906,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-01,728.401,3.37661,29.799,728.401,728.401,,,0,1.0,0.0,0.45283,0.54717,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-02,718.728,3.33177,27.519,718.728,718.728,,,0,1.0,0.0,0.70189,0.27925,0.01887,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-03,742.844,3.44357,28.578,742.844,742.844,,,0,1.0,0.0,0.64528,0.35472,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-04,788.149,3.65359,24.508,788.149,788.149,,,0,1.0,0.0,0.5434,0.44906,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-05,793.754,3.67957,28.826,793.754,793.754,,,0,1.0,0.0,0.01132,0.92075,0.06792,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-06,719.954,3.33746,22.144,719.954,719.954,,,0,1.0,0.0,0.0,0.95094,0.04906,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-07,814.836,3.7773,32.356,814.836,814.836,,,0,1.0,0.0,0.47925,0.4717,0.04906,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-08,790.12,3.66272,31.972,790.12,790.12,,,0,1.0,0.0,0.11698,0.88302,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-09,758.461,3.51596,43.725,758.461,758.461,,,0,1.0,0.0,0.0,0.95849,0.04151,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-10,658.17,3.05105,25.181,658.17,658.17,,,0,1.0,0.0,0.0,0.96604,0.03396,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-11,668.273,3.09788,24.073,668.273,668.273,,,0,1.0,0.0,0.07925,0.84906,0.0717,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2016-12,633.535,2.93685,18.832,633.535,633.535,,,0,1.0,0.0,0.5434,0.45283,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-01,686.546,3.18259,22.476,686.546,686.546,,,0,1.0,0.0,0.90566,0.09434,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-02,857.901,3.97693,23.19,857.901,857.901,,,0,1.0,0.0,0.00377,0.9434,0.05283,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-03,846.075,3.92211,32.806,846.075,846.075,,,0,1.0,0.0,0.04906,0.92453,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-04,883.878,4.09735,39.23,883.878,883.878,,,0,1.0,0.0,0.0,0.97358,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-05,814.676,3.77656,52.957,814.676,814.676,,,0,1.0,0.0,0.0,0.96226,0.03774,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-06,900.384,4.17387,79.59,900.384,900.384,,,0,1.0,0.0,0.0,0.8,0.2,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-07,787.794,3.65194,54.259,787.794,787.794,,,0,1.0,0.0,0.04906,0.93585,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-08,787.234,3.64934,28.519,787.234,787.234,,,0,1.0,0.0,0.04151,0.90566,0.05283,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-09,829.835,3.84683,24.689,829.835,829.835,,,0,1.0,0.0,0.0,0.49811,0.50189,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-10,801.591,3.7159,58.514,801.591,801.591,,,0,1.0,0.0,0.0,0.93962,0.06038,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-11,841.544,3.9011,45.723,841.544,841.544,,,0,1.0,0.0,0.48679,0.51321,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2017-12,888.484,4.1187,55.722,888.484,888.484,,,0,1.0,0.0,0.24151,0.75849,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-01,785.73,3.64237,30.932,785.73,785.73,,,0,1.0,0.0,0.09811,0.89434,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-02,754.968,3.49977,39.954,754.968,754.968,,,0,1.0,0.0,0.0,0.95094,0.04906,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-03,815.852,3.782,53.266,815.852,815.852,,,0,1.0,0.0,0.30943,0.68679,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-04,892.999,4.13963,49.614,892.999,892.999,,,0,1.0,0.0,0.12453,0.84528,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-05,901.687,4.17991,45.226,901.687,901.687,,,0,1.0,0.0,0.38113,0.56226,0.0566,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-06,894.94,4.14863,69.107,894.94,894.94,,,0,1.0,0.0,0.22642,0.77358,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-07,881.516,4.0864,42.643,881.516,881.516,,,0,1.0,0.0,0.33585,0.64906,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-08,888.701,4.11971,69.628,888.701,888.701,,,0,1.0,0.0,0.09057,0.90566,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-09,931.277,4.31708,51.413,931.277,931.277,,,0,1.0,0.0,0.46038,0.53208,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-10,846.067,3.92207,63.221,846.067,846.067,,,0,1.0,0.0,0.00377,0.98113,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-11,803.751,3.72591,40.042,803.751,803.751,,,0,1.0,0.0,0.39245,0.60755,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2018-12,816.97,3.78719,47.553,816.97,816.97,,,0,1.0,0.0,0.80377,0.19623,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-01,881.738,4.08743,40.518,881.738,881.738,,,0,1.0,0.0,0.09057,0.89434,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-02,904.649,4.19364,31.215,904.649,904.649,,,0,1.0,0.0,0.46792,0.52075,0.01132,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-03,872.72,4.04563,23.764,872.72,872.72,,,0,1.0,0.0,0.5434,0.45283,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-04,868.182,4.02459,51.497,868.182,868.182,,,0,1.0,0.0,0.0,0.89057,0.10943,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-05,878.915,4.07435,38.902,878.915,878.915,,,0,1.0,0.0,0.0,0.69057,0.30943,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-06,965.08,4.47378,37.216,965.08,965.08,,,0,1.0,0.0,0.0,0.91321,0.08679,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-07,775.839,3.59652,23.638,775.839,775.839,,,0,1.0,0.0,0.1283,0.86415,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-08,801.064,3.71345,27.181,801.064,801.064,,,0,1.0,0.0,0.0,0.97736,0.02264,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-09,838.776,3.88828,29.444,838.776,838.776,,,0,1.0,0.0,0.0,0.96226,0.03774,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-10,729.731,3.38278,25.344,729.731,729.731,,,0,1.0,0.0,0.01509,0.9283,0.0566,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-11,749.15,3.4728,30.592,749.15,749.15,,,0,1.0,0.0,0.0,0.98491,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2019-12,816.086,3.78309,30.417,816.086,816.086,,,0,1.0,0.0,0.36981,0.63019,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-01,788.947,3.65728,31.941,788.947,788.947,,,0,1.0,0.0,0.87547,0.12453,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-02,713.127,3.30581,17.692,713.127,713.127,,,0,1.0,0.0,0.00377,0.9283,0.06792,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-03,823.647,3.81814,28.846,823.647,823.647,,,0,1.0,0.0,0.33962,0.6566,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-04,904.879,4.19471,23.911,904.879,904.879,,,0,1.0,0.0,0.55849,0.41509,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-05,787.458,3.65038,25.458,787.458,787.458,,,0,1.0,0.0,0.02642,0.97358,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-06,839.023,3.88942,25.937,839.023,839.023,,,0,1.0,0.0,0.07925,0.89057,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-07,651.49,3.02008,18.007,651.49,651.49,,,0,1.0,0.0,0.23774,0.75849,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-08,778.819,3.61033,20.331,778.819,778.819,,,0,1.0,0.0,0.07925,0.89811,0.02264,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-09,729.625,3.38229,27.735,729.625,729.625,,,0,1.0,0.0,0.43774,0.56226,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-10,740.112,3.4309,26.31,740.112,740.112,,,0,1.0,0.0,0.08302,0.91698,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-11,679.866,3.15162,26.26,679.866,679.866,,,0,1.0,0.0,0.0,0.87925,0.12075,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2020-12,710.634,3.29425,22.403,710.634,710.634,,,0,1.0,0.0,0.64906,0.35094,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-01,704.068,3.26381,17.358,704.068,704.068,,,0,1.0,0.0,0.00377,0.79623,0.2,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-02,661.624,3.06706,15.42,661.624,661.624,,,0,1.0,0.0,0.17358,0.81509,0.01132,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-03,771.562,3.57669,14.444,771.562,771.562,,,0,1.0,0.0,0.20755,0.76226,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-04,820.437,3.80326,30.765,820.437,820.437,,,0,1.0,0.0,0.0,1.0,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-05,790.157,3.66289,17.47,790.157,790.157,,,0,1.0,0.0,0.10943,0.87925,0.01132,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-06,706.418,3.27471,14.564,706.418,706.418,,,0,1.0,0.0,0.02264,0.95094,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-07,745.14,3.45421,16.06,745.14,745.14,,,0,1.0,0.0,0.53962,0.46038,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-08,721.574,3.34497,15.354,721.574,721.574,,,0,1.0,0.0,0.28302,0.71698,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-09,726.324,3.36699,16.775,726.324,726.324,,,0,1.0,0.0,0.90566,0.09434,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-10,780.492,3.61809,14.971,780.492,780.492,,,0,1.0,0.0,0.42642,0.57358,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-11,694.534,3.21962,18.103,694.534,694.534,,,0,1.0,0.0,0.43396,0.56604,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2021-12,727.205,3.37107,17.837,727.205,727.205,,,0,1.0,0.0,0.55472,0.44528,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-01,760.557,3.52568,17.867,760.557,760.557,,,0,1.0,0.0,0.57736,0.42264,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-02,696.373,3.22814,16.252,696.373,696.373,,,0,1.0,0.0,0.64906,0.34717,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-03,730.956,3.38846,13.579,730.956,730.956,,,0,1.0,0.0,0.76226,0.23396,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-04,817.628,3.79024,15.927,817.628,817.628,,,0,1.0,0.0,0.04151,0.90189,0.0566,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-05,872.175,4.0431,18.125,872.175,872.175,,,0,1.0,0.0,0.04906,0.89057,0.06038,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-06,891.762,4.1339,17.091,891.762,891.762,,,0,1.0,0.0,0.0,0.22642,0.77358,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-07,787.811,3.65202,16.655,787.811,787.811,,,0,1.0,0.0,0.0,0.99623,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-08,747.673,3.46595,16.242,747.673,747.673,,,0,1.0,0.0,0.0,0.90566,0.09434,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-09,738.446,3.42318,17.388,738.446,738.446,,,0,1.0,0.0,0.57736,0.41509,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-10,748.297,3.46885,19.651,748.297,748.297,,,0,1.0,0.0,0.0,0.99245,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-11,913.542,4.23486,21.538,913.542,913.542,,,0,1.0,0.0,0.0,0.64906,0.35094,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2022-12,684.649,3.17379,15.835,684.649,684.649,,,0,1.0,0.0,0.13585,0.86415,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-01,751.297,3.48275,17.049,751.297,751.297,,,0,1.0,0.0,0.68679,0.31321,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-02,756.802,3.50827,15.154,756.802,756.802,,,0,1.0,0.0,0.06792,0.92075,0.01132,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-03,871.884,4.04175,21.982,871.884,871.884,,,0,1.0,0.0,0.6717,0.3283,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-04,851.559,3.94753,15.276,851.559,851.559,,,0,1.0,0.0,0.06415,0.93208,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-05,929.98,4.31107,20.277,929.98,929.98,,,0,1.0,0.0,0.6717,0.31321,0.01509,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-06,898.364,4.1645,17.013,898.364,898.364,,,0,1.0,0.0,0.00377,0.95094,0.04528,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-07,869.462,4.03052,17.689,869.462,869.462,,,0,1.0,0.0,0.0,0.95094,0.04906,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-08,806.849,3.74027,22.067,806.849,806.849,,,0,1.0,0.0,0.78113,0.21887,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-09,793.434,3.67808,17.357,793.434,793.434,,,0,1.0,0.0,0.86792,0.13208,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-10,843.896,3.91201,20.649,843.896,843.896,,,0,1.0,0.0,0.16226,0.83774,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-11,789.267,3.65877,19.663,789.267,789.267,,,0,1.0,0.0,0.01887,0.98113,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2023-12,743.657,3.44733,19.968,743.657,743.657,,,0,1.0,0.0,0.38113,0.60755,0.01132,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-01,724.626,3.35911,20.498,724.626,724.626,,,0,1.0,0.0,0.3283,0.6717,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-02,835.815,3.87455,18.553,835.815,835.815,,,0,1.0,0.0,0.50566,0.49434,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-03,895.009,4.14895,21.837,895.009,895.009,,,0,1.0,0.0,0.70566,0.29434,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-04,903.593,4.18874,17.946,903.593,903.593,,,0,1.0,0.0,0.09811,0.8566,0.04528,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-05,806.207,3.7373,19.025,806.207,806.207,,,0,1.0,0.0,0.0,0.88679,0.11321,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-06,960.911,4.45445,23.102,960.911,960.911,,,0,1.0,0.0,0.0,0.89811,0.10189,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-07,698.498,3.238,13.97,698.498,698.498,,,0,1.0,0.0,0.0,0.96981,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-08,800.47,3.7107,18.512,800.47,800.47,,,0,1.0,0.0,0.46038,0.53208,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-09,789.969,3.66202,20.625,789.969,789.969,,,0,1.0,0.0,0.10566,0.87547,0.01887,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-10,852.603,3.95237,21.943,852.603,852.603,,,0,1.0,0.0,0.21132,0.78491,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-11,758.064,3.51412,19.497,758.064,758.064,,,0,1.0,0.0,0.0,0.96604,0.03396,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2024-12,774.513,3.59037,18.647,774.513,774.513,,,0,1.0,0.0,0.0,0.89057,0.10943,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-01,786.868,3.64765,18.968,786.868,786.868,,,0,1.0,0.0,0.58113,0.41509,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-02,885.867,4.10657,20.478,885.867,885.867,,,0,1.0,0.0,0.52453,0.46792,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-03,870.146,4.0337,17.35,870.146,870.146,,,0,1.0,0.0,0.85283,0.14717,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-04,933.84,4.32896,19.046,933.84,933.84,,,0,1.0,0.0,0.0,1.0,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-05,913.64,4.23532,16.929,913.64,913.64,,,0,1.0,0.0,0.0,0.96981,0.03019,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-06,914.433,4.239,17.764,914.433,914.433,,,0,1.0,0.0,0.0,0.99623,0.00377,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-07,886.156,4.10791,81.536,886.156,886.156,,,0,1.0,0.0,0.07547,0.91698,0.00755,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-08,938.622,4.35112,72.093,938.622,938.622,,,0,1.0,0.0,0.10566,0.86792,0.02642,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-09,921.441,4.27148,51.522,921.441,921.441,,,0,1.0,0.0,0.02264,0.9283,0.04906,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-10,1016.61,4.71265,75.332,1016.61,1016.61,,,0,1.0,0.0,0.24528,0.71321,0.04151,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-11,961.71,4.45815,67.845,961.71,961.71,,,0,1.0,0.0,0.0,1.0,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.5_1,Saint George,2025-12,935.865,4.33835,72.79,935.865,935.865,,,0,1.0,0.0,0.73585,0.26415,0.0,216,1,0.9879,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-01,98.957,0.51614,19.71,98.957,98.957,,,0,1.0,0.0,0.0,0.63025,0.36975,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-02,99.433,0.51862,27.185,99.433,99.433,,,0,1.0,0.0,0.0,0.76471,0.23529,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-03,125.622,0.65521,10.043,125.622,125.622,,,0,1.0,0.0,0.0,0.97059,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-04,104.795,0.54659,16.269,104.795,104.795,,,0,1.0,0.0,0.0,0.98739,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-05,128.322,0.66929,14.117,128.322,128.322,,,0,1.0,0.0,0.0,0.80252,0.19748,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-06,103.959,0.54222,8.934,103.959,103.959,,,0,1.0,0.0,0.06723,0.84034,0.09244,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-07,124.033,0.64692,8.19,124.033,124.033,,,0,1.0,0.0,0.0,0.89076,0.10924,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-08,62.332,0.32511,7.986,62.332,62.332,,,0,1.0,0.0,0.0,0.89076,0.10924,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-09,102.141,0.53274,10.313,102.141,102.141,,,0,1.0,0.0,0.52521,0.45798,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-10,111.181,0.57989,7.655,111.181,111.181,,,0,1.0,0.0,0.0,0.97059,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-11,88.534,0.46177,12.231,88.534,88.534,,,0,1.0,0.0,0.01681,0.97479,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2012-12,99.015,0.51644,10.694,99.015,99.015,,,0,1.0,0.0,0.05042,0.92437,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-01,81.125,0.42313,6.852,81.125,81.125,,,0,1.0,0.0,0.62185,0.34034,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-02,87.701,0.45743,6.635,87.701,87.701,,,0,1.0,0.0,0.29412,0.68487,0.02101,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-03,109.166,0.56938,14.755,109.166,109.166,,,0,1.0,0.0,0.58824,0.39496,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-04,91.613,0.47783,12.171,91.613,91.613,,,0,1.0,0.0,0.21429,0.7563,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-05,109.879,0.5731,10.557,109.879,109.879,,,0,1.0,0.0,0.0,0.97479,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-06,115.0,0.61374,9.316,115.0,115.0,,,0,0.9773,0.03782,0.0,0.67227,0.28992,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-07,90.734,0.47325,6.289,90.734,90.734,,,0,1.0,0.0,0.34034,0.63025,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-08,91.844,0.47904,6.212,91.844,91.844,,,0,1.0,0.0,0.33193,0.66387,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-09,92.891,0.4845,5.938,92.891,92.891,,,0,1.0,0.0,0.82353,0.17227,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-10,88.105,0.45954,6.99,88.105,88.105,,,0,1.0,0.0,0.01681,0.93697,0.04622,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-11,84.646,0.44149,5.926,84.646,84.646,,,0,1.0,0.0,0.83193,0.16807,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2013-12,84.572,0.44111,10.444,84.572,84.572,,,0,1.0,0.0,0.0042,0.88655,0.10924,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-01,61.763,0.32214,6.992,61.763,61.763,,,0,1.0,0.0,0.28571,0.66807,0.04622,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-02,62.954,0.32835,7.214,62.954,62.954,,,0,1.0,0.0,0.0084,0.94118,0.05042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-03,88.567,0.46194,7.526,88.567,88.567,,,0,1.0,0.0,0.20168,0.78992,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-04,87.782,0.45785,8.728,87.782,87.782,,,0,1.0,0.0,0.0,0.88655,0.11345,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-05,117.472,0.61271,5.616,117.472,117.472,,,0,1.0,0.0,0.22689,0.7521,0.02101,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-06,114.038,0.60079,6.194,114.038,114.038,,,0,0.99002,0.0084,0.19748,0.58824,0.20588,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-07,79.98,0.41716,5.128,79.98,79.98,,,0,1.0,0.0,0.0,0.68908,0.31092,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-08,114.08,0.59501,5.805,114.08,114.08,,,0,1.0,0.0,0.02521,0.96639,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-09,74.625,0.38923,5.853,74.625,74.625,,,0,1.0,0.0,0.78571,0.21429,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-10,88.099,0.4595,7.224,88.099,88.099,,,0,1.0,0.0,0.0042,0.97899,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-11,79.35,0.41387,6.668,79.35,79.35,,,0,1.0,0.0,0.34874,0.65126,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2014-12,76.964,0.40142,5.294,76.964,76.964,,,0,1.0,0.0,0.7521,0.2479,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-01,76.615,0.39961,5.272,76.615,76.615,,,0,1.0,0.0,0.01261,0.95798,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-02,78.639,0.41016,7.087,78.639,78.639,,,0,1.0,0.0,0.33193,0.64286,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-03,75.651,0.39457,5.492,75.651,75.651,,,0,1.0,0.0,0.0,0.7605,0.2395,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-04,108.998,0.57065,6.837,108.998,108.998,,,0,0.99624,0.0042,0.0,0.91597,0.07983,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-05,107.501,0.56282,6.837,107.501,107.501,,,0,0.99624,0.0042,0.06723,0.7395,0.18908,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-06,113.315,0.59725,8.289,113.315,113.315,,,0,0.98957,0.0084,0.0,0.58824,0.40336,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-07,102.87,0.53667,5.1,102.87,102.87,,,0,0.99977,0.0042,0.01261,0.78571,0.19748,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-08,73.589,0.38382,5.026,73.589,73.589,,,0,1.0,0.0,0.0,0.88235,0.11765,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-09,72.33,0.37725,6.236,72.33,72.33,,,0,1.0,0.0,0.84454,0.14706,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-10,91.55,0.4775,6.477,91.55,91.55,,,0,1.0,0.0,0.0,0.95798,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-11,80.631,0.42055,5.358,80.631,80.631,,,0,1.0,0.0,0.02101,0.91176,0.06723,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2015-12,75.329,0.39291,6.704,75.329,75.329,,,0,0.99995,0.0042,0.0,0.93277,0.06303,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-01,61.616,0.32137,6.502,61.616,61.616,,,0,1.0,0.0,0.46218,0.5042,0.03361,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-02,66.002,0.34427,4.425,66.002,66.002,,,0,0.99995,0.0042,0.62605,0.32773,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-03,84.86,0.44261,5.826,84.86,84.86,,,0,1.0,0.0,0.21008,0.77731,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-04,91.532,0.47741,5.61,91.532,91.532,,,0,1.0,0.0,0.26471,0.69328,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-05,88.356,0.46084,5.756,88.356,88.356,,,0,1.0,0.0,0.01261,0.95378,0.03361,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-06,83.033,0.43515,4.647,83.033,83.033,,,0,0.99523,0.0042,0.0,0.95798,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-07,81.741,0.42673,5.002,81.741,81.741,,,0,0.99908,0.0042,0.41176,0.53782,0.04622,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-08,54.222,0.28281,5.018,54.222,54.222,,,0,1.0,0.0,0.32353,0.67647,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-09,66.518,0.34694,5.823,66.518,66.518,,,0,1.0,0.0,0.01681,0.92017,0.06303,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-10,56.325,0.29378,5.068,56.325,56.325,,,0,1.0,0.0,0.0,0.9916,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-11,78.791,0.41095,10.021,78.791,78.791,,,0,1.0,0.0,0.0,0.85294,0.14706,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2016-12,64.819,0.33808,4.245,64.819,64.819,,,0,1.0,0.0,0.55882,0.41176,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-01,62.151,0.32416,6.217,62.151,62.151,,,0,1.0,0.0,0.88235,0.11765,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-02,62.76,0.32734,4.861,62.76,62.76,,,0,1.0,0.0,0.08403,0.83613,0.07983,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-03,65.701,0.34268,5.55,65.701,65.701,,,0,1.0,0.0,0.10924,0.86555,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-04,72.297,0.37708,4.859,72.297,72.297,,,0,1.0,0.0,0.0,0.92017,0.07983,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-05,95.424,0.50009,5.827,95.424,95.424,,,0,0.99523,0.0042,0.04202,0.91176,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-06,59.763,0.31188,4.433,59.763,59.763,,,0,0.99945,0.0042,0.0,0.32773,0.66807,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-07,68.36,0.35655,6.081,68.36,68.36,,,0,1.0,0.0,0.03361,0.95798,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-08,69.048,0.36013,5.838,69.048,69.048,,,0,1.0,0.0,0.02101,0.85714,0.12185,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-09,56.426,0.2943,5.469,56.426,56.426,,,0,1.0,0.0,0.0,0.33613,0.66387,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-10,71.026,0.37045,5.045,71.026,71.026,,,0,1.0,0.0,0.0,0.90336,0.09664,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-11,60.025,0.31307,4.751,60.025,60.025,,,0,1.0,0.0,0.77731,0.21849,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2017-12,52.023,0.27134,5.339,52.023,52.023,,,0,1.0,0.0,0.71008,0.28992,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-01,50.002,0.26086,4.21,50.002,50.002,,,0,0.99977,0.0042,0.54622,0.41597,0.03361,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-02,54.707,0.28534,6.393,54.707,54.707,,,0,1.0,0.0,0.0,0.91597,0.08403,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-03,44.611,0.23268,4.916,44.611,44.611,,,0,1.0,0.0,0.17227,0.81513,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-04,85.53,0.4461,5.088,85.53,85.53,,,0,1.0,0.0,0.15126,0.78992,0.05882,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-05,59.76,0.31326,4.404,59.76,59.76,,,0,0.99499,0.01261,0.15546,0.69748,0.13445,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-06,98.255,0.51247,4.263,98.255,98.255,,,0,1.0,0.0,0.41597,0.57983,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-07,56.387,0.29427,3.096,56.387,56.387,,,0,0.99942,0.01261,0.71008,0.2521,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-08,68.55,0.35754,3.703,68.55,68.55,,,0,1.0,0.0,0.0,0.94538,0.05462,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-09,77.964,0.40664,5.349,77.964,77.964,,,0,1.0,0.0,0.17647,0.76891,0.05462,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-10,69.779,0.36395,7.458,69.779,69.779,,,0,1.0,0.0,0.0,0.9916,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-11,64.56,0.33673,4.991,64.56,64.56,,,0,1.0,0.0,0.14286,0.85294,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2018-12,59.84,0.31211,4.619,59.84,59.84,,,0,1.0,0.0,0.56723,0.39916,0.03361,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-01,57.86,0.30179,3.709,57.86,57.86,,,0,1.0,0.0,0.61345,0.35714,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-02,68.98,0.35978,5.323,68.98,68.98,,,0,1.0,0.0,0.43277,0.51681,0.05042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-03,68.963,0.36115,5.029,68.963,68.963,,,0,0.99597,0.01261,0.7479,0.21008,0.02941,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-04,63.75,0.3325,6.448,63.75,63.75,,,0,1.0,0.0,0.05882,0.89496,0.04622,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-05,87.996,0.45947,6.903,87.996,87.996,,,0,0.9989,0.0042,0.0,0.90336,0.09244,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-06,84.236,0.43984,4.768,84.236,84.236,,,0,0.9989,0.0042,0.0,0.84454,0.15126,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-07,72.813,0.37977,3.801,72.813,72.813,,,0,1.0,0.0,0.10084,0.81933,0.07983,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-08,59.653,0.31113,5.433,59.653,59.653,,,0,1.0,0.0,0.0,0.96218,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-09,76.983,0.40152,6.927,76.983,76.983,,,0,1.0,0.0,0.0,0.98739,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-10,76.874,0.40096,5.003,76.874,76.874,,,0,1.0,0.0,0.0,0.87815,0.12185,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-11,63.832,0.33293,6.621,63.832,63.832,,,0,1.0,0.0,0.0,0.96639,0.03361,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2019-12,67.43,0.3517,5.123,67.43,67.43,,,0,1.0,0.0,0.64706,0.34454,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-01,57.618,0.30052,4.75,57.618,57.618,,,0,1.0,0.0,0.77731,0.20588,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-02,71.115,0.37093,5.895,71.115,71.115,,,0,0.99995,0.0042,0.01681,0.92437,0.05462,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-03,78.656,0.41025,5.11,78.656,78.656,,,0,1.0,0.0,0.26471,0.73529,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-04,84.47,0.44057,5.115,84.47,84.47,,,0,1.0,0.0,0.7479,0.21429,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-05,97.364,0.50783,5.207,97.364,97.364,,,0,1.0,0.0,0.03361,0.96639,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-06,57.394,0.29935,4.667,57.394,57.394,,,0,1.0,0.0,0.48739,0.42437,0.08824,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-07,68.267,0.35606,5.045,68.267,68.267,,,0,1.0,0.0,0.31933,0.66387,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-08,50.119,0.26141,3.763,50.119,50.119,,,0,1.0,0.0,0.52941,0.44538,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-09,59.196,0.30875,3.968,59.196,59.196,,,0,1.0,0.0,0.63025,0.36975,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-10,68.535,0.35746,4.524,68.535,68.535,,,0,1.0,0.0,0.13025,0.86975,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-11,36.545,0.19061,3.833,36.545,36.545,,,0,1.0,0.0,0.0,0.93277,0.06723,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2020-12,51.726,0.26979,4.011,51.726,51.726,,,0,1.0,0.0,0.7563,0.2437,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-01,39.323,0.20908,2.966,39.323,39.323,,,0,0.98096,0.02521,0.0,0.71429,0.2605,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-02,42.552,0.2251,4.364,42.552,42.552,,,0,0.98597,0.01261,0.10924,0.81092,0.06723,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-03,66.706,0.34792,5.178,66.706,66.706,,,0,1.0,0.0,0.04202,0.91597,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-04,75.122,0.39181,6.876,75.122,75.122,,,0,1.0,0.0,0.0,0.96218,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-05,80.434,0.41952,5.369,80.434,80.434,,,0,1.0,0.0,0.34034,0.63866,0.02101,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-06,35.41,0.18469,3.698,35.41,35.41,,,0,1.0,0.0,0.0,0.93697,0.06303,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-07,85.485,0.44587,3.72,85.485,85.485,,,0,1.0,0.0,0.47059,0.52101,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-08,68.364,0.35657,4.451,68.364,68.364,,,0,1.0,0.0,0.39916,0.58824,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-09,64.336,0.33556,4.38,64.336,64.336,,,0,1.0,0.0,0.90756,0.09244,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-10,58.112,0.3031,4.754,58.112,58.112,,,0,1.0,0.0,0.71008,0.26471,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-11,60.964,0.31797,3.965,60.964,60.964,,,0,1.0,0.0,0.43697,0.53782,0.02521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2021-12,56.01,0.29213,3.943,56.01,56.01,,,0,1.0,0.0,0.33193,0.65126,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-01,49.051,0.25584,4.488,49.051,49.051,,,0,1.0,0.0,0.68487,0.30672,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-02,57.564,0.30024,4.605,57.564,57.564,,,0,1.0,0.0,0.77311,0.22689,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-03,59.228,0.30892,3.986,59.228,59.228,,,0,1.0,0.0,0.57563,0.40336,0.02101,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-04,91.579,0.47765,4.838,91.579,91.579,,,0,1.0,0.0,0.18067,0.78151,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-05,66.852,0.35,5.064,66.852,66.852,,,0,0.99624,0.0042,0.06723,0.86134,0.06723,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-06,89.201,0.46525,5.109,89.201,89.201,,,0,1.0,0.0,0.0,0.56303,0.43697,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-07,63.025,0.32872,4.01,63.025,63.025,,,0,1.0,0.0,0.0,0.92857,0.07143,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-08,67.992,0.35463,4.139,67.992,67.992,,,0,1.0,0.0,0.0,0.95798,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-09,60.368,0.31487,5.268,60.368,60.368,,,0,1.0,0.0,0.57983,0.40756,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-10,70.99,0.37026,4.04,70.99,70.99,,,0,1.0,0.0,0.02941,0.96639,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-11,79.272,0.41346,4.546,79.272,79.272,,,0,1.0,0.0,0.0,0.78992,0.21008,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2022-12,55.241,0.28812,4.692,55.241,55.241,,,0,1.0,0.0,0.13445,0.86555,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-01,61.315,0.3198,8.247,61.315,61.315,,,0,1.0,0.0,0.80252,0.19328,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-02,92.669,0.48345,5.398,92.669,92.669,,,0,0.99977,0.0042,0.02941,0.92857,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-03,84.369,0.44004,6.809,84.369,84.369,,,0,1.0,0.0,0.54622,0.41176,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-04,83.774,0.43694,11.205,83.774,83.774,,,0,1.0,0.0,0.0,0.91597,0.08403,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-05,118.688,0.61904,6.11,118.688,118.688,,,0,1.0,0.0,0.59664,0.35714,0.04622,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-06,100.693,0.52519,4.968,100.693,100.693,,,0,1.0,0.0,0.0,0.87815,0.12185,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-07,99.095,0.51685,5.064,99.095,99.095,,,0,1.0,0.0,0.01261,0.93697,0.05042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-08,76.883,0.401,5.363,76.883,76.883,,,0,1.0,0.0,0.90756,0.09244,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-09,82.36,0.42957,8.234,82.36,82.36,,,0,1.0,0.0,0.93277,0.06723,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-10,101.608,0.52996,5.046,101.608,101.608,,,0,1.0,0.0,0.36555,0.63445,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-11,73.342,0.38253,8.153,73.342,73.342,,,0,1.0,0.0,0.02101,0.96639,0.01261,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2023-12,66.025,0.34437,8.115,66.025,66.025,,,0,1.0,0.0,0.63445,0.35714,0.0084,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-01,53.221,0.27759,5.905,53.221,53.221,,,0,1.0,0.0,0.52521,0.47059,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-02,81.87,0.42701,25.086,81.87,81.87,,,0,1.0,0.0,0.80252,0.19748,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-03,76.678,0.39993,31.084,76.678,76.678,,,0,1.0,0.0,0.86975,0.13025,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-04,111.389,0.58098,22.092,111.389,111.389,,,0,1.0,0.0,0.22269,0.69748,0.07983,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-05,84.692,0.44173,61.899,84.692,84.692,,,0,1.0,0.0,0.0,0.97899,0.02101,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-06,106.879,0.55745,50.148,106.879,106.879,,,0,1.0,0.0,0.01681,0.88655,0.09664,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-07,66.439,0.34653,27.496,66.439,66.439,,,0,1.0,0.0,0.0,0.95798,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-08,104.371,0.54437,18.666,104.371,104.371,,,0,1.0,0.0,0.73109,0.26471,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-09,74.658,0.3894,10.338,74.658,74.658,,,0,1.0,0.0,0.2479,0.69748,0.05462,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-10,81.677,0.42601,26.82,81.677,81.677,,,0,1.0,0.0,0.2395,0.7605,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-11,71.618,0.37354,4.904,71.618,71.618,,,0,1.0,0.0,0.0042,0.9958,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2024-12,106.842,0.55726,17.296,106.842,106.842,,,0,1.0,0.0,0.02941,0.71849,0.2521,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-01,82.897,0.43237,23.826,82.897,82.897,,,0,1.0,0.0,0.19748,0.80252,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-02,86.474,0.45103,21.969,86.474,86.474,,,0,1.0,0.0,0.48319,0.47479,0.04202,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-03,91.284,0.47612,35.663,91.284,91.284,,,0,1.0,0.0,0.86134,0.13866,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-04,105.072,0.54803,5.712,105.072,105.072,,,0,1.0,0.0,0.0,0.97899,0.02101,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-05,101.81,0.53101,12.084,101.81,101.81,,,0,1.0,0.0,0.0042,0.93697,0.05882,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-06,149.235,0.77837,31.902,149.235,149.235,,,0,1.0,0.0,0.0,0.90756,0.09244,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-07,95.348,0.49731,10.638,95.348,95.348,,,0,1.0,0.0,0.0,0.96218,0.03782,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-08,60.195,0.31396,9.781,60.195,60.195,,,0,1.0,0.0,0.07563,0.90756,0.01681,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-09,89.279,0.46566,27.597,89.279,89.279,,,0,1.0,0.0,0.76891,0.23109,0.0,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-10,106.482,0.55538,16.011,106.482,106.482,,,0,1.0,0.0,0.71429,0.28151,0.0042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-11,75.925,0.396,13.146,75.925,75.925,,,0,1.0,0.0,0.0,0.94958,0.05042,192,1,0.9101,code_name
+VCT,Saint Vincent and the Grenadines,VCT.6_1,Saint Patrick,2025-12,89.476,0.46668,19.033,89.476,89.476,,,0,1.0,0.0,0.65546,0.30672,0.03782,192,1,0.9101,code_name

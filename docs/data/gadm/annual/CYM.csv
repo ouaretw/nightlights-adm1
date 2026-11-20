@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2012,351.584,1.03307,14.469,351.584,351.584,,,0,1.0,0.0,0.97345,0.02655,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2013,367.995,1.08129,14.783,367.995,367.995,,,0,1.0,0.0,0.9627,0.0373,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2014,368.636,1.08317,18.07,368.636,368.636,,,0,1.0,0.0,0.9469,0.0531,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2015,368.226,1.08196,17.793,368.226,368.226,,,0,1.0,0.0,0.96469,0.03531,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2016,351.511,1.03285,13.282,351.511,351.511,,,0,1.0,0.0,0.95805,0.04195,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2017,364.434,1.07082,18.208,364.434,364.434,,,0,1.0,0.0,0.94451,0.05549,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2018,351.548,1.03296,16.317,351.548,351.548,,,0,1.0,0.0,0.9558,0.0442,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2019,342.547,1.00651,15.696,342.547,342.547,,,0,1.0,0.0,0.94623,0.05377,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2020,302.58,0.88908,15.951,302.58,302.58,,,0,1.0,0.0,0.93084,0.06916,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2021,333.713,0.98056,12.537,333.713,333.713,,,0,1.0,0.0,0.91264,0.08736,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2022,368.649,1.08321,14.217,368.649,368.649,,,0,1.0,0.0,0.95314,0.04686,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2023,418.44,1.22951,12.878,418.44,418.44,,,0,1.0,0.0,0.96681,0.03319,0.0,340,2,0.9899,adm1_as_current_adm2
+CYM,Cayman Islands (U.K.),CYM.8_1,Sister Islands,2024,389.456,1.14435,13.512,389.456,389.456,,,0,1.0,0.0,0.95314,0.04686,0.0,340,2,0.9899,adm1_as_current_adm2

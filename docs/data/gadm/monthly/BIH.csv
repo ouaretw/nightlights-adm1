@@ -1,0 +1,337 @@
+ISO_A3,NAM_0,GID_1,NAME_1,date,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-01,115722.347,0.6711,166.244,115722.347,115722.347,,,0,0.99499,0.00489,0.00146,0.49925,0.4944,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-02,120751.63,0.69715,183.122,120751.63,120751.63,,,0,0.99943,0.00055,0.00134,0.43462,0.5635,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-03,100624.009,0.58062,240.763,100624.009,100624.009,,,0,1.0,0.0,0.15222,0.75374,0.09405,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-04,78371.152,0.45222,252.185,78371.152,78371.152,,,0,1.0,0.0,0.81919,0.1806,0.00021,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-05,90219.657,0.52058,251.379,90219.657,90219.657,,,0,1.0,0.0,0.75324,0.24663,0.00013,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-06,81778.529,0.47188,213.404,81778.529,81778.529,,,0,1.0,0.0,0.33096,0.66904,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-07,83603.861,0.48241,188.492,83603.861,83603.861,,,0,1.0,0.0,0.9438,0.05618,2e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-08,83208.873,0.48013,179.18,83208.873,83208.873,,,0,1.0,0.0,0.98873,0.01125,2e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-09,82110.493,0.47379,172.792,82110.493,82110.493,,,0,1.0,0.0,0.85271,0.14708,0.00021,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-10,81138.922,0.4682,188.638,81138.922,81138.922,,,0,0.99998,2e-05,0.49331,0.49418,0.01248,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-11,86384.315,0.49858,245.196,86384.315,86384.315,,,0,0.99975,0.00025,0.14241,0.78992,0.06742,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2012-12,99818.184,0.57607,259.578,99818.184,99818.184,,,0,0.99983,0.00017,0.00452,0.37466,0.62065,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-01,98697.451,0.56951,189.565,98697.451,98697.451,,,0,0.99999,1e-05,0.02833,0.75036,0.2213,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-02,84601.58,0.48915,166.599,84601.58,84601.58,,,0,0.998,0.00195,0.0,0.17814,0.81991,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-03,85729.254,0.49468,192.115,85729.254,85729.254,,,0,0.99999,1e-05,0.17972,0.75377,0.0665,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-04,79617.182,0.45941,158.181,79617.182,79617.182,,,0,1.0,0.0,0.86674,0.13173,0.00153,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-05,95286.855,0.54982,198.604,95286.855,95286.855,,,0,1.0,0.0,0.76078,0.23921,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-06,81880.64,0.47247,163.715,81880.64,81880.64,,,0,1.0,0.0,0.12918,0.87077,5e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-07,82939.91,0.47858,201.404,82939.91,82939.91,,,0,1.0,0.0,0.9933,0.0067,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-08,78065.052,0.45045,170.197,78065.052,78065.052,,,0,1.0,0.0,0.99919,0.0008,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-09,75510.858,0.43571,178.237,75510.858,75510.858,,,0,1.0,0.0,0.97085,0.02912,3e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-10,79132.154,0.45661,194.351,79132.154,79132.154,,,0,1.0,0.0,0.61251,0.38283,0.00466,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-11,100150.197,0.57827,401.784,100150.197,100150.197,,,0,0.99933,0.00067,0.35402,0.6275,0.01782,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2013-12,89183.802,0.51461,148.378,89183.802,89183.802,,,0,1.0,0.0,0.56111,0.3708,0.06809,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-01,85197.615,0.49166,126.12,85197.615,85197.615,,,0,0.9999,0.0001,0.09354,0.64847,0.25789,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-02,78307.389,0.45185,149.779,78307.389,78307.389,,,0,1.0,0.0,0.14544,0.74419,0.11037,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-03,81283.815,0.46902,147.857,81283.815,81283.815,,,0,1.0,0.0,0.57023,0.42938,0.0004,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-04,88013.653,0.50785,218.538,88013.653,88013.653,,,0,1.0,0.0,0.00289,0.78971,0.20739,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-05,88429.058,0.51025,207.069,88429.058,88429.058,,,0,1.0,0.0,0.12127,0.87165,0.00708,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-06,85476.501,0.49321,166.802,85476.501,85476.501,,,0,1.0,0.0,0.0779,0.92204,6e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-07,85702.619,0.49452,132.617,85702.619,85702.619,,,0,1.0,0.0,0.11345,0.88532,0.00123,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-08,83935.157,0.48432,197.744,83935.157,83935.157,,,0,1.0,0.0,0.27147,0.654,0.07454,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-09,83427.291,0.48193,548.58,83427.291,83427.291,,,0,0.99889,0.0011,0.44436,0.51042,0.04412,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-10,79221.05,0.45768,162.683,79221.05,79221.05,,,0,0.99877,0.0012,0.39442,0.59106,0.01332,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-11,90432.489,0.52191,162.861,90432.489,90432.489,,,0,0.99981,0.00019,0.22008,0.77143,0.0083,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2014-12,133611.481,0.77096,151.16,133611.481,133611.481,,,0,1.0,0.0,0.04719,0.87239,0.08041,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-01,117743.813,0.67945,205.593,117743.813,117743.813,,,0,0.99993,7e-05,0.0765,0.53444,0.38899,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-02,109081.525,0.62943,184.807,109081.525,109081.525,,,0,0.99998,2e-05,0.19025,0.5354,0.27434,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-03,98416.842,0.56788,256.497,98416.842,98416.842,,,0,1.0,0.0,0.35699,0.58315,0.05986,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-04,85300.878,0.4922,150.066,85300.878,85300.878,,,0,1.0,0.0,0.25498,0.71235,0.03267,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-05,84528.166,0.48774,304.508,84528.166,84528.166,,,0,1.0,0.0,0.17131,0.80427,0.02442,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-06,84694.643,0.4887,283.125,84694.643,84694.643,,,0,1.0,0.0,0.11481,0.88519,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-07,89190.239,0.51464,292.476,89190.239,89190.239,,,0,1.0,0.0,0.68569,0.3143,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-08,88062.818,0.50814,462.055,88062.818,88062.818,,,0,1.0,0.0,0.96321,0.03676,3e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-09,85530.511,0.49353,195.538,85530.511,85530.511,,,0,1.0,0.0,0.03976,0.80744,0.1528,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-10,69534.435,0.40133,175.841,69534.435,69534.435,,,0,0.99975,0.00025,0.19246,0.75549,0.0518,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-11,87291.493,0.50375,170.455,87291.493,87291.493,,,0,0.99988,0.00012,0.92819,0.06868,0.00301,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2015-12,86945.208,0.50477,166.986,86945.208,86945.208,,,0,0.9939,0.00603,0.65595,0.25551,0.08251,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-01,109384.988,0.63124,187.097,109384.988,109384.988,,,0,0.99988,0.00011,0.08861,0.86109,0.05019,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-02,82240.989,0.47455,158.404,82240.989,82240.989,,,0,1.0,0.0,0.46313,0.52742,0.00945,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-03,81030.779,0.46757,118.182,81030.779,81030.779,,,0,0.99999,1e-05,0.16055,0.82227,0.01717,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-04,89731.176,0.51777,125.62,89731.176,89731.176,,,0,1.0,0.0,0.76499,0.23455,0.00046,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-05,91856.236,0.53003,125.244,91856.236,91856.236,,,0,1.0,0.0,0.5958,0.40398,0.00022,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-06,86745.179,0.50054,116.696,86745.179,86745.179,,,0,1.0,0.0,0.11185,0.88811,4e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-07,88753.415,0.51212,238.833,88753.415,88753.415,,,0,1.0,0.0,0.69139,0.3083,0.00031,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-08,88681.232,0.51172,142.639,88681.232,88681.232,,,0,0.99998,2e-05,0.82575,0.17148,0.00276,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-09,85805.882,0.49529,358.559,85805.882,85805.882,,,0,0.99965,0.00033,0.92345,0.07385,0.00236,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-10,89415.689,0.51595,694.423,89415.689,89415.689,,,0,0.99999,1e-05,0.56202,0.43194,0.00603,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-11,96350.204,0.55596,231.322,96350.204,96350.204,,,0,1.0,0.0,0.04286,0.90708,0.05006,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2016-12,92140.945,0.53167,140.491,92140.945,92140.945,,,0,1.0,0.0,0.67266,0.32395,0.00339,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-01,115404.346,0.6661,279.306,115404.346,115404.346,,,0,0.9997,0.00029,0.05795,0.74301,0.19875,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-02,106857.17,0.61659,339.136,106857.17,106857.17,,,0,1.0,0.0,0.00405,0.68247,0.31348,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-03,93267.447,0.53817,245.606,93267.447,93267.447,,,0,1.0,0.0,0.92126,0.07767,0.00107,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-04,95987.899,0.55387,160.371,95987.899,95987.899,,,0,1.0,0.0,0.72728,0.27071,0.00201,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-05,93964.746,0.54219,147.654,93964.746,93964.746,,,0,1.0,0.0,0.06055,0.93107,0.00839,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-06,89618.604,0.51712,172.114,89618.604,89618.604,,,0,1.0,0.0,0.18522,0.81478,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-07,88923.688,0.51311,1298.376,88923.688,88923.688,,,0,1.0,0.0,0.9486,0.0514,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-08,94931.449,0.54777,135.624,94931.449,94931.449,,,0,1.0,0.0,0.99843,0.00156,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-09,85728.352,0.49467,120.962,85728.352,85728.352,,,0,1.0,0.0,0.38992,0.60392,0.00616,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-10,101346.661,0.58479,727.831,101346.661,101346.661,,,0,1.0,0.0,0.78635,0.21252,0.00113,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-11,94770.644,0.54685,298.123,94770.644,94770.644,,,0,0.99999,1e-05,0.12036,0.84967,0.02996,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2017-12,104164.28,0.60164,227.205,104164.28,104164.28,,,0,0.99901,0.00096,0.24447,0.65906,0.09551,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-01,98344.547,0.56747,255.399,98344.547,98344.547,,,0,0.99999,1e-05,0.0196,0.67987,0.30052,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-02,115956.168,0.66954,162.902,115956.168,115956.168,,,0,0.99933,0.00066,0.07486,0.72555,0.19893,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-03,106517.278,0.61464,176.837,106517.278,106517.278,,,0,0.99998,2e-05,0.00651,0.71712,0.27635,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-04,105771.668,0.61032,313.43,105771.668,105771.668,,,0,1.0,0.0,0.8108,0.18918,2e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-05,101752.351,0.58713,475.279,101752.351,101752.351,,,0,1.0,0.0,0.676,0.32111,0.00289,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-06,97722.71,0.56388,316.733,97722.71,97722.71,,,0,1.0,0.0,0.02959,0.96689,0.00352,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-07,97446.235,0.56228,147.726,97446.235,97446.235,,,0,1.0,0.0,0.57557,0.42394,0.00049,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-08,94695.329,0.54641,162.831,94695.329,94695.329,,,0,0.99999,1e-05,0.94211,0.05606,0.00183,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-09,84202.807,0.48587,110.336,84202.807,84202.807,,,0,1.0,0.0,0.99351,0.00638,0.00011,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-10,89579.973,0.5169,289.617,89579.973,89579.973,,,0,0.99999,1e-05,0.88035,0.11915,0.00049,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-11,94235.671,0.54376,324.071,94235.671,94235.671,,,0,1.0,0.0,0.15145,0.79513,0.05342,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2018-12,101586.626,0.5862,146.609,101586.626,101586.626,,,0,0.99995,5e-05,0.42142,0.55897,0.01956,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-01,150826.31,0.8714,181.543,150826.31,150826.31,,,0,0.99874,0.00122,0.01091,0.56745,0.42042,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-02,111794.48,0.64507,256.005,111794.48,111794.48,,,0,1.0,0.0,0.31426,0.55765,0.12809,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-03,105203.316,0.60704,265.785,105203.316,105203.316,,,0,1.0,0.0,0.63459,0.35726,0.00815,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-04,99356.825,0.57331,278.834,99356.825,99356.825,,,0,1.0,0.0,0.11449,0.88038,0.00513,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-05,109137.131,0.62974,139.416,109137.131,109137.131,,,0,1.0,0.0,0.04848,0.85631,0.09521,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-06,97724.72,0.56389,196.011,97724.72,97724.72,,,0,1.0,0.0,0.15736,0.84242,0.00021,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-07,94753.756,0.54675,237.66,94753.756,94753.756,,,0,1.0,0.0,0.62223,0.37735,0.00042,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-08,95137.08,0.54896,127.997,95137.08,95137.08,,,0,1.0,0.0,0.98852,0.01133,0.00014,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-09,92693.791,0.53486,105.097,92693.791,92693.791,,,0,1.0,0.0,0.95772,0.04139,0.00089,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-10,96206.2,0.55513,382.024,96206.2,96206.2,,,0,1.0,0.0,0.93438,0.06356,0.00206,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-11,102901.798,0.59382,147.728,102901.798,102901.798,,,0,0.9999,0.00011,0.05605,0.88788,0.05596,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2019-12,121494.616,0.70107,219.369,121494.616,121494.616,,,0,0.99997,3e-05,0.1742,0.75176,0.07401,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-01,136454.456,0.78737,157.117,136454.456,136454.456,,,0,1.0,0.0,0.515,0.45522,0.02977,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-02,106604.788,0.61513,135.128,106604.788,106604.788,,,0,1.0,0.0,0.57427,0.41668,0.00905,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-03,104788.17,0.60465,262.242,104788.17,104788.17,,,0,1.0,0.0,0.5229,0.4755,0.00159,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-04,106131.72,0.6124,125.934,106131.72,106131.72,,,0,1.0,0.0,0.95538,0.0446,2e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-05,99033.863,0.57144,961.783,99033.863,99033.863,,,0,1.0,0.0,0.2127,0.78328,0.00402,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-06,97889.795,0.56484,127.816,97889.795,97889.795,,,0,1.0,0.0,0.21172,0.78826,2e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-07,102177.89,0.58958,349.894,102177.89,102177.89,,,0,1.0,0.0,0.95536,0.04447,0.00018,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-08,104388.586,0.60234,559.481,104388.586,104388.586,,,0,1.0,0.0,0.96765,0.03056,0.00179,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-09,93025.778,0.53678,273.39,93025.778,93025.778,,,0,0.99999,1e-05,0.62692,0.36751,0.00556,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-10,95438.25,0.55073,207.103,95438.25,95438.25,,,0,0.99993,7e-05,0.50598,0.48911,0.00484,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-11,99538.965,0.57441,115.396,99538.965,99538.965,,,0,0.9999,9e-05,0.37316,0.58707,0.03968,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2020-12,107884.989,0.62258,1228.629,107884.989,107884.989,,,0,0.9999,0.0001,0.34134,0.61998,0.03857,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-01,132035.349,0.76191,161.555,132035.349,132035.349,,,0,0.99995,5e-05,0.05161,0.68606,0.26228,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-02,122045.781,0.70423,1216.371,122045.781,122045.781,,,0,1.0,0.0,0.12147,0.8407,0.03783,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-03,113475.661,0.65478,596.487,113475.661,113475.661,,,0,1.0,0.0,0.53109,0.4544,0.01451,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-04,123706.92,0.71381,234.989,123706.92,123706.92,,,0,1.0,0.0,0.49033,0.49723,0.01243,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-05,127411.794,0.73519,741.083,127411.794,127411.794,,,0,1.0,0.0,0.64634,0.35361,5e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-06,110405.927,0.63706,249.584,110405.927,110405.927,,,0,1.0,0.0,0.158,0.84199,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-07,111161.239,0.64142,226.449,111161.239,111161.239,,,0,1.0,0.0,0.88186,0.11805,9e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-08,125548.474,0.72444,204.35,125548.474,125548.474,,,0,1.0,0.0,0.89181,0.10807,0.00011,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-09,111394.641,0.64279,133.997,111394.641,111394.641,,,0,0.99997,3e-05,0.80762,0.19213,0.00023,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-10,110598.85,0.63863,278.928,110598.85,110598.85,,,0,0.99928,0.00069,0.62908,0.34772,0.02251,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-11,113822.951,0.65706,753.086,113822.951,113822.951,,,0,0.99957,0.00043,0.0901,0.82028,0.08919,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2021-12,129351.446,0.7466,178.243,129351.446,129351.446,,,0,0.99971,0.00029,0.10775,0.75403,0.13794,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-01,149506.868,0.86268,178.805,149506.868,149506.868,,,0,1.0,0.0,0.24159,0.64084,0.11757,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-02,137435.921,0.79303,241.687,137435.921,137435.921,,,0,1.0,0.0,0.19476,0.75963,0.0456,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-03,141838.041,0.81843,742.035,141838.041,141838.041,,,0,1.0,0.0,0.67706,0.31374,0.0092,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-04,149087.949,0.86026,331.41,149087.949,149087.949,,,0,1.0,0.0,0.30865,0.68678,0.00457,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-05,145954.224,0.84218,355.545,145954.224,145954.224,,,0,1.0,0.0,0.61769,0.38107,0.00124,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-06,132620.061,0.76524,227.836,132620.061,132620.061,,,0,1.0,0.0,0.00452,0.99547,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-07,135393.37,0.78124,254.601,135393.37,135393.37,,,0,1.0,0.0,0.72158,0.2784,3e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-08,123795.986,0.71433,303.168,123795.986,123795.986,,,0,1.0,0.0,0.61689,0.38193,0.00119,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-09,114610.789,0.66136,264.857,114610.789,114610.789,,,0,0.99994,6e-05,0.94054,0.05786,0.00154,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-10,120218.278,0.69369,202.515,120218.278,120218.278,,,0,0.99999,1e-05,0.94036,0.05957,6e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-11,128298.792,0.74032,295.219,128298.792,128298.792,,,0,0.99999,1e-05,0.0036,0.86876,0.12764,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2022-12,147050.656,0.84889,175.549,147050.656,147050.656,,,0,0.99955,0.00044,0.01929,0.80855,0.17172,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-01,146006.65,0.84462,380.333,146006.65,146006.65,,,0,0.99747,0.00249,0.08088,0.83422,0.0824,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-02,176043.741,1.0158,437.886,176043.741,176043.741,,,0,1.0,0.0,0.14898,0.66743,0.18359,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-03,144423.206,0.83335,336.252,144423.206,144423.206,,,0,1.0,0.0,0.61151,0.37969,0.0088,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-04,144941.043,0.83634,225.721,144941.043,144941.043,,,0,1.0,0.0,0.01066,0.83394,0.1554,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-05,146005.335,0.84248,166.17,146005.335,146005.335,,,0,1.0,0.0,0.33229,0.66681,0.0009,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-06,152135.519,0.87785,266.785,152135.519,152135.519,,,0,1.0,0.0,0.13211,0.86704,0.00085,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-07,138907.868,0.80152,182.094,138907.868,138907.868,,,0,1.0,0.0,0.87359,0.12636,6e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-08,146539.392,0.84556,607.576,146539.392,146539.392,,,0,1.0,0.0,0.82535,0.17465,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-09,131691.695,0.75988,516.622,131691.695,131691.695,,,0,1.0,0.0,0.77299,0.2268,0.00021,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-10,120710.203,0.69652,308.014,120710.203,120710.203,,,0,1.0,0.0,0.96778,0.03098,0.00125,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-11,140092.378,0.80836,288.285,140092.378,140092.378,,,0,0.99999,1e-05,0.30158,0.69766,0.00075,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2023-12,137464.023,0.79321,390.22,137464.023,137464.023,,,0,0.99998,2e-05,0.07308,0.79934,0.12757,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-01,181856.345,1.04945,328.556,181856.345,181856.345,,,0,0.9999,9e-05,0.05566,0.79285,0.1514,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-02,139840.797,0.80691,242.016,139840.797,139840.797,,,0,1.0,0.0,0.02058,0.71666,0.26277,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-03,138666.211,0.80013,441.55,138666.211,138666.211,,,0,1.0,0.0,0.26153,0.73397,0.0045,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-04,142287.026,0.82102,406.807,142287.026,142287.026,,,0,1.0,0.0,0.41008,0.56048,0.02944,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-05,120267.683,0.69397,289.995,120267.683,120267.683,,,0,1.0,0.0,0.44369,0.55169,0.00462,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-06,100682.951,0.58096,465.36,100682.951,100682.951,,,0,1.0,0.0,0.12822,0.87178,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-07,106257.743,0.61313,181.411,106257.743,106257.743,,,0,1.0,0.0,0.52483,0.47463,0.00054,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-08,152732.962,0.8813,1421.388,152732.962,152732.962,,,0,1.0,0.0,0.99712,0.00288,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-09,158075.807,0.91213,199.149,158075.807,158075.807,,,0,0.99999,1e-05,0.64088,0.35871,0.0004,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-10,142916.769,0.82492,284.841,142916.769,142916.769,,,0,0.99968,0.00031,0.63238,0.35898,0.00833,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-11,159491.323,0.9206,197.113,159491.323,159491.323,,,0,0.99967,0.00032,0.0834,0.65494,0.26134,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2024-12,152456.302,0.88403,248.436,152456.302,152456.302,,,0,0.9951,0.0049,0.2556,0.64552,0.09398,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-01,158013.9,0.91177,223.738,158013.9,158013.9,,,0,1.0,0.0,0.05269,0.87146,0.07585,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-02,155613.444,0.89792,204.165,155613.444,155613.444,,,0,0.99999,1e-05,0.41703,0.54923,0.03373,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-03,159195.97,0.91859,1008.817,159195.97,159195.97,,,0,1.0,0.0,0.2973,0.70021,0.0025,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-04,159725.143,0.92164,322.818,159725.143,159725.143,,,0,1.0,0.0,0.39919,0.60075,6e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-05,179018.399,1.03297,1388.217,179018.399,179018.399,,,0,1.0,0.0,0.34627,0.6489,0.00484,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-06,270393.075,1.56022,243.663,270393.075,270393.075,,,0,1.0,0.0,0.17518,0.82482,0.0,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-07,202364.574,1.16768,212.713,202364.574,202364.574,,,0,1.0,0.0,0.61783,0.38216,1e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-08,144395.53,0.83319,291.092,144395.53,144395.53,,,0,1.0,0.0,0.97401,0.02596,3e-05,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-09,142368.722,0.8215,145.933,142368.722,142368.722,,,0,0.99999,1e-05,0.87082,0.12632,0.00285,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-10,175543.177,1.01295,329.059,175543.177,175543.177,,,0,0.99997,3e-05,0.17457,0.8164,0.009,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-11,224037.899,1.29275,288.747,224037.899,224037.899,,,0,0.99999,1e-05,0.44019,0.54596,0.01384,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.2_1,Federacija Bosnai Hercegovina,2025-12,151204.767,0.8725,232.443,151204.767,151204.767,,,0,0.99997,3e-05,0.31217,0.63494,0.05286,173305,11,0.7247,code_name
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-01,77378.33,0.48831,208.677,77378.33,77378.33,,,0,0.99816,0.00183,0.0082,0.49258,0.4974,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-02,77673.87,0.48942,200.295,77673.87,77673.87,,,0,0.9997,0.0003,0.00848,0.56004,0.43118,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-03,64096.84,0.40375,215.202,64096.84,64096.84,,,0,1.0,0.0,0.06822,0.8398,0.09197,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-04,51693.04,0.32562,238.563,51693.04,51693.04,,,0,1.0,0.0,0.89669,0.10324,6e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-05,60929.123,0.38379,183.637,60929.123,60929.123,,,0,1.0,0.0,0.44553,0.54873,0.00574,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-06,53888.188,0.33944,148.207,53888.188,53888.188,,,0,1.0,0.0,0.33551,0.66448,1e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-07,55888.183,0.35204,141.672,55888.183,55888.183,,,0,1.0,0.0,0.92409,0.0759,1e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-08,54165.874,0.34119,134.037,54165.874,54165.874,,,0,1.0,0.0,0.9771,0.02286,4e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-09,58324.597,0.36739,152.288,58324.597,58324.597,,,0,1.0,0.0,0.93357,0.06635,8e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-10,54670.7,0.34439,179.789,54670.7,54670.7,,,0,0.99996,4e-05,0.55256,0.44504,0.00236,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-11,60180.853,0.37909,646.531,60180.853,60180.853,,,0,0.99997,3e-05,0.07142,0.87581,0.05275,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2012-12,66342.085,0.41795,259.578,66342.085,66342.085,,,0,0.99986,0.00013,0.0122,0.5012,0.48646,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-01,72572.636,0.45723,158.839,72572.636,72572.636,,,0,0.99979,0.0002,0.04823,0.73308,0.21849,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-02,67037.438,0.42293,147.831,67037.438,67037.438,,,0,0.99844,0.00154,0.00029,0.21029,0.78787,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-03,55849.921,0.3518,151.925,55849.921,55849.921,,,0,1.0,0.0,0.08017,0.88276,0.03707,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-04,54181.45,0.34129,313.431,54181.45,54181.45,,,0,1.0,0.0,0.95007,0.04971,0.00021,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-05,63896.647,0.40249,142.022,63896.647,63896.647,,,0,1.0,0.0,0.89185,0.10813,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-06,53710.343,0.33832,118.687,53710.343,53710.343,,,0,1.0,0.0,0.06481,0.93511,8e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-07,51026.334,0.32142,127.3,51026.334,51026.334,,,0,1.0,0.0,0.99585,0.00405,0.0001,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-08,50625.563,0.31889,271.835,50625.563,50625.563,,,0,1.0,0.0,0.99871,0.00127,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-09,48706.183,0.3068,196.121,48706.183,48706.183,,,0,1.0,0.0,0.93671,0.06325,5e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-10,49607.763,0.31248,142.946,49607.763,49607.763,,,0,0.99999,1e-05,0.67479,0.32277,0.00243,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-11,70693.467,0.44543,251.747,70693.467,70693.467,,,0,0.9997,0.00032,0.31147,0.65987,0.02834,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2013-12,55289.069,0.34827,157.77,55289.069,55289.069,,,0,1.0,0.0,0.60879,0.35371,0.0375,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-01,76395.237,0.48127,246.783,76395.237,76395.237,,,0,0.99988,0.00012,0.05163,0.63881,0.30944,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-02,49766.207,0.31348,153.671,49766.207,49766.207,,,0,1.0,0.0,0.22868,0.73677,0.03455,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-03,51873.223,0.32675,166.905,51873.223,51873.223,,,0,1.0,0.0,0.53156,0.46817,0.00027,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-04,61436.393,0.38699,179.428,61436.393,61436.393,,,0,1.0,0.0,0.00244,0.75786,0.2397,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-05,58798.117,0.37037,131.792,58798.117,58798.117,,,0,1.0,0.0,0.02636,0.95574,0.0179,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-06,55329.909,0.34852,178.149,55329.909,55329.909,,,0,1.0,0.0,0.07596,0.9236,0.00045,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-07,54335.126,0.34226,155.955,54335.126,54335.126,,,0,1.0,0.0,0.12577,0.87284,0.0014,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-08,46582.05,0.29342,136.674,46582.05,46582.05,,,0,1.0,1e-05,0.21606,0.75962,0.02432,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-09,52276.594,0.32955,138.495,52276.594,52276.594,,,0,0.99921,0.00086,0.43838,0.54466,0.0161,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-10,51821.903,0.32662,163.415,51821.903,51821.903,,,0,0.9994,0.00059,0.39395,0.59543,0.01003,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-11,57298.475,0.36098,208.245,57298.475,57298.475,,,0,0.99984,0.00015,0.24524,0.75214,0.00247,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2014-12,100991.498,0.63615,178.32,100991.498,100991.498,,,0,1.0,0.0,0.08381,0.80936,0.10683,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-01,94280.999,0.59395,164.267,94280.999,94280.999,,,0,0.99988,0.00011,0.04093,0.69744,0.26153,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-02,69139.291,0.43553,173.617,69139.291,69139.291,,,0,0.99996,3e-05,0.3458,0.51267,0.14149,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-03,63816.686,0.40198,264.398,63816.686,63816.686,,,0,1.0,0.0,0.38187,0.56974,0.04839,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-04,54612.779,0.34401,190.116,54612.779,54612.779,,,0,0.99999,1e-05,0.41176,0.57613,0.0121,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-05,53841.228,0.33915,241.796,53841.228,53841.228,,,0,1.0,0.0,0.26675,0.73004,0.0032,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-06,52881.379,0.3331,170.213,52881.379,52881.379,,,0,1.0,0.0,0.13731,0.86267,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-07,52899.182,0.33321,165.606,52899.182,52899.182,,,0,1.0,0.0,0.70875,0.29125,0.0,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-08,51858.75,0.32666,120.183,51858.75,51858.75,,,0,1.0,0.0,0.98155,0.01843,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-09,52956.938,0.33358,143.147,52956.938,52956.938,,,0,1.0,0.0,0.06165,0.80601,0.13234,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-10,48141.258,0.30329,92.941,48141.258,48141.258,,,0,0.99983,0.00016,0.18345,0.73345,0.08294,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-11,55014.517,0.34656,172.494,55014.517,55014.517,,,0,0.99994,6e-05,0.93442,0.06279,0.00272,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2015-12,56151.866,0.35492,186.057,56151.866,56151.866,,,0,0.99656,0.00337,0.50201,0.43368,0.06093,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-01,73287.62,0.46164,177.439,73287.62,73287.62,,,0,0.99999,1e-05,0.07464,0.89093,0.03442,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-02,52315.932,0.32954,176.023,52315.932,52315.932,,,0,1.0,0.0,0.48948,0.50782,0.00269,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-03,52869.207,0.33303,181.826,52869.207,52869.207,,,0,0.99999,1e-05,0.34447,0.64479,0.01073,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-04,54306.282,0.34208,200.051,54306.282,54306.282,,,0,1.0,0.0,0.76779,0.23082,0.0014,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-05,57015.83,0.35914,190.936,57015.83,57015.83,,,0,1.0,0.0,0.60121,0.39835,0.00043,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-06,51066.626,0.32167,138.358,51066.626,51066.626,,,0,1.0,0.0,0.18789,0.81208,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-07,54206.687,0.34145,205.311,54206.687,54206.687,,,0,1.0,0.0,0.59802,0.40177,0.00021,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-08,54085.108,0.34068,143.07,54085.108,54085.108,,,0,1.0,0.0,0.7788,0.2194,0.0018,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-09,52484.887,0.33062,163.367,52484.887,52484.887,,,0,0.99995,5e-05,0.89359,0.10299,0.00336,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-10,58565.028,0.36891,192.632,58565.028,58565.028,,,0,0.99999,2e-05,0.39803,0.59068,0.01127,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-11,60372.858,0.38029,114.497,60372.858,60372.858,,,0,1.0,0.0,0.1009,0.85656,0.04255,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2016-12,61119.689,0.385,208.163,61119.689,61119.689,,,0,0.99999,1e-05,0.49423,0.49322,0.01254,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-01,67139.338,0.42297,258.525,67139.338,67139.338,,,0,0.99986,0.00013,0.03341,0.85427,0.11219,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-02,74469.492,0.46908,126.217,74469.492,74469.492,,,0,1.0,0.0,0.00141,0.70882,0.28978,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-03,56118.325,0.35349,132.133,56118.325,56118.325,,,0,1.0,0.0,0.9481,0.0513,0.0006,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-04,60358.601,0.3802,112.32,60358.601,60358.601,,,0,1.0,0.0,0.53487,0.46441,0.00072,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-05,55348.309,0.34864,110.665,55348.309,55348.309,,,0,1.0,0.0,0.12529,0.85067,0.02404,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-06,54112.756,0.34086,183.608,54112.756,54112.756,,,0,1.0,0.0,0.1895,0.8105,1e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-07,52840.384,0.33284,147.338,52840.384,52840.384,,,0,1.0,0.0,0.84663,0.15335,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-08,57411.995,0.36164,163.035,57411.995,57411.995,,,0,1.0,0.0,0.99904,0.00095,1e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-09,49084.54,0.30918,116.863,49084.54,49084.54,,,0,1.0,0.0,0.33484,0.66352,0.00165,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-10,60547.199,0.38139,134.952,60547.199,60547.199,,,0,1.0,0.0,0.7684,0.22847,0.00313,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-11,58868.191,0.37083,176.15,58868.191,58868.191,,,0,0.99996,4e-05,0.10938,0.84456,0.04603,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2017-12,61635.446,0.38824,172.388,61635.446,61635.446,,,0,1.0,0.0,0.30613,0.63836,0.05551,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-01,60696.466,0.3826,113.281,60696.466,60696.466,,,0,0.99928,0.00068,0.0747,0.70713,0.21749,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-02,68771.45,0.43324,136.926,68771.45,68771.45,,,0,0.99989,0.00011,0.06374,0.82439,0.11175,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-03,66714.324,0.42024,173.409,66714.324,66714.324,,,0,1.0,0.0,0.01067,0.76646,0.22287,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-04,64933.527,0.40902,198.726,64933.527,64933.527,,,0,1.0,0.0,0.7089,0.29105,5e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-05,60269.315,0.37964,136.562,60269.315,60269.315,,,0,1.0,0.0,0.74367,0.25538,0.00094,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-06,57662.895,0.36322,302.517,57662.895,57662.895,,,0,1.0,0.0,0.00736,0.98904,0.0036,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-07,58659.196,0.3695,121.511,58659.196,58659.196,,,0,1.0,0.0,0.61891,0.38054,0.00055,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-08,57626.387,0.36299,197.15,57626.387,57626.387,,,0,1.0,0.0,0.94896,0.04942,0.00162,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-09,50804.828,0.32002,209.063,50804.828,50804.828,,,0,1.0,0.0,0.99494,0.00505,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-10,54042.126,0.34041,141.563,54042.126,54042.126,,,0,1.0,0.0,0.86031,0.13941,0.00028,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-11,62067.904,0.39097,179.456,62067.904,62067.904,,,0,1.0,0.0,0.06484,0.88841,0.04676,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2018-12,63090.024,0.39744,211.017,63090.024,63090.024,,,0,0.99992,8e-05,0.46135,0.51351,0.02506,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-01,85728.982,0.54017,216.124,85728.982,85728.982,,,0,0.99971,0.00027,0.01762,0.51625,0.46585,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-02,67702.265,0.42646,228.707,67702.265,67702.265,,,0,1.0,0.0,0.24445,0.69217,0.06338,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-03,64274.761,0.40487,159.263,64274.761,64274.761,,,0,1.0,0.0,0.83561,0.16058,0.00381,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-04,59001.529,0.37165,234.638,59001.529,59001.529,,,0,1.0,0.0,0.29966,0.69923,0.0011,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-05,61279.277,0.386,141.221,61279.277,61279.277,,,0,1.0,0.0,0.01358,0.95134,0.03508,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-06,56587.319,0.35644,121.388,56587.319,56587.319,,,0,1.0,0.0,0.17267,0.82725,8e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-07,56584.216,0.35643,117.554,56584.216,56584.216,,,0,1.0,0.0,0.6721,0.3277,0.0002,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-08,56541.96,0.35616,238.3,56541.96,56541.96,,,0,1.0,0.0,0.99213,0.00765,0.00022,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-09,55729.335,0.35104,185.302,55729.335,55729.335,,,0,1.0,0.0,0.97048,0.02927,0.00025,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-10,56599.37,0.35652,207.868,56599.37,56599.37,,,0,1.0,0.0,0.94064,0.05828,0.00108,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-11,67817.352,0.42719,301.619,67817.352,67817.352,,,0,0.99999,1e-05,0.07454,0.83641,0.08904,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2019-12,63593.555,0.40067,175.518,63593.555,63593.555,,,0,0.99976,0.00024,0.09744,0.84721,0.05511,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-01,73678.163,0.46411,217.782,73678.163,73678.163,,,0,0.99998,2e-05,0.61087,0.35583,0.03328,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-02,60579.972,0.38159,182.553,60579.972,60579.972,,,0,1.0,0.0,0.48943,0.47648,0.03409,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-03,62464.464,0.39347,251.225,62464.464,62464.464,,,0,1.0,0.0,0.40444,0.59496,0.00061,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-04,60453.046,0.3808,188.153,60453.046,60453.046,,,0,1.0,0.0,0.96382,0.03612,5e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-05,53904.473,0.33955,192.553,53904.473,53904.473,,,0,1.0,0.0,0.12268,0.8745,0.00282,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-06,56833.318,0.35799,187.214,56833.318,56833.318,,,0,1.0,0.0,0.18902,0.81095,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-07,58724.984,0.36991,174.356,58724.984,58724.984,,,0,1.0,0.0,0.94839,0.05152,0.0001,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-08,59061.022,0.37203,200.624,59061.022,59061.022,,,0,1.0,0.0,0.9755,0.02291,0.00159,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-09,53782.148,0.33877,174.643,53782.148,53782.148,,,0,1.0,0.0,0.61585,0.3796,0.00456,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-10,56151.101,0.35371,195.235,56151.101,56151.101,,,0,0.99995,5e-05,0.57267,0.42169,0.00559,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-11,62067.47,0.39113,129.774,62067.47,62067.47,,,0,0.99958,0.00043,0.26635,0.56991,0.16331,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2020-12,63749.072,0.4016,192.508,63749.072,63749.072,,,0,0.9999,0.00011,0.15854,0.77098,0.07037,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-01,87760.813,0.55285,211.118,87760.813,87760.813,,,0,0.99992,8e-05,0.10207,0.66614,0.23171,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-02,74054.812,0.46647,260.927,74054.812,74054.812,,,0,1.0,0.0,0.18992,0.78745,0.02262,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-03,67950.494,0.42802,215.524,67950.494,67950.494,,,0,1.0,0.0,0.70109,0.28652,0.01239,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-04,70658.835,0.44508,184.635,70658.835,70658.835,,,0,1.0,0.0,0.54903,0.44192,0.00905,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-05,71926.583,0.45307,187.958,71926.583,71926.583,,,0,1.0,0.0,0.53882,0.46113,5e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-06,67299.947,0.42392,217.802,67299.947,67299.947,,,0,1.0,0.0,0.1777,0.8223,0.0,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-07,64715.624,0.40765,212.239,64715.624,64715.624,,,0,1.0,0.0,0.74115,0.25884,1e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-08,77195.862,0.48626,447.748,77195.862,77195.862,,,0,1.0,0.0,0.98002,0.01997,1e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-09,68183.368,0.42949,280.106,68183.368,68183.368,,,0,1.0,0.0,0.76874,0.23095,0.0003,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-10,67021.101,0.42237,231.187,67021.101,67021.101,,,0,0.99953,0.00047,0.58817,0.38676,0.0246,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-11,63903.438,0.40272,232.845,63903.438,63903.438,,,0,0.99953,0.00045,0.15219,0.74486,0.10251,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2021-12,83233.777,0.52443,279.715,83233.777,83233.777,,,0,0.99973,0.00027,0.08287,0.7341,0.18275,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-01,88105.934,0.55498,402.084,88105.934,88105.934,,,0,1.0,0.0,0.29197,0.6344,0.07364,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-02,76461.433,0.48163,261.123,76461.433,76461.433,,,0,1.0,0.0,0.13404,0.81158,0.05438,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-03,85185.9,0.53659,210.163,85185.9,85185.9,,,0,1.0,0.0,0.68718,0.30617,0.00665,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-04,90991.218,0.57316,255.264,90991.218,90991.218,,,0,1.0,0.0,0.29895,0.69523,0.00582,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-05,94032.176,0.59231,165.333,94032.176,94032.176,,,0,1.0,0.0,0.54803,0.45167,0.0003,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-06,80151.331,0.50488,202.859,80151.331,80151.331,,,0,1.0,0.0,0.01594,0.98406,0.0,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-07,82020.31,0.51665,198.988,82020.31,82020.31,,,0,1.0,0.0,0.5369,0.46305,5e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-08,74891.996,0.47175,237.789,74891.996,74891.996,,,0,1.0,0.0,0.41669,0.5827,0.00061,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-09,66582.262,0.41941,201.657,66582.262,66582.262,,,0,0.99999,1e-05,0.8757,0.12124,0.00306,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-10,75243.53,0.47396,274.963,75243.53,75243.53,,,0,1.0,0.0,0.9364,0.0635,0.00011,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-11,77630.294,0.48901,139.107,77630.294,77630.294,,,0,0.99997,2e-05,0.00353,0.72976,0.26669,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2022-12,98235.985,0.61898,269.223,98235.985,98235.985,,,0,0.9997,0.00031,0.11801,0.82754,0.05413,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-01,89433.108,0.56496,203.309,89433.108,89433.108,,,0,0.99714,0.00284,0.06503,0.90217,0.02996,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-02,103187.507,0.64998,192.211,103187.507,103187.507,,,0,1.0,0.0,0.1321,0.72493,0.14296,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-03,89630.962,0.56459,226.349,89630.962,89630.962,,,0,1.0,0.0,0.49364,0.50279,0.00357,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-04,100180.496,0.63104,176.143,100180.496,100180.496,,,0,1.0,0.0,0.0122,0.87345,0.11435,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-05,87229.845,0.54946,255.938,87229.845,87229.845,,,0,1.0,0.0,0.44215,0.55725,0.0006,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-06,95824.211,0.6036,173.438,95824.211,95824.211,,,0,1.0,0.0,0.13409,0.86421,0.0017,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-07,83266.666,0.5245,213.585,83266.666,83266.666,,,0,1.0,0.0,0.67376,0.32615,9e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-08,84236.133,0.53061,163.868,84236.133,84236.133,,,0,1.0,0.0,0.91462,0.08523,0.00015,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-09,74204.457,0.46742,135.594,74204.457,74204.457,,,0,1.0,0.0,0.88761,0.11222,0.00017,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-10,68916.89,0.43411,166.59,68916.89,68916.89,,,0,1.0,0.0,0.95927,0.03826,0.00247,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-11,86443.251,0.54451,146.462,86443.251,86443.251,,,0,0.99999,1e-05,0.30083,0.69729,0.00187,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2023-12,79708.37,0.50212,498.691,79708.37,79708.37,,,0,0.99993,7e-05,0.10785,0.77034,0.12174,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-01,125137.112,0.78828,189.92,125137.112,125137.112,,,0,0.99995,5e-05,0.04332,0.73482,0.22182,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-02,83731.441,0.52743,163.414,83731.441,83731.441,,,0,1.0,0.0,0.13307,0.70467,0.16226,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-03,83953.107,0.52882,285.824,83953.107,83953.107,,,0,1.0,0.0,0.26851,0.72901,0.00248,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-04,84764.502,0.53393,246.812,84764.502,84764.502,,,0,1.0,0.0,0.27901,0.69459,0.0264,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-05,71436.185,0.44998,209.223,71436.185,71436.185,,,0,1.0,0.0,0.47153,0.51807,0.0104,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-06,53301.938,0.33575,138.359,53301.938,53301.938,,,0,1.0,0.0,0.11984,0.88006,0.00011,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-07,57441.536,0.36183,174.647,57441.536,57441.536,,,0,1.0,0.0,0.49221,0.50733,0.00046,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-08,85833.598,0.54067,217.461,85833.598,85833.598,,,0,1.0,0.0,0.99824,0.00173,3e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-09,95927.876,0.60425,216.099,95927.876,95927.876,,,0,1.0,0.0,0.64705,0.35289,6e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-10,83334.459,0.52496,284.841,83334.459,83334.459,,,0,0.99993,7e-05,0.76212,0.23511,0.0027,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-11,110779.509,0.6979,260.79,110779.509,110779.509,,,0,0.99986,0.00016,0.00689,0.81031,0.18265,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2024-12,95448.103,0.60136,390.73,95448.103,95448.103,,,0,0.99978,0.00021,0.21179,0.72157,0.06643,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-01,111043.721,0.69947,330.52,111043.721,111043.721,,,0,0.99999,1e-05,0.06957,0.87352,0.0569,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-02,91024.907,0.57337,201.592,91024.907,91024.907,,,0,1.0,0.0,0.41931,0.56852,0.01217,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-03,93510.184,0.58902,205.348,93510.184,93510.184,,,0,1.0,0.0,0.27476,0.72237,0.00287,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-04,95682.808,0.60271,214.004,95682.808,95682.808,,,0,1.0,0.0,0.41928,0.58056,0.00016,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-05,104563.41,0.65865,213.304,104563.41,104563.41,,,0,1.0,0.0,0.35992,0.6367,0.00338,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-06,199747.403,1.25821,212.028,199747.403,199747.403,,,0,1.0,0.0,0.17381,0.82619,0.0,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-07,146277.251,0.9214,369.718,146277.251,146277.251,,,0,1.0,0.0,0.46094,0.53904,2e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-08,83426.468,0.52551,190.904,83426.468,83426.468,,,0,1.0,0.0,0.93471,0.06523,6e-05,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-09,84666.469,0.53332,240.077,84666.469,84666.469,,,0,1.0,0.0,0.72674,0.27141,0.00185,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-10,99497.618,0.62674,262.821,99497.618,99497.618,,,0,1.0,0.0,0.06648,0.92548,0.00805,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-11,149436.511,0.9413,322.269,149436.511,149436.511,,,0,1.0,0.0,0.36573,0.62342,0.01085,158755,70,0.5459,code_name;sibling_vote
+BIH,Bosnia and Herzegovina,BIH.3_1,Repuplika Srpska,2025-12,92154.014,0.58051,235.815,92154.014,92154.014,,,0,0.99995,5e-05,0.2241,0.71285,0.063,158755,70,0.5459,code_name;sibling_vote

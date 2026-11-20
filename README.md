@@ -12,8 +12,15 @@ to ADM1 and serves the result as an explorable, downloadable dataset.
 
 ## Files (in `docs/data/`)
 
+**For merging with economic data, use the GADM 4.1 version (`gadm/`), keyed on `GID_1`.**
+
 | File | Content |
 |---|---|
+| `gadm/ntl_gadm41_adm1_monthly_all.parquet` / `.csv.gz` | 555,239 rows: 3,306 GADM 4.1 ADM1 units × 168 months |
+| `gadm/ntl_gadm41_adm1_annual_all.parquet` / `.csv.gz` | 42,965 rows (annual composites) |
+| `gadm/monthly/<ISO3>.csv`, `gadm/annual/<ISO3>.csv` | Per-country extracts |
+| `gadm/crosswalk_adm2_to_gadm41.csv` | Every source district → GID_1, with method and overlap share |
+| `gadm/qa_by_country.csv`, `gadm/gadm_units_without_data.csv` | Coverage per country; small GADM units absorbed by a neighbour |
 | `adm1_monthly_all.parquet` / `.csv.gz` | 602,615 rows: 3,587 ADM1 × 168 months |
 | `adm1_annual_all.parquet` / `.csv.gz` | 46,631 rows: 3,587 ADM1 × 13 years (NASA annual composites) |
 | `monthly/<ISO3>.csv`, `annual/<ISO3>.csv` | Per-country extracts |
@@ -30,6 +37,21 @@ Keys: `ISO_A3`, `ADM1CD_c` (World Bank Official Boundaries codes, vintage used b
 * **Quality shares** are pixel-weighted. `coverage` is the share of pixels with a valid value.
 * **Not published:** medians and percentiles, which cannot be recovered at ADM1 from ADM2 summaries.
 * **Source quirk:** `n_gasflaring_locs` is constant across every ADM2 of a country, so it is a national count, not a per-unit one. It is published as `n_gasflaring_locs_country` and not summed.
+
+### GADM 4.1 version
+
+The World Bank ADM1 units differ from GADM's in many countries (renamed, split, merged or renumbered), so the GADM
+files are rebuilt from the **districts**. `pipeline/build_gadm.py` locates each of the 39,366 source districts
+using, in order: code + name in today's WB-GAD ADM2 layer → unique name match (province must agree unless the
+country's provinces were reorganised) → source province outline or its current-ADM2 equivalent (≥ 90% inside one
+GADM unit) → sibling vote (≥ 90%) → province name vs GADM names/alternative spellings (near-exact, unique).
+Each located district goes whole to the GADM ADM1 it overlaps most (EPSG:6933), then the same exact aggregation is applied.
+
+Result: 97.8% of world light assigned. 208 of 240 countries are ≥ 99% assigned. 306 districts (2.2% of light,
+mostly Greenland, Taiwan, Iceland and Greece) are left unassigned rather than guessed. GADM units smaller than
+the source districts (e.g. Kiev City) have no row; their light sits in the neighbouring unit
+(`gadm_units_without_data.csv`). GADM geometry is not redistributed, only codes and names, in line with the GADM licence.
+`NAME_1` comes from GADM's JSON export, which drops some spaces, so join on `GID_1`.
 
 ### Map geometry
 
@@ -52,6 +74,9 @@ python pipeline/aggregate_adm1.py      # ADM1 tables + site series
 python pipeline/fetch_boundaries.py    # simplified WB boundaries (ArcGIS FeatureServer)
 python pipeline/build_geo_match.py     # safe code/name matching for the map
 python pipeline/simplify_world.py      # shrink the world outline
+python pipeline/fetch_wb_adm2.py       # current WB-GAD ADM2 polygons (internal only)
+python pipeline/fetch_gadm.py          # GADM 4.1 ADM1 per country (internal only)
+python pipeline/build_gadm.py          # crosswalk + GADM-keyed tables
 ```
 
 QA scripts used during development are in `pipeline/qa/`.

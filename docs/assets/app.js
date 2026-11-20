@@ -89,6 +89,8 @@
     state.region = [...series.regions].sort((a, b) => (b.a_sum[yi] ?? -1) - (a.a_sum[yi] ?? -1))[0]?.code ?? null;
     $("dlMonthly").href = `${DATA}monthly/${iso}.csv`; $("dlMonthly").setAttribute("download", `ntl_adm1_monthly_${iso}.csv`);
     $("dlAnnual").href = `${DATA}annual/${iso}.csv`; $("dlAnnual").setAttribute("download", `ntl_adm1_annual_${iso}.csv`);
+    $("dlGMonthly").href = `${DATA}gadm/monthly/${iso}.csv`; $("dlGMonthly").setAttribute("download", `ntl_gadm41_adm1_monthly_${iso}.csv`);
+    $("dlGAnnual").href = `${DATA}gadm/annual/${iso}.csv`; $("dlGAnnual").setAttribute("download", `ntl_gadm41_adm1_annual_${iso}.csv`);
     $("countryDl").hidden = false;
     renderAll();
   }

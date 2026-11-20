@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2012,2346.602,1.02897,32.882,2346.602,2346.602,,,0,0.98522,0.01478,0.98342,0.0018,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2013,2358.578,1.03422,35.432,2358.578,2358.578,,,0,0.98522,0.01478,0.98125,0.00397,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2014,2208.35,0.96835,28.318,2208.35,2208.35,,,0,0.98522,0.01478,0.98414,0.00108,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2015,2103.008,0.92216,39.978,2103.008,2103.008,,,0,0.98522,0.01478,0.98306,0.00216,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2016,2855.501,1.25212,58.562,2855.501,2855.501,,,0,0.98522,0.01478,0.98414,0.00108,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2017,3022.578,1.32538,49.186,3022.578,3022.578,,,0,0.98522,0.01478,0.98342,0.0018,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2018,2750.27,1.20598,97.249,2750.27,2750.27,,,0,0.98522,0.01478,0.98522,0.0,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2019,2941.909,1.29001,87.941,2941.909,2941.909,,,0,0.98522,0.01478,0.98342,0.0018,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2020,3345.642,1.46705,147.577,3345.642,3345.642,,,0,0.98522,0.01478,0.98378,0.00144,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2021,3177.391,1.39327,151.024,3177.391,3177.391,,,0,0.98522,0.01478,0.98342,0.0018,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2022,3313.55,1.45297,78.44,3313.55,3313.55,,,0,0.98522,0.01478,0.98378,0.00144,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2023,3274.74,1.43596,91.425,3274.74,3274.74,,,0,0.98522,0.01478,0.98486,0.00036,0.0,2315,1,0.3269,code_name
+MNP,Northern Mariana Islands (U.S.),MNP.1_1,Northern Islands,2024,3102.819,1.36057,44.999,3102.819,3102.819,,,0,0.98522,0.01478,0.98378,0.00144,0.0,2315,1,0.3269,code_name

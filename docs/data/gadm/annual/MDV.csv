@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+MDV,Maldives,MDV,Maldives,2012,1617.974,1.76365,41.61,1617.974,1617.974,,,0,1.0,0.0,0.91657,0.08343,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2013,1610.164,1.75514,40.993,1610.164,1610.164,,,0,1.0,0.0,0.92724,0.07249,0.00027,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2014,1639.289,1.78689,45.128,1639.289,1639.289,,,0,1.0,0.0,0.91635,0.08365,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2015,1788.001,1.94899,40.528,1788.001,1788.001,,,0,1.0,0.0,0.90254,0.0972,0.00026,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2016,2014.206,2.19556,42.175,2014.206,2014.206,,,0,1.0,0.0,0.8942,0.1058,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2017,2193.982,2.39152,39.659,2193.982,2193.982,,,0,1.0,0.0,0.90302,0.09698,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2018,2397.655,2.61353,41.257,2397.655,2397.655,,,0,1.0,0.0,0.88691,0.11309,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2019,2656.643,2.89584,49.154,2656.643,2656.643,,,0,1.0,0.0,0.86293,0.13707,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2020,3018.878,3.29069,73.497,3018.878,3018.878,,,0,1.0,0.0,0.87314,0.12686,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2021,3583.59,3.90625,77.87,3583.59,3583.59,,,0,1.0,0.0,0.87305,0.12695,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2022,4930.047,5.37394,93.347,4930.047,4930.047,,,0,1.0,0.0,0.86863,0.13137,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2023,6140.754,6.69365,80.551,6140.754,6140.754,,,0,1.0,0.0,0.90393,0.09607,0.0,917,20,0.7716,code_name
+MDV,Maldives,MDV,Maldives,2024,6736.875,7.34345,82.61,6736.875,6736.875,,,0,1.0,0.0,0.89005,0.10995,0.0,917,20,0.7716,code_name

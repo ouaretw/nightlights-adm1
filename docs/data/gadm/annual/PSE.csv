@@ -1,0 +1,27 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2012,9106.601,6.99399,65.136,9106.601,9106.601,,,0,1.0,0.0,0.99935,0.00065,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2013,10851.247,8.3339,72.082,10851.247,10851.247,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2014,8917.378,6.84866,50.164,8917.378,8917.378,,,0,1.0,0.0,0.99935,0.00065,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2015,9432.662,7.24441,48.391,9432.662,9432.662,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2016,10029.165,7.70253,57.393,10029.165,10029.165,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2017,8807.561,6.76432,42.301,8807.561,8807.561,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2018,9348.144,7.1795,42.195,9348.144,9348.144,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2019,15596.346,11.9782,63.802,15596.346,15596.346,,,0,1.0,0.0,0.99932,0.00068,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2020,16151.348,12.40445,63.654,16151.348,16151.348,,,0,1.0,0.0,0.99932,0.00068,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2021,17963.27,13.79603,68.41,17963.27,17963.27,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2022,19523.707,14.99446,76.127,19523.707,19523.707,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2023,17481.361,13.42592,79.078,17481.361,17481.361,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.1_1,Gaza,2024,853.079,0.65518,8.37,853.079,853.079,,,0,1.0,0.0,1.0,0.0,0.0,1302,3,0.9309,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2012,85121.041,4.13875,128.61,85121.041,85121.041,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2013,90158.086,4.38366,126.184,90158.086,90158.086,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2014,95173.172,4.6275,115.516,95173.172,95173.172,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2015,94061.521,4.57345,110.452,94061.521,94061.521,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2016,100325.928,4.87804,110.772,100325.928,100325.928,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2017,108052.638,5.25373,114.996,108052.638,108052.638,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2018,112865.033,5.48772,115.529,112865.033,112865.033,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2019,119911.236,5.83032,123.489,119911.236,119911.236,,,0,1.0,0.0,0.99995,5e-05,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2020,121385.432,5.90199,118.65,121385.432,121385.432,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2021,138940.428,6.75555,130.029,138940.428,138940.428,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2022,158123.963,7.68829,137.974,158123.963,158123.963,,,0,1.0,0.0,0.99995,5e-05,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2023,175785.712,8.54704,183.22,175785.712,175785.712,,,0,1.0,0.0,1.0,0.0,0.0,20567,8,0.9423,adm1_as_current_adm2
+PSE,West Bank and Gaza,PSE.2_1,West Bank,2024,181515.714,8.82564,177.887,181515.714,181515.714,,,0,1.0,0.0,0.99991,9e-05,0.0,20567,8,0.9423,adm1_as_current_adm2

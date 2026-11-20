@@ -1,0 +1,40 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2012,787.031,0.5924,32.043,787.031,787.031,,,0,1.0,0.0,0.99933,0.00067,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2013,834.355,0.62802,32.758,834.355,834.355,,,0,1.0,0.0,1.0,0.0,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2014,892.198,0.67156,32.778,892.198,892.198,,,0,1.0,0.0,0.99933,0.00067,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2015,906.564,0.68238,32.359,906.564,906.564,,,0,1.0,0.0,0.99933,0.00067,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2016,921.992,0.69399,37.674,921.992,921.992,,,0,1.0,0.0,0.99866,0.00134,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2017,1011.658,0.76148,34.171,1011.658,1011.658,,,0,1.0,0.0,0.99933,0.00067,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2018,1141.415,0.85915,34.205,1141.415,1141.415,,,0,1.0,0.0,0.99933,0.00067,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2019,1156.073,0.87018,29.075,1156.073,1156.073,,,0,1.0,0.0,0.99866,0.00134,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2020,1168.414,0.87947,29.685,1168.414,1168.414,,,0,1.0,0.0,0.99732,0.00268,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2021,1306.617,0.9835,32.492,1306.617,1306.617,,,0,1.0,0.0,0.99799,0.00201,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2022,1537.811,1.15752,35.948,1537.811,1537.811,,,0,1.0,0.0,0.99866,0.00134,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2023,1794.642,1.35084,40.779,1794.642,1794.642,,,0,1.0,0.0,0.99732,0.00268,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.1_1,Bonaire,2024,2000.348,1.50568,45.063,2000.348,2000.348,,,0,1.0,0.0,0.99933,0.00067,0.0,1329,1,0.9435,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2012,47.175,0.7358,4.132,47.175,47.175,,,0,1.0,0.0,0.97701,0.02299,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2013,41.023,0.63983,4.397,41.023,41.023,,,0,1.0,0.0,0.97701,0.02299,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2014,45.289,0.70638,4.328,45.289,45.289,,,0,1.0,0.0,0.97701,0.02299,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2015,46.668,0.72789,4.44,46.668,46.668,,,0,1.0,0.0,1.0,0.0,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2016,45.536,0.71023,4.831,45.536,45.536,,,0,1.0,0.0,0.94253,0.05747,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2017,44.537,0.69464,4.089,44.537,44.537,,,0,1.0,0.0,0.98851,0.01149,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2018,56.92,0.88778,5.649,56.92,56.92,,,0,1.0,0.0,0.97701,0.02299,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2019,60.125,0.93778,5.538,60.125,60.125,,,0,1.0,0.0,0.96552,0.03448,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2020,60.109,0.93753,5.25,60.109,60.109,,,0,1.0,0.0,0.96552,0.03448,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2021,71.579,1.11643,6.449,71.579,71.579,,,0,1.0,0.0,0.98851,0.01149,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2022,80.299,1.25243,6.08,80.299,80.299,,,0,1.0,0.0,0.95402,0.04598,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2023,83.511,1.30253,5.48,83.511,83.511,,,0,1.0,0.0,0.95402,0.04598,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.2_1,Saba,2024,85.277,1.33007,7.375,85.277,85.277,,,0,1.0,0.0,0.95402,0.04598,0.0,64,1,0.9988,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2012,233.981,2.2841,17.428,233.981,233.981,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2013,263.274,2.57005,32.345,263.274,263.274,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2014,291.72,2.84773,29.13,291.72,291.72,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2015,292.236,2.85277,26.886,292.236,292.236,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2016,257.577,2.51443,24.973,257.577,257.577,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2017,223.478,2.18157,18.968,223.478,223.478,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2018,228.58,2.23136,17.496,228.58,228.58,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2019,286.998,2.80163,26.633,286.998,286.998,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2020,288.463,2.81594,26.669,288.463,288.463,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2021,314.57,3.07079,24.313,314.57,314.57,,,0,1.0,0.0,0.99231,0.00769,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2022,363.537,3.5488,21.336,363.537,363.537,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2023,423.32,4.13239,35.163,423.32,423.32,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline
+BES,"Bonaire, Sint Eustatius and Saba (Neth.)",BES.3_1,Sint Eustatius,2024,415.013,4.05131,48.163,415.013,415.013,,,0,1.0,0.0,1.0,0.0,0.0,102,1,0.9727,adm1_outline

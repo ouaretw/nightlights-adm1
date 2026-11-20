@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2012,307.493,3.13982,13.84,307.493,307.493,,,0,1.0,0.0,0.97931,0.02069,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2013,315.979,3.22647,16.742,315.979,315.979,,,0,1.0,0.0,0.97241,0.02759,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2014,333.202,3.40234,20.866,333.202,333.202,,,0,1.0,0.0,0.97931,0.02069,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2015,365.839,3.73559,19.199,365.839,365.839,,,0,1.0,0.0,0.97931,0.02069,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2016,371.639,3.79481,19.121,371.639,371.639,,,0,1.0,0.0,0.96552,0.03448,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2017,324.733,3.31585,15.119,324.733,324.733,,,0,1.0,0.0,0.97241,0.02759,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2018,294.454,3.00668,14.645,294.454,294.454,,,0,1.0,0.0,0.97241,0.02759,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2019,395.989,4.04345,18.89,395.989,395.989,,,0,1.0,0.0,0.95862,0.04138,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2020,376.52,3.84465,20.67,376.52,376.52,,,0,1.0,0.0,0.97241,0.02759,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2021,453.821,4.63397,19.817,453.821,453.821,,,0,1.0,0.0,0.96552,0.03448,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2022,529.61,5.40786,19.802,529.61,529.61,,,0,1.0,0.0,0.96552,0.03448,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2023,523.311,5.34354,17.87,523.311,523.311,,,0,1.0,0.0,0.9931,0.0069,0.0,98,1,0.5839,code_name
+BLM,Saint-Barthélemy (Fr.),BLM.1_1,Au Vent,2024,513.884,5.24729,20.436,513.884,513.884,,,0,1.0,0.0,0.97241,0.02759,0.0,98,1,0.5839,code_name

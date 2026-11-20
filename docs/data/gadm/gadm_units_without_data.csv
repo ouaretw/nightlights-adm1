@@ -1,0 +1,340 @@
+WB_ISO_A3,GID_1,NAME_1,ENGTYPE_1
+AIA,AIA.1_1,Blowing Point,District
+AIA,AIA.15_1,Dog Island,Island
+AIA,AIA.2_1,East End,District
+AIA,AIA.3_1,George Hill,District
+AIA,AIA.4_1,Island Harbour,District
+AIA,AIA.5_1,North Hill,District
+AIA,AIA.6_1,North Side,District
+AIA,AIA.16_1,Pricly Pear Cays,Island
+AIA,AIA.7_1,Sandy Ground,District
+AIA,AIA.8_1,Sandy Hill,District
+AIA,AIA.17_1,Scrub Island,Island
+AIA,AIA.18_1,Sombrero Island,Island
+AIA,AIA.9_1,South Hill,District
+AIA,AIA.10_1,Stoney Ground,District
+AIA,AIA.11_1,The Farrington,District
+AIA,AIA.12_1,The Quarter,District
+AIA,AIA.13_1,The Valley,District
+AIA,AIA.14_1,West End,District
+ALA,ALA.1_2,Archipelago,Sub-Region
+ALA,ALA.2_2,Countryside,Sub-Region
+ALA,ALA.3_2,Mariehamn,Sub-Region
+ASM,ASM.1_1,Eastern,District
+ASM,ASM.2_1,Manu'a,District
+ASM,ASM.3_1,Unorganized,District
+ATF,ATF.1_1,Îles Crozet,District
+ATF,ATF.2_1,Îles Éparses,District
+ATF,ATF.3_1,Îles Saint Paulet Amsterdam,District
+ATF,ATF.4_1,Kerguelen,District
+ATG,ATG.3_1,Saint George,Parish
+ATG,ATG.7_1,Saint Peter,Parish
+ATG,ATG.8_1,Saint Philip,Parish
+BHS,BHS.1_1,Acklins,District
+BHS,BHS.2_1,Berry Islands,District
+BHS,BHS.3_1,Biminis,District
+BHS,BHS.4_1,Black Point,District
+BHS,BHS.5_1,Cat Island,District
+BHS,BHS.6_1,Central Abaco,District
+BHS,BHS.7_1,Central Andros,District
+BHS,BHS.8_1,Central Eleuthera,District
+BHS,BHS.9_1,Cityof Freeport,District
+BHS,BHS.10_1,Crooked Island,District
+BHS,BHS.11_1,East Grand Bahama,District
+BHS,BHS.12_1,Exuma,District
+BHS,BHS.13_1,Grand Cay,District
+BHS,BHS.14_1,Harbour Island,District
+BHS,BHS.15_1,Hope Town,District
+BHS,BHS.16_1,Inagua,District
+BHS,BHS.17_1,Long Island,District
+BHS,BHS.18_1,Mangrove Cay,District
+BHS,BHS.19_1,Mayaguana,District
+BHS,BHS.20_1,Moore's Island,District
+BHS,BHS.21_1,New Providence,District
+BHS,BHS.22_1,North Abaco,District
+BHS,BHS.23_1,North Andros,District
+BHS,BHS.24_1,North Eleuthera,District
+BHS,BHS.25_1,Ragged Island,District
+BHS,BHS.26_1,Rum Cay,District
+BHS,BHS.27_1,San Salvador,District
+BHS,BHS.28_1,South Abaco,District
+BHS,BHS.29_1,South Andros,District
+BHS,BHS.30_1,South Eleuthera,District
+BHS,BHS.31_1,Spanish Wells,District
+BHS,BHS.32_1,West Grand Bahama,District
+BIH,BIH.1_1,Brčko,District
+BLM,BLM.2_1,Sousle Vent,Parish
+BMU,BMU.1_1,Devonshire,Parish
+BMU,BMU.3_1,Hamilton Municipality,Municipality
+BMU,BMU.4_1,Paget,Parish
+BMU,BMU.5_1,Pembroke,Parish
+BMU,BMU.6_1,Saint George's,Parish
+BMU,BMU.7_1,Saint Georgemunicipality,Municipality
+BMU,BMU.8_1,Sandys,Parish
+BMU,BMU.9_1,Smiths,Parish
+BMU,BMU.10_1,Southampton,Parish
+BMU,BMU.11_1,Warwick,Parish
+BWA,BWA.3_1,Francistown,City
+BWA,BWA.4_1,Gaborone,City
+BWA,BWA.6_1,Jwaneng,Town
+BWA,BWA.10_1,Lobatse,Town
+BWA,BWA.13_1,Selibe Phikwe,Town
+BWA,BWA.16_1,Sowa,Town
+CAF,CAF.3_1,Basse-Kotto,Prefecture
+CAF,CAF.4_1,Haut-Mbomou,Prefecture
+CAF,CAF.5_1,Haute-Kotto,Prefecture
+CAF,CAF.6_1,Kémo,Prefecture
+CAF,CAF.7_1,Lobaye,Prefecture
+CAF,CAF.8_1,Mambéré-Kadéï,Prefecture
+CAF,CAF.9_1,Mbomou,Prefecture
+CAF,CAF.10_1,Nana-Grébizi,EconomicPrefecture
+CAF,CAF.11_1,Nana-Mambéré,Prefecture
+CAF,CAF.12_1,Ombella-M'Poko,Prefecture
+CAF,CAF.13_1,Ouaka,Prefecture
+CAF,CAF.15_1,Ouham,Prefecture
+CAF,CAF.14_1,Ouham-Pendé,Prefecture
+CAF,CAF.16_1,Sangha-Mbaéré,EconomicPrefecture
+CAF,CAF.17_1,Vakaga,Prefecture
+CHL,CHL.13_1,Ñuble,Region
+CHN,Z02.28_1,Xinjiang Uygur,AutonomousRegion
+CHN,Z03.28_1,Xinjiang Uygur,AutonomousRegion
+CHN,Z03.29_1,Xizang,AutonomousRegion
+CHN,Z08.29_1,Xizang,AutonomousRegion
+COG,COG.2_1,Brazzaville,Region
+COG,COG.10_1,Pointe Noire,Region
+COK,COK.1_1,Aitutaki,IslandCouncil
+COK,COK.2_1,Atiu,IslandCouncil
+COK,COK.3_1,Mangaia,IslandCouncil
+COK,COK.4_1,Manihiki,IslandCouncil
+COK,COK.5_1,Mauke,IslandCouncil
+COK,COK.6_1,Mitiaro,IslandCouncil
+COK,COK.7_1,Palmerston,IslandCouncil
+COK,COK.8_1,Penhryn,IslandCouncil
+COK,COK.9_1,Pukapuka,IslandCouncil
+COK,COK.10_1,Rakahanga,IslandCouncil
+CPV,CPV.13_1,Santa Catarinado Fogo,County
+CYM,CYM.1_1,Bodden Town,District
+CYM,CYM.3_1,East End,District
+CYM,CYM.4_1,George Town,District
+CYM,CYM.6_1,North Side,District
+CYM,CYM.7_1,West Bay,District
+CZE,CZE.11_1,Prague,Region
+ESP,ESP.7_1,Ceutay Melilla,AutonomousCity
+FRO,FRO.2_1,Norderøerne,Region
+FRO,FRO.3_1,Sandoyar,Region
+FRO,FRO.4_1,Streymoyar,Region
+FRO,FRO.5_1,Suðuroyar,Region
+FRO,FRO.6_1,Vågø,Region
+FSM,FSM.1_1,Chuuk,State
+FSM,FSM.2_1,Kosrae,State
+FSM,FSM.3_1,Pohnpei,State
+FSM,FSM.4_1,Yap,State
+GBR,NA,NA,NA
+GGY,GGY.10_1,Saint Pierredu Bois,Parish
+GLP,GLP.2_1,Pointe-à-Pitre,District
+GRC,GRC.2_1,Athos,Decentralizedadministration
+GRC,GRC.4_1,Crete,Decentralizedadministration
+GRD,GRD.3_1,Saint David,Parish
+GRL,GRL.1_1,Kujalleq,Commune
+GRL,GRL.2_1,Northeast Greenland National Par,NationalPark
+GRL,GRL.3_1,Qaasuitsup,Commune
+GRL,GRL.4_1,Qeqqata,Commune
+GRL,GRL.5_1,Sermersooq,Commune
+GUM,GUM.1_1,Agana Heights,Municipality
+GUM,GUM.2_1,Agat,Municipality
+GUM,GUM.3_1,Asan,Municipality
+GUM,GUM.4_1,Barrigada,Municipality
+GUM,GUM.5_1,Chalan-Pago-Ordot,Municipality
+GUM,GUM.6_1,Dededo,Municipality
+GUM,GUM.7_1,Hagåtña,Municipality
+GUM,GUM.8_1,Inarajan,Municipality
+GUM,GUM.9_1,Mangilao,Municipality
+GUM,GUM.10_1,Merizo,Municipality
+GUM,GUM.11_1,Mongmong-Toto-Maite,Municipality
+GUM,GUM.12_1,Piti,Municipality
+GUM,GUM.13_1,Santa Rita,Municipality
+GUM,GUM.14_1,Sinajana,Municipality
+GUM,GUM.15_1,Talofofo,Municipality
+GUM,GUM.16_1,Tamuning,Municipality
+GUM,GUM.17_1,Umatac,Municipality
+GUM,GUM.19_1,Yona,Municipality
+IND,Z07.3_1,Arunachal Pradesh,State
+IND,Z04.13_1,Himachal Pradesh,UnionTerritory
+IND,Z09.13_1,Himachal Pradesh,UnionTerritory
+IND,Z01.14_1,Jammuand Kashmir,State
+IND,Z05.35_1,Uttarakhand,State
+IND,Z09.35_1,Uttarakhand,State
+ISL,ISL.1_1,Austurland,Region
+ISL,ISL.3_1,Höfuðborgarsvæði,Region
+ISL,ISL.2_1,Norðurlandeystra,Region
+ISL,ISL.4_1,Norðurlandvestra,Region
+ISL,ISL.5_1,Suðurland,Region
+ISL,ISL.6_1,Suðurnes,IndependentTown
+ISL,ISL.7_1,Vestfirðir,Region
+ISL,ISL.8_1,Vesturland,Region
+ISR,ISR.1_1,Golan,District
+KGZ,KGZ.2_1,Biškek,City
+KGZ,KGZ.6_1,Osh(city),City
+KOR,KOR.15_1,Sejong,MetropolitanAutonomousCity
+KOR,KOR.17_1,Ulsan,MetropolitanCity
+KWT,KWT.6_1,Mubarak Al-Kabeer,Province
+LBY,LBY.21_1,Wadial Hayat,District
+LCA,LCA.1_1,Anse-la-Raye,Quarter
+LCA,LCA.2_1,Canaries,Quarter
+LCA,LCA.3_1,Castries,Quarter
+LCA,LCA.4_1,Choiseul,Quarter
+LCA,LCA.5_1,Dennery,Quarter
+LCA,LCA.6_1,Gros Islet,Quarter
+LCA,LCA.7_1,Laborie,Quarter
+LCA,LCA.8_1,Micoud,Quarter
+LCA,LCA.9_1,Soufrière,Quarter
+LCA,LCA.10_1,Vieux Fort,Quarter
+MHL,MHL.1_1,Ailinglaplap,Atol
+MHL,MHL.2_1,Ailuk,Atol
+MHL,MHL.3_1,Arno,Atol
+MHL,MHL.4_1,Aur,Atol
+MHL,MHL.5_1,Ebon,Atol
+MHL,MHL.6_1,Enewetok,Atol
+MHL,MHL.7_1,Jabat,Island
+MHL,MHL.8_1,Jaluit,Atol
+MHL,MHL.9_1,Kwajalein,Atol
+MHL,MHL.10_1,Lae,Atol
+MHL,MHL.11_1,Lib,Island
+MHL,MHL.12_1,Likiep,Atol
+MHL,MHL.13_1,Majuro,Atol
+MHL,MHL.14_1,Maloelap,Atol
+MHL,MHL.15_1,Mejit,Island
+MHL,MHL.17_1,Namorik,Atol
+MHL,MHL.18_1,Namu,Atol
+MHL,MHL.20_1,Ujae,Atol
+MHL,MHL.21_1,Utirik,Atol
+MHL,MHL.22_1,Wotho,Atol
+MHL,MHL.23_1,Wotje,Atol
+MHL,MHL.19_1,NA,Atol
+MKD,MKD.1_1,Aerodrom,Municipality
+MKD,MKD.12_1,Centar,Municipality
+MKD,MKD.42_1,Lake Ohrid,Waterbody
+MKD,MKD.71_1,Šuto Orizari,Municipality
+MMR,MMR.10_1,Naypyitaw,Unionterritory
+MNE,MNE.19_1,Tivat,Municipality
+MNP,MNP.2_1,Rota,Municipality
+MNP,MNP.3_1,Saipan,Municipality
+MNP,MNP.4_1,Tinian,Municipality
+MSR,MSR.1_1,Saint Anthon,Parish
+MSR,MSR.2_1,Saint Georges,Parish
+MSR,MSR.3_1,Saint Peter,Parish
+MUS,MUS.1_1,Agalega Islands,Region
+MUS,MUS.10_1,Rodriguez,Autonomousisland
+MUS,MUS.11_1,Saint Brandon,Region
+MYS,MYS.12_1,Putrajaya,FederalTerritory
+MYT,MYT.1_1,Acoua,Commune
+MYT,MYT.2_1,Bandraboua,Commune
+MYT,MYT.3_1,Bandrele,Commune
+MYT,MYT.4_1,Boueni,Commune
+MYT,MYT.5_1,Chiconi,Commune
+MYT,MYT.6_1,Chirongui,Commune
+MYT,MYT.7_1,Dembeni,Commune
+MYT,MYT.8_1,Dzaoudzi,Commune
+MYT,MYT.9_1,Kani-Keli,Commune
+MYT,MYT.10_1,Koungou,Commune
+MYT,MYT.11_1,M'tsangamouji,Commune
+MYT,MYT.13_1,Mtsamboro,Commune
+MYT,MYT.14_1,Ouangani,Commune
+MYT,MYT.15_1,Pamandzi,Commune
+MYT,MYT.16_1,Sada,Commune
+MYT,MYT.17_1,Tsingoni,Commune
+NCL,NCL.1_1,Îles Loyauté,Province
+NCL,NCL.3_1,Sud,Province
+NLD,NLD.6_1,IJsselmeer,Waterbody
+NLD,NLD.13_1,Zeeuwsemeren,Waterbody
+NRU,NRU.1_1,Aiwo,District
+NRU,NRU.2_1,Anabar,District
+NRU,NRU.3_1,Anetan,District
+NRU,NRU.5_1,Baiti,District
+NRU,NRU.6_1,Boe,District
+NRU,NRU.7_1,Buada,District
+NRU,NRU.8_1,Denigomodu,District
+NRU,NRU.9_1,Ewa,District
+NRU,NRU.10_1,Ijuw,District
+NRU,NRU.11_1,Meneng,District
+NRU,NRU.12_1,Nibok,District
+NRU,NRU.13_1,Uaboe,District
+NRU,NRU.14_1,Yaren,District
+NZL,NZL.10_1,Northern Islands,Groupofislands
+NZL,NZL.13_1,Southern Islands,Groupofislands
+PAK,Z06.1_1,Azad Kashmir,CentrallyAdministeredArea
+PAK,Z06.6_1,Gilgit-Baltistan,CentrallyAdministeredArea
+PER,PER.7_1,Callao,Province
+PLW,PLW.1_1,Aimeliik,State
+PLW,PLW.2_1,Airai,State
+PLW,PLW.3_1,Angaur,State
+PLW,PLW.4_1,Hatohobei,State
+PLW,PLW.5_1,Kayangel,State
+PLW,PLW.6_1,Koror,State
+PLW,PLW.7_1,Melekeok,State
+PLW,PLW.8_1,Ngaraard,State
+PLW,PLW.9_1,Ngarchelong,State
+PLW,PLW.10_1,Ngardmau,State
+PLW,PLW.11_1,Ngatpang,State
+PLW,PLW.12_1,Ngchesar,State
+PLW,PLW.14_1,Ngiwal,State
+PLW,PLW.15_1,Peleliu,State
+PLW,PLW.16_1,Sonsorol,State
+PYF,PYF.1_1,Îles Australes,Administrativesubdivisions
+PYF,PYF.3_1,Îles Marquises,Administrativesubdivisions
+PYF,PYF.4_1,Îles Sous-le-Vent,Administrativesubdivisions
+PYF,PYF.5_1,Îles Tuamotu-Gambier,Administrativesubdivisions
+QAT,QAT.2_1,Al Daayen,Municipality
+REU,REU.2_1,Saint-Denis,Arrondissement
+REU,REU.3_1,Saint-Paul,Arrondissement
+SGP,SGP.3_1,North,Region
+SJM,SJM.1_1,Jan Mayen,Territory
+SLB,SLB.1_1,Central,Province
+SLB,SLB.2_1,Choiseul,Province
+SLB,SLB.3_1,Guadalcanal,Province
+SLB,SLB.4_1,Honiara,CapitalTerritory
+SLB,SLB.5_1,Isabel,Province
+SLB,SLB.6_1,Makira Ulawa,Province
+SLB,SLB.7_1,Malaita,Province
+SLB,SLB.8_1,Rennelland Bellona,Province
+SLB,SLB.9_1,Temotu,Province
+SLB,SLB.10_1,Western,Province
+SMR,SMR.1_1,Acquaviva,Municipality
+SMR,SMR.3_1,Chiesanuova,Municipality
+SMR,SMR.4_1,Domagnano,Municipality
+SMR,SMR.5_1,Faetano,Municipality
+SMR,SMR.6_1,Fiorentino,Municipality
+SMR,SMR.7_1,Montegiardino,Municipality
+SMR,SMR.8_1,San Marino,Municipality
+SMR,SMR.9_1,Serravalle,Municipality
+SYC,SYC.7_1,Baie Sainte Anne,District
+SYC,SYC.15_1,Grand'Anse Praslin,District
+SYC,SYC.20_1,Outer Islands,OuterIslands
+SYC,SYC.25_1,Saint Louis,District
+SYR,SYR.5_1,Damascus,Governorate
+TKM,TKM.2_1,Aşgabat,CaptialCityDistrict
+TUV,TUV.1_1,Funafuti,TownCouncil
+TUV,TUV.2_1,Nanumanga,IslandCouncil
+TUV,TUV.3_1,Nanumea,IslandCouncil
+TUV,TUV.4_1,Niulakita,IslandCouncil
+TUV,TUV.5_1,Niutao,IslandCouncil
+TUV,TUV.6_1,Nui,IslandCouncil
+TUV,TUV.7_1,Nukufetau,IslandCouncil
+TUV,TUV.8_1,Nukulaelae,IslandCouncil
+TUV,TUV.9_1,Vaitupu,IslandCouncil
+TWN,TWN.1_1,Fujian,Province
+TWN,TWN.2_1,Kaohsiung,SpecialMunicipality
+TWN,TWN.3_1,New Taipei,SpecialMunicipality
+TWN,TWN.4_1,Taichung,SpecialMunicipality
+TWN,TWN.5_1,Tainan,SpecialMunicipality
+TWN,TWN.6_1,Taipei,SpecialMunicipality
+TWN,TWN.7_1,Taiwan,Province
+UGA,UGA.15_1,Kalangala,District
+UGA,UGA.31_1,Lake Albert,Waterbody
+UKR,?,?,?
+UKR,UKR.1_1,Cherkasy,Region
+UKR,UKR.11_1,Kiev City,IndependentCity
+UKR,UKR.20_1,Sevastopol',AutonomousRepublic
+UKR,UKR.21_1,Sumy,Region
+UMI,UMI.5_1,Kingman Reef,Reef
+UMI,UMI.7_1,Navassa,Island

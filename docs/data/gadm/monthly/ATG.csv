@@ -1,0 +1,841 @@
+ISO_A3,NAM_0,GID_1,NAME_1,date,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-01,89.288,0.1341,7.9,89.288,89.288,,,0,1.0,0.0,0.0,0.97947,0.02053,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-02,91.568,0.13752,12.913,91.568,91.568,,,0,1.0,0.0,0.93841,0.06159,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-03,98.834,0.14844,10.693,98.834,98.834,,,0,1.0,0.0,0.0,0.97705,0.02295,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-04,105.254,0.15808,10.152,105.254,105.254,,,0,1.0,0.0,0.27536,0.71981,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-05,104.412,0.15681,9.637,104.412,104.412,,,0,1.0,0.0,0.0,0.99758,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-06,86.324,0.12965,14.476,86.324,86.324,,,0,1.0,0.0,0.95411,0.04589,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-07,103.929,0.15609,7.281,103.929,103.929,,,0,1.0,0.0,0.03986,0.9529,0.00725,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-08,82.614,0.12407,12.023,82.614,82.614,,,0,1.0,0.0,0.0,0.99758,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-09,83.492,0.12539,11.968,83.492,83.492,,,0,1.0,0.0,0.10507,0.79348,0.10145,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-10,98.002,0.14719,10.291,98.002,98.002,,,0,1.0,0.0,0.0,0.98913,0.01087,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-11,69.851,0.10491,8.949,69.851,69.851,,,0,1.0,0.0,0.35266,0.64734,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2012-12,64.719,0.0972,11.591,64.719,64.719,,,0,1.0,0.0,0.93237,0.06763,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-01,67.226,0.10096,9.258,67.226,67.226,,,0,1.0,0.0,0.90459,0.093,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-02,84.803,0.12736,11.188,84.803,84.803,,,0,1.0,0.0,0.37198,0.62681,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-03,79.032,0.1187,12.389,79.032,79.032,,,0,1.0,0.0,0.93116,0.06884,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-04,101.87,0.153,11.677,101.87,101.87,,,0,1.0,0.0,0.33454,0.66063,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-05,107.268,0.1611,11.818,107.268,107.268,,,0,1.0,0.0,0.02899,0.95169,0.01932,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-06,109.789,0.16489,11.458,109.789,109.789,,,0,1.0,0.0,0.0,0.95531,0.04469,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-07,92.415,0.13879,12.703,92.415,92.415,,,0,1.0,0.0,0.87923,0.11836,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-08,93.731,0.14077,9.395,93.731,93.731,,,0,1.0,0.0,0.55797,0.44082,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-09,93.18,0.13994,12.751,93.18,93.18,,,0,1.0,0.0,0.03382,0.90821,0.05797,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-10,80.24,0.12051,12.53,80.24,80.24,,,0,1.0,0.0,0.22222,0.77536,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-11,71.735,0.10774,8.989,71.735,71.735,,,0,1.0,0.0,0.58213,0.40942,0.00845,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2013-12,77.137,0.11585,9.279,77.137,77.137,,,0,1.0,0.0,0.01812,0.95531,0.02657,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-01,87.866,0.13196,9.97,87.866,87.866,,,0,1.0,0.0,0.95652,0.04348,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-02,88.553,0.133,10.577,88.553,88.553,,,0,1.0,0.0,0.94686,0.05193,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-03,105.544,0.15851,10.047,105.544,105.544,,,0,1.0,0.0,0.94082,0.05918,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-04,107.796,0.1619,12.63,107.796,107.796,,,0,1.0,0.0,0.90821,0.09179,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-05,104.862,0.15749,8.087,104.862,104.862,,,0,1.0,0.0,0.14251,0.84058,0.01691,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-06,110.986,0.16669,8.646,110.986,110.986,,,0,1.0,0.0,0.1244,0.84903,0.02657,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-07,88.444,0.13283,11.668,88.444,88.444,,,0,1.0,0.0,0.27174,0.72343,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-08,79.542,0.11946,9.658,79.542,79.542,,,0,1.0,0.0,0.00121,0.99034,0.00845,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-09,122.775,0.18439,14.345,122.775,122.775,,,0,1.0,0.0,0.05072,0.93237,0.01691,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-10,93.292,0.14011,10.668,93.292,93.292,,,0,1.0,0.0,0.92874,0.06884,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-11,97.229,0.14603,11.119,97.229,97.229,,,0,1.0,0.0,0.81401,0.18599,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2014-12,96.513,0.14495,14.286,96.513,96.513,,,0,1.0,0.0,0.80556,0.19324,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-01,73.68,0.11066,8.324,73.68,73.68,,,0,1.0,0.0,0.96135,0.03744,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-02,49.849,0.07487,8.647,49.849,49.849,,,0,1.0,0.0,0.70531,0.29227,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-03,91.644,0.13764,8.675,91.644,91.644,,,0,1.0,0.0,0.93599,0.06159,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-04,111.652,0.16769,13.966,111.652,111.652,,,0,1.0,0.0,0.43841,0.56159,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-05,101.504,0.15245,11.826,101.504,101.504,,,0,1.0,0.0,0.92874,0.07126,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-06,97.549,0.14651,7.166,97.549,97.549,,,0,1.0,0.0,0.71739,0.27778,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-07,117.037,0.17577,11.936,117.037,117.037,,,0,1.0,0.0,0.66425,0.33575,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-08,104.5,0.15695,8.39,104.5,104.5,,,0,1.0,0.0,0.70048,0.29831,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-09,95.704,0.14373,7.822,95.704,95.704,,,0,1.0,0.0,0.04227,0.75362,0.20411,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-10,92.527,0.13896,12.865,92.527,92.527,,,0,1.0,0.0,0.0157,0.97947,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-11,75.274,0.11305,9.196,75.274,75.274,,,0,1.0,0.0,0.7186,0.2814,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2015-12,80.894,0.12149,9.884,80.894,80.894,,,0,1.0,0.0,0.89734,0.10266,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-01,100.461,0.15088,11.908,100.461,100.461,,,0,1.0,0.0,0.88043,0.11353,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-02,85.41,0.12827,11.563,85.41,85.41,,,0,1.0,0.0,0.96981,0.03019,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-03,80.54,0.12097,8.736,80.54,80.54,,,0,0.99992,0.00121,0.52536,0.46739,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-04,102.833,0.15444,10.317,102.833,102.833,,,0,1.0,0.0,0.02657,0.97101,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-05,91.574,0.13753,10.653,91.574,91.574,,,0,1.0,0.0,0.08816,0.90338,0.00845,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-06,102.026,0.15323,11.56,102.026,102.026,,,0,1.0,0.0,0.0,0.98913,0.01087,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-07,92.3,0.13862,9.213,92.3,92.3,,,0,1.0,0.0,0.44324,0.55435,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-08,92.426,0.13881,9.575,92.426,92.426,,,0,1.0,0.0,0.88647,0.10749,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-09,73.935,0.11104,9.661,73.935,73.935,,,0,1.0,0.0,0.84903,0.15097,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-10,94.431,0.14182,11.376,94.431,94.431,,,0,1.0,0.0,0.0,0.98913,0.01087,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-11,84.349,0.12668,9.298,84.349,84.349,,,0,1.0,0.0,0.30314,0.68237,0.01449,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2016-12,94.647,0.14215,11.468,94.647,94.647,,,0,1.0,0.0,0.30314,0.69565,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-01,93.52,0.14045,9.239,93.52,93.52,,,0,1.0,0.0,0.8599,0.1401,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-02,83.917,0.12603,8.936,83.917,83.917,,,0,1.0,0.0,0.74275,0.25725,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-03,88.12,0.13235,10.039,88.12,88.12,,,0,1.0,0.0,0.89614,0.10145,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-04,89.024,0.1337,9.809,89.024,89.024,,,0,1.0,0.0,0.73309,0.26691,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-05,95.653,0.14366,8.108,95.653,95.653,,,0,1.0,0.0,0.71981,0.27536,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-06,94.984,0.14265,10.483,94.984,94.984,,,0,1.0,0.0,0.61715,0.38285,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-07,71.92,0.10801,9.351,71.92,71.92,,,0,1.0,0.0,0.78986,0.21014,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-08,68.51,0.10289,6.297,68.51,68.51,,,0,1.0,0.0,0.91425,0.08213,0.00362,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-09,21.996,0.03303,6.347,21.996,21.996,,,0,1.0,0.0,0.0,0.88768,0.11232,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-10,1.579,0.00237,0.679,1.579,1.579,,,0,1.0,0.0,0.00604,0.98671,0.00725,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.08333,0.90459,0.01208,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2017-12,12.516,0.0188,2.292,12.516,12.516,,,0,1.0,0.0,0.64251,0.35749,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-01,2.379,0.00357,0.684,2.379,2.379,,,0,1.0,0.0,0.64493,0.35386,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-02,13.364,0.02007,1.528,13.364,13.364,,,0,1.0,0.0,0.86353,0.13406,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-03,12.271,0.01843,2.086,12.271,12.271,,,0,1.0,0.0,0.87802,0.12198,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-04,23.621,0.03548,2.267,23.621,23.621,,,0,1.0,0.0,0.50966,0.49034,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-05,19.796,0.02973,2.665,19.796,19.796,,,0,1.0,0.0,0.96981,0.03019,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-06,44.952,0.06751,2.477,44.952,44.952,,,0,1.0,0.0,0.42271,0.57488,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-07,21.526,0.03233,3.012,21.526,21.526,,,0,1.0,0.0,0.61836,0.37802,0.00362,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-08,23.874,0.03586,3.918,23.874,23.874,,,0,1.0,0.0,0.95048,0.04831,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-09,23.014,0.03456,3.874,23.014,23.014,,,0,1.0,0.0,0.11353,0.87319,0.01329,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-10,19.18,0.02881,2.981,19.18,19.18,,,0,1.0,0.0,0.03986,0.95531,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-11,22.311,0.03351,3.037,22.311,22.311,,,0,1.0,0.0,0.907,0.09058,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2018-12,32.301,0.04851,3.38,32.301,32.301,,,0,1.0,0.0,0.60145,0.39493,0.00362,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-01,28.823,0.04329,3.43,28.823,28.823,,,0,1.0,0.0,0.93841,0.06039,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-02,39.093,0.05871,4.262,39.093,39.093,,,0,1.0,0.0,0.81884,0.18116,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-03,39.944,0.05999,4.301,39.944,39.944,,,0,1.0,0.0,0.90338,0.09662,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-04,48.466,0.07279,4.936,48.466,48.466,,,0,1.0,0.0,0.83333,0.16425,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-05,47.735,0.07169,5.419,47.735,47.735,,,0,1.0,0.0,0.63164,0.36111,0.00725,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-06,46.049,0.06916,5.048,46.049,46.049,,,0,1.0,0.0,0.0,0.99879,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-07,40.163,0.06032,4.92,40.163,40.163,,,0,1.0,0.0,0.78744,0.21256,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-08,35.945,0.05399,3.946,35.945,35.945,,,0,1.0,0.0,0.79831,0.20169,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-09,38.05,0.05715,4.054,38.05,38.05,,,0,1.0,0.0,0.0,0.82126,0.17874,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-10,58.136,0.08731,5.352,58.136,58.136,,,0,1.0,0.0,0.56159,0.43599,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-11,41.99,0.06306,3.808,41.99,41.99,,,0,1.0,0.0,0.1558,0.843,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2019-12,43.383,0.06516,4.806,43.383,43.383,,,0,1.0,0.0,0.94444,0.05435,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-01,41.056,0.06166,4.997,41.056,41.056,,,0,1.0,0.0,0.95169,0.04589,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-02,38.091,0.05721,4.219,38.091,38.091,,,0,1.0,0.0,0.91304,0.08696,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-03,50.645,0.07606,6.074,50.645,50.645,,,0,1.0,0.0,0.13768,0.86111,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-04,63.235,0.09497,6.837,63.235,63.235,,,0,1.0,0.0,0.97101,0.02899,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-05,59.624,0.08955,6.297,59.624,59.624,,,0,1.0,0.0,0.57488,0.42271,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-06,55.459,0.08329,6.683,55.459,55.459,,,0,1.0,0.0,0.91063,0.08937,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-07,55.253,0.08298,5.462,55.253,55.253,,,0,1.0,0.0,0.78986,0.21014,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-08,47.193,0.07088,5.13,47.193,47.193,,,0,1.0,0.0,0.9215,0.0785,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-09,59.632,0.08956,5.502,59.632,59.632,,,0,1.0,0.0,0.3285,0.66667,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-10,51.29,0.07703,6.13,51.29,51.29,,,0,1.0,0.0,0.03865,0.95652,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-11,47.271,0.071,3.887,47.271,47.271,,,0,1.0,0.0,0.62319,0.37681,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2020-12,57.218,0.08593,8.225,57.218,57.218,,,0,1.0,0.0,0.86594,0.13406,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-01,41.896,0.06292,4.561,41.896,41.896,,,0,1.0,0.0,0.63285,0.36232,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-02,67.944,0.10204,6.195,67.944,67.944,,,0,1.0,0.0,0.85507,0.14493,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-03,62.664,0.09411,5.517,62.664,62.664,,,0,1.0,0.0,0.9529,0.0471,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-04,82.517,0.12393,5.506,82.517,82.517,,,0,1.0,0.0,0.13768,0.85507,0.00725,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-05,79.542,0.11946,6.425,79.542,79.542,,,0,1.0,0.0,0.89976,0.10024,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-06,75.05,0.11272,5.972,75.05,75.05,,,0,1.0,0.0,0.0,0.99396,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-07,87.265,0.13106,9.15,87.265,87.265,,,0,1.0,0.0,0.8599,0.1401,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-08,81.726,0.12274,7.093,81.726,81.726,,,0,1.0,0.0,0.0,0.99517,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-09,72.289,0.10857,6.102,72.289,72.289,,,0,1.0,0.0,0.84541,0.15459,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-10,66.129,0.09932,5.536,66.129,66.129,,,0,1.0,0.0,0.62802,0.36232,0.00966,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-11,64.634,0.09707,6.178,64.634,64.634,,,0,1.0,0.0,0.98068,0.01932,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2021-12,71.679,0.10765,7.971,71.679,71.679,,,0,1.0,0.0,0.69444,0.30314,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-01,61.913,0.09299,7.561,61.913,61.913,,,0,1.0,0.0,0.89734,0.10266,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-02,84.346,0.12668,6.688,84.346,84.346,,,0,1.0,0.0,0.94686,0.05193,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-03,85.445,0.12833,7.511,85.445,85.445,,,0,1.0,0.0,0.92029,0.07729,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-04,122.669,0.18423,9.453,122.669,122.669,,,0,1.0,0.0,0.22705,0.77174,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-05,109.986,0.16519,7.499,109.986,109.986,,,0,1.0,0.0,0.94928,0.05072,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-06,105.84,0.15896,9.289,105.84,105.84,,,0,1.0,0.0,0.64493,0.35507,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-07,85.081,0.12778,5.902,85.081,85.081,,,0,1.0,0.0,0.0942,0.89251,0.01329,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-08,90.566,0.13602,8.997,90.566,90.566,,,0,1.0,0.0,0.04831,0.94686,0.00483,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-09,73.639,0.1106,8.555,73.639,73.639,,,0,1.0,0.0,0.0,0.98309,0.01691,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-10,101.751,0.15282,7.042,101.751,101.751,,,0,1.0,0.0,0.32971,0.66304,0.00725,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-11,90.568,0.13602,6.498,90.568,90.568,,,0,1.0,0.0,0.84783,0.15217,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2022-12,97.92,0.14706,7.552,97.92,97.92,,,0,1.0,0.0,0.81884,0.17995,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-01,86.804,0.13037,8.161,86.804,86.804,,,0,1.0,0.0,0.77899,0.22101,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-02,101.322,0.15217,7.936,101.322,101.322,,,0,1.0,0.0,0.88768,0.11111,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-03,124.135,0.18644,9.95,124.135,124.135,,,0,1.0,0.0,0.88768,0.11111,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-04,113.944,0.17113,9.581,113.944,113.944,,,0,1.0,0.0,0.89976,0.10024,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-05,109.415,0.16433,8.741,109.415,109.415,,,0,1.0,0.0,0.76087,0.23551,0.00362,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-06,140.967,0.21171,9.142,140.967,140.967,,,0,1.0,0.0,0.02053,0.97826,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-07,156.061,0.23438,7.944,156.061,156.061,,,0,1.0,0.0,0.3587,0.6413,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-08,179.548,0.26966,5.655,179.548,179.548,,,0,1.0,0.0,0.01691,0.98188,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-09,71.722,0.10772,8.165,71.722,71.722,,,0,1.0,0.0,0.3442,0.63043,0.02536,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-10,110.162,0.16545,6.625,110.162,110.162,,,0,1.0,0.0,0.74275,0.25604,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-11,99.057,0.14877,6.934,99.057,99.057,,,0,1.0,0.0,0.06643,0.93357,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2023-12,105.13,0.15789,8.037,105.13,105.13,,,0,1.0,0.0,0.89614,0.10145,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-01,102.489,0.15393,8.695,102.489,102.489,,,0,1.0,0.0,0.93599,0.06401,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-02,114.962,0.17266,8.062,114.962,114.962,,,0,1.0,0.0,0.64976,0.35024,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-03,100.526,0.15098,8.471,100.526,100.526,,,0,1.0,0.0,0.69444,0.30435,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-04,136.757,0.20539,9.345,136.757,136.757,,,0,1.0,0.0,0.36473,0.63285,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-05,116.04,0.17428,7.684,116.04,116.04,,,0,1.0,0.0,0.32005,0.67754,0.00242,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-06,110.985,0.16668,9.199,110.985,110.985,,,0,1.0,0.0,0.0,0.92874,0.07126,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-07,106.985,0.16068,9.426,106.985,106.985,,,0,1.0,0.0,0.26691,0.73309,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-08,109.579,0.16457,9.968,109.579,109.579,,,0,1.0,0.0,0.30435,0.69203,0.00362,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-09,91.033,0.13672,7.952,91.033,91.033,,,0,1.0,0.0,0.00362,0.90217,0.0942,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-10,110.169,0.16546,9.401,110.169,110.169,,,0,1.0,0.0,0.83092,0.16787,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-11,90.221,0.1355,8.525,90.221,90.221,,,0,1.0,0.0,0.0,0.97585,0.02415,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2024-12,128.575,0.1931,7.236,128.575,128.575,,,0,1.0,0.0,0.57971,0.41908,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-01,107.917,0.16208,8.024,107.917,107.917,,,0,1.0,0.0,0.97222,0.02778,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-02,97.472,0.14639,6.651,97.472,97.472,,,0,1.0,0.0,0.71014,0.28261,0.00725,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-03,122.196,0.18352,8.711,122.196,122.196,,,0,1.0,0.0,0.44203,0.55193,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-04,139.224,0.2091,8.207,139.224,139.224,,,0,1.0,0.0,0.01691,0.94082,0.04227,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-05,110.882,0.16653,8.373,110.882,110.882,,,0,1.0,0.0,0.0,0.99034,0.00966,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-06,161.192,0.24209,8.956,161.192,161.192,,,0,1.0,0.0,0.0,0.98188,0.01812,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-07,124.031,0.18628,7.486,124.031,124.031,,,0,1.0,0.0,0.30193,0.69203,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-08,113.767,0.17086,8.125,113.767,113.767,,,0,1.0,0.0,0.61715,0.37681,0.00604,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-09,126.178,0.1895,10.213,126.178,126.178,,,0,1.0,0.0,0.8587,0.1401,0.00121,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-10,133.149,0.19997,7.163,133.149,133.149,,,0,1.0,0.0,0.44928,0.55072,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-11,131.016,0.19677,6.974,131.016,131.016,,,0,1.0,0.0,0.36111,0.63527,0.00362,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.1_1,Barbuda,2025-12,100.207,0.1505,7.554,100.207,100.207,,,0,1.0,0.0,0.95169,0.04831,0.0,666,1,0.9225,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2012-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.66667,0.33333,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.83333,0.16667,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2013-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2014-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2015-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.83333,0.16667,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.5,0.5,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.0,1.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2016-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.33333,0.66667,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2017-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2018-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.83333,0.16667,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2019-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2020-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2021-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.33333,0.66667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.66667,0.33333,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2022-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-09,1.152,0.40622,0.637,1.152,1.152,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-11,0.292,0.10286,0.559,0.292,0.292,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2023-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.83333,0.16667,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.83333,0.16667,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.66667,0.33333,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2024-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-01,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-02,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-03,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-04,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.66667,0.33333,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-05,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,1.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-06,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.0,0.5,0.5,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-07,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-08,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-09,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.5,0.5,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-10,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.66667,0.33333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-11,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.16667,0.83333,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.2_1,Redonda,2025-12,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.9998,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-01,2509.834,7.94194,104.105,2509.834,2509.834,,,0,1.0,0.0,0.0,0.99746,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-02,2440.391,7.7222,66.559,2440.391,2440.391,,,0,1.0,0.0,0.66244,0.33503,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-03,2864.892,9.06545,71.615,2864.892,2864.892,,,0,1.0,0.0,0.0,0.92893,0.07107,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-04,2793.652,8.84003,58.337,2793.652,2793.652,,,0,1.0,0.0,0.02284,0.93909,0.03807,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-05,2592.694,8.20413,39.953,2592.694,2592.694,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-06,2576.03,8.1514,39.355,2576.03,2576.03,,,0,1.0,0.0,0.48223,0.51777,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-07,2563.829,8.11279,44.945,2563.829,2563.829,,,0,1.0,0.0,0.0,0.99239,0.00761,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-08,2534.475,8.01991,39.608,2534.475,2534.475,,,0,1.0,0.0,0.0,0.98477,0.01523,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-09,2312.46,7.31738,34.373,2312.46,2312.46,,,0,1.0,0.0,0.56599,0.41624,0.01777,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-10,2424.943,7.67331,37.221,2424.943,2424.943,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-11,2050.521,6.48852,37.573,2050.521,2050.521,,,0,1.0,0.0,0.8934,0.1066,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2012-12,2278.136,7.20877,47.483,2278.136,2278.136,,,0,1.0,0.0,0.93909,0.06091,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-01,2417.048,7.64833,36.204,2417.048,2417.048,,,0,1.0,0.0,0.29949,0.68782,0.01269,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-02,2599.029,8.22418,41.884,2599.029,2599.029,,,0,1.0,0.0,0.34772,0.65228,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-03,2414.572,7.6405,31.067,2414.572,2414.572,,,0,1.0,0.0,0.47208,0.52792,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-04,2412.153,7.63284,41.688,2412.153,2412.153,,,0,1.0,0.0,0.93401,0.06599,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-05,2281.111,7.21818,45.792,2281.111,2281.111,,,0,1.0,0.0,0.0,0.99239,0.00761,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-06,2426.963,7.67971,36.571,2426.963,2426.963,,,0,1.0,0.0,0.0,0.90102,0.09898,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-07,2429.71,7.6884,40.901,2429.71,2429.71,,,0,1.0,0.0,0.72335,0.27411,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-08,2393.423,7.57357,32.399,2393.423,2393.423,,,0,1.0,0.0,0.63198,0.36802,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-09,2230.964,7.0595,42.034,2230.964,2230.964,,,0,1.0,0.0,0.54061,0.4467,0.01269,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-10,2240.259,7.08891,30.891,2240.259,2240.259,,,0,1.0,0.0,0.0533,0.9467,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-11,2176.268,6.88642,37.664,2176.268,2176.268,,,0,1.0,0.0,0.87563,0.12437,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2013-12,2161.954,6.84113,27.979,2161.954,2161.954,,,0,1.0,0.0,0.51015,0.48985,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-01,2189.173,6.92726,29.018,2189.173,2189.173,,,0,1.0,0.0,0.81218,0.18782,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-02,2155.319,6.82013,41.666,2155.319,2155.319,,,0,1.0,0.0,0.97462,0.02538,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-03,2450.583,7.75444,40.006,2450.583,2450.583,,,0,1.0,0.0,0.87817,0.12183,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-04,2501.731,7.9163,38.13,2501.731,2501.731,,,0,1.0,0.0,0.42893,0.57107,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-05,2483.446,7.85844,41.577,2483.446,2483.446,,,0,1.0,0.0,0.54822,0.45178,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-06,2827.972,8.94863,43.238,2827.972,2827.972,,,0,1.0,0.0,0.01523,0.75888,0.22589,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-07,2674.003,8.46142,58.662,2674.003,2674.003,,,0,1.0,0.0,0.00508,0.99492,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-08,2586.689,8.18513,50.241,2586.689,2586.689,,,0,1.0,0.0,0.0,0.98223,0.01777,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-09,2459.269,7.78193,38.033,2459.269,2459.269,,,0,1.0,0.0,0.8401,0.1599,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-10,2278.494,7.2099,33.735,2278.494,2278.494,,,0,1.0,0.0,0.89594,0.10406,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-11,2123.741,6.72021,33.047,2123.741,2123.741,,,0,1.0,0.0,0.8934,0.1066,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2014-12,2437.019,7.71153,39.363,2437.019,2437.019,,,0,1.0,0.0,0.73096,0.26904,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-01,2414.538,7.64039,38.31,2414.538,2414.538,,,0,1.0,0.0,0.95431,0.04569,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-02,2411.947,7.63219,35.881,2411.947,2411.947,,,0,1.0,0.0,0.48223,0.51777,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-03,2666.063,8.4363,35.494,2666.063,2666.063,,,0,1.0,0.0,0.96193,0.03807,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-04,2764.711,8.74845,40.953,2764.711,2764.711,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-05,2545.034,8.05332,36.352,2545.034,2545.034,,,0,1.0,0.0,0.79442,0.20558,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-06,2490.497,7.88075,34.631,2490.497,2490.497,,,0,1.0,0.0,0.14721,0.82995,0.02284,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-07,2532.075,8.01231,38.22,2532.075,2532.075,,,0,1.0,0.0,0.72589,0.27411,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-08,2250.247,7.12052,46.159,2250.247,2250.247,,,0,1.0,0.0,0.01015,0.9797,0.01015,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-09,2281.656,7.2199,32.745,2281.656,2281.656,,,0,1.0,0.0,0.24365,0.74365,0.01269,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-10,2196.545,6.95059,38.537,2196.545,2196.545,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-11,2126.821,6.72996,32.658,2126.821,2126.821,,,0,1.0,0.0,0.77919,0.22081,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2015-12,2361.723,7.47327,44.441,2361.723,2361.723,,,0,1.0,0.0,0.90355,0.09645,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-01,2530.354,8.00687,48.715,2530.354,2530.354,,,0,1.0,0.0,0.2665,0.73096,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-02,2261.141,7.15499,39.265,2261.141,2261.141,,,0,1.0,0.0,0.94416,0.05584,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-03,2537.036,8.02801,44.44,2537.036,2537.036,,,0,1.0,0.0,0.19289,0.80711,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-04,2414.467,7.64016,45.426,2414.467,2414.467,,,0,1.0,0.0,0.0,0.78934,0.21066,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-05,2453.128,7.7625,36.515,2453.128,2453.128,,,0,1.0,0.0,0.36041,0.63959,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-06,2816.194,8.91136,45.163,2816.194,2816.194,,,0,1.0,0.0,0.0,0.66751,0.33249,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-07,2634.198,8.33546,48.155,2634.198,2634.198,,,0,1.0,0.0,0.18528,0.80964,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-08,2505.803,7.92918,47.687,2505.803,2505.803,,,0,1.0,0.0,0.81472,0.18528,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-09,2308.546,7.305,37.914,2308.546,2308.546,,,0,1.0,0.0,0.87817,0.12183,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-10,2152.616,6.81158,32.45,2152.616,2152.616,,,0,1.0,0.0,0.0,0.99746,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-11,2336.913,7.39476,65.454,2336.913,2336.913,,,0,1.0,0.0,0.0,0.93147,0.06853,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2016-12,2265.617,7.16915,32.977,2265.617,2265.617,,,0,1.0,0.0,0.35279,0.64467,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-01,2402.604,7.60262,41.965,2402.604,2402.604,,,0,1.0,0.0,0.77665,0.22335,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-02,2420.644,7.65971,48.027,2420.644,2420.644,,,0,1.0,0.0,0.5533,0.4467,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-03,2264.609,7.16596,33.087,2264.609,2264.609,,,0,1.0,0.0,0.19797,0.80203,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-04,2443.543,7.73217,39.065,2443.543,2443.543,,,0,1.0,0.0,0.39594,0.59645,0.00761,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-05,2650.298,8.38641,45.395,2650.298,2650.298,,,0,1.0,0.0,0.01015,0.97462,0.01523,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-06,2739.732,8.66941,61.418,2739.732,2739.732,,,0,1.0,0.0,0.71066,0.28934,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-07,2435.081,7.70539,42.983,2435.081,2435.081,,,0,1.0,0.0,0.80203,0.19797,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-08,2655.406,8.40257,87.991,2655.406,2655.406,,,0,1.0,0.0,0.40355,0.58883,0.00761,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-09,3432.885,10.86277,86.322,3432.885,3432.885,,,0,1.0,0.0,0.0,0.11421,0.88579,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-10,2540.42,8.03872,53.62,2540.42,2540.42,,,0,1.0,0.0,0.35025,0.64213,0.00761,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-11,2093.361,6.62408,42.191,2093.361,2093.361,,,0,1.0,0.0,0.00761,0.98223,0.01015,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2017-12,2457.277,7.77563,42.325,2457.277,2457.277,,,0,1.0,0.0,0.11929,0.88071,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-01,2480.289,7.84845,42.502,2480.289,2480.289,,,0,1.0,0.0,0.62944,0.37056,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-02,2583.586,8.17531,36.084,2583.586,2583.586,,,0,1.0,0.0,0.72589,0.27411,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-03,2755.425,8.71907,47.317,2755.425,2755.425,,,0,1.0,0.0,0.81472,0.18528,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-04,2701.098,8.54716,39.517,2701.098,2701.098,,,0,1.0,0.0,0.80457,0.19543,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-05,2740.707,8.67249,36.934,2740.707,2740.707,,,0,1.0,0.0,0.91878,0.08122,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-06,2701.329,8.54789,33.119,2701.329,2701.329,,,0,1.0,0.0,0.6599,0.33503,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-07,2744.685,8.68508,67.222,2744.685,2744.685,,,0,1.0,0.0,0.26396,0.73604,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-08,2573.38,8.14301,74.223,2573.38,2573.38,,,0,1.0,0.0,0.9264,0.0736,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-09,2480.632,7.84953,38.511,2480.632,2480.632,,,0,1.0,0.0,0.18782,0.81218,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-10,2278.78,7.21081,32.12,2278.78,2278.78,,,0,1.0,0.0,0.63452,0.36548,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-11,2173.693,6.87827,32.251,2173.693,2173.693,,,0,1.0,0.0,0.69797,0.30203,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2018-12,2193.309,6.94035,31.105,2193.309,2193.309,,,0,1.0,0.0,0.27157,0.71827,0.01015,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-01,2185.666,6.91616,27.876,2185.666,2185.666,,,0,1.0,0.0,0.77665,0.22335,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-02,2249.45,7.118,33.823,2249.45,2249.45,,,0,1.0,0.0,0.6066,0.3934,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-03,2445.546,7.73851,38.866,2445.546,2445.546,,,0,1.0,0.0,0.92893,0.07107,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-04,2497.189,7.90192,39.639,2497.189,2497.189,,,0,1.0,0.0,0.92386,0.07614,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-05,2801.899,8.86613,112.118,2801.899,2801.899,,,0,1.0,0.0,0.01777,0.98223,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-06,2581.505,8.16873,105.457,2581.505,2581.505,,,0,1.0,0.0,0.05584,0.92893,0.01523,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-07,2579.012,8.16084,62.395,2579.012,2579.012,,,0,1.0,0.0,0.59137,0.40863,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-08,2676.083,8.468,128.036,2676.083,2676.083,,,0,1.0,0.0,0.82234,0.17766,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-09,2557.94,8.09416,106.042,2557.94,2557.94,,,0,1.0,0.0,0.32741,0.67005,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-10,2507.158,7.93347,111.584,2507.158,2507.158,,,0,1.0,0.0,0.8198,0.1802,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-11,2613.556,8.27015,141.504,2613.556,2613.556,,,0,1.0,0.0,0.62437,0.37563,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2019-12,2519.344,7.97203,153.02,2519.344,2519.344,,,0,1.0,0.0,0.99746,0.00254,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-01,2669.85,8.44828,105.346,2669.85,2669.85,,,0,1.0,0.0,0.44416,0.55584,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-02,2638.498,8.34907,112.162,2638.498,2638.498,,,0,1.0,0.0,0.88071,0.11929,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-03,2713.484,8.58635,119.207,2713.484,2713.484,,,0,1.0,0.0,0.57868,0.42132,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-04,2438.845,7.7173,99.536,2438.845,2438.845,,,0,1.0,0.0,0.8934,0.1066,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-05,2540.744,8.03975,93.553,2540.744,2540.744,,,0,1.0,0.0,0.69797,0.30203,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-06,2559.862,8.10024,39.95,2559.862,2559.862,,,0,1.0,0.0,0.11929,0.87817,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-07,2573.606,8.14373,38.623,2573.606,2573.606,,,0,1.0,0.0,0.07614,0.92386,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-08,2397.52,7.58654,31.66,2397.52,2397.52,,,0,1.0,0.0,0.20558,0.79188,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-09,2147.736,6.79614,28.893,2147.736,2147.736,,,0,1.0,0.0,0.54061,0.45939,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-10,2250.961,7.12278,44.344,2250.961,2250.961,,,0,1.0,0.0,0.61929,0.38071,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-11,2161.473,6.83961,38.276,2161.473,2161.473,,,0,1.0,0.0,0.82487,0.17513,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2020-12,2171.769,6.87219,95.754,2171.769,2171.769,,,0,1.0,0.0,0.75127,0.24873,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-01,2341.152,7.40817,97.524,2341.152,2341.152,,,0,1.0,0.0,0.58883,0.41117,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-02,2581.754,8.16951,112.941,2581.754,2581.754,,,0,1.0,0.0,0.24365,0.75635,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-03,2631.481,8.32687,97.738,2631.481,2631.481,,,0,1.0,0.0,0.93655,0.06345,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-04,2952.574,9.34291,102.479,2952.574,2952.574,,,0,1.0,0.0,0.07868,0.91624,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-05,2804.52,8.87442,89.301,2804.52,2804.52,,,0,1.0,0.0,0.84772,0.15228,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-06,2750.449,8.70332,58.354,2750.449,2750.449,,,0,1.0,0.0,0.00761,0.98985,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-07,2657.578,8.40945,66.488,2657.578,2657.578,,,0,1.0,0.0,0.6066,0.3934,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-08,2761.274,8.73757,91.82,2761.274,2761.274,,,0,1.0,0.0,0.00254,0.99746,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-09,2322.798,7.35009,107.591,2322.798,2322.798,,,0,1.0,0.0,0.84518,0.15482,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-10,2690.593,8.51392,87.875,2690.593,2690.593,,,0,1.0,0.0,0.93909,0.06091,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-11,2397.046,7.58504,52.087,2397.046,2397.046,,,0,1.0,0.0,0.97208,0.02792,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2021-12,2379.733,7.53025,44.252,2379.733,2379.733,,,0,1.0,0.0,0.18782,0.7868,0.02538,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-01,2602.013,8.23362,66.899,2602.013,2602.013,,,0,1.0,0.0,0.96447,0.03553,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-02,2671.573,8.45373,87.9,2671.573,2671.573,,,0,1.0,0.0,0.88325,0.11675,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-03,2452.954,7.76195,49.726,2452.954,2452.954,,,0,1.0,0.0,0.91624,0.08376,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-04,2883.985,9.12587,58.072,2883.985,2883.985,,,0,1.0,0.0,0.03553,0.95939,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-05,2836.463,8.9755,37.334,2836.463,2836.463,,,0,1.0,0.0,0.7132,0.2868,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-06,3085.41,9.76325,96.155,3085.41,3085.41,,,0,1.0,0.0,0.73604,0.26396,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-07,2956.443,9.35515,55.081,2956.443,2956.443,,,0,1.0,0.0,0.45431,0.54569,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-08,2769.856,8.76473,61.713,2769.856,2769.856,,,0,1.0,0.0,0.07614,0.92132,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-09,2711.662,8.58059,56.778,2711.662,2711.662,,,0,1.0,0.0,0.54822,0.4467,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-10,2700.243,8.54445,43.237,2700.243,2700.243,,,0,1.0,0.0,0.79442,0.20558,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-11,2580.447,8.16538,34.859,2580.447,2580.447,,,0,1.0,0.0,0.01015,0.97462,0.01523,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2022-12,3052.266,9.65837,96.93,3052.266,3052.266,,,0,1.0,0.0,0.16244,0.83503,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-01,2749.105,8.69907,62.119,2749.105,2749.105,,,0,1.0,0.0,0.93655,0.06345,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-02,2785.076,8.81289,61.48,2785.076,2785.076,,,0,1.0,0.0,0.24873,0.73604,0.01523,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-03,3126.44,9.89308,48.382,3126.44,3126.44,,,0,1.0,0.0,0.50508,0.49239,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-04,3252.296,10.29133,44.689,3252.296,3252.296,,,0,1.0,0.0,0.73604,0.26396,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-05,3311.725,10.47938,74.871,3311.725,3311.725,,,0,1.0,0.0,0.57107,0.42893,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-06,3238.311,10.24707,74.192,3238.311,3238.311,,,0,1.0,0.0,0.03299,0.93909,0.02792,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-07,3181.56,10.0675,48.563,3181.56,3181.56,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-08,2851.704,9.02373,47.188,2851.704,2851.704,,,0,1.0,0.0,0.45939,0.54061,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-09,2654.307,8.3991,34.04,2654.307,2654.307,,,0,1.0,0.0,0.45178,0.53046,0.01777,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-10,2856.304,9.03828,57.559,2856.304,2856.304,,,0,1.0,0.0,0.02792,0.97208,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-11,2853.292,9.02875,67.644,2853.292,2853.292,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2023-12,2805.228,8.87666,40.926,2805.228,2805.228,,,0,1.0,0.0,0.98223,0.01777,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-01,3107.379,9.83276,45.686,3107.379,3107.379,,,0,1.0,0.0,0.80964,0.19036,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-02,3076.952,9.73648,55.133,3076.952,3076.952,,,0,1.0,0.0,0.47208,0.52792,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-03,2874.998,9.09743,34.041,2874.998,2874.998,,,0,1.0,0.0,0.46447,0.52792,0.00761,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-04,3079.019,9.74302,35.97,3079.019,3079.019,,,0,1.0,0.0,0.88832,0.11168,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-05,2889.925,9.14467,40.587,2889.925,2889.925,,,0,1.0,0.0,0.22081,0.77919,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-06,3120.366,9.87386,75.111,3120.366,3120.366,,,0,1.0,0.0,0.0,0.99746,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-07,2677.692,8.47309,43.747,2677.692,2677.692,,,0,1.0,0.0,0.09645,0.90102,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-08,3249.892,10.28372,74.195,3249.892,3249.892,,,0,1.0,0.0,0.07868,0.91624,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-09,2821.92,8.92948,63.805,2821.92,2821.92,,,0,1.0,0.0,0.12183,0.82234,0.05584,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-10,2765.417,8.75068,40.602,2765.417,2765.417,,,0,1.0,0.0,0.87563,0.12437,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-11,2665.225,8.43365,37.306,2665.225,2665.225,,,0,1.0,0.0,0.0,1.0,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2024-12,2676.472,8.46923,31.85,2676.472,2676.472,,,0,1.0,0.0,0.7868,0.2132,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-01,3087.084,9.76854,43.849,3087.084,3087.084,,,0,1.0,0.0,0.99746,0.00254,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-02,3101.989,9.81571,45.231,3101.989,3101.989,,,0,1.0,0.0,0.16751,0.82234,0.01015,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-03,3645.279,11.53485,70.268,3645.279,3645.279,,,0,1.0,0.0,0.0,0.93909,0.06091,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-04,2958.886,9.36288,39.458,2958.886,2958.886,,,0,1.0,0.0,0.0,0.90863,0.09137,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-05,3442.671,10.89374,54.471,3442.671,3442.671,,,0,1.0,0.0,0.0,0.74365,0.25635,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-06,3583.449,11.3392,61.723,3583.449,3583.449,,,0,1.0,0.0,0.0,0.87817,0.12183,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-07,3328.083,10.53115,100.862,3328.083,3328.083,,,0,1.0,0.0,0.53807,0.45939,0.00254,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-08,3722.454,11.77906,63.181,3722.454,3722.454,,,0,1.0,0.0,0.3401,0.6599,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-09,3343.422,10.57968,48.011,3343.422,3343.422,,,0,1.0,0.0,0.93401,0.06599,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-10,3195.448,10.11144,47.704,3195.448,3195.448,,,0,1.0,0.0,0.54822,0.4467,0.00508,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-11,3220.113,10.18949,45.535,3220.113,3220.113,,,0,1.0,0.0,0.00508,0.99492,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.4_1,Saint John,2025-12,3065.541,9.70037,35.298,3065.541,3065.541,,,0,1.0,0.0,0.90102,0.09898,0.0,316,1,0.9307,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-01,734.295,2.7582,23.314,734.295,734.295,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-02,643.849,2.41847,24.747,643.849,643.849,,,0,1.0,0.0,0.70997,0.29003,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-03,721.047,2.70844,17.906,721.047,721.047,,,0,1.0,0.0,0.0,0.91239,0.08761,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-04,794.469,2.98423,29.722,794.469,794.469,,,0,1.0,0.0,0.30816,0.67674,0.01511,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-05,858.954,3.22646,33.006,858.954,858.954,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-06,750.136,2.81771,23.137,750.136,750.136,,,0,1.0,0.0,0.24471,0.75529,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-07,695.64,2.613,23.708,695.64,695.64,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-08,736.603,2.76687,20.351,736.603,736.603,,,0,1.0,0.0,0.0,0.96073,0.03927,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-09,744.923,2.79812,23.552,744.923,744.923,,,0,1.0,0.0,0.6284,0.35045,0.02115,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-10,717.891,2.69658,22.517,717.891,717.891,,,0,1.0,0.0,0.0,0.99396,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-11,609.42,2.28914,22.532,609.42,609.42,,,0,1.0,0.0,0.63444,0.36254,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2012-12,615.727,2.31283,20.096,615.727,615.727,,,0,1.0,0.0,0.91843,0.08157,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-01,619.366,2.3265,21.302,619.366,619.366,,,0,1.0,0.0,0.77946,0.2145,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-02,682.816,2.56483,26.778,682.816,682.816,,,0,1.0,0.0,0.3716,0.6284,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-03,722.406,2.71354,21.406,722.406,722.406,,,0,1.0,0.0,0.56798,0.43202,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-04,669.633,2.51532,22.207,669.633,669.633,,,0,1.0,0.0,0.87915,0.12085,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-05,694.501,2.60873,30.37,694.501,694.501,,,0,1.0,0.0,0.0,0.98489,0.01511,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-06,599.99,2.25372,24.234,599.99,599.99,,,0,1.0,0.0,0.0,0.85196,0.14804,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-07,644.302,2.42017,19.985,644.302,644.302,,,0,1.0,0.0,0.64653,0.35045,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-08,686.616,2.57911,19.675,686.616,686.616,,,0,1.0,0.0,0.75831,0.24169,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-09,616.863,2.3171,20.564,616.863,616.863,,,0,1.0,0.0,0.59215,0.39275,0.01511,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-10,554.693,2.08357,15.226,554.693,554.693,,,0,1.0,0.0,0.0574,0.9426,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-11,558.634,2.09837,15.93,558.634,558.634,,,0,1.0,0.0,0.8006,0.1994,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2013-12,546.542,2.05295,16.988,546.542,546.542,,,0,1.0,0.0,0.48036,0.51964,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-01,514.265,1.93171,18.168,514.265,514.265,,,0,1.0,0.0,0.72205,0.27795,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-02,498.978,1.87429,16.323,498.978,498.978,,,0,1.0,0.0,0.92749,0.07251,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-03,651.688,2.44791,19.926,651.688,651.688,,,0,1.0,0.0,0.9003,0.0997,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-04,602.61,2.26356,22.81,602.61,602.61,,,0,1.0,0.0,0.87915,0.12085,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-05,636.555,2.39106,18.07,636.555,636.555,,,0,1.0,0.0,0.42598,0.57402,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-06,701.93,2.63663,14.937,701.93,701.93,,,0,1.0,0.0,0.0,0.90634,0.09366,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-07,620.351,2.3302,15.696,620.351,620.351,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-08,557.219,2.09306,16.111,557.219,557.219,,,0,1.0,0.0,0.0,0.98792,0.01208,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-09,617.491,2.31946,15.967,617.491,617.491,,,0,1.0,0.0,0.80665,0.19335,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-10,584.171,2.1943,14.792,584.171,584.171,,,0,1.0,0.0,0.91843,0.08157,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-11,456.708,1.71551,9.85,456.708,456.708,,,0,1.0,0.0,0.83082,0.16918,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2014-12,525.595,1.97427,15.062,525.595,525.595,,,0,1.0,0.0,0.91239,0.08761,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-01,481.282,1.80782,16.21,481.282,481.282,,,0,1.0,0.0,0.98187,0.01813,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-02,530.461,1.99255,18.396,530.461,530.461,,,0,1.0,0.0,0.62538,0.37462,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-03,571.84,2.14798,13.201,571.84,571.84,,,0,1.0,0.0,0.96073,0.03927,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-04,605.505,2.27443,13.686,605.505,605.505,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-05,560.333,2.10476,12.111,560.333,560.333,,,0,1.0,0.0,0.78248,0.21752,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-06,653.758,2.45568,14.86,653.758,653.758,,,0,1.0,0.0,0.50453,0.4864,0.00906,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-07,469.575,1.76385,10.713,469.575,469.575,,,0,1.0,0.0,0.90332,0.09668,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-08,570.296,2.14218,10.824,570.296,570.296,,,0,1.0,0.0,0.07251,0.92145,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-09,474.093,1.78082,18.452,474.093,474.093,,,0,1.0,0.0,0.33837,0.63746,0.02417,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-10,439.685,1.65157,14.254,439.685,439.685,,,0,1.0,0.0,0.05136,0.94562,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-11,403.944,1.51732,9.046,403.944,403.944,,,0,1.0,0.0,0.80967,0.19033,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2015-12,455.177,1.70976,13.323,455.177,455.177,,,0,1.0,0.0,0.7432,0.2568,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-01,433.521,1.62842,12.299,433.521,433.521,,,0,1.0,0.0,0.63444,0.36254,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-02,435.782,1.63691,10.398,435.782,435.782,,,0,1.0,0.0,0.93958,0.06042,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-03,443.148,1.66458,11.978,443.148,443.148,,,0,1.0,0.0,0.6284,0.3716,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-04,506.096,1.90103,14.765,506.096,506.096,,,0,1.0,0.0,0.0,0.70695,0.29305,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-05,484.814,1.82109,8.303,484.814,484.814,,,0,1.0,0.0,0.0,0.98489,0.01511,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-06,525.373,1.97344,8.455,525.373,525.373,,,0,1.0,0.0,0.0,0.93656,0.06344,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-07,544.108,2.04381,18.301,544.108,544.108,,,0,1.0,0.0,0.70695,0.28701,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-08,438.191,1.64596,11.116,438.191,438.191,,,0,1.0,0.0,0.76133,0.23565,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-09,430.873,1.61847,9.696,430.873,430.873,,,0,1.0,0.0,0.78852,0.21148,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-10,450.614,1.69262,12.461,450.614,450.614,,,0,1.0,0.0,0.0,0.99094,0.00906,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-11,450.558,1.69241,12.137,450.558,450.558,,,0,1.0,0.0,0.00302,0.89124,0.10574,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2016-12,410.007,1.54009,12.181,410.007,410.007,,,0,1.0,0.0,0.64955,0.35045,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-01,462.53,1.73738,14.714,462.53,462.53,,,0,1.0,0.0,0.65559,0.34441,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-02,472.148,1.77351,11.105,472.148,472.148,,,0,1.0,0.0,0.5287,0.4713,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-03,455.496,1.71096,16.566,455.496,455.496,,,0,1.0,0.0,0.32628,0.66767,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-04,536.603,2.01562,11.592,536.603,536.603,,,0,1.0,0.0,0.35045,0.64048,0.00906,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-05,562.823,2.11411,12.161,562.823,562.823,,,0,1.0,0.0,0.11782,0.86103,0.02115,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-06,498.047,1.87079,12.084,498.047,498.047,,,0,1.0,0.0,0.41088,0.58912,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-07,430.716,1.61788,8.956,430.716,430.716,,,0,1.0,0.0,0.77946,0.22054,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-08,450.387,1.69177,10.409,450.387,450.387,,,0,1.0,0.0,0.81571,0.18429,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-09,561.769,2.11015,14.752,561.769,561.769,,,0,1.0,0.0,0.0,0.01813,0.98187,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-10,466.419,1.75199,11.87,466.419,466.419,,,0,1.0,0.0,0.51057,0.46224,0.02719,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-11,406.46,1.52677,11.697,406.46,406.46,,,0,1.0,0.0,0.29607,0.70091,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2017-12,444.05,1.66797,10.428,444.05,444.05,,,0,1.0,0.0,0.15408,0.84592,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-01,469.221,1.76251,11.58,469.221,469.221,,,0,1.0,0.0,0.66465,0.33535,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-02,495.644,1.86177,12.839,495.644,495.644,,,0,1.0,0.0,0.64955,0.35045,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-03,478.044,1.79566,11.842,478.044,478.044,,,0,1.0,0.0,0.88218,0.11782,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-04,532.07,1.9986,15.32,532.07,532.07,,,0,1.0,0.0,0.53172,0.46526,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-05,494.82,1.85867,9.703,494.82,494.82,,,0,1.0,0.0,0.90937,0.09063,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-06,533.16,2.00269,11.686,533.16,533.16,,,0,1.0,0.0,0.80665,0.19335,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-07,396.456,1.48919,7.556,396.456,396.456,,,0,1.0,0.0,0.70091,0.29909,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-08,368.833,1.38543,7.727,368.833,368.833,,,0,1.0,0.0,0.75831,0.24169,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-09,388.348,1.45874,10.044,388.348,388.348,,,0,1.0,0.0,0.40181,0.59819,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-10,358.01,1.34478,9.586,358.01,358.01,,,0,1.0,0.0,0.7432,0.25378,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-11,334.834,1.25772,8.413,334.834,334.834,,,0,1.0,0.0,0.6858,0.3142,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2018-12,312.234,1.17283,8.312,312.234,312.234,,,0,1.0,0.0,0.38066,0.60725,0.01208,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-01,342.899,1.28802,9.118,342.899,342.899,,,0,1.0,0.0,0.93051,0.06949,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-02,374.011,1.40488,9.085,374.011,374.011,,,0,1.0,0.0,0.56798,0.43202,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-03,375.973,1.41225,8.76,375.973,375.973,,,0,1.0,0.0,0.89728,0.10272,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-04,416.066,1.56285,12.68,416.066,416.066,,,0,1.0,0.0,0.94562,0.05438,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-05,462.68,1.73795,15.204,462.68,462.68,,,0,1.0,0.0,0.02115,0.96979,0.00906,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-06,399.032,1.49887,11.87,399.032,399.032,,,0,1.0,0.0,0.11178,0.87009,0.01813,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-07,360.235,1.35314,8.586,360.235,360.235,,,0,1.0,0.0,0.73716,0.26284,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-08,343.926,1.29188,10.885,343.926,343.926,,,0,1.0,0.0,0.91541,0.08459,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-09,324.583,1.21922,11.945,324.583,324.583,,,0,1.0,0.0,0.45619,0.53776,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-10,329.954,1.23939,10.868,329.954,329.954,,,0,1.0,0.0,0.7281,0.2719,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-11,341.488,1.28272,13.286,341.488,341.488,,,0,1.0,0.0,0.66465,0.33535,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2019-12,314.775,1.18238,10.503,314.775,314.775,,,0,1.0,0.0,0.97281,0.02719,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-01,368.917,1.38575,12.493,368.917,368.917,,,0,1.0,0.0,0.79758,0.20242,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-02,354.319,1.33091,14.074,354.319,354.319,,,0,1.0,0.0,0.94864,0.05136,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-03,352.434,1.32383,14.064,352.434,352.434,,,0,1.0,0.0,0.69789,0.30211,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-04,379.141,1.42415,11.655,379.141,379.141,,,0,1.0,0.0,0.91239,0.08761,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-05,382.353,1.43622,13.478,382.353,382.353,,,0,1.0,0.0,0.8429,0.1571,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-06,380.287,1.42846,11.616,380.287,380.287,,,0,1.0,0.0,0.60121,0.39879,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-07,406.434,1.52667,12.592,406.434,406.434,,,0,1.0,0.0,0.05136,0.94864,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-08,301.636,1.13302,7.316,301.636,301.636,,,0,1.0,0.0,0.38671,0.61027,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-09,270.841,1.01735,8.249,270.841,270.841,,,0,1.0,0.0,0.26888,0.7281,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-10,286.198,1.07503,11.145,286.198,286.198,,,0,1.0,0.0,0.6284,0.3716,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-11,270.718,1.01689,9.253,270.718,270.718,,,0,1.0,0.0,0.83686,0.16314,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2020-12,237.188,0.89094,9.159,237.188,237.188,,,0,1.0,0.0,0.57704,0.42296,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-01,268.653,1.00913,6.984,268.653,268.653,,,0,1.0,0.0,0.70091,0.29909,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-02,329.153,1.23638,10.094,329.153,329.153,,,0,1.0,0.0,0.65257,0.34743,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-03,297.196,1.11635,7.955,297.196,297.196,,,0,1.0,0.0,0.93353,0.06647,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-04,372.137,1.39784,11.439,372.137,372.137,,,0,1.0,0.0,0.0574,0.92749,0.01511,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-05,380.999,1.43113,9.266,380.999,380.999,,,0,1.0,0.0,0.83988,0.16012,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-06,330.556,1.24165,7.116,330.556,330.556,,,0,1.0,0.0,0.01208,0.98489,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-07,373.304,1.40223,8.157,373.304,373.304,,,0,1.0,0.0,0.77644,0.22356,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-08,413.054,1.55154,8.142,413.054,413.054,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-09,278.465,1.04599,10.035,278.465,278.465,,,0,1.0,0.0,0.83686,0.16314,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-10,315.384,1.18466,8.0,315.384,315.384,,,0,1.0,0.0,0.95166,0.04834,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-11,307.686,1.15575,7.296,307.686,307.686,,,0,1.0,0.0,0.93958,0.06042,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2021-12,274.272,1.03024,9.213,274.272,274.272,,,0,1.0,0.0,0.2568,0.7432,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-01,307.248,1.1541,7.816,307.248,307.248,,,0,1.0,0.0,0.98187,0.01813,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-02,308.157,1.15752,11.08,308.157,308.157,,,0,1.0,0.0,0.92447,0.07553,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-03,328.985,1.23575,9.18,328.985,328.985,,,0,1.0,0.0,0.90634,0.09366,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-04,455.829,1.71221,8.754,455.829,455.829,,,0,1.0,0.0,0.17825,0.82175,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-05,445.02,1.67161,10.689,445.02,445.02,,,0,1.0,0.0,0.8852,0.1148,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-06,477.881,1.79505,9.622,477.881,477.881,,,0,1.0,0.0,0.92145,0.07855,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-07,401.633,1.50864,9.525,401.633,401.633,,,0,1.0,0.0,0.32931,0.67069,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-08,325.671,1.2233,9.054,325.671,325.671,,,0,1.0,0.0,0.3142,0.6858,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-09,388.679,1.45998,8.928,388.679,388.679,,,0,1.0,0.0,0.40483,0.5861,0.00906,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-10,413.172,1.55198,10.512,413.172,413.172,,,0,1.0,0.0,0.75227,0.24471,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-11,392.819,1.47553,21.957,392.819,392.819,,,0,1.0,0.0,0.0,0.97281,0.02719,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2022-12,410.606,1.54234,8.724,410.606,410.606,,,0,1.0,0.0,0.36858,0.63142,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-01,376.36,1.41371,10.899,376.36,376.36,,,0,1.0,0.0,0.95468,0.04532,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-02,368.562,1.38441,10.271,368.562,368.562,,,0,1.0,0.0,0.82477,0.17523,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-03,489.42,1.83839,11.775,489.42,489.42,,,0,1.0,0.0,0.87009,0.12991,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-04,499.156,1.87496,10.895,499.156,499.156,,,0,1.0,0.0,0.78248,0.21752,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-05,521.617,1.95933,12.017,521.617,521.617,,,0,1.0,0.0,0.48338,0.51662,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-06,530.777,1.99374,13.976,530.777,530.777,,,0,1.0,0.0,0.04834,0.9426,0.00906,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-07,576.496,2.16547,9.228,576.496,576.496,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-08,531.367,1.99595,10.662,531.367,531.367,,,0,1.0,0.0,0.39275,0.60725,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-09,407.639,1.5312,13.019,407.639,407.639,,,0,1.0,0.0,0.5861,0.4139,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-10,479.664,1.80174,13.374,479.664,479.664,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-11,477.233,1.79261,11.597,477.233,477.233,,,0,1.0,0.0,0.0,0.99698,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2023-12,431.06,1.61917,13.151,431.06,431.06,,,0,1.0,0.0,0.97885,0.02115,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-01,441.249,1.65745,16.504,441.249,441.249,,,0,1.0,0.0,0.93051,0.06949,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-02,489.707,1.83947,14.816,489.707,489.707,,,0,1.0,0.0,0.3716,0.6284,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-03,477.98,1.79542,16.427,477.98,477.98,,,0,1.0,0.0,0.61329,0.38066,0.00604,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-04,468.079,1.75823,15.444,468.079,468.079,,,0,1.0,0.0,0.91239,0.08761,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-05,445.051,1.67173,13.994,445.051,445.051,,,0,1.0,0.0,0.00604,0.99094,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-06,514.643,1.93313,27.683,514.643,514.643,,,0,1.0,0.0,0.0,1.0,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-07,403.689,1.51636,13.463,403.689,403.689,,,0,1.0,0.0,0.34441,0.65559,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-08,542.349,2.0372,17.683,542.349,542.349,,,0,1.0,0.0,0.06647,0.92145,0.01208,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-09,386.612,1.45221,10.276,386.612,386.612,,,0,1.0,0.0,0.50453,0.45921,0.03625,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-10,414.5,1.55697,13.83,414.5,414.5,,,0,1.0,0.0,0.85801,0.14199,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-11,423.798,1.59189,12.493,423.798,423.798,,,0,1.0,0.0,0.0,0.99698,0.00302,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2024-12,451.604,1.69634,12.809,451.604,451.604,,,0,1.0,0.0,0.56495,0.43505,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-01,502.757,1.88848,11.848,502.757,502.757,,,0,1.0,0.0,0.94864,0.05136,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-02,490.005,1.84059,11.774,490.005,490.005,,,0,1.0,0.0,0.35045,0.64955,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-03,584.989,2.19737,19.005,584.989,584.989,,,0,1.0,0.0,0.1571,0.81873,0.02417,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-04,490.263,1.84156,25.074,490.263,490.263,,,0,1.0,0.0,0.0,0.94562,0.05438,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-05,571.831,2.14795,11.192,571.831,571.831,,,0,1.0,0.0,0.0,0.92447,0.07553,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-06,643.492,2.41712,17.569,643.492,643.492,,,0,1.0,0.0,0.0,0.90332,0.09668,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-07,469.95,1.76525,14.765,469.95,469.95,,,0,1.0,0.0,0.70091,0.29909,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-08,517.23,1.94285,28.587,517.23,517.23,,,0,1.0,0.0,0.65257,0.34743,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-09,482.714,1.8132,17.486,482.714,482.714,,,0,1.0,0.0,0.93958,0.06042,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-10,502.908,1.88905,23.54,502.908,502.908,,,0,1.0,0.0,0.72508,0.27492,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-11,442.173,1.66092,13.247,442.173,442.173,,,0,1.0,0.0,0.01511,0.98489,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.5_1,Saint Mary,2025-12,485.43,1.8234,12.394,485.43,485.43,,,0,1.0,0.0,0.96677,0.03323,0.0,266,1,0.9807,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-01,581.193,2.56053,51.705,581.193,581.193,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-02,571.381,2.5173,48.488,571.381,571.381,,,0,1.0,0.0,0.63899,0.36101,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-03,696.003,3.06634,90.432,696.003,696.003,,,0,1.0,0.0,0.0,0.91336,0.08664,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-04,746.43,3.2885,57.725,746.43,746.43,,,0,1.0,0.0,0.25993,0.72563,0.01444,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-05,599.211,2.63991,12.768,599.211,599.211,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-06,490.552,2.16119,12.152,490.552,490.552,,,0,1.0,0.0,0.64982,0.35018,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-07,479.157,2.111,12.867,479.157,479.157,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-08,489.497,2.15655,12.514,489.497,489.497,,,0,1.0,0.0,0.0,0.98917,0.01083,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-09,458.149,2.01844,11.908,458.149,458.149,,,0,1.0,0.0,0.44404,0.52708,0.02888,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-10,430.293,1.89572,12.563,430.293,430.293,,,0,1.0,0.0,0.0,0.99278,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-11,397.93,1.75314,13.583,397.93,397.93,,,0,1.0,0.0,0.37545,0.61733,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2012-12,492.801,2.1711,40.975,492.801,492.801,,,0,1.0,0.0,0.8556,0.14079,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-01,515.465,2.27095,47.033,515.465,515.465,,,0,1.0,0.0,0.74368,0.25632,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-02,695.814,3.06551,65.236,695.814,695.814,,,0,1.0,0.0,0.68953,0.31047,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-03,569.616,2.50953,51.704,569.616,569.616,,,0,1.0,0.0,0.39711,0.60289,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-04,646.729,2.84926,64.712,646.729,646.729,,,0,1.0,0.0,0.93502,0.06498,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-05,539.749,2.37794,17.139,539.749,539.749,,,0,1.0,0.0,0.0,0.99639,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-06,530.673,2.33795,31.562,530.673,530.673,,,0,1.0,0.0,0.0,0.8231,0.1769,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-07,452.563,1.99383,14.417,452.563,452.563,,,0,1.0,0.0,0.76173,0.23466,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-08,498.251,2.19511,10.332,498.251,498.251,,,0,1.0,0.0,0.81588,0.18412,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-09,413.057,1.81978,10.974,413.057,413.057,,,0,1.0,0.0,0.55235,0.44043,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-10,413.521,1.82182,13.392,413.521,413.521,,,0,1.0,0.0,0.06498,0.93502,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-11,402.64,1.77389,11.41,402.64,402.64,,,0,1.0,0.0,0.83755,0.16245,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2013-12,551.727,2.43071,47.139,551.727,551.727,,,0,1.0,0.0,0.41516,0.58484,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-01,473.379,2.08554,21.299,473.379,473.379,,,0,1.0,0.0,0.67509,0.32491,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-02,518.701,2.28521,37.441,518.701,518.701,,,0,1.0,0.0,0.84838,0.15162,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-03,612.192,2.6971,42.202,612.192,612.192,,,0,1.0,0.0,0.70397,0.29603,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-04,607.834,2.6779,22.0,607.834,607.834,,,0,1.0,0.0,0.58484,0.41516,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-05,571.914,2.51965,14.642,571.914,571.914,,,0,1.0,0.0,0.74007,0.25993,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-06,662.32,2.91794,14.448,662.32,662.32,,,0,1.0,0.0,0.0,0.85199,0.14801,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-07,574.719,2.53201,9.864,574.719,574.719,,,0,1.0,0.0,0.00722,0.99278,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-08,567.407,2.49979,12.356,567.407,567.407,,,0,1.0,0.0,0.0,0.98556,0.01444,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-09,530.231,2.33601,17.585,530.231,530.231,,,0,1.0,0.0,0.79783,0.20217,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-10,536.35,2.36296,15.055,536.35,536.35,,,0,1.0,0.0,0.88448,0.11552,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-11,475.158,2.09338,20.663,475.158,475.158,,,0,1.0,0.0,0.74368,0.25632,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2014-12,586.775,2.58512,33.154,586.775,586.775,,,0,1.0,0.0,0.83032,0.16968,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-01,598.44,2.63651,60.917,598.44,598.44,,,0,1.0,0.0,0.93863,0.06137,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-02,624.363,2.75072,35.494,624.363,624.363,,,0,1.0,0.0,0.68592,0.31408,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-03,661.555,2.91457,25.156,661.555,661.555,,,0,1.0,0.0,0.94585,0.05415,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-04,590.005,2.59935,19.625,590.005,590.005,,,0,1.0,0.0,0.0,0.99278,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-05,657.0,2.8945,14.551,657.0,657.0,,,0,1.0,0.0,0.68953,0.31047,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-06,592.725,2.61133,11.865,592.725,592.725,,,0,1.0,0.0,0.68953,0.30686,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-07,604.407,2.6628,12.82,604.407,604.407,,,0,1.0,0.0,0.74368,0.25632,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-08,585.539,2.57967,14.995,585.539,585.539,,,0,1.0,0.0,0.12996,0.86643,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-09,518.005,2.28215,14.336,518.005,518.005,,,0,1.0,0.0,0.44404,0.54513,0.01083,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-10,509.228,2.24347,13.652,509.228,509.228,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-11,474.299,2.08959,13.852,474.299,474.299,,,0,1.0,0.0,0.44404,0.55596,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2015-12,602.347,2.65372,52.81,602.347,602.347,,,0,1.0,0.0,0.46209,0.53791,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-01,614.723,2.70825,34.427,614.723,614.723,,,0,1.0,0.0,0.51986,0.47292,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-02,632.1,2.78481,27.05,632.1,632.1,,,0,1.0,0.0,0.92058,0.07942,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-03,614.787,2.70853,37.545,614.787,614.787,,,0,1.0,0.0,0.76534,0.23466,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-04,765.827,3.37396,27.55,765.827,765.827,,,0,1.0,0.0,0.0,0.49097,0.50903,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-05,645.616,2.84435,16.236,645.616,645.616,,,0,1.0,0.0,0.0,0.99639,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-06,578.36,2.54805,15.642,578.36,578.36,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-07,602.203,2.65309,16.118,602.203,602.203,,,0,1.0,0.0,0.48014,0.51986,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-08,526.256,2.3185,14.159,526.256,526.256,,,0,1.0,0.0,0.87365,0.12274,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-09,487.452,2.14754,14.539,487.452,487.452,,,0,1.0,0.0,0.55596,0.43682,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-10,456.955,2.01318,13.867,456.955,456.955,,,0,1.0,0.0,0.0,0.98917,0.01083,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-11,530.208,2.33591,17.258,530.208,530.208,,,0,1.0,0.0,0.00361,0.84838,0.14801,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2016-12,500.078,2.20317,29.087,500.078,500.078,,,0,1.0,0.0,0.5704,0.4296,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-01,555.254,2.44625,36.768,555.254,555.254,,,0,1.0,0.0,0.787,0.213,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-02,603.858,2.66038,47.934,603.858,603.858,,,0,1.0,0.0,0.55235,0.44765,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-03,560.803,2.4707,21.648,560.803,560.803,,,0,1.0,0.0,0.16245,0.83394,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-04,655.362,2.88729,19.592,655.362,655.362,,,0,1.0,0.0,0.20217,0.77617,0.02166,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-05,633.129,2.78934,19.868,633.129,633.129,,,0,1.0,0.0,0.11191,0.87726,0.01083,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-06,561.549,2.47398,14.23,561.549,561.549,,,0,1.0,0.0,0.08303,0.91697,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-07,492.563,2.17006,11.74,492.563,492.563,,,0,1.0,0.0,0.84838,0.1444,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-08,488.472,2.15203,12.881,488.472,488.472,,,0,1.0,0.0,0.84477,0.15162,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-09,665.128,2.93031,15.069,665.128,665.128,,,0,1.0,0.0,0.0,0.0,1.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-10,429.555,1.89246,11.697,429.555,429.555,,,0,1.0,0.0,0.07581,0.88809,0.0361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-11,451.401,1.98871,12.093,451.401,451.401,,,0,1.0,0.0,0.68953,0.30686,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2017-12,570.608,2.51389,30.011,570.608,570.608,,,0,1.0,0.0,0.23105,0.76895,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-01,523.477,2.30625,41.062,523.477,523.477,,,0,1.0,0.0,0.70397,0.29603,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-02,564.115,2.48529,30.968,564.115,564.115,,,0,1.0,0.0,0.72202,0.27798,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-03,582.605,2.56675,21.894,582.605,582.605,,,0,1.0,0.0,0.91697,0.08303,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-04,657.369,2.89613,32.77,657.369,657.369,,,0,1.0,0.0,0.58484,0.41516,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-05,601.49,2.64995,13.055,601.49,601.49,,,0,1.0,0.0,0.87365,0.12635,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-06,610.155,2.68812,12.095,610.155,610.155,,,0,1.0,0.0,0.82671,0.17329,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-07,601.517,2.65007,12.476,601.517,601.517,,,0,1.0,0.0,0.61372,0.38628,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-08,794.2,3.49896,75.026,794.2,794.2,,,0,1.0,0.0,0.72202,0.27798,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-09,463.484,2.04195,12.667,463.484,463.484,,,0,1.0,0.0,0.29603,0.70036,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-10,412.302,1.81646,15.278,412.302,412.302,,,0,1.0,0.0,0.58845,0.39711,0.01444,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-11,420.637,1.85318,16.63,420.637,420.637,,,0,1.0,0.0,0.38267,0.61011,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2018-12,438.962,1.93391,17.989,438.962,438.962,,,0,1.0,0.0,0.213,0.787,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-01,471.602,2.07771,39.903,471.602,471.602,,,0,1.0,0.0,0.80505,0.19495,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-02,558.206,2.45926,39.734,558.206,558.206,,,0,1.0,0.0,0.61011,0.38989,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-03,564.928,2.48887,42.637,564.928,564.928,,,0,1.0,0.0,0.90975,0.09025,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-04,494.26,2.17753,31.501,494.26,494.26,,,0,1.0,0.0,0.90614,0.09386,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-05,485.308,2.13809,19.508,485.308,485.308,,,0,1.0,0.0,0.09386,0.90614,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-06,423.915,1.86762,11.981,423.915,423.915,,,0,1.0,0.0,0.10469,0.87004,0.02527,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-07,421.986,1.85912,12.088,421.986,421.986,,,0,1.0,0.0,0.7509,0.2491,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-08,313.842,1.38268,10.51,313.842,313.842,,,0,1.0,0.0,0.6426,0.35379,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-09,367.355,1.61843,9.933,367.355,367.355,,,0,1.0,0.0,0.50542,0.48736,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-10,379.914,1.67377,10.288,379.914,379.914,,,0,1.0,0.0,0.83394,0.16606,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-11,355.346,1.56553,11.576,355.346,355.346,,,0,1.0,0.0,0.54152,0.45848,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2019-12,382.286,1.68422,18.96,382.286,382.286,,,0,1.0,0.0,0.97112,0.02888,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-01,445.156,1.9612,30.337,445.156,445.156,,,0,1.0,0.0,0.77617,0.22383,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-02,418.768,1.84494,33.075,418.768,418.768,,,0,1.0,0.0,0.95307,0.04693,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-03,398.852,1.7572,21.533,398.852,398.852,,,0,1.0,0.0,0.8231,0.1769,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-04,415.236,1.82938,21.021,415.236,415.236,,,0,1.0,0.0,0.96029,0.03971,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-05,394.307,1.73718,10.53,394.307,394.307,,,0,1.0,0.0,0.95668,0.04332,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-06,437.763,1.92863,12.785,437.763,437.763,,,0,1.0,0.0,0.64621,0.35379,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-07,376.025,1.65663,10.242,376.025,376.025,,,0,1.0,0.0,0.05776,0.94224,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-08,369.116,1.62619,9.28,369.116,369.116,,,0,1.0,0.0,0.26715,0.73285,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-09,329.68,1.45245,9.813,329.68,329.68,,,0,1.0,0.0,0.11913,0.8556,0.02527,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-10,322.185,1.41943,9.173,322.185,322.185,,,0,1.0,0.0,0.59928,0.40072,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-11,298.538,1.31525,9.021,298.538,298.538,,,0,1.0,0.0,0.90614,0.09386,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2020-12,287.517,1.2667,11.552,287.517,287.517,,,0,1.0,0.0,0.75812,0.24188,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-01,333.373,1.46872,21.837,333.373,333.373,,,0,1.0,0.0,0.93502,0.06498,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-02,378.517,1.66761,24.441,378.517,378.517,,,0,1.0,0.0,0.72924,0.27076,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-03,367.086,1.61725,21.324,367.086,367.086,,,0,1.0,0.0,0.93863,0.06137,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-04,387.193,1.70583,12.314,387.193,387.193,,,0,1.0,0.0,0.60289,0.39711,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-05,412.596,1.81775,10.863,412.596,412.596,,,0,1.0,0.0,0.43321,0.56679,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-06,357.305,1.57416,8.761,357.305,357.305,,,0,1.0,0.0,0.00361,0.98556,0.01083,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-07,381.058,1.6788,11.813,381.058,381.058,,,0,1.0,0.0,0.50903,0.49097,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-08,438.366,1.93128,10.447,438.366,438.366,,,0,1.0,0.0,0.05776,0.94224,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-09,300.338,1.32318,10.147,300.338,300.338,,,0,1.0,0.0,0.81949,0.16245,0.01805,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-10,346.532,1.5267,9.063,346.532,346.532,,,0,1.0,0.0,0.87726,0.12274,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-11,343.015,1.5112,8.57,343.015,343.015,,,0,1.0,0.0,0.8917,0.1083,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2021-12,383.67,1.69031,16.459,383.67,383.67,,,0,1.0,0.0,0.40072,0.59928,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-01,420.947,1.85454,29.762,420.947,420.947,,,0,1.0,0.0,0.96751,0.03249,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-02,434.01,1.91209,22.885,434.01,434.01,,,0,1.0,0.0,0.90253,0.09747,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-03,475.148,2.09333,45.784,475.148,475.148,,,0,1.0,0.0,0.97834,0.02166,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-04,519.837,2.29022,29.12,519.837,519.837,,,0,1.0,0.0,0.23105,0.76895,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-05,524.42,2.31041,14.779,524.42,524.42,,,0,1.0,0.0,0.87365,0.12635,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-06,530.729,2.3382,12.08,530.729,530.729,,,0,1.0,0.0,0.7509,0.2491,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-07,455.969,2.00884,10.48,455.969,455.969,,,0,1.0,0.0,0.01083,0.98917,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-08,384.67,1.69472,10.736,384.67,384.67,,,0,1.0,0.0,0.37545,0.62455,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-09,408.477,1.7996,8.811,408.477,408.477,,,0,1.0,0.0,0.28159,0.7148,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-10,416.625,1.8355,9.996,416.625,416.625,,,0,1.0,0.0,0.51625,0.48014,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-11,407.414,1.79492,10.965,407.414,407.414,,,0,1.0,0.0,0.0,0.96029,0.03971,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2022-12,448.634,1.97652,40.955,448.634,448.634,,,0,1.0,0.0,0.55957,0.44043,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-01,476.2,2.09797,32.028,476.2,476.2,,,0,1.0,0.0,0.86643,0.13357,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-02,498.988,2.19836,30.033,498.988,498.988,,,0,1.0,0.0,0.83394,0.16606,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-03,561.413,2.47338,20.256,561.413,561.413,,,0,1.0,0.0,0.92058,0.07942,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-04,578.125,2.54701,28.685,578.125,578.125,,,0,1.0,0.0,0.75451,0.24549,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-05,596.53,2.6281,26.398,596.53,596.53,,,0,1.0,0.0,0.41516,0.58123,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-06,639.933,2.81932,20.0,639.933,639.933,,,0,1.0,0.0,0.11552,0.88448,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-07,601.589,2.65039,17.778,601.589,601.589,,,0,1.0,0.0,0.0,0.99639,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-08,547.257,2.41102,15.302,547.257,547.257,,,0,1.0,0.0,0.45848,0.54152,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-09,465.213,2.04956,16.819,465.213,465.213,,,0,1.0,0.0,0.3574,0.63899,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-10,461.194,2.03185,17.404,461.194,461.194,,,0,1.0,0.0,0.03249,0.9639,0.00361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-11,479.684,2.11331,16.023,479.684,479.684,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2023-12,477.653,2.10437,23.145,477.653,477.653,,,0,1.0,0.0,0.96751,0.03249,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-01,516.987,2.27766,24.049,516.987,516.987,,,0,1.0,0.0,0.96029,0.03971,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-02,519.565,2.28902,24.629,519.565,519.565,,,0,1.0,0.0,0.48736,0.51264,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-03,522.7,2.30283,28.381,522.7,522.7,,,0,1.0,0.0,0.77978,0.22022,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-04,606.465,2.67187,21.509,606.465,606.465,,,0,1.0,0.0,0.84116,0.15884,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-05,524.675,2.31153,20.475,524.675,524.675,,,0,1.0,0.0,0.16245,0.83755,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-06,524.966,2.31281,21.495,524.966,524.966,,,0,1.0,0.0,0.0,0.98917,0.01083,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-07,445.869,1.96434,14.963,445.869,445.869,,,0,1.0,0.0,0.56318,0.43682,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-08,596.345,2.62728,17.01,596.345,596.345,,,0,1.0,0.0,0.0,0.96029,0.03971,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-09,410.837,1.81,13.276,410.837,410.837,,,0,1.0,0.0,0.22383,0.74007,0.0361,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-10,452.957,1.99557,13.839,452.957,452.957,,,0,1.0,0.0,0.88809,0.11191,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-11,423.483,1.86571,17.308,423.483,423.483,,,0,1.0,0.0,0.0,0.95307,0.04693,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2024-12,535.529,2.35935,22.047,535.529,535.529,,,0,1.0,0.0,0.50542,0.49458,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-01,522.262,2.3009,28.526,522.262,522.262,,,0,1.0,0.0,0.94224,0.05776,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-02,502.133,2.21222,23.666,502.133,502.133,,,0,1.0,0.0,0.68592,0.31408,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-03,634.041,2.79336,26.44,634.041,634.041,,,0,1.0,0.0,0.08303,0.90975,0.00722,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-04,458.497,2.01997,41.886,458.497,458.497,,,0,1.0,0.0,0.0,0.93863,0.06137,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-05,644.299,2.83855,21.384,644.299,644.299,,,0,1.0,0.0,0.0,0.76895,0.23105,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-06,669.726,2.95057,21.17,669.726,669.726,,,0,1.0,0.0,0.0,0.82671,0.17329,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-07,518.031,2.28226,11.458,518.031,518.031,,,0,1.0,0.0,0.81949,0.18051,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-08,551.881,2.43139,14.712,551.881,551.881,,,0,1.0,0.0,0.55235,0.44765,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-09,484.762,2.13569,13.244,484.762,484.762,,,0,1.0,0.0,0.93502,0.06498,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-10,516.919,2.27736,11.778,516.919,516.919,,,0,1.0,0.0,0.61733,0.38267,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-11,436.245,1.92194,10.387,436.245,436.245,,,0,1.0,0.0,0.0,1.0,0.0,227,1,0.9126,adm1_outline
+ATG,Antigua and Barbuda,ATG.6_1,Saint Paul,2025-12,496.802,2.18873,24.332,496.802,496.802,,,0,1.0,0.0,0.96029,0.03971,0.0,227,1,0.9126,adm1_outline

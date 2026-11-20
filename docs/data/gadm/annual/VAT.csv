@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+VAT,Vatican City,VAT,Vatican City,2012,450.399,148.06505,166.689,450.399,450.399,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2013,436.58,143.52205,167.24,436.58,436.58,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2014,434.409,142.80823,168.917,434.409,434.409,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2015,444.744,146.20573,183.255,444.744,444.744,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2016,426.939,140.35254,169.132,426.939,426.939,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2017,398.358,130.95692,155.61,398.358,398.358,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2018,374.084,122.97698,141.365,374.084,374.084,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2019,319.02,104.87525,124.653,319.02,319.02,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2020,243.335,79.99422,98.518,243.335,243.335,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2021,201.943,66.38699,74.263,201.943,201.943,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2022,214.638,70.56045,78.799,214.638,214.638,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2023,199.97,65.73854,71.012,199.97,199.97,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name
+VAT,Vatican City,VAT,Vatican City,2024,206.137,67.76565,77.165,206.137,206.137,,,0,1.0,0.0,1.0,0.0,0.0,3,1,0.997,code_name

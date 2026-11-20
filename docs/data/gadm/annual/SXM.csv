@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2012,2108.145,12.77514,47.09,2108.145,2108.145,,,0,1.0,0.0,0.99541,0.00459,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2013,2186.714,13.25126,42.155,2186.714,2186.714,,,0,1.0,0.0,0.99541,0.00459,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2014,2217.084,13.4353,42.445,2217.084,2217.084,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2015,2288.57,13.86849,49.199,2288.57,2288.57,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2016,2242.798,13.59112,44.94,2242.798,2242.798,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2017,1969.506,11.935,45.075,1969.506,1969.506,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2018,1868.004,11.31991,29.07,1868.004,1868.004,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2019,2431.014,14.73169,47.342,2431.014,2431.014,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2020,2574.519,15.60131,70.272,2574.519,2574.519,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2021,2837.039,17.19216,60.931,2837.039,2837.039,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2022,3031.981,18.37349,62.837,3031.981,3031.981,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2023,3327.435,20.1639,87.86,3327.435,3327.435,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name
+SXM,Sint Maarten (Neth.),SXM,Sint Maarten,2024,3227.986,19.56125,61.153,3227.986,3227.986,,,0,1.0,0.0,1.0,0.0,0.0,165,1,0.9736,code_name

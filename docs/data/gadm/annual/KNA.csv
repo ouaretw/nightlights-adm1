@@ -1,0 +1,183 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2012,80.575,5.51501,10.182,80.575,80.575,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2013,79.328,5.42963,10.206,79.328,79.328,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2014,78.178,5.35097,10.113,78.178,78.178,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2015,86.922,5.94944,11.109,86.922,86.922,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2016,88.434,6.05295,11.065,88.434,88.434,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2017,87.887,6.01545,12.354,87.887,87.887,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2018,83.249,5.69801,10.917,83.249,83.249,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2019,85.578,5.85741,11.766,85.578,85.578,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2020,80.277,5.49459,11.122,80.277,80.277,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2021,82.542,5.64967,10.953,82.542,82.542,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2022,84.663,5.79482,10.642,84.663,84.663,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2023,85.657,5.86286,11.171,85.657,85.657,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.10_1,Saint Paul Charlestown,2024,84.966,5.81558,11.475,84.966,84.966,,,0,1.0,0.0,1.0,0.0,0.0,15,1,0.8343,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2012,282.95,2.65131,28.267,282.95,282.95,,,0,1.0,0.0,0.98592,0.01408,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2013,256.559,2.40402,29.279,256.559,256.559,,,0,1.0,0.0,0.97183,0.02817,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2014,285.192,2.67232,28.274,285.192,285.192,,,0,1.0,0.0,0.96479,0.03521,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2015,282.355,2.64573,32.152,282.355,282.355,,,0,1.0,0.0,0.97887,0.02113,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2016,281.348,2.6363,30.25,281.348,281.348,,,0,1.0,0.0,0.97183,0.02817,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2017,289.388,2.71163,29.455,289.388,289.388,,,0,1.0,0.0,0.97183,0.02817,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2018,320.779,3.00577,31.061,320.779,320.779,,,0,1.0,0.0,0.97183,0.02817,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2019,317.176,2.97201,29.887,317.176,317.176,,,0,1.0,0.0,0.96479,0.03521,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2020,302.543,2.8349,22.18,302.543,302.543,,,0,1.0,0.0,0.97183,0.02817,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2021,305.428,2.86193,23.796,305.428,305.428,,,0,1.0,0.0,0.94366,0.05634,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2022,356.065,3.33641,26.65,356.065,356.065,,,0,1.0,0.0,0.9507,0.0493,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2023,370.481,3.47149,28.929,370.481,370.481,,,0,1.0,0.0,0.97887,0.02113,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.11_1,Saint Peter Basseterre,2024,398.182,3.73105,35.799,398.182,398.182,,,0,1.0,0.0,0.97887,0.02113,0.0,107,1,0.656,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2012,221.635,2.54503,18.7,221.635,221.635,,,0,1.0,0.0,0.9823,0.0177,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2013,203.871,2.34104,19.874,203.871,203.871,,,0,1.0,0.0,1.0,0.0,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2014,187.984,2.15862,15.933,187.984,187.984,,,0,1.0,0.0,1.0,0.0,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2015,187.106,2.14853,13.619,187.106,187.106,,,0,1.0,0.0,1.0,0.0,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2016,193.461,2.22151,18.406,193.461,193.461,,,0,1.0,0.0,1.0,0.0,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2017,203.155,2.33282,21.232,203.155,203.155,,,0,1.0,0.0,0.99115,0.00885,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2018,221.591,2.54452,22.185,221.591,221.591,,,0,1.0,0.0,0.9823,0.0177,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2019,211.916,2.43343,16.255,211.916,211.916,,,0,1.0,0.0,1.0,0.0,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2020,199.566,2.2916,15.825,199.566,199.566,,,0,1.0,0.0,0.99115,0.00885,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2021,224.373,2.57646,13.556,224.373,224.373,,,0,1.0,0.0,0.9823,0.0177,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2022,263.298,3.02344,14.971,263.298,263.298,,,0,1.0,0.0,0.9823,0.0177,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2023,255.998,2.93962,11.953,255.998,255.998,,,0,1.0,0.0,0.99115,0.00885,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.12_1,Saint Thomas Lowland,2024,239.098,2.74555,14.448,239.098,239.098,,,0,1.0,0.0,0.99115,0.00885,0.0,87,1,0.9321,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2012,67.937,0.60417,5.282,67.937,67.937,,,0,1.0,0.0,1.0,0.0,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2013,67.29,0.59842,6.35,67.29,67.29,,,0,1.0,0.0,1.0,0.0,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2014,64.226,0.57116,5.724,64.226,64.226,,,0,1.0,0.0,1.0,0.0,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2015,71.95,0.63986,6.419,71.95,71.95,,,0,1.0,0.0,0.99306,0.00694,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2016,67.672,0.60181,5.557,67.672,67.672,,,0,1.0,0.0,0.99306,0.00694,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2017,61.029,0.54274,4.95,61.029,61.029,,,0,1.0,0.0,0.99306,0.00694,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2018,64.43,0.57298,5.977,64.43,64.43,,,0,1.0,0.0,0.98611,0.01389,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2019,63.804,0.56741,6.4,63.804,63.804,,,0,1.0,0.0,0.99306,0.00694,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2020,68.147,0.60603,5.582,68.147,68.147,,,0,1.0,0.0,0.98611,0.01389,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2021,82.023,0.72943,6.921,82.023,82.023,,,0,1.0,0.0,0.98611,0.01389,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2022,93.87,0.83479,6.699,93.87,93.87,,,0,1.0,0.0,0.99306,0.00694,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2023,112.185,0.99766,7.335,112.185,112.185,,,0,1.0,0.0,1.0,0.0,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.13_1,Saint Thomas Middle Island,2024,93.633,0.83269,7.535,93.633,93.633,,,0,1.0,0.0,1.0,0.0,0.0,112,1,0.8322,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2012,72.553,0.93515,9.089,72.553,72.553,,,0,1.0,0.0,1.0,0.0,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2013,70.424,0.90771,10.7,70.424,70.424,,,0,1.0,0.0,0.99029,0.00971,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2014,75.122,0.96826,11.167,75.122,75.122,,,0,1.0,0.0,0.98058,0.01942,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2015,84.41,1.08797,12.733,84.41,84.41,,,0,1.0,0.0,0.99029,0.00971,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2016,79.69,1.02714,12.932,79.69,79.69,,,0,1.0,0.0,0.98058,0.01942,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2017,77.552,0.99959,10.645,77.552,77.552,,,0,1.0,0.0,1.0,0.0,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2018,85.934,1.10763,12.098,85.934,85.934,,,0,1.0,0.0,0.98058,0.01942,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2019,79.307,1.0222,10.27,79.307,79.307,,,0,1.0,0.0,1.0,0.0,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2020,75.72,0.97597,8.628,75.72,75.72,,,0,1.0,0.0,0.98058,0.01942,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2021,84.251,1.08593,9.624,84.251,84.251,,,0,1.0,0.0,0.99029,0.00971,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2022,103.053,1.32827,9.765,103.053,103.053,,,0,1.0,0.0,0.96117,0.03883,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2023,116.922,1.50703,10.954,116.922,116.922,,,0,1.0,0.0,0.99029,0.00971,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.14_1,Trinity Palmetto Point,2024,109.383,1.40985,12.792,109.383,109.383,,,0,1.0,0.0,1.0,0.0,0.0,78,1,0.6382,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2012,54.81,0.67858,5.476,54.81,54.81,,,0,1.0,0.0,0.95283,0.04717,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2013,45.839,0.56751,4.775,45.839,45.839,,,0,1.0,0.0,1.0,0.0,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2014,43.544,0.5391,5.096,43.544,43.544,,,0,1.0,0.0,0.98113,0.01887,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2015,48.597,0.60165,5.532,48.597,48.597,,,0,1.0,0.0,1.0,0.0,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2016,41.891,0.51863,5.687,41.891,41.891,,,0,1.0,0.0,0.99057,0.00943,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2017,41.129,0.5092,4.938,41.129,41.129,,,0,1.0,0.0,0.9717,0.0283,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2018,44.445,0.55025,5.43,44.445,44.445,,,0,1.0,0.0,0.98113,0.01887,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2019,48.482,0.60023,5.071,48.482,48.482,,,0,1.0,0.0,1.0,0.0,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2020,49.598,0.61405,5.337,49.598,49.598,,,0,1.0,0.0,0.98113,0.01887,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2021,49.775,0.61623,5.711,49.775,49.775,,,0,1.0,0.0,0.98113,0.01887,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2022,60.306,0.74662,5.882,60.306,60.306,,,0,1.0,0.0,0.99057,0.00943,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2023,69.425,0.85951,5.829,69.425,69.425,,,0,1.0,0.0,1.0,0.0,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.1_1,Christ Church Nichola Town,2024,51.28,0.63487,4.431,51.28,51.28,,,0,1.0,0.0,1.0,0.0,0.0,81,1,0.6244,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2012,54.805,1.04284,6.521,54.805,54.805,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2013,54.316,1.03354,6.389,54.316,54.316,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2014,59.287,1.12814,6.593,59.287,59.287,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2015,74.372,1.41518,8.839,74.372,74.372,,,0,1.0,0.0,0.98649,0.01351,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2016,74.212,1.41212,9.551,74.212,74.212,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2017,66.865,1.27232,8.311,66.865,66.865,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2018,66.576,1.26684,8.015,66.576,66.576,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2019,65.64,1.24902,8.018,65.64,65.64,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2020,73.103,1.39103,9.016,73.103,73.103,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2021,83.716,1.59298,9.334,83.716,83.716,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2022,86.367,1.64341,8.869,86.367,86.367,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2023,97.255,1.8506,9.94,97.255,97.255,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.2_1,Saint Anne Sandy Point,2024,92.616,1.76233,11.319,92.616,92.616,,,0,1.0,0.0,1.0,0.0,0.0,53,1,0.8689,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2012,1132.163,6.26341,30.935,1132.163,1132.163,,,0,1.0,0.0,0.99213,0.00787,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2013,1102.431,6.09892,31.485,1102.431,1102.431,,,0,1.0,0.0,1.0,0.0,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2014,1085.236,6.0038,29.537,1085.236,1085.236,,,0,1.0,0.0,1.0,0.0,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2015,1142.03,6.318,32.152,1142.03,1142.03,,,0,1.0,0.0,1.0,0.0,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2016,1163.319,6.43577,32.652,1163.319,1163.319,,,0,1.0,0.0,1.0,0.0,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2017,1232.543,6.81873,29.455,1232.543,1232.543,,,0,1.0,0.0,0.99606,0.00394,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2018,1697.679,9.39199,152.175,1697.679,1697.679,,,0,1.0,0.0,0.99606,0.00394,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2019,1715.831,9.49241,134.067,1715.831,1715.831,,,0,1.0,0.0,0.99213,0.00787,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2020,1499.039,8.29306,102.254,1499.039,1499.039,,,0,1.0,0.0,0.98819,0.01181,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2021,1542.009,8.53078,89.434,1542.009,1542.009,,,0,1.0,0.0,0.98425,0.01575,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2022,1604.817,8.87825,95.686,1604.817,1604.817,,,0,1.0,0.0,0.98425,0.01575,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2023,1692.371,9.36262,76.084,1692.371,1692.371,,,0,1.0,0.0,0.98819,0.01181,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.3_1,Saint George Basseterre,2024,1645.054,9.10085,47.652,1645.054,1645.054,,,0,1.0,0.0,0.98425,0.01575,0.0,181,1,0.7365,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2012,102.246,1.20143,5.303,102.246,102.246,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2013,100.51,1.18103,5.341,100.51,100.51,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2014,103.487,1.21602,4.819,103.487,103.487,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2015,119.113,1.39962,5.887,119.113,119.113,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2016,121.749,1.4306,5.868,121.749,121.749,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2017,119.979,1.4098,5.419,119.979,119.979,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2018,105.382,1.23828,4.783,105.382,105.382,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2019,102.693,1.20668,5.039,102.693,102.693,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2020,94.097,1.10568,4.465,94.097,94.097,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2021,87.607,1.02942,4.615,87.607,87.607,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2022,100.432,1.18012,4.378,100.432,100.432,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2023,102.5,1.20442,4.075,102.5,102.5,,,0,1.0,0.0,0.99115,0.00885,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.4_1,Saint George Gingerland,2024,107.379,1.26175,4.547,107.379,107.379,,,0,1.0,0.0,1.0,0.0,0.0,85,1,0.8735,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2012,184.018,1.03318,5.317,184.018,184.018,,,0,1.0,0.0,0.9717,0.0283,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2013,183.245,1.02884,5.805,183.245,183.245,,,0,1.0,0.0,0.99528,0.00472,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2014,209.8,1.17793,6.175,209.8,209.8,,,0,1.0,0.0,1.0,0.0,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2015,224.427,1.26006,6.453,224.427,224.427,,,0,1.0,0.0,0.99528,0.00472,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2016,208.002,1.16784,5.979,208.002,208.002,,,0,1.0,0.0,0.99528,0.00472,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2017,207.374,1.16431,6.601,207.374,207.374,,,0,1.0,0.0,0.98113,0.01887,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2018,192.93,1.08321,5.344,192.93,192.93,,,0,1.0,0.0,0.98113,0.01887,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2019,177.993,0.99935,4.808,177.993,177.993,,,0,1.0,0.0,0.99057,0.00943,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2020,152.368,0.85548,4.39,152.368,152.368,,,0,1.0,0.0,0.98585,0.01415,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2021,153.379,0.86115,4.177,153.379,153.379,,,0,1.0,0.0,0.97642,0.02358,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2022,180.4,1.01286,3.981,180.4,180.4,,,0,1.0,0.0,0.96698,0.03302,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2023,200.47,1.12555,3.861,200.47,200.47,,,0,1.0,0.0,0.99057,0.00943,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.5_1,Saint James Windward,2024,171.94,0.96537,4.073,171.94,171.94,,,0,1.0,0.0,1.0,0.0,0.0,178,1,0.856,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2012,72.039,0.74813,6.078,72.039,72.039,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2013,69.637,0.72318,5.925,69.637,69.637,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2014,68.632,0.71274,5.991,68.632,68.632,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2015,72.091,0.74866,6.07,72.091,72.091,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2016,62.82,0.65239,5.06,62.82,62.82,,,0,1.0,0.0,1.0,0.0,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2017,62.197,0.64591,5.685,62.197,62.197,,,0,1.0,0.0,0.98413,0.01587,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2018,63.389,0.65829,4.94,63.389,63.389,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2019,68.917,0.7157,5.604,68.917,68.917,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2020,59.342,0.61626,4.913,59.342,59.342,,,0,1.0,0.0,1.0,0.0,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2021,55.438,0.57572,4.648,55.438,55.438,,,0,1.0,0.0,0.98413,0.01587,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2022,65.891,0.68427,4.733,65.891,65.891,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2023,74.249,0.77108,4.597,74.249,74.249,,,0,1.0,0.0,0.99206,0.00794,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.6_1,Saint John Capisterre,2024,64.827,0.67323,6.179,64.827,64.827,,,0,1.0,0.0,1.0,0.0,0.0,96,1,0.8182,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2012,210.772,2.22972,8.391,210.772,210.772,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2013,218.727,2.31386,9.303,218.727,218.727,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2014,203.736,2.15528,8.34,203.736,203.736,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2015,225.91,2.38986,10.29,225.91,225.91,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2016,246.952,2.61245,9.755,246.952,246.952,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2017,235.351,2.48972,9.998,235.351,235.351,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2018,220.824,2.33605,9.644,220.824,220.824,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2019,211.643,2.23892,11.255,211.643,211.643,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2020,204.248,2.1607,10.545,204.248,204.248,,,0,1.0,0.0,0.9913,0.0087,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2021,209.192,2.213,9.283,209.192,209.192,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2022,217.117,2.29683,8.96,217.117,217.117,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2023,223.192,2.3611,9.418,223.192,223.192,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.7_1,Saint John Figtree,2024,228.801,2.42043,9.629,228.801,228.801,,,0,1.0,0.0,1.0,0.0,0.0,95,1,0.9894,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2012,143.617,2.17291,9.233,143.617,143.617,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2013,136.903,2.07132,9.577,136.903,136.903,,,0,1.0,0.0,0.98837,0.01163,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2014,147.805,2.23627,9.528,147.805,147.805,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2015,147.851,2.23697,9.294,147.851,147.851,,,0,1.0,0.0,0.98837,0.01163,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2016,139.211,2.10625,9.38,139.211,139.211,,,0,1.0,0.0,0.98837,0.01163,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2017,149.683,2.26469,8.279,149.683,149.683,,,0,1.0,0.0,0.98837,0.01163,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2018,156.682,2.37058,8.725,156.682,156.682,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2019,164.86,2.49432,8.524,164.86,164.86,,,0,1.0,0.0,0.98837,0.01163,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2020,173.177,2.62015,8.685,173.177,173.177,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2021,187.053,2.8301,9.903,187.053,187.053,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2022,189.752,2.87093,9.535,189.752,189.752,,,0,1.0,0.0,0.96512,0.03488,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2023,196.726,2.97645,9.822,196.726,196.726,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.8_1,Saint Mary Cayon,2024,186.765,2.82573,9.957,186.765,186.765,,,0,1.0,0.0,1.0,0.0,0.0,66,1,0.5768,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2012,24.384,0.53921,3.826,24.384,24.384,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2013,25.264,0.55869,4.251,25.264,25.264,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2014,27.565,0.60955,4.945,27.565,27.565,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2015,30.423,0.67276,5.225,30.423,30.423,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2016,29.63,0.65522,5.382,29.63,29.63,,,0,1.0,0.0,0.98529,0.01471,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2017,27.593,0.61017,5.788,27.593,27.593,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2018,26.784,0.59228,4.952,26.784,26.784,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2019,25.174,0.5567,4.759,25.174,25.174,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2020,25.757,0.56957,5.199,25.757,25.757,,,0,1.0,0.0,0.98529,0.01471,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2021,30.704,0.67898,5.264,30.704,30.704,,,0,1.0,0.0,0.98529,0.01471,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2022,43.085,0.95277,5.887,43.085,43.085,,,0,1.0,0.0,0.98529,0.01471,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2023,49.59,1.09661,5.4,49.59,49.59,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name
+KNA,Saint Kitts and Nevis,KNA.9_1,Saint Paul Capisterre,2024,37.499,0.82925,5.28,37.499,37.499,,,0,1.0,0.0,1.0,0.0,0.0,45,1,0.9657,code_name

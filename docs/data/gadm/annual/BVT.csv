@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,GID_1,NAME_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2,xw_min_overlap,xw_methods
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2012,28.045,0.07181,0.963,28.045,28.045,,,0,1.0,0.0,0.73409,0.26591,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2013,1.877,0.00481,0.776,1.877,1.877,,,0,1.0,0.0,0.84318,0.15227,0.00455,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2014,10.999,0.02816,0.951,10.999,10.999,,,0,1.0,0.0,0.94091,0.05909,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2015,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.98636,0.01364,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2016,7.122,0.01824,0.98,7.122,7.122,,,0,1.0,0.0,0.875,0.125,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2017,1.891,0.00484,0.813,1.891,1.891,,,0,1.0,0.0,0.94091,0.05909,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2018,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.96364,0.03636,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2019,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.98636,0.01364,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2020,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.98182,0.01818,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2021,0.567,0.00145,0.567,0.567,0.567,,,0,1.0,0.0,0.95455,0.04545,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2022,3.18,0.00814,0.781,3.18,3.18,,,0,1.0,0.0,0.99545,0.00455,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2023,0.0,0.0,0.0,0.0,0.0,,,0,1.0,0.0,0.99545,0.00455,0.0,391,1,0.99,code_name
+BVT,Bouvet Island (Nor.),BVT,Bouvet Island,2024,2.15,0.0055,0.573,2.15,2.15,,,0,1.0,0.0,0.98864,0.01136,0.0,391,1,0.99,code_name
