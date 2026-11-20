@@ -1,0 +1,171 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Night Lights ADM1</title>
+<meta name="description" content="Monthly and annual NASA Black Marble nighttime lights aggregated to first-level administrative units (ADM1) for 240 countries, 2012–2025. Free CSV and Parquet downloads.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230b1020'/%3E%3Ccircle cx='11' cy='13' r='3' fill='%23ffd166'/%3E%3Ccircle cx='21' cy='19' r='2.2' fill='%23ffb703'/%3E%3Ccircle cx='17' cy='9' r='1.4' fill='%23fff3c4'/%3E%3Ccircle cx='9' cy='22' r='1.2' fill='%23ffb703'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="assets/style.css">
+</head>
+<body>
+<header class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Open dataset · v1.0</p>
+    <h1>Night Lights ADM1</h1>
+    <p class="lede">NASA Black Marble nighttime lights, aggregated from districts (ADM2) to
+      states and provinces (ADM1), the level most subnational economic data are reported at.
+      Monthly 2012–2025 and annual 2012–2024, for every country.</p>
+    <ul class="stats" id="stats">
+      <li><b>240</b><span>countries &amp; territories</span></li>
+      <li><b>3,587</b><span>ADM1 units</span></li>
+      <li><b>168</b><span>months</span></li>
+      <li><b>CC BY 4.0</b><span>licence</span></li>
+    </ul>
+    <nav class="jump">
+      <a href="#explore">Explore</a><a href="#download">Download</a><a href="#variables">Variables</a><a href="#method">Method</a><a href="#cite">Cite</a>
+    </nav>
+  </div>
+</header>
+
+<main>
+<section id="explore" class="wrap">
+  <h2>Explore a country</h2>
+  <div class="controls">
+    <label class="ctl grow">Country
+      <input id="country" list="countries" placeholder="Type a country…" autocomplete="off">
+      <datalist id="countries"></datalist>
+    </label>
+    <label class="ctl">Indicator
+      <select id="var">
+        <option value="mean">Mean radiance</option>
+        <option value="sum">Sum of lights</option>
+        <option value="nogf">Sum of lights, excl. gas flares (5 km)</option>
+      </select>
+    </label>
+    <label class="ctl">Map year <output id="yearOut">2024</output>
+      <input id="year" type="range" min="2012" max="2024" step="1" value="2024">
+    </label>
+  </div>
+
+  <div class="grid">
+    <figure class="card map-card">
+      <div class="card-head">
+        <h3 id="mapTitle">World</h3>
+        <span class="muted" id="mapNote">Click a country or pick one above.</span>
+      </div>
+      <div id="map" role="img" aria-label="Map"></div>
+      <div id="legend" class="legend"></div>
+      <div id="tooltip" class="tooltip" hidden></div>
+    </figure>
+
+    <aside class="card list-card">
+      <div class="card-head">
+        <h3>ADM1 units</h3>
+        <span class="muted" id="listNote"></span>
+      </div>
+      <div class="table-scroll">
+        <table id="regions">
+          <thead><tr><th data-k="name">Region</th><th data-k="v" class="num">Value</th><th data-k="chg" class="num" title="Change in annual value, 2013 to map year">Δ since 2013</th></tr></thead>
+          <tbody></tbody>
+        </table>
+      </div>
+      <div class="dl-row" id="countryDl" hidden>
+        <a class="btn" id="dlMonthly" download>Monthly CSV</a>
+        <a class="btn" id="dlAnnual" download>Annual CSV</a>
+      </div>
+    </aside>
+  </div>
+
+  <figure class="card chart-card">
+    <div class="card-head">
+      <h3 id="chartTitle">Time series</h3>
+      <label class="check"><input type="checkbox" id="hideLow" checked> Hide months with &lt;50% valid pixels</label>
+    </div>
+    <div id="chart"></div>
+    <figcaption class="muted" id="chartNote">Select a region to see its monthly series (line) and annual composite (dots).</figcaption>
+  </figure>
+</section>
+
+<section id="download" class="wrap">
+  <h2>Download</h2>
+  <p>Long format: one row per ADM1 unit and period. Keys are the World Bank codes <code>ISO_A3</code> and <code>ADM1CD_c</code>. Per-country CSVs are available from the explorer above.</p>
+  <div class="dl-grid">
+    <a class="dl" href="data/adm1_monthly_all.parquet" download><b>Monthly, all countries</b><span>Parquet · 27 MB · 602,615 rows</span></a>
+    <a class="dl" href="data/adm1_monthly_all.csv.gz" download><b>Monthly, all countries</b><span>CSV (gzip) · 18 MB</span></a>
+    <a class="dl" href="data/adm1_annual_all.parquet" download><b>Annual, all countries</b><span>Parquet · 2.2 MB · 46,631 rows</span></a>
+    <a class="dl" href="data/adm1_annual_all.csv.gz" download><b>Annual, all countries</b><span>CSV (gzip) · 1.2 MB</span></a>
+    <a class="dl" href="data/geo_match.csv" download><b>Boundary match audit</b><span>CSV · map status of every ADM1 unit</span></a>
+    <a class="dl" href="https://github.com/ouaretw/nightlights-adm1"><b>Source code</b><span>Pipeline on GitHub</span></a>
+  </div>
+  <details class="snippet">
+    <summary>Load in Python or R</summary>
+<pre><code># Python
+import pandas as pd
+url = "https://ouaretw.github.io/nightlights-adm1/data/adm1_annual_all.parquet"
+ntl = pd.read_parquet(url)
+
+# R
+library(arrow)
+ntl &lt;- read_parquet("https://ouaretw.github.io/nightlights-adm1/data/adm1_annual_all.parquet")</code></pre>
+  </details>
+</section>
+
+<section id="variables" class="wrap">
+  <h2>Variables</h2>
+  <div class="table-scroll">
+  <table class="dict">
+    <thead><tr><th>Column</th><th>Description</th><th>How it was aggregated from ADM2</th></tr></thead>
+    <tbody>
+      <tr><td><code>ISO_A3</code>, <code>NAM_0</code></td><td>Country code and name</td><td>From source</td></tr>
+      <tr><td><code>ADM1CD_c</code>, <code>NAM_1</code></td><td>ADM1 code and name (World Bank Official Boundaries, vintage used by the source table)</td><td>From source. Where a country has no ADM1 tier, the name reads "… (no ADM1 tier)"</td></tr>
+      <tr><td><code>date</code> / <code>year</code></td><td>Month (<code>YYYY-MM</code>) or year</td><td></td></tr>
+      <tr><td><code>ntl_sum</code></td><td>Sum of nighttime radiance over all valid pixels (nW·cm⁻²·sr⁻¹ × pixels)</td><td>Sum, exact</td></tr>
+      <tr><td><code>ntl_mean</code></td><td>Mean radiance per valid pixel (nW·cm⁻²·sr⁻¹)</td><td>Pixel-weighted mean, exact (see Method)</td></tr>
+      <tr><td><code>ntl_max</code></td><td>Brightest pixel</td><td>Maximum, exact</td></tr>
+      <tr><td><code>ntl_nogf_5km_sum</code>, <code>ntl_nogf_10km_sum</code></td><td>Sum excluding pixels within 5 / 10 km of a gas-flaring site</td><td>Sum, exact</td></tr>
+      <tr><td><code>ntl_gf_5km_sum</code>, <code>ntl_gf_10km_sum</code></td><td>Sum over pixels within 5 / 10 km of a gas-flaring site (empty if none)</td><td>Sum, exact</td></tr>
+      <tr><td><code>n_gasflaring_locs_country</code></td><td>Number of gas-flaring locations in the <em>country</em></td><td>Carried as is. In the source this count is constant across every ADM2 of a country, so it is a national figure and is not summed</td></tr>
+      <tr><td><code>coverage</code></td><td>Share of the unit's pixels with a valid value in the period</td><td>Valid pixels ÷ total pixels</td></tr>
+      <tr><td><code>ntl_quality_prop_*</code></td><td>Shares of pixels that are missing (<code>na</code>), good (<code>0_good</code>), poor, i.e. ≤3 clear nights (<code>1_poor</code>), or gap-filled from earlier data (<code>2_gapfilled</code>)</td><td>Pixel-weighted mean</td></tr>
+      <tr><td><code>n_pixels</code></td><td>Number of ~500 m Black Marble pixels in the unit</td><td>Sum of recovered ADM2 pixel counts</td></tr>
+      <tr><td><code>n_adm2</code></td><td>Number of ADM2 units aggregated</td><td>Count</td></tr>
+    </tbody>
+  </table>
+  </div>
+  <p class="muted">Medians and percentiles (<code>ntl_median</code>, <code>ntl_q05</code>, <code>ntl_q95</code>) are in the ADM2 source but cannot be recovered at ADM1 from ADM2 summaries, so they are not published here.</p>
+</section>
+
+<section id="method" class="wrap prose">
+  <h2>Method</h2>
+  <ol>
+    <li><b>Source.</b> The World Bank's <a href="https://datacatalog.worldbank.org/search/dataset/0066940">Space2Stats Monthly &amp; Annual Black Marble Nighttime Lights</a> (v2, CC BY 4.0) aggregates NASA Black Marble (VNP46A3/A4, 15 arc-second) radiance to 39,366 ADM2 units of the World Bank Official Boundaries.</li>
+    <li><b>Nesting.</b> Every ADM2 unit carries exactly one ADM1 code from the same boundary vintage, so the aggregation is a pure group-by. No spatial overlay is needed, and no ADM2 is split or double counted.</li>
+    <li><b>Sums and maxima</b> add up exactly. Country totals recomputed from the ADM1 file match the ADM2 source to floating-point precision (relative error &lt; 10⁻¹⁵).</li>
+    <li><b>Means are pixel-weighted.</b> The source mean is taken over valid pixels, so each ADM2's valid-pixel count is recovered as sum ÷ mean. For completely dark units (sum = mean = 0), it is the unit's static pixel count × (1 − share missing). ADM1 mean = Σ sums ÷ Σ valid pixels. Every ADM1 mean lies within the range of its ADM2 means (checked for all 649,246 unit-periods).</li>
+    <li><b>Quality.</b> Clouds, and summer twilight at high latitudes, leave pixels without valid observations. <code>coverage</code> reports the valid share. Sums for low-coverage months are underestimates, so filter on <code>coverage</code> for time-series work.</li>
+    <li><b>Annual ≠ mean of months.</b> Annual values come from NASA's annual composite, not from averaging the monthly files. The 2025 annual composite was not yet in the source when this was built.</li>
+  </ol>
+  <h3>About the map</h3>
+  <p>The source table uses an older vintage of the World Bank boundaries than the one published today, and some ADM1 codes were reused for different units in between. For example, <code>ALB005</code> is Dibër in the data but Fier in today's boundaries. To avoid putting values on the wrong polygon, an outline is drawn only when code and name agree, or names match one-to-one in a country with an unchanged unit count. 2,641 of 3,587 units are mapped; 366 of these are flagged as approximate outlines because their country has gained or lost a few units. Every unit is in the downloads either way. The <a href="data/geo_match.csv">audit file</a> lists the status of each one.</p>
+  <p class="muted small">Boundaries: World Bank Official Boundaries (CC BY 4.0). The boundaries, colours, denominations and other information shown on the map do not imply any judgement on the legal status of any territory, or any endorsement or acceptance of such boundaries. Hatched areas are of non-determined legal status.</p>
+</section>
+
+<section id="cite" class="wrap prose">
+  <h2>Cite</h2>
+  <p>If you use this dataset, please cite both the derived dataset and its source:</p>
+  <blockquote id="citeText">Ouaret, W. (2026). <i>Night Lights ADM1: NASA Black Marble nighttime lights aggregated to first-level administrative units, 2012–2025</i> (v1.0). https://ouaretw.github.io/nightlights-adm1/</blockquote>
+  <blockquote>World Bank (2026). <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i> (v2). World Bank Data Catalog, dataset 0066940. CC BY 4.0.</blockquote>
+  <blockquote>Román, M. O. et al. (2018). NASA's Black Marble nighttime lights product suite. <i>Remote Sensing of Environment</i>, 210, 113–143. https://doi.org/10.1016/j.rse.2018.03.017</blockquote>
+  <button class="btn" id="copyCite" type="button">Copy citation</button>
+</section>
+</main>
+
+<footer class="wrap foot">
+  <p>Derived data released under <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Not an official World Bank or NASA product. <span id="built"></span></p>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="assets/app.js"></script>
+</body>
+</html>

@@ -1,0 +1,28 @@
+{
+  "source": "World Bank Space2Stats - Monthly & Annual Black Marble Nighttime Lights (dataset 0066940, v2)",
+  "source_url": "https://datacatalog.worldbank.org/search/dataset/0066940",
+  "months": [
+    "2012-01",
+    "2025-12"
+  ],
+  "years": [
+    2012,
+    2024
+  ],
+  "monthly": {
+    "rows": 602615,
+    "adm1": 3587,
+    "countries": 240,
+    "max_rel_err_country_sum": 2.1747567436417404e-16,
+    "adm1_mean_outside_adm2_range": 0
+  },
+  "annual": {
+    "rows": 46631,
+    "adm1": 3587,
+    "countries": 240,
+    "max_rel_err_country_sum": 2.0568676346805523e-16,
+    "adm1_mean_outside_adm2_range": 0
+  },
+  "adm2_with_pixel_weight": 39350,
+  "adm2_total": 39366
+}

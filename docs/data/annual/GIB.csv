@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2012,1296.954,36.35458,89.067,1296.954,1296.954,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2013,1242.181,34.81926,73.96,1242.181,1242.181,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2014,1191.322,33.39364,82.354,1191.322,1191.322,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2015,1220.288,34.20557,86.444,1220.288,1220.288,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2016,1184.817,33.21128,71.891,1184.817,1184.817,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2017,1216.072,34.0874,65.089,1216.072,1216.072,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2018,1226.338,34.37515,71.156,1226.338,1226.338,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2019,1235.807,34.64056,71.757,1235.807,1235.807,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2020,1184.912,33.21394,75.891,1184.912,1184.912,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2021,1173.507,32.89426,96.294,1173.507,1173.507,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2022,1152.291,32.29955,96.633,1152.291,1152.291,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2023,1115.31,31.26295,89.163,1115.31,1115.31,,,0,1.0,0.0,1.0,0.0,0.0,36,1
+GIB,Gibraltar (U.K.),GIB001,Gibraltar (U.K.),2024,1143.668,32.05785,84.088,1143.668,1143.668,,,0,1.0,0.0,1.0,0.0,0.0,36,1

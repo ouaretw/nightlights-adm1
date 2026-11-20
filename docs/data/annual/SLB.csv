@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2012,646.561,0.00494,28.467,646.561,646.561,,,0,0.99988,0.0,0.97709,0.02198,0.00093,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2013,641.191,0.0049,22.909,641.191,641.191,,,0,0.99988,0.0,0.99222,0.00764,0.00014,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2014,491.712,0.00376,17.892,491.712,491.712,,,0,0.99988,0.0,0.99305,0.00677,0.00018,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2015,513.916,0.00393,21.231,513.916,513.916,,,0,0.99988,0.0,0.99566,0.00389,0.00044,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2016,561.458,0.00429,32.888,561.458,561.458,,,0,0.99988,0.0,0.99675,0.00293,0.00032,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2017,518.252,0.00396,40.8,518.252,518.252,,,0,0.99988,0.0,0.98508,0.01374,0.00118,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2018,558.559,0.00427,35.594,558.559,558.559,,,0,0.99988,0.0,0.98504,0.01407,0.00089,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2019,608.365,0.00465,59.658,608.365,608.365,,,0,0.99988,0.0,0.98682,0.01291,0.00027,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2020,659.118,0.00503,49.292,659.118,659.118,,,0,0.99988,0.0,0.99682,0.00285,0.00032,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2021,669.485,0.00511,41.898,669.485,669.485,,,0,0.99988,0.0,0.99512,0.00462,0.00026,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2022,746.888,0.00571,58.517,746.888,746.888,,,0,0.99988,0.0,0.99791,0.00163,0.00046,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2023,979.335,0.00748,51.211,979.335,979.335,,,0,0.99988,0.0,0.98992,0.00969,0.00039,130931,1
+SLB,Solomon Islands,SLB001,Solomon Islands (no ADM1 tier),2024,1037.007,0.00792,44.46,1037.007,1037.007,,,0,0.99988,0.0,0.99062,0.0089,0.00048,130931,1

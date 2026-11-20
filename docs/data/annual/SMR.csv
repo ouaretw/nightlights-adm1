@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2012,4332.805,11.00003,84.305,4332.805,4332.805,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2013,4405.346,11.18419,102.012,4405.346,4405.346,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2014,4325.998,10.98275,102.392,4325.998,4325.998,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2015,4289.69,10.89057,76.395,4289.69,4289.69,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2016,4238.703,10.76112,85.472,4238.703,4238.703,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2017,4339.896,11.01803,83.205,4339.896,4339.896,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2018,4322.704,10.97438,69.45,4322.704,4322.704,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2019,4277.264,10.85902,69.852,4277.264,4277.264,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2020,4388.656,11.14182,73.946,4388.656,4388.656,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2021,4576.275,11.61814,74.363,4576.275,4576.275,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2022,4572.877,11.60952,75.572,4572.877,4572.877,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2023,4557.156,11.5696,70.026,4557.156,4557.156,,,0,1.0,0.0,1.0,0.0,0.0,394,1
+SMR,San Marino,SMR001,San Marino (no ADM1 tier),2024,4446.053,11.28754,69.576,4446.053,4446.053,,,0,1.0,0.0,1.0,0.0,0.0,394,1

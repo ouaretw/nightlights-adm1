@@ -1,0 +1,1 @@
+{"type":"FeatureCollection","features":[{"type":"Feature","geometry":{"type":"Polygon","coordinates":[[[12.406,43.955],[12.515,43.991],[12.517,43.941],[12.487,43.896],[12.411,43.9],[12.406,43.955]]]},"properties":{"code":"SMR001","name":"San Marino (no ADM1 tier)","approx":false}}]}

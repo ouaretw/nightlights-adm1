@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2012,4120.339,4.77789,66.327,4120.339,4120.339,,,0,1.0,0.0,0.99585,0.00415,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2013,4311.413,4.99946,61.249,4311.413,4311.413,,,0,1.0,0.0,0.99792,0.00208,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2014,4366.236,5.06303,58.098,4366.236,4366.236,,,0,1.0,0.0,1.0,0.0,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2015,4636.652,5.3766,74.22,4636.652,4636.652,,,0,1.0,0.0,1.0,0.0,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2016,5295.233,6.14028,85.123,5295.233,5295.233,,,0,1.0,0.0,1.0,0.0,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2017,6552.938,7.5987,88.907,6552.938,6552.938,,,0,1.0,0.0,0.99896,0.00104,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2018,6929.704,8.03559,82.273,6929.704,6929.704,,,0,1.0,0.0,1.0,0.0,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2019,7151.642,8.29295,79.916,7151.642,7151.642,,,0,1.0,0.0,0.99896,0.00104,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2020,7302.401,8.46777,72.601,7302.401,7302.401,,,0,1.0,0.0,0.99688,0.00312,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2021,7656.231,8.87806,71.378,7656.231,7656.231,,,0,1.0,0.0,0.99896,0.00104,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2022,8064.762,9.35179,75.013,8064.762,8064.762,,,0,1.0,0.0,0.99896,0.00104,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2023,8325.237,9.65383,74.294,8325.237,8325.237,,,0,1.0,0.0,0.99792,0.00208,0.0,862,1
+ABW,Aruba (Neth.),ABW001,Aruba (Neth.) (no ADM1 tier),2024,8717.549,10.10875,81.837,8717.549,8717.549,,,0,1.0,0.0,0.99896,0.00104,0.0,862,1

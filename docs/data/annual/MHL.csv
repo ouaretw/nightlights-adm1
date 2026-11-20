@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2012,213.414,0.18794,9.304,213.414,213.414,,,0,0.99054,0.00942,0.93408,0.0565,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2013,235.067,0.20701,13.106,235.067,235.067,,,0,0.99054,0.00942,0.97913,0.01145,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2014,201.05,0.17705,11.629,201.05,201.05,,,0,0.99054,0.00942,0.89208,0.09748,0.00102,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2015,190.66,0.1679,11.031,190.66,190.66,,,0,0.99054,0.00942,0.94426,0.04632,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2016,195.492,0.17216,10.383,195.492,195.492,,,0,0.99054,0.00942,0.98346,0.00713,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2017,204.69,0.18026,11.339,204.69,204.69,,,0,0.99054,0.00942,0.96946,0.02112,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2018,184.235,0.16225,8.111,184.235,184.235,,,0,0.99054,0.00942,0.93052,0.05956,0.00051,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2019,210.146,0.18506,11.87,210.146,210.146,,,0,0.99054,0.00942,0.92186,0.06872,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2020,210.855,0.18569,13.131,210.855,210.855,,,0,0.99054,0.00942,0.96819,0.0224,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2021,235.87,0.20772,14.594,235.87,235.87,,,0,0.99054,0.00942,0.97277,0.01756,0.00025,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2022,238.743,0.21025,12.335,238.743,238.743,,,0,0.99054,0.00942,0.98193,0.00865,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2023,229.088,0.20175,11.206,229.088,229.088,,,0,0.99054,0.00942,0.97175,0.01883,0.0,1146,1
+MHL,Marshall Islands,MHL001,Marshall Islands (no ADM1 tier),2024,216.437,0.19061,10.258,216.437,216.437,,,0,0.99054,0.00942,0.98269,0.00789,0.0,1146,1

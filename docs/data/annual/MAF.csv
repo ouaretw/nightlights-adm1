@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2012,1573.464,6.80827,65.298,1573.464,1573.464,,,0,1.0,0.0,0.99054,0.00946,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2013,1641.963,7.10466,79.243,1641.963,1641.963,,,0,1.0,0.0,0.99369,0.00631,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2014,1593.469,6.89483,69.729,1593.469,1593.469,,,0,1.0,0.0,0.99685,0.00315,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2015,1605.598,6.94732,67.54,1605.598,1605.598,,,0,1.0,0.0,0.99054,0.00946,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2016,1607.068,6.95367,62.643,1607.068,1607.068,,,0,1.0,0.0,0.99054,0.00946,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2017,1374.228,5.94619,50.572,1374.228,1374.228,,,0,1.0,0.0,0.99369,0.00631,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2018,1000.19,4.32775,37.117,1000.19,1000.19,,,0,1.0,0.0,0.98738,0.01262,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2019,1472.486,6.37135,38.339,1472.486,1472.486,,,0,1.0,0.0,0.98738,0.01262,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2020,1599.912,6.92271,40.868,1599.912,1599.912,,,0,1.0,0.0,0.99369,0.00631,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2021,1648.267,7.13194,40.088,1648.267,1648.267,,,0,1.0,0.0,0.99054,0.00946,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2022,1701.001,7.36012,46.906,1701.001,1701.001,,,0,1.0,0.0,0.99054,0.00946,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2023,1710.618,7.40173,61.793,1710.618,1710.618,,,0,1.0,0.0,0.99369,0.00631,0.0,231,1
+MAF,Saint-Martin (Fr.),MAF001,Saint-Martin (Fr.),2024,1696.198,7.33933,44.395,1696.198,1696.198,,,0,1.0,0.0,0.99685,0.00315,0.0,231,1

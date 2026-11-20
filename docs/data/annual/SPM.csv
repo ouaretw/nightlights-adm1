@@ -1,0 +1,27 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2012,104.464,0.08103,18.789,104.464,104.464,,,0,1.0,0.0,0.99934,0.00066,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2013,128.166,0.09942,26.783,128.166,128.166,,,0,1.0,0.0,0.99801,0.00199,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2014,94.791,0.07353,14.365,94.791,94.791,,,0,1.0,0.0,0.99934,0.00066,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2015,119.424,0.09264,19.573,119.424,119.424,,,0,1.0,0.0,0.99867,0.00133,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2016,83.927,0.0651,16.369,83.927,83.927,,,0,1.0,0.0,0.99867,0.00133,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2017,106.702,0.08277,21.609,106.702,106.702,,,0,1.0,0.0,1.0,0.0,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2018,76.231,0.05913,13.604,76.231,76.231,,,0,1.0,0.0,0.99934,0.00066,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2019,79.466,0.06164,25.089,79.466,79.466,,,0,1.0,0.0,0.99801,0.00199,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2020,51.818,0.0402,8.616,51.818,51.818,,,0,1.0,0.0,0.99867,0.00133,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2021,52.803,0.04096,7.656,52.803,52.803,,,0,1.0,0.0,0.99734,0.00266,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2022,54.439,0.04223,8.22,54.439,54.439,,,0,1.0,0.0,0.99934,0.00066,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2023,66.637,0.05169,8.192,66.637,66.637,,,0,1.0,0.0,0.99867,0.00133,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM001,Miquelon-Langlade,2024,56.032,0.04346,8.501,56.032,56.032,,,0,1.0,0.0,0.99801,0.00199,0.0,1289,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2012,461.086,2.6265,31.17,461.086,461.086,,,0,1.0,0.0,0.99567,0.00433,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2013,444.79,2.53367,34.08,444.79,444.79,,,0,1.0,0.0,1.0,0.0,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2014,450.712,2.5674,37.514,450.712,450.712,,,0,1.0,0.0,0.99567,0.00433,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2015,430.978,2.45499,33.43,430.978,430.978,,,0,1.0,0.0,0.98701,0.01299,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2016,412.07,2.34729,30.568,412.07,412.07,,,0,1.0,0.0,0.99134,0.00866,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2017,422.682,2.40773,34.067,422.682,422.682,,,0,1.0,0.0,0.99567,0.00433,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2018,364.872,2.07843,29.256,364.872,364.872,,,0,1.0,0.0,0.99567,0.00433,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2019,388.198,2.2113,28.984,388.198,388.198,,,0,1.0,0.0,0.98701,0.01299,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2020,343.789,1.95833,35.933,343.789,343.789,,,0,1.0,0.0,1.0,0.0,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2021,337.798,1.92421,26.956,337.798,337.798,,,0,1.0,0.0,0.98268,0.01732,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2022,362.29,2.06372,27.631,362.29,362.29,,,0,1.0,0.0,0.98268,0.01732,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2023,350.531,1.99674,21.249,350.531,350.531,,,0,1.0,0.0,0.98701,0.01299,0.0,176,1
+SPM,Saint-Pierre-et-Miquelon (Fr.),SPM002,Saint-Pierre,2024,319.488,1.81991,22.408,319.488,319.488,,,0,1.0,0.0,0.99567,0.00433,0.0,176,1

@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2012,3905.292,0.28048,53.558,3905.292,3905.292,,,0,0.99994,0.0,0.95049,0.04951,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2013,3708.808,0.26637,39.858,3708.808,3708.808,,,0,0.99994,0.0,0.93521,0.06479,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2014,2844.928,0.20433,31.444,2844.928,2844.928,,,0,0.99994,0.0,0.96988,0.03012,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2015,3132.748,0.225,27.744,3132.748,3132.748,,,0,0.99994,0.0,0.95826,0.04174,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2016,3290.293,0.23631,33.542,3290.293,3290.293,,,0,0.99994,0.0,0.95472,0.04528,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2017,2581.621,0.18542,27.079,2581.621,2581.621,,,0,0.99994,0.0,0.95018,0.04963,0.00019,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2018,3320.899,0.23851,25.541,3320.899,3320.899,,,0,0.99994,0.0,0.9539,0.0461,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2019,3480.849,0.25,26.704,3480.849,3480.849,,,0,0.99994,0.0,0.95422,0.04578,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2020,2619.271,0.18812,25.621,2619.271,2619.271,,,0,0.99994,0.0,0.95434,0.0454,0.00025,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2021,3343.578,0.24014,26.23,3343.578,3343.578,,,0,0.99994,0.0,0.95245,0.04755,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2022,5076.734,0.36462,55.343,5076.734,5076.734,,,0,0.99994,0.0,0.94424,0.05576,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2023,5639.41,0.40503,27.239,5639.41,5639.41,,,0,0.99994,0.0,0.95479,0.04521,0.0,13924,1
+FRO,Faroe Islands (Den.),FRO001,Faroe Islands (Den.),2024,4878.856,0.35041,30.47,4878.856,4878.856,,,0,0.99994,0.0,0.93344,0.06649,6e-05,13924,1

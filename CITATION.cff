@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: "If you use this dataset, please cite it as below, together with the World Bank source dataset."
+title: "Night Lights ADM1: NASA Black Marble nighttime lights aggregated to first-level administrative units, 2012-2025"
+type: dataset
+version: "1.0.0"
+date-released: "2026-11-20"
+license: CC-BY-4.0
+url: "https://ouaretw.github.io/nightlights-adm1/"
+repository-code: "https://github.com/ouaretw/nightlights-adm1"
+authors:
+  - family-names: Ouaret
+    given-names: Walid
+references:
+  - type: dataset
+    title: "Space2Stats - Monthly & Annual Black Marble Nighttime Lights"
+    authors:
+      - name: "World Bank"
+    url: "https://datacatalog.worldbank.org/search/dataset/0066940"
+    license: CC-BY-4.0
+  - type: article
+    title: "NASA's Black Marble nighttime lights product suite"
+    authors:
+      - family-names: Román
+        given-names: Miguel O.
+    journal: "Remote Sensing of Environment"
+    volume: 210
+    start: 113
+    end: 143
+    year: 2018
+    doi: "10.1016/j.rse.2018.03.017"

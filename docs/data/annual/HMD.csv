@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2012,203.017,0.07125,0.992,203.017,203.017,,,0,1.0,0.0,0.60163,0.37008,0.02829,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2013,178.818,0.06276,0.994,178.818,178.818,,,0,1.0,0.0,0.68423,0.29789,0.01789,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2014,430.139,0.15097,45.143,430.139,430.139,,,0,1.0,0.0,0.61886,0.32813,0.05301,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2015,366.453,0.12861,59.719,366.453,366.453,,,0,1.0,0.0,0.7278,0.24195,0.03024,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2016,288.142,0.10113,0.987,288.142,288.142,,,0,1.0,0.0,0.70276,0.27642,0.02081,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2017,226.806,0.0796,0.996,226.806,226.806,,,0,1.0,0.0,0.70407,0.2722,0.02374,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2018,144.16,0.0506,0.999,144.16,144.16,,,0,1.0,0.0,0.78504,0.21398,0.00098,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2019,151.856,0.0533,0.994,151.856,151.856,,,0,1.0,0.0,0.70081,0.2852,0.01398,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2020,21.097,0.0074,0.688,21.097,21.097,,,0,1.0,0.0,0.71382,0.28293,0.00325,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2021,128.462,0.04509,85.331,128.462,128.462,,,0,1.0,0.0,0.79024,0.19675,0.01301,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2022,1068.264,0.37493,505.209,1068.264,1068.264,,,0,1.0,0.0,0.64455,0.26276,0.09268,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2023,487.185,0.17099,0.999,487.185,487.185,,,0,1.0,0.0,0.77431,0.2052,0.02049,2849,1
+HMD,Heard Island and McDonald Islands (Aus.),HMD001,Heard Island and McDonald Islands (Aus.) (no ADM1 tier),2024,140.58,0.04934,0.915,140.58,140.58,,,0,1.0,0.0,0.73301,0.22341,0.04358,2849,1

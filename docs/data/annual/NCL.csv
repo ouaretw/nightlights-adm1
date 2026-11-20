@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2012,10506.499,0.11352,93.747,10506.499,10506.499,,,0,0.99999,1e-05,0.9996,0.00039,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2013,10844.087,0.11717,86.528,10844.087,10844.087,,,0,0.99999,1e-05,0.99962,0.00036,1e-05,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2014,11200.46,0.12102,80.393,11200.46,11200.46,,,0,0.99999,1e-05,0.99972,0.00027,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2015,10933.077,0.11813,95.73,10933.077,10933.077,,,0,0.99999,1e-05,0.99985,0.00014,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2016,10922.294,0.11802,91.667,10922.294,10922.294,,,0,0.99999,1e-05,0.99978,0.00021,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2017,10839.035,0.11712,89.162,10839.035,10839.035,,,0,0.99999,1e-05,0.99969,0.0003,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2018,10757.722,0.11624,128.896,10757.722,10757.722,,,0,0.99999,1e-05,0.99965,0.00034,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2019,11233.32,0.12138,239.738,11233.32,11233.32,,,0,0.99999,1e-05,0.99978,0.00021,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2020,10368.446,0.11203,90.331,10368.446,10368.446,,,0,0.99999,1e-05,0.99964,0.00035,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2021,9934.824,0.10735,84.026,9934.824,9934.824,,,0,0.99999,1e-05,0.9997,0.00029,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2022,9656.787,0.10434,114.045,9656.787,9656.787,,,0,0.99999,1e-05,0.99964,0.00035,0.0,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2023,11553.24,0.12483,495.32,11553.24,11553.24,,,0,0.99999,1e-05,0.99969,0.00029,1e-05,92549,1
+NCL,New Caledonia (Fr.),NCL001,New Caledonia (Fr.) (no ADM1 tier),2024,9915.947,0.10714,57.27,9915.947,9915.947,,,0,0.99999,1e-05,0.99967,0.00032,0.0,92549,1

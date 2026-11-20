@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2012,291.207,0.09964,17.471,291.207,291.207,,,0,0.99506,0.00388,0.94858,0.0473,0.00023,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2013,260.791,0.08923,11.88,260.791,260.791,,,0,0.99506,0.00388,0.93647,0.05827,0.00137,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2014,246.681,0.0844,15.238,246.681,246.681,,,0,0.99506,0.00388,0.95384,0.03999,0.00229,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2015,261.812,0.08958,8.563,261.812,261.812,,,0,0.99506,0.00388,0.95224,0.04182,0.00206,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2016,288.575,0.09874,10.245,288.575,288.575,,,0,0.99506,0.00388,0.99246,0.00366,0.0,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2017,333.795,0.11421,37.305,333.795,333.795,,,0,0.99506,0.00388,0.91979,0.07518,0.00114,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2018,342.817,0.1173,10.185,342.817,342.817,,,0,0.99506,0.00388,0.95658,0.03748,0.00206,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2019,349.358,0.11954,15.893,349.358,349.358,,,0,0.99506,0.00388,0.97235,0.02377,0.0,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2020,337.902,0.11562,6.804,337.902,337.902,,,0,0.99506,0.00388,0.9824,0.01371,0.0,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2021,360.056,0.1232,8.11,360.056,360.056,,,0,0.99506,0.00388,0.96549,0.02994,0.00069,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2022,482.682,0.16515,8.888,482.682,482.682,,,0,0.99506,0.00388,0.97144,0.02468,0.0,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2023,492.802,0.16862,10.103,492.802,492.802,,,0,0.99506,0.00388,0.98058,0.01554,0.0,2937,1
+FSM,Federated States of Micronesia,FSM001,Federated States of Micronesia (no ADM1 tier),2024,434.097,0.14853,7.829,434.097,434.097,,,0,0.99506,0.00388,0.98697,0.00891,0.00023,2937,1

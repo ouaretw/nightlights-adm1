@@ -1,0 +1,12 @@
+{
+  "status_counts": {
+    "matched_code_name": 2244,
+    "unmapped_unit_count_differs": 813,
+    "matched_code_name_approx": 366,
+    "unmapped_no_confident_match": 133,
+    "matched_name_renumbered": 31
+  },
+  "countries_fully_mapped": 172,
+  "countries_partly_mapped": 28,
+  "countries_unmapped": 40
+}

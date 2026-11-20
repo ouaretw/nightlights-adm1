@@ -1,0 +1,79 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2012,639.902,6.56391,26.463,639.902,639.902,,,0,1.0,0.0,0.97842,0.02158,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2013,641.504,6.58034,27.351,641.504,641.504,,,0,1.0,0.0,0.98561,0.01439,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2014,621.389,6.374,24.793,621.389,621.389,,,0,1.0,0.0,0.99281,0.00719,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2015,621.711,6.37731,23.299,621.711,621.711,,,0,1.0,0.0,0.97122,0.02878,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2016,672.301,6.89625,24.816,672.301,672.301,,,0,1.0,0.0,0.98561,0.01439,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2017,567.384,5.82004,22.094,567.384,567.384,,,0,1.0,0.0,0.97842,0.02158,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2018,316.702,3.24862,12.977,316.702,316.702,,,0,1.0,0.0,0.97842,0.02158,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2019,477.337,4.89637,21.285,477.337,477.337,,,0,1.0,0.0,0.98561,0.01439,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2020,500.921,5.13829,19.01,500.921,500.921,,,0,1.0,0.0,0.99281,0.00719,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2021,565.651,5.80227,23.927,565.651,565.651,,,0,1.0,0.0,0.97122,0.02878,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2022,615.036,6.30884,23.952,615.036,615.036,,,0,1.0,0.0,0.98561,0.01439,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2023,630.674,6.46925,23.036,630.674,630.674,,,0,1.0,0.0,0.97842,0.02158,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA001,Grand Turk,2024,657.395,6.74335,22.152,657.395,657.395,,,0,1.0,0.0,0.99281,0.00719,0.0,97,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2012,17.591,0.0214,3.056,17.591,17.591,,,0,1.0,0.0,1.0,0.0,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2013,16.492,0.02006,2.864,16.492,16.492,,,0,1.0,0.0,1.0,0.0,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2014,17.642,0.02146,3.048,17.642,17.642,,,0,1.0,0.0,1.0,0.0,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2015,17.41,0.02118,2.59,17.41,17.41,,,0,1.0,0.0,1.0,0.0,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2016,13.294,0.01617,2.263,13.294,13.294,,,0,1.0,0.0,0.99903,0.00097,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2017,12.119,0.01474,2.158,12.119,12.119,,,0,1.0,0.0,1.0,0.0,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2018,7.088,0.00862,1.814,7.088,7.088,,,0,1.0,0.0,0.99806,0.00194,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2019,9.116,0.01109,1.764,9.116,9.116,,,0,1.0,0.0,0.99806,0.00194,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2020,6.848,0.00833,1.529,6.848,6.848,,,0,1.0,0.0,0.99806,0.00194,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2021,5.41,0.00658,0.921,5.41,5.41,,,0,1.0,0.0,0.99806,0.00194,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2022,7.301,0.00888,1.337,7.301,7.301,,,0,1.0,0.0,0.99903,0.00097,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2023,10.24,0.01246,2.042,10.24,10.24,,,0,1.0,0.0,0.99903,0.00097,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA002,Middle Caicos,2024,10.592,0.01288,1.929,10.592,10.592,,,0,1.0,0.0,1.0,0.0,0.0,822,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2012,82.807,0.10741,5.167,82.807,82.807,,,0,1.0,0.0,1.0,0.0,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2013,70.012,0.09081,4.463,70.012,70.012,,,0,1.0,0.0,1.0,0.0,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2014,79.144,0.10265,4.181,79.144,79.144,,,0,1.0,0.0,0.998,0.002,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2015,70.631,0.09161,3.461,70.631,70.631,,,0,1.0,0.0,1.0,0.0,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2016,56.298,0.07302,3.289,56.298,56.298,,,0,1.0,0.0,0.99699,0.00301,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2017,54.715,0.07097,3.44,54.715,54.715,,,0,1.0,0.0,0.99699,0.00301,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2018,53.836,0.06983,3.785,53.836,53.836,,,0,1.0,0.0,0.99299,0.00701,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2019,55.696,0.07224,3.359,55.696,55.696,,,0,1.0,0.0,0.99399,0.00601,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2020,49.787,0.06458,3.566,49.787,49.787,,,0,1.0,0.0,0.99299,0.00701,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2021,62.217,0.0807,3.639,62.217,62.217,,,0,1.0,0.0,0.99198,0.00802,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2022,75.651,0.09812,3.326,75.651,75.651,,,0,1.0,0.0,0.98798,0.01202,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2023,106.798,0.13852,3.444,106.798,106.798,,,0,1.0,0.0,0.99499,0.00501,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA003,North Caicos,2024,105.603,0.13697,3.45,105.603,105.603,,,0,1.0,0.0,0.99399,0.00601,0.0,771,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2012,2255.353,3.53376,35.627,2255.353,2255.353,,,0,1.0,0.0,0.99643,0.00357,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2013,2259.683,3.54055,38.466,2259.683,2259.683,,,0,1.0,0.0,0.99405,0.00595,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2014,2161.082,3.38606,37.145,2161.082,2161.082,,,0,1.0,0.0,0.99524,0.00476,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2015,2094.159,3.2812,33.398,2094.159,2094.159,,,0,1.0,0.0,0.99762,0.00238,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2016,2235.386,3.50248,33.252,2235.386,2235.386,,,0,1.0,0.0,0.99286,0.00714,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2017,2257.686,3.53742,35.599,2257.686,2257.686,,,0,1.0,0.0,0.99524,0.00476,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2018,2318.934,3.63339,45.158,2318.934,2318.934,,,0,1.0,0.0,0.99524,0.00476,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2019,2612.064,4.09267,39.549,2612.064,2612.064,,,0,1.0,0.0,0.99286,0.00714,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2020,2729.816,4.27717,41.911,2729.816,2729.816,,,0,1.0,0.0,0.99286,0.00714,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2021,3034.297,4.75424,47.761,3034.297,3034.297,,,0,1.0,0.0,0.99762,0.00238,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2022,3369.502,5.27945,48.021,3369.502,3369.502,,,0,1.0,0.0,0.99762,0.00238,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2023,3671.964,5.75336,53.268,3671.964,3671.964,,,0,1.0,0.0,0.99524,0.00476,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA004,Providenciales and West Caicos,2024,3780.578,5.92354,59.513,3780.578,3780.578,,,0,1.0,0.0,0.99643,0.00357,0.0,638,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2012,30.267,0.80313,5.17,30.267,30.267,,,0,1.0,0.0,0.93548,0.06452,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2013,32.923,0.87361,4.715,32.923,32.923,,,0,1.0,0.0,0.96774,0.03226,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2014,36.403,0.96596,4.45,36.403,36.403,,,0,1.0,0.0,0.98387,0.01613,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2015,33.723,0.89484,5.07,33.723,33.723,,,0,1.0,0.0,0.98387,0.01613,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2016,30.91,0.82019,4.35,30.91,30.91,,,0,1.0,0.0,0.96774,0.03226,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2017,20.266,0.53776,3.751,20.266,20.266,,,0,1.0,0.0,0.98387,0.01613,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2018,3.379,0.08965,0.911,3.379,3.379,,,0,1.0,0.0,1.0,0.0,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2019,7.141,0.18948,1.341,7.141,7.141,,,0,1.0,0.0,0.95161,0.04839,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2020,6.488,0.17215,0.995,6.488,6.488,,,0,1.0,0.0,0.98387,0.01613,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2021,4.481,0.11891,0.962,4.481,4.481,,,0,1.0,0.0,1.0,0.0,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2022,9.754,0.25881,1.701,9.754,9.754,,,0,1.0,0.0,0.96774,0.03226,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2023,17.291,0.45881,2.591,17.291,17.291,,,0,1.0,0.0,0.91935,0.08065,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA005,Salt City,2024,14.655,0.38886,2.087,14.655,14.655,,,0,1.0,0.0,0.90323,0.09677,0.0,38,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2012,86.778,0.11693,10.475,86.778,86.778,,,0,1.0,0.0,1.0,0.0,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2013,87.92,0.11847,10.418,87.92,87.92,,,0,1.0,0.0,1.0,0.0,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2014,90.143,0.12146,10.853,90.143,90.143,,,0,1.0,0.0,0.99904,0.00096,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2015,99.196,0.13366,11.676,99.196,99.196,,,0,1.0,0.0,0.99904,0.00096,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2016,101.698,0.13703,11.176,101.698,101.698,,,0,1.0,0.0,1.0,0.0,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2017,90.033,0.12131,9.114,90.033,90.033,,,0,1.0,0.0,0.99713,0.00287,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2018,69.161,0.09319,7.419,69.161,69.161,,,0,1.0,0.0,0.99904,0.00096,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2019,82.761,0.11151,9.443,82.761,82.761,,,0,1.0,0.0,0.99809,0.00191,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2020,82.832,0.11161,9.083,82.832,82.832,,,0,1.0,0.0,0.99904,0.00096,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2021,100.903,0.13596,9.077,100.903,100.903,,,0,1.0,0.0,1.0,0.0,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2022,105.323,0.14191,9.81,105.323,105.323,,,0,1.0,0.0,0.99809,0.00191,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2023,119.541,0.16107,9.601,119.541,119.541,,,0,1.0,0.0,0.99904,0.00096,0.0,742,1
+TCA,Turks and Caicos Islands (U.K.),TCA006,South and East Caicos,2024,117.171,0.15788,9.505,117.171,117.171,,,0,1.0,0.0,1.0,0.0,0.0,742,1

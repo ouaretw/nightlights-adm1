@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2012,2255.16,180.81979,278.729,2255.16,2255.16,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2013,2293.979,183.93228,300.902,2293.979,2293.979,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2014,2331.306,186.9252,315.064,2331.306,2331.306,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2015,2172.618,174.20149,268.338,2172.618,2172.618,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2016,2284.295,183.15585,261.744,2284.295,2284.295,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2017,2336.622,187.35147,263.104,2336.622,2336.622,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2018,2155.22,172.80658,228.237,2155.22,2155.22,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2019,2448.74,196.34109,276.802,2448.74,2448.74,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2020,2217.769,177.82173,270.728,2217.769,2217.769,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2021,2071.318,166.07927,271.204,2071.318,2071.318,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2022,1996.773,160.10222,259.566,1996.773,1996.773,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2023,1802.243,144.5047,200.095,1802.243,1802.243,,,0,1.0,0.0,1.0,0.0,0.0,12,1
+MCO,Monaco,MCO001,Monaco (no ADM1 tier),2024,1773.715,142.21732,221.659,1773.715,1773.715,,,0,1.0,0.0,1.0,0.0,0.0,12,1

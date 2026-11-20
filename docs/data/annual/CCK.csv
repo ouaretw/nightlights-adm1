@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2012,0.003,0.00047,0.108,0.003,0.003,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2013,0.007,0.001,0.231,0.007,0.007,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2014,0.007,0.00095,0.219,0.007,0.007,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2015,0.023,0.00338,0.724,0.023,0.023,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2016,0.025,0.00369,0.61,0.025,0.025,,,0,0.20765,0.79235,0.20765,0.0,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2017,0.027,0.00391,0.903,0.027,0.027,,,0,0.20765,0.79235,0.20765,0.0,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2018,0.009,0.00129,0.298,0.009,0.009,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2019,0.005,0.00079,0.184,0.005,0.005,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2020,0.004,0.00053,0.123,0.004,0.004,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2021,0.0,0.0,0.0,0.0,0.0,,,0,0.20765,0.79235,0.20765,0.0,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2022,0.019,0.00282,0.549,0.019,0.019,,,0,0.20765,0.79235,0.20219,0.00546,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2023,0.013,0.00194,0.926,0.013,0.013,,,0,0.20765,0.79235,0.20765,0.0,0.0,33,1
+CCK,Cocos (Keeling) Islands (Aus.),CCK001,Cocos (Keeling) Islands (Aus.),2024,0.019,0.00282,0.651,0.019,0.019,,,0,0.20765,0.79235,0.20765,0.0,0.0,33,1

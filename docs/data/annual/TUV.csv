@@ -1,0 +1,14 @@
+ISO_A3,NAM_0,ADM1CD_c,NAM_1,year,ntl_sum,ntl_mean,ntl_max,ntl_nogf_5km_sum,ntl_nogf_10km_sum,ntl_gf_5km_sum,ntl_gf_10km_sum,n_gasflaring_locs_country,coverage,ntl_quality_prop_na,ntl_quality_prop_0_good,ntl_quality_prop_1_poor,ntl_quality_prop_2_gapfilled,n_pixels,n_adm2
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2012,0.883,0.00567,3.253,0.883,0.883,,,0,1.0,0.0,0.96009,0.03286,0.00704,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2013,1.197,0.00769,3.302,1.197,1.197,,,0,1.0,0.0,0.96479,0.03286,0.00235,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2014,1.611,0.01035,3.971,1.611,1.611,,,0,1.0,0.0,0.96948,0.02113,0.00939,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2015,1.068,0.00689,0.912,1.068,1.068,,,0,0.99883,0.00235,0.88967,0.10563,0.00235,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2016,1.829,0.01174,3.044,1.829,1.829,,,0,1.0,0.0,0.95775,0.04225,0.0,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2017,2.901,0.01863,3.256,2.901,2.901,,,0,1.0,0.0,0.97418,0.02113,0.00469,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2018,2.225,0.01436,1.056,2.225,2.225,,,0,0.99883,0.00235,0.96479,0.02582,0.00704,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2019,2.412,0.01549,0.976,2.412,2.412,,,0,1.0,0.0,0.9507,0.0446,0.00469,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2020,1.314,0.00844,0.753,1.314,1.314,,,0,1.0,0.0,0.9554,0.03521,0.00939,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2021,1.813,0.01164,2.93,1.813,1.813,,,0,1.0,0.0,0.97183,0.02113,0.00704,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2022,2.601,0.01671,1.898,2.601,2.601,,,0,1.0,0.0,0.97887,0.01408,0.00704,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2023,6.106,0.03921,5.489,6.106,6.106,,,0,1.0,0.0,0.96244,0.03286,0.00469,155,1
+TUV,Tuvalu,TUV001,Tuvalu (no ADM1 tier),2024,2.24,0.01446,0.825,2.24,2.24,,,0,0.99883,0.00235,0.9108,0.08216,0.00469,155,1
