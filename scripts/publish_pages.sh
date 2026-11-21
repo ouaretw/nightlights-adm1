@@ -2,7 +2,7 @@
 # Publish build/site to the orphan `gh-pages` branch as a single commit
 # (history of generated data is not kept on the branch; versions are kept as
 # tags + GitHub releases). Run from the repository root after:
-#   python pipeline/build_v2.py && python pipeline/validate.py && python site_src/build_site.py && pytest tests
+#   python pipeline/build_v2.py && python pipeline/build_world_map.py && python pipeline/validate.py && python site_src/build_site.py && pytest tests
 set -euo pipefail
 PY=${PYTHON:-python}
 VERSION=$($PY -c "import json;print(json.load(open('build/site/data/v2/manifest.json'))['version'])")

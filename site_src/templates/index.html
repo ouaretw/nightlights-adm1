@@ -14,6 +14,42 @@
       <a class="btn secondary" href="integration.html">Merge with economic data</a>
       <a class="btn secondary" href="download.html">Download</a>
     </div>
+
+    <figure class="wm-panel" aria-labelledby="wmTitle">
+      <div class="wm-head">
+        <div>
+          <h2 id="wmTitle">Average brightness by province (ADM1)</h2>
+          <p class="wm-sub">States, provinces and regions — the level at which regional GDP and most subnational economic data are reported.
+            Hover for values; click a province to open its country in the explorer.</p>
+        </div>
+        <div class="wm-ctl">
+          <div class="seg wm-seg" role="group" aria-label="Indicator">
+            <button type="button" data-wm="mean" aria-pressed="true">Average brightness</button>
+            <button type="button" data-wm="sum" aria-pressed="false">Total light</button>
+          </div>
+          <label class="wm-year">Year <output id="wmYearOut">{{ meta.coverage.years_official_annual[1] }}</output>
+            <input id="wmYear" type="range" min="0" max="12" step="1" value="12" aria-label="Map year"></label>
+          <button type="button" class="wm-btn" id="wmPlay">▶ Play</button>
+        </div>
+      </div>
+      <div class="wm-mapwrap">
+        <div id="worldmap"><p class="wm-msg">Loading map…</p></div>
+        <div class="wm-zoom" role="group" aria-label="Zoom">
+          <button type="button" class="wm-btn" id="wmIn" aria-label="Zoom in">+</button>
+          <button type="button" class="wm-btn" id="wmOut" aria-label="Zoom out">−</button>
+          <button type="button" class="wm-btn" id="wmReset" aria-label="Reset zoom">⟲</button>
+        </div>
+      </div>
+      <div class="legend wm-legend" id="wmLegend"></div>
+      <figcaption class="wm-cap">Official annual Black Marble composites on World Bank ADM1 units
+        (<a href="download.html">adm1_wb_annual</a>). <span id="wmCount"></span> provinces have an outline — today's World Bank outline where code and name agree,
+        otherwise rebuilt from the province's own districts. The rest are grey because they could not be matched safely
+        (<a href="methods.html#limitations">why</a>); their data are in every download.
+        Drag to pan, use the buttons or Ctrl + scroll to zoom. Boundaries: World Bank Official Boundaries; they do not imply any judgement on
+        the legal status of any territory. Hatched areas are of non-determined legal status.</figcaption>
+      <div id="wmTip" class="tooltip" hidden></div>
+    </figure>
+
     <div class="kpis">
       <div class="kpi"><b>{{ "{:,}".format(stats.countries) }}</b><span>countries &amp; territories</span></div>
       <div class="kpi"><b>{{ "{:,}".format(stats.adm2) }}</b><span>ADM2 districts (native)</span></div>
@@ -81,4 +117,8 @@
       (dataset 0066940, CC BY 4.0), and Román et al. (2018), <i>Remote Sensing of Environment</i> 210:113–143.</p>
   </div>
 </section>
+{% endblock %}
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="assets/js/worldmap.js"></script>
 {% endblock %}

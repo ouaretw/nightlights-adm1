@@ -99,7 +99,10 @@
       <li>The GADM version is a crosswalk, not a raster re-extraction: districts are assigned whole, so units whose borders cut through
         source districts carry some misallocated light (graded and flagged).</li>
       <li>The source uses an older World Bank boundary vintage; ADM1 codes were later reused for different units in some countries.
-        Map outlines are drawn only where code and name still agree.</li>
+        A province is therefore drawn with today's outline only where code and name still agree; otherwise its outline is rebuilt as the
+        union of the current district polygons its own source districts were matched to (the area its data were summed over), and flagged
+        approximate when some districts could not be matched. Provinces with neither are not drawn
+        (status of every unit: <a href="data/v2/crosswalks/geo_match_wb_adm1.csv">geo_match_wb_adm1.csv</a>).</li>
       <li>Monthly sums are underestimated when coverage is low (clouds; summer at high latitudes). Filter on <code>coverage</code>.</li>
       <li>Medians/percentiles exist only at ADM2. Gas-flare variants are sums only at ADM1.</li>
       <li>No raster-level re-validation was possible for every country: the direct-extraction benchmark covers 13 countries and three years.</li>

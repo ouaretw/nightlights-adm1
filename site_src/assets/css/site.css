@@ -171,3 +171,48 @@ input, select { font: inherit; font-size: .93rem; color: var(--text); background
 .pill { display: inline-flex; gap: 6px; align-items: center; font-size: .8rem; color: var(--muted); }
 .grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 16px; }
 @media (max-width: 860px) { .grid2 { grid-template-columns: 1fr; } }
+
+/* landing-page world map (always on the dark hero) */
+.wm-panel { margin: 30px 0 0; background: #0a1629; border: 1px solid rgba(255,255,255,.12); border-radius: var(--radius); padding: 16px 16px 12px; position: relative; }
+.wm-head { display: flex; flex-wrap: wrap; gap: 12px 24px; align-items: flex-end; justify-content: space-between; margin-bottom: 8px; }
+.wm-head h2 { color: #fff; font-size: 1.2rem; margin: 0 0 4px; }
+.wm-sub { color: #b6c3da !important; font-size: .9rem !important; margin: 0; max-width: 620px; }
+.wm-ctl { display: flex; flex-wrap: wrap; gap: 10px 14px; align-items: center; }
+.wm-seg { border-color: #33466e; }
+.wm-seg button { background: #13254a; color: #dbe5f5; padding: 7px 12px; }
+.wm-seg button + button { border-left-color: #33466e; }
+.wm-seg button[aria-pressed="true"] { background: var(--blue); color: #fff; }
+.wm-year { display: inline-flex; align-items: center; gap: 8px; color: #c7d2e5; font-size: .86rem; }
+.wm-year output { color: #fff; font-weight: 600; font-variant-numeric: tabular-nums; min-width: 2.6em; }
+.wm-year input { width: 150px; accent-color: #4c8df6; }
+.wm-btn { font: inherit; font-size: .86rem; background: #13254a; color: #fff; border: 1px solid #33466e; border-radius: 7px; padding: 6px 11px; cursor: pointer; }
+.wm-btn:hover { background: #1b3263; }
+.wm-btn:focus-visible, .wm-seg button:focus-visible { outline: 2px solid #93c5fd; outline-offset: 2px; }
+.wm-mapwrap { position: relative; }
+#worldmap { width: 100%; aspect-ratio: 1000 / 470; min-height: 180px; }
+#worldmap svg { width: 100%; height: 100%; display: block; cursor: grab; }
+#worldmap svg:active { cursor: grabbing; }
+.wm-msg { color: #b6c3da !important; padding: 40px 0; text-align: center; }
+.wm-zoom { position: absolute; left: 6px; bottom: 6px; display: flex; flex-direction: column; gap: 4px; }
+.wm-zoom .wm-btn { width: 32px; height: 32px; padding: 0; line-height: 1; font-size: 1.05rem; }
+.wm-land { fill: #26324d; stroke: none; }
+.wm-unit { stroke: #0a1629; stroke-width: .35; vector-effect: non-scaling-stroke; cursor: pointer; }
+.wm-unit:hover { stroke: #fff; stroke-width: 1.5; }
+.wm-borders { fill: none; stroke: #6d7fa6; stroke-width: .6; vector-effect: non-scaling-stroke; pointer-events: none; }
+.wm-ndlsa { fill: url(#hatch); stroke: #7d8bab; stroke-width: .4; vector-effect: non-scaling-stroke; pointer-events: none; }
+.wm-legend { color: #b6c3da; margin-top: 8px; }
+.wm-legend .key { display: inline-flex; align-items: center; gap: 6px; }
+.wm-legend .key i { width: 14px; height: 10px; border-radius: 2px; display: inline-block; }
+.wm-cap { color: #93a3c0; font-size: .78rem; margin: 8px 0 0; line-height: 1.5; }
+.wm-cap a { color: #93c5fd; }
+.page-index .tooltip { color: var(--text); }
+.page-index .tooltip .muted { color: var(--muted); }
+@media (max-width: 640px) {
+  .wm-panel { padding: 12px 10px 10px; }
+  .wm-year input { width: 110px; }
+  .wm-zoom .wm-btn { width: 28px; height: 28px; }
+}
+.wm-classes { display: inline-flex; flex-wrap: wrap; gap: 4px 12px; }
+.wm-legend .key { font-variant-numeric: tabular-nums; }
+.wm-land { fill: #3b3f48; }
+.kpis { max-width: none; grid-template-columns: repeat(auto-fit, minmax(160px, 1fr)); }

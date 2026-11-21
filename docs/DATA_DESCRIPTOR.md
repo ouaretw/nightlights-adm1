@@ -63,6 +63,9 @@ Stata with an interactive portal.
 
    Districts are then assigned whole by largest overlap in an equal-area projection (EPSG:6933). Each unit gets a
    match grade; absorbed units are detected geometrically.
+5a. **Map outlines (display only).** A World Bank ADM1 unit is drawn with today's WB-GAD outline when code and name agree;
+   otherwise its outline is the union of the current ADM2 polygons its own districts were located on (never using a polygon
+   claimed by two provinces, never overlapping an outline already drawn). 3,195 of 3,587 units have an outline.
 6. **DOSE V2.14 linkage.** Each region is linked by one of: GADM ID with a name check; a suffix fix; a researched
    renumbering; an explicitly verified rename; DOSE's own polygons with a ≥50% district overlay; or a unique name.
    Regions with reused IDs are left unlinked. Results:

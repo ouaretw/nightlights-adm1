@@ -50,9 +50,9 @@ curl -LO https://datacatalogfiles.worldbank.org/ddh-published/0066940/DR0095685/
 cd ..
 python pipeline/fetch_boundaries.py && python pipeline/fetch_wb_adm2.py && python pipeline/fetch_gadm.py
 python pipeline/simplify_world.py && python pipeline/build_geo_match.py && python pipeline/build_gadm.py
-python pipeline/build_absorbed.py && python pipeline/build_adm2_geo.py
+python pipeline/build_absorbed.py && python pipeline/build_adm1_from_districts.py && python pipeline/build_adm2_geo.py
 # economic sources: see docs/RELEASE.md (DOSE V2.14 from Zenodo 20035157, BEA SAGDP, IBGE states)
-python pipeline/build_v2.py && python pipeline/fetch_benchmark.py && python pipeline/validate.py
+python pipeline/build_v2.py && python pipeline/build_world_map.py && python pipeline/fetch_benchmark.py && python pipeline/validate.py
 python site_src/build_site.py
 pytest tests
 ```
