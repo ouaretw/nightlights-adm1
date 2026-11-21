@@ -4,14 +4,17 @@
 # tags + GitHub releases). Run from the repository root after:
 #   python pipeline/build_v2.py && python pipeline/validate.py && python site_src/build_site.py && pytest tests
 set -euo pipefail
-VERSION=$(python -c "import json;print(json.load(open('build/site/data/v2/manifest.json'))['version'])")
+PY=${PYTHON:-python}
+VERSION=$($PY -c "import json;print(json.load(open('build/site/data/v2/manifest.json'))['version'])")
 TMP=$(mktemp -d)
 git worktree add --detach "$TMP"
 pushd "$TMP" >/dev/null
 git checkout --orphan gh-pages-new
 git rm -rf --quiet . || true
 cp -r "$OLDPWD/build/site/." .
-git add -A
+# store files byte-for-byte so sizes/SHA-256 match manifest.json (no CRLF/LF conversion)
+printf '* -text\n' > .gitattributes
+git -c core.autocrlf=false add -A
 git commit -q -m "Site and data v$VERSION"
 git push -f origin HEAD:gh-pages
 popd >/dev/null
