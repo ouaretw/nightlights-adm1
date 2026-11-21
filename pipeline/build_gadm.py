@@ -12,13 +12,9 @@ to the GADM ADM1 unit it overlaps most:
   otherwise        unassigned (light reported as unassigned in QA)
 
 Overlaps are computed in an equal-area projection (EPSG:6933).
-Then the same exact aggregation as the WB-ADM1 product is applied
-(sums exact; mean pixel-weighted; quality shares pixel-weighted).
+Aggregation itself is done by build_v2.py with ntl_core (same exact rules).
 
-Outputs (docs/data/gadm/):
-  ntl_gadm41_adm1_monthly_all.parquet / .csv.gz
-  ntl_gadm41_adm1_annual_all.parquet  / .csv.gz
-  monthly/<ISO>.csv, annual/<ISO>.csv
+Outputs (build/crosswalks/):
   crosswalk_adm2_to_gadm41.csv         one row per source ADM2
   qa_by_country.csv                    assigned light share, empty GADM units
   qa_summary.json
@@ -36,25 +32,29 @@ import geopandas as gpd
 import numpy as np
 import pandas as pd
 
-from aggregate_adm1 import READ_COLS, aggregate, pixel_weights, round_floats
 from build_geo_match import same_name
 
 ROOT = Path(__file__).resolve().parents[1]
 RAW = ROOT / "raw"
-OUT = ROOT / "docs" / "data" / "gadm"
+OUT = ROOT / "build" / "crosswalks"
 EA = 6933
 
 # Kunrei -> Hepburn (Japan) and common Slavic adjectival endings
 _TRANSLIT = [("tyoo", "cho"), ("syuu", "shu"), ("syoo", "sho"), ("ty", "ch"), ("sy", "sh"), ("zy", "j"),
              ("si", "shi"), ("ti", "chi"), ("tu", "tsu"), ("hu", "fu"), ("zi", "ji"), ("oo", "o"), ("uu", "u"),
              ("yy", "i"), ("ky", "ki")]
-_SUFFIX = re.compile(r"(skaya|s?ka|skiy|ska|oblast|oblysy|oblys|megye|ken|prefecture)$")
+_ADMIN_WORD = re.compile(r"(oblast|oblysy|oblys|megye|ken|prefecture)$")
+_SLAVIC_END = re.compile(r"(skaya|skiy|ska)$")
 
 
 def _n(s: str) -> str:
+    """ASCII letters only; drop one trailing admin word, then one Slavic
+    adjectival ending (each at most once, so stems are never over-stripped)."""
     s = unicodedata.normalize("NFKD", str(s)).encode("ascii", "ignore").decode().lower()
     s = re.sub(r"[^a-z]", "", s)
-    s = _SUFFIX.sub("", _SUFFIX.sub("", s))
+    s = _ADMIN_WORD.sub("", s)
+    if len(s) >= 6:
+        s = _SLAVIC_END.sub("", s)
     return s
 
 
@@ -70,6 +70,10 @@ def name_score(a: str, b: str) -> float:
     best = max(best, SequenceMatcher(None, ta, nb).ratio())
     k = len(os.path.commonprefix([na, nb]))
     if k >= 10 or (k >= 5 and k >= 0.8 * min(len(na), len(nb))):
+        best = max(best, 0.9)
+    # short stems: the longer name is the shorter plus at most 2 letters (sum|s'ka ~ sumy)
+    short, long_ = sorted((na, nb), key=len)
+    if len(short) >= 3 and long_.startswith(short) and len(long_) - len(short) <= 2:
         best = max(best, 0.9)
     return best
 
@@ -91,7 +95,7 @@ def sibling_vote(xw: pd.DataFrame) -> pd.DataFrame:
 
 def locate(src: pd.DataFrame, wb2: gpd.GeoDataFrame, wb1: gpd.GeoDataFrame, gm: pd.DataFrame) -> gpd.GeoDataFrame:
     """Attach a geometry + method to each source ADM2."""
-    geom, method = {}, {}
+    geom, method, ref = {}, {}, {}
     wb2_by_code = wb2.set_index("ADM2CD_c")
     n_cur_adm1 = wb1.groupby("ISO_A3").ADM1CD_c.nunique()
     for iso, sub in src.groupby("ISO_A3"):
@@ -104,6 +108,7 @@ def locate(src: pd.DataFrame, wb2: gpd.GeoDataFrame, wb1: gpd.GeoDataFrame, gm: 
                 c = wb2_by_code.loc[r.ADM2CD_c]
                 if c.ISO_A3 == iso and same_name(r.NAM_2, c.NAM_2):
                     geom[r.ADM2CD_c], method[r.ADM2CD_c] = c.geometry, "code_name"
+                    ref[r.ADM2CD_c] = f"ADM2:{r.ADM2CD_c}"
                     used.add(r.ADM2CD_c)
         # pass 2: unique name match (prefer agreeing ADM1 name)
         for r in sub.itertuples():
@@ -122,6 +127,7 @@ def locate(src: pd.DataFrame, wb2: gpd.GeoDataFrame, wb1: gpd.GeoDataFrame, gm: 
             if len(hit) == 1:
                 h = hit.iloc[0]
                 geom[r.ADM2CD_c], method[r.ADM2CD_c] = h.geometry, "name"
+                ref[r.ADM2CD_c] = f"ADM2:{h.ADM2CD_c}"
                 used.add(h.ADM2CD_c)
     # pass 2b: the old "ADM1" is today's ADM2 (AZE rayons, LVA novads, UGA
     # districts): find the source ADM1 name among current ADM2 names (unique)
@@ -134,6 +140,7 @@ def locate(src: pd.DataFrame, wb2: gpd.GeoDataFrame, wb1: gpd.GeoDataFrame, gm: 
         if len(hit) == 1:
             for code in sub.ADM2CD_c:
                 geom[code], method[code] = hit.geometry.iloc[0], "adm1_as_current_adm2"
+                ref[code] = f"ADM2:{hit.ADM2CD_c.iloc[0]}"
     # pass 3: source ADM1 outline (only safe, non-approximate matches)
     ok = gm[gm.map_status.isin(["matched_code_name", "matched_name_renumbered"])]
     adm1_geom = wb1.set_index("ADM1CD_c").geometry
@@ -142,8 +149,10 @@ def locate(src: pd.DataFrame, wb2: gpd.GeoDataFrame, wb1: gpd.GeoDataFrame, gm: 
         if len(m) and m.iloc[0].ADM1CD_c_current_boundaries in adm1_geom.index:
             geom[r.ADM2CD_c] = adm1_geom.loc[m.iloc[0].ADM1CD_c_current_boundaries]
             method[r.ADM2CD_c] = "adm1_outline"
+            ref[r.ADM2CD_c] = f"ADM1:{m.iloc[0].ADM1CD_c_current_boundaries}"
     g = src.copy()
     g["method"] = g.ADM2CD_c.map(method)
+    g["geom_ref"] = g.ADM2CD_c.map(ref)
     g = gpd.GeoDataFrame(g, geometry=g.ADM2CD_c.map(geom), crs=4326)
     return g
 
@@ -195,11 +204,11 @@ def assign(located: gpd.GeoDataFrame, gadm: gpd.GeoDataFrame) -> pd.DataFrame:
 def main():
     OUT.mkdir(parents=True, exist_ok=True)
     print("loading inputs ...", flush=True)
-    m2 = pd.read_parquet(RAW / "ntl_adm2_monthly_all.parquet", columns=READ_COLS + ["date", "NAM_2"])
+    m2 = pd.read_parquet(RAW / "ntl_adm2_monthly_all.parquet", columns=["ISO_A3", "NAM_0", "ADM1CD_c", "NAM_1", "ADM2CD_c", "NAM_2"])
     src = m2.drop_duplicates("ADM2CD_c")[["ISO_A3", "NAM_0", "ADM1CD_c", "NAM_1", "ADM2CD_c", "NAM_2"]].reset_index(drop=True)
     wb2 = gpd.read_parquet(RAW / "geo" / "wb_gad_adm2.parquet")
     wb1 = gpd.read_file(RAW / "geo" / "wb_gad_adm1_simplified.geojson")
-    gm = pd.read_csv(ROOT / "docs" / "data" / "geo_match.csv")
+    gm = pd.read_csv(ROOT / "build" / "crosswalks" / "geo_match_wb_adm1.csv")
     gadm = gpd.read_parquet(RAW / "gadm" / "gadm41_adm1.parquet")
     # GADM files Hong Kong / Macao as units of China; WB has them as territories
     alias = gadm[gadm.GID_1.isin(["CHN.HKG", "CHN.MAC"])].copy()
@@ -260,34 +269,9 @@ def main():
     xw.to_csv(OUT / "crosswalk_adm2_to_gadm41.csv", index=False, encoding="utf-8")
     print(xw.method.value_counts().to_dict(), flush=True)
 
-    # ---- aggregate to GID_1 with the same exact method
-    T = pixel_weights(m2)
     key = xw.set_index("ADM2CD_c")[["GID_1", "NAME_1", "COUNTRY"]]
-
-    def rekey(df: pd.DataFrame) -> pd.DataFrame:
-        df = df.join(key, on="ADM2CD_c")
-        df = df[df.GID_1.notna()].copy()
-        df["ADM1CD_c"], df["NAM_1"], df["NAM_0"] = df["GID_1"], df["NAME_1"], df["NAM_0"]
-        return df.drop(columns=["GID_1", "NAME_1", "COUNTRY"])
-
-    def finish(a: pd.DataFrame) -> pd.DataFrame:
-        a = a.rename(columns={"ADM1CD_c": "GID_1", "NAM_1": "NAME_1"})
-        q = xw.groupby("GID_1").agg(xw_min_overlap=("overlap_share", "min"),
-                                    xw_methods=("method", lambda s: ";".join(sorted(set(s)))))
-        return a.join(q, on="GID_1")
-
-    m1 = finish(round_floats(aggregate(rekey(m2), "date", T)))
-    m1["date"] = pd.to_datetime(m1["date"]).dt.strftime("%Y-%m")
-    a2 = pd.read_csv(RAW / "ntl_adm2_annual.csv", usecols=lambda c: c in set(READ_COLS + ["year"]),
-                     dtype={"ADM1CD_c": str, "ADM2CD_c": str, "ISO_A3": str})
-    a1 = finish(round_floats(aggregate(rekey(a2), "year", T)))
-
-    for label, d in (("monthly", m1), ("annual", a1)):
-        d.to_parquet(OUT / f"ntl_gadm41_adm1_{label}_all.parquet", index=False, compression="zstd")
-        d.to_csv(OUT / f"ntl_gadm41_adm1_{label}_all.csv.gz", index=False, compression="gzip")
-        (OUT / label).mkdir(exist_ok=True)
-        for iso, g in d.groupby("ISO_A3"):
-            g.to_csv(OUT / label / f"{iso}.csv", index=False)
+    a2 = pd.read_csv(RAW / "ntl_adm2_annual.csv", usecols=["ISO_A3", "ADM2CD_c", "year", "ntl_sum"],
+                     dtype={"ADM2CD_c": str, "ISO_A3": str})
 
     # ---- QA: share of each country's light that was assigned, empty GADM units
     tot = a2.groupby("ISO_A3").ntl_sum.sum()
@@ -301,7 +285,26 @@ def main():
     qa["adm2_unassigned"] = xw[xw.method == "unassigned"].groupby("ISO_A3").size().reindex(qa.index).fillna(0).astype(int)
     qa.index.name = "ISO_A3"
     qa.to_csv(OUT / "qa_by_country.csv", encoding="utf-8")
-    empty = gadm[~gadm.GID_1.isin(xw.GID_1.dropna())][["WB_ISO_A3", "GID_1", "NAME_1", "ENGTYPE_1"]]
+    empty = gadm[~gadm.GID_1.isin(xw.GID_1.dropna())][["WB_ISO_A3", "GID_1", "NAME_1", "ENGTYPE_1", "geometry"]].copy()
+    # which GADM unit absorbed each empty unit's light: the unit assigned to the
+    # located district covering most of the empty unit's area
+    gid_of = xw.set_index("ADM2CD_c").GID_1
+    loc = located[located.geometry.notna()].to_crs(EA)
+    loc["geometry"] = loc.geometry.make_valid()
+    emp = gpd.GeoDataFrame(empty, crs=4326).to_crs(EA)
+    emp["geometry"] = emp.geometry.make_valid()
+    absorbed_by, cover = [], []
+    for r in emp.itertuples():
+        L = loc[(loc.ISO_A3 == r.WB_ISO_A3) & loc.intersects(r.geometry)] if r.geometry is not None else loc.iloc[0:0]
+        if L.empty or r.geometry.area == 0:
+            absorbed_by.append(None); cover.append(None); continue
+        a = L.intersection(r.geometry).area
+        best = a.idxmax()
+        absorbed_by.append(gid_of.get(L.loc[best, "ADM2CD_c"]))
+        cover.append(round(float(a.max() / r.geometry.area), 4))
+    empty = empty.drop(columns="geometry")
+    empty["absorbed_by_GID_1"] = absorbed_by
+    empty["absorbing_district_covers_share"] = cover
     empty.to_csv(OUT / "gadm_units_without_data.csv", index=False, encoding="utf-8")
 
     world_share = float(got.sum() / tot.sum())
@@ -314,7 +317,6 @@ def main():
         "countries_100pct_assigned": int((qa.light_assigned_share >= 0.9999).sum()),
         "countries_below_95pct": qa.index[qa.light_assigned_share < 0.95].tolist(),
         "adm2_overlap_share_quantiles": xw.overlap_share.quantile([0.01, 0.05, 0.1, 0.5]).round(3).to_dict(),
-        "monthly_rows": int(len(m1)), "annual_rows": int(len(a1)),
     }
     (OUT / "qa_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(json.dumps(summary, indent=2))

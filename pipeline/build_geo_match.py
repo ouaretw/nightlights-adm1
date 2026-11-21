@@ -6,9 +6,9 @@ the public FeatureServer, and ADM1 codes were re-used across vintages
 A polygon is therefore attached only when the code matches AND the names agree
 (after normalisation / fuzzy comparison). Everything else is data-only.
 
-Reads : raw/geo/wb_gad_adm1_simplified.geojson, docs/data/adm1_annual_all.parquet
-Writes: docs/data/geo/adm1/<ISO3>.geojson (matched polygons only),
-        docs/data/geo_match.csv (audit of every ADM1 unit)
+Reads : raw/geo/wb_gad_adm1_simplified.geojson, raw/ntl_adm2_monthly_all.parquet
+Writes: build/site/data/geo/adm1/<ISO3>.geojson (matched polygons only),
+        build/crosswalks/geo_match_wb_adm1.csv (audit of every ADM1 unit)
 """
 from __future__ import annotations
 
@@ -23,7 +23,8 @@ import pandas as pd
 
 ROOT = Path(__file__).resolve().parents[1]
 GEO_RAW = ROOT / "raw" / "geo" / "wb_gad_adm1_simplified.geojson"
-OUT = ROOT / "docs" / "data"
+OUT = ROOT / "build" / "site" / "data"
+XW = ROOT / "build" / "crosswalks"
 
 STOP = r"\b(saint|st|ste|sainte|province|provincia|prov|region|regione|regiao|district|oblast|oblys|governorate|" \
        r"county|state|estado|department|departamento|municipality|parish|city|economic|kraj|voivodeship|" \
@@ -54,7 +55,7 @@ def main():
     for f in geo:
         geo_by_iso.setdefault(f["properties"]["ISO_A3"], []).append(f)
 
-    ntl = pd.read_parquet(OUT / "adm1_annual_all.parquet", columns=["ISO_A3", "ADM1CD_c", "NAM_1"]) \
+    ntl = pd.read_parquet(ROOT / "raw" / "ntl_adm2_monthly_all.parquet", columns=["ISO_A3", "ADM1CD_c", "NAM_1"]) \
             .drop_duplicates("ADM1CD_c")
     n_per_iso = ntl.groupby("ISO_A3").size()
     rows, keep = [], {}
@@ -96,7 +97,8 @@ def main():
                                                  "properties": {"code": r.ADM1CD_c, "name": r.NAM_1,
                                                                 "approx": status.endswith("approx")}})
     audit = pd.DataFrame(rows)
-    audit.to_csv(OUT / "geo_match.csv", index=False, encoding="utf-8")
+    XW.mkdir(parents=True, exist_ok=True)
+    audit.to_csv(XW / "geo_match_wb_adm1.csv", index=False, encoding="utf-8")
 
     gdir = OUT / "geo" / "adm1"
     shutil.rmtree(gdir, ignore_errors=True)
@@ -109,7 +111,7 @@ def main():
     summary = {"status_counts": s, "countries_fully_mapped": int((per == 1).sum()),
                "countries_partly_mapped": int(((per > 0) & (per < 1)).sum()),
                "countries_unmapped": int((per == 0).sum())}
-    (OUT / "geo_match_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
+    (XW / "geo_match_wb_adm1_summary.json").write_text(json.dumps(summary, indent=2), encoding="utf-8")
     print(json.dumps(summary, indent=2))
     print("least-mapped:", per.sort_values().head(25).round(2).to_dict())
 

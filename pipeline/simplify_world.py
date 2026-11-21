@@ -3,7 +3,7 @@ from pathlib import Path
 
 import geopandas as gpd
 
-GEO = Path(__file__).resolve().parents[1] / "docs" / "data" / "geo"
+GEO = Path(__file__).resolve().parents[1] / "build" / "site" / "data" / "geo"
 for name, tol in [("adm0_world", 0.15), ("ndlsa", 0.05)]:
     p = GEO / f"{name}.geojson"
     g = gpd.read_file(p)

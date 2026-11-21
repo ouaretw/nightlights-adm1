@@ -39,7 +39,7 @@ def get(iso: str, lvl: int):
 
 def main():
     RAW.mkdir(parents=True, exist_ok=True)
-    isos = list(pd.read_parquet(ROOT / "docs" / "data" / "adm1_annual_all.parquet", columns=["ISO_A3"]).ISO_A3.unique())
+    isos = list(pd.read_parquet(ROOT / "raw" / "ntl_adm2_monthly_all.parquet", columns=["ISO_A3"]).ISO_A3.unique())
     isos += ["TWN"]  # in WB-GAD Taiwan sits under CHN; GADM has it as its own country
     parts, missing = [], []
     for iso in sorted(isos):

@@ -1,0 +1,84 @@
+{% extends "base.html" %}
+{% block content %}
+<section class="hero">
+  <div class="wrap">
+    <p class="eyebrow">Open dataset · v{{ meta.version }}</p>
+    <h1>NASA Black Marble nighttime lights,<br>ready to merge with subnational economic data</h1>
+    <p>The World Bank publishes Black Marble nighttime-light statistics for districts (ADM2). Most subnational
+      economic data — regional GDP, human development, household surveys — are reported for states and provinces (ADM1).
+      This dataset bridges the two: exact ADM1 aggregates on the source's World Bank units, a GADM 4.1 version
+      keyed on <code style="background:rgba(255,255,255,.1);color:#fff">GID_1</code>, and the original ADM2 observations,
+      each with explicit quality and matching indicators.</p>
+    <div class="btn-row">
+      <a class="btn" href="explore.html">Explore the data</a>
+      <a class="btn secondary" href="integration.html">Merge with economic data</a>
+      <a class="btn secondary" href="download.html">Download</a>
+    </div>
+    <div class="kpis">
+      <div class="kpi"><b>{{ "{:,}".format(stats.countries) }}</b><span>countries &amp; territories</span></div>
+      <div class="kpi"><b>{{ "{:,}".format(stats.adm2) }}</b><span>ADM2 districts (native)</span></div>
+      <div class="kpi"><b>{{ "{:,}".format(stats.adm1_wb) }}</b><span>World Bank ADM1 units</span></div>
+      <div class="kpi"><b>{{ "{:,}".format(stats.adm1_gadm) }}</b><span>GADM 4.1 ADM1 units</span></div>
+      <div class="kpi"><b>{{ stats.months }}</b><span>months, {{ meta.coverage.months[0] }} – {{ meta.coverage.months[1] }}</span></div>
+      <div class="kpi"><b>{{ meta.coverage.years_official_annual[0] }}–{{ meta.coverage.years_official_annual[1] }}</b><span>official annual composites</span></div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap">
+    <h2>Three levels, clearly labelled</h2>
+    <div class="cards">
+      <div class="card">
+        <h3>ADM2 · native <span class="tag native">source</span></h3>
+        <p>The original Space2Stats district observations, untouched except that "no valid pixel" sums are set to
+          missing instead of the source's 0. Includes medians and percentiles, which cannot be aggregated.</p>
+      </div>
+      <div class="card">
+        <h3>ADM1 · World Bank units <span class="tag exact">exact</span></h3>
+        <p>Districts nest exactly in their World Bank provinces, so sums and maxima are exact and means are exact
+          coverage-weighted means. Country totals reconcile with the source to floating-point precision.</p>
+      </div>
+      <div class="card">
+        <h3>ADM1 · GADM 4.1 <span class="tag approx">crosswalk</span></h3>
+        <p>Whole districts assigned to the GADM province they overlap most. {{ "%.1f"|format(stats.gadm_share*100) }}% of
+          the world's light is assigned; every unit carries a match-quality grade, and unassigned districts are listed, never guessed.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap grid2">
+    <div class="prose">
+      <h2>What you can do here</h2>
+      <ul>
+        <li><b>Explore</b> any country at ADM1 or ADM2, monthly or annual, on a map, as time series, as annual changes,
+          with and without gas-flare light, and with the underlying observation quality.</li>
+        <li><b>Export</b> exactly the regions, years and indicators you need as CSV, or take full per-country and global
+          files in CSV, Parquet and Stata format.</li>
+        <li><b>Merge</b> with economic data using documented identifiers, crosswalk tables and Stata / R / Python examples.</li>
+        <li><b>Check</b> every number: methods, validation tests and known limitations are published with the data.</li>
+      </ul>
+    </div>
+    <div class="prose">
+      <h2>What this is not</h2>
+      <ul>
+        <li>Not a new satellite product: values derive from the World Bank's Space2Stats aggregation of NASA Black Marble.</li>
+        <li>Not a GDP estimate. Nighttime lights correlate with economic activity; associations shown here are descriptive.</li>
+        <li>Not a substitute for raster-level extraction where you need medians, percentiles or custom boundaries
+          (see <a href="methods.html#alternatives">alternatives</a>).</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<section class="section">
+  <div class="wrap prose">
+    <h2>Cite</h2>
+    <div class="callout mono small" id="cite">{{ citation }}</div>
+    <p class="small muted">Please also cite the source: World Bank, <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i>
+      (dataset 0066940, CC BY 4.0), and Román et al. (2018), <i>Remote Sensing of Environment</i> 210:113–143.</p>
+  </div>
+</section>
+{% endblock %}

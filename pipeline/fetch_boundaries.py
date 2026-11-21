@@ -19,7 +19,7 @@ BASE = ("https://services.arcgis.com/iQ1dY19aHwbSDYIF/ArcGIS/rest/services/"
         "World_Bank_Global_Administrative_Divisions/FeatureServer")
 ROOT = Path(__file__).resolve().parents[1]
 RAWGEO = ROOT / "raw" / "geo"
-OUT = ROOT / "docs" / "data" / "geo"
+OUT = ROOT / "build" / "site" / "data" / "geo"
 
 
 def fetch_layer(layer: int, fields: str, offset_deg: float, precision: int, page: int = 200) -> list[dict]:

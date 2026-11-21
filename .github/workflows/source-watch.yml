@@ -1,0 +1,37 @@
+name: Watch upstream sources
+
+on:
+  schedule:
+    - cron: "17 6 * * 1"     # Mondays 06:17 UTC
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  issues: write
+
+jobs:
+  check:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Compare source metadata with the lock
+        id: check
+        run: |
+          set +e
+          python pipeline/check_sources.py > report.md
+          code=$?
+          cat report.md
+          echo "code=$code" >> "$GITHUB_OUTPUT"
+          if [ "$code" != "0" ] && [ "$code" != "10" ]; then exit "$code"; fi
+      - name: Open an issue when a source changed
+        if: steps.check.outputs.code == '10'
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          title="Upstream source changed ($(date -u +%Y-%m-%d))"
+          if ! gh issue list --state open --search "Upstream source changed in:title" --json number --jq '.[0].number' | grep -q .; then
+            gh issue create --title "$title" --body-file report.md
+          fi

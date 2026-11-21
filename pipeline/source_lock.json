@@ -1,0 +1,22 @@
+{
+  "wb_monthly_parquet": {
+    "content_length": "1035888363",
+    "last_modified": "Fri, 06 Feb 2026 20:19:42 GMT",
+    "etag": "\"0x8DE65BD102EE1AF\""
+  },
+  "wb_annual_csv": {
+    "content_length": "232652476",
+    "last_modified": "Fri, 06 Feb 2026 20:29:54 GMT",
+    "etag": "\"0x8DE65BE7CDB4B30\""
+  },
+  "wb_variable_doc": {
+    "content_length": "139819",
+    "last_modified": "Fri, 06 Feb 2026 20:13:50 GMT",
+    "etag": "\"0x8DE65BC3DF5E15E\""
+  },
+  "dose_latest": {
+    "record_id": "20035157",
+    "version": null,
+    "publication_date": "2026-05-05"
+  }
+}

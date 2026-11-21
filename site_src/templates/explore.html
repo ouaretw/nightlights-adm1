@@ -1,0 +1,90 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap page-head">
+  <h1>Explore data</h1>
+  <p>Every chart, table and export below is computed in your browser from the same per-country Parquet files offered
+    for download. Nothing is simulated; when a combination has no data or no map outline, the view says so.</p>
+</div>
+<div class="wrap explorer">
+  <aside class="panel controls" aria-label="Data selection">
+    <label class="ctl">Country
+      <input id="country" list="countrylist" placeholder="Type a country…" autocomplete="off">
+      <datalist id="countrylist"></datalist>
+    </label>
+    <div class="ctl">Level
+      <div class="seg" role="group" aria-label="Administrative level">
+        <button data-level="adm1" aria-pressed="true">ADM1</button>
+        <button data-level="adm2" aria-pressed="false">ADM2</button>
+      </div>
+    </div>
+    <div class="ctl">Boundary system
+      <div class="seg" role="group" aria-label="Boundary system">
+        <button data-sys="wb" aria-pressed="true">World Bank</button>
+        <button data-sys="gadm" aria-pressed="false">GADM 4.1</button>
+      </div>
+      <small id="sysNote" class="muted"></small>
+    </div>
+    <div class="ctl">Frequency
+      <div class="seg" role="group" aria-label="Frequency">
+        <button data-freq="monthly" aria-pressed="false">Monthly</button>
+        <button data-freq="annual" aria-pressed="true">Annual</button>
+        <button data-freq="annual_from_monthly" aria-pressed="false" title="Annual values derived from monthly data (not the NASA composite)">From monthly</button>
+      </div>
+    </div>
+    <div class="ctl">Years
+      <div class="row2"><select id="y0" aria-label="First year"></select><select id="y1" aria-label="Last year"></select></div>
+    </div>
+    <label class="ctl">Indicator (map &amp; charts)
+      <select id="indicator"></select>
+      <small id="indNote" class="muted"></small>
+    </label>
+    <div class="ctl">Quality criteria
+      <label class="ctl" style="font-weight:400;text-transform:none;letter-spacing:0">Minimum valid-pixel coverage
+        <select id="minCov">
+          <option value="0">none</option><option value="0.5" selected>≥ 50%</option><option value="0.8">≥ 80%</option><option value="0.95">≥ 95%</option>
+        </select>
+      </label>
+      <label class="pill"><input type="checkbox" id="noEst" style="width:auto"> exclude units with &gt;10% estimated pixel weight</label>
+      <label class="pill"><input type="checkbox" id="hiMatch" style="width:auto"> GADM: high-quality matches only</label>
+    </div>
+    <div class="ctl">Export
+      <div class="checks" id="cols" aria-label="Columns to export"></div>
+      <div class="btn-row" style="margin-top:6px">
+        <button class="btn" id="exportCsv" disabled>Export selection (CSV)</button>
+      </div>
+      <small class="muted">Exports the filtered rows and checked columns for the selected years. Full files:</small>
+      <div id="fullFiles" class="small"></div>
+    </div>
+  </aside>
+
+  <section aria-live="polite">
+    <div class="panel">
+      <div class="viewhead">
+        <h2 id="viewTitle">Choose a country</h2>
+        <span class="status" id="status"></span>
+      </div>
+      <div class="tabs" role="tablist">
+        <button role="tab" data-view="map" aria-selected="true">Map</button>
+        <button role="tab" data-view="series" aria-selected="false">Time series</button>
+        <button role="tab" data-view="change" aria-selected="false">Annual change</button>
+        <button role="tab" data-view="flares" aria-selected="false">Gas flares</button>
+        <button role="tab" data-view="quality" aria-selected="false">Quality</button>
+        <button role="tab" data-view="compare" aria-selected="false">Compare boundaries</button>
+        <button role="tab" data-view="table" aria-selected="false">Table</button>
+      </div>
+      <div id="viewControls" class="small muted" style="margin-bottom:8px"></div>
+      <div id="map" hidden></div>
+      <div id="chart" hidden></div>
+      <div id="legend" class="legend"></div>
+      <div id="tableWrap" class="table-scroll datatable" hidden><table id="table"><thead></thead><tbody></tbody></table></div>
+      <div id="empty" class="unavailable" hidden></div>
+    </div>
+    <p class="small muted" style="margin-top:10px">Selected regions: <span id="selList">none</span>. Click a region on the map or in the table to add or remove it (up to 8).</p>
+  </section>
+</div>
+<div id="tooltip" class="tooltip" hidden></div>
+{% endblock %}
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script type="module" src="assets/js/explore.js"></script>
+{% endblock %}

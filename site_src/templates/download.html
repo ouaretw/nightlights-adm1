@@ -1,0 +1,48 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap page-head">
+  <h1>Download</h1>
+  <p>Every file below exists and is listed with its size and SHA-256 checksum from the build manifest
+    (<a href="data/v2/manifest.json">manifest.json</a>). Files on this site are served directly; the largest bundles and
+    Stata files are attached to the <a href="https://github.com/ouaretw/nightlights-adm1/releases/tag/v{{ meta.version }}">v{{ meta.version }} GitHub release</a>.
+    Per-country files for any product are also linked from the <a href="explore.html">explorer</a>.</p>
+</div>
+
+<div class="wrap">
+  <div class="callout"><b>Which file do I need?</b>
+    Merging with GADM-based economic data (e.g. DOSE)? → <b>ADM1 · GADM 4.1</b>.
+    Working with World Bank units or want exact aggregates? → <b>ADM1 · World Bank</b>.
+    Need district detail, medians or percentiles? → <b>ADM2 native</b>.
+    Official NASA annual composites are in the <i>annual</i> files; <i>annual_from_monthly</i> files are derived from monthly data and kept separate.</div>
+
+  {% for group in groups %}
+  <section class="section" id="{{ group.id }}">
+    <h2>{{ group.title }} {% if group.tag %}<span class="tag {{ group.tagclass }}">{{ group.tag }}</span>{% endif %}</h2>
+    <p class="muted small">{{ group.note }}</p>
+    <div class="table-scroll">
+      <table class="dl-table">
+        <thead><tr><th>File</th><th>Frequency</th><th>Format</th><th class="num">Size</th><th>Host</th><th>SHA-256</th></tr></thead>
+        <tbody>
+        {% for f in group.files %}
+          <tr>
+            <td><a href="{{ f.href }}" download>{{ f.name }}</a></td>
+            <td>{{ f.freq }}</td><td>{{ f.fmt }}</td><td class="num">{{ f.size }}</td><td>{{ f.host }}</td>
+            <td class="mono small" title="{{ f.sha256 }}">{{ f.sha256[:12] }}…</td>
+          </tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+    {% if group.per_country %}<p class="small muted">Per-country: {{ group.per_country }}</p>{% endif %}
+  </section>
+  {% endfor %}
+
+  <section class="section prose" id="licences">
+    <h2>Licences &amp; citation</h2>
+    <p>Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source data: World Bank Space2Stats
+      Black Marble (CC BY 4.0), NASA Black Marble (public), World Bank Official Boundaries (CC BY 4.0). GADM 4.1 boundaries
+      are <b>not</b> redistributed; only GADM codes and names are used as identifiers. See <a href="docs.html#licences">licence inventory</a>.</p>
+    <div class="callout mono small">{{ citation }}</div>
+  </section>
+</div>
+{% endblock %}

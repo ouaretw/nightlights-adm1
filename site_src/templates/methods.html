@@ -1,0 +1,129 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap page-head">
+  <h1>Methods and validation</h1>
+  <p>What was done to the source, what was checked, and where uncertainty remains. All figures on this page are produced by
+    <code>pipeline/validate.py</code> and the automated tests (<a href="data/v2/validation.json">validation.json</a>).</p>
+</div>
+<div class="wrap prose">
+  <section class="section" id="source">
+    <h2>1. Source</h2>
+    <p>World Bank, <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i> (dataset {{ meta.source.catalog_id }},
+      v{{ meta.source.catalog_version }}, CC BY 4.0): NASA Black Marble radiance (15 arc-seconds) aggregated directly to
+      39,366 ADM2 units of the World Bank Official Boundaries, monthly {{ meta.coverage.months[0] }} – {{ meta.coverage.months[1] }} and annual
+      {{ meta.coverage.years_official_annual[0] }}–{{ meta.coverage.years_official_annual[1] }}. The source documentation does not state the Black Marble
+      collection (C1 or C2); we therefore do not either. SHA-256 of the files used is recorded in <a href="data/v2/build_meta.json">build_meta.json</a>.</p>
+    <div class="callout warn"><b>Continuity.</b> Suomi NPP stopped delivering observations on 2 November 2026, so the VNP46
+      series that this source is built on will not extend much beyond its current end. Continuation will depend on NOAA-20
+      (VJ146) products, which this source does not use.</div>
+  </section>
+
+  <section class="section" id="assumptions">
+    <h2>2. Source properties the method relies on (tested on every build)</h2>
+    <ol>
+      <li>One row per district and period; each district carries exactly one ADM1 code (strict nesting). One row is missing in the
+        source (Svalbard, July 2022).</li>
+      <li><code>ntl_mean</code> is a coverage-weighted mean over valid pixels and <code>ntl_sum</code> the matching sum. The weights are
+        fractional (sum/mean is not an integer), so the valid weight <code>w_valid = sum / mean</code> is an identity, not an estimate,
+        whenever the mean is positive. A provincial mean <code>Σ sums / Σ w_valid</code> is then the exact coverage-weighted mean of the union.</li>
+      <li>When no pixel is valid, the source stores <code>sum = 0</code> with a missing mean. We set such sums to missing; a zero in
+        our files always means observed darkness. ({{ "{:,}".format(val.arithmetic.adm1_months_no_valid_data_now_NA) }} World Bank province-months
+        that v1 showed as 0 are now missing.)</li>
+      <li>For valid but completely dark rows (mean = sum = 0) the weight cannot be recovered and is estimated from the district's
+        stable total weight; this is flagged (<code>w_valid_estimated</code>, <code>w_valid_estimated_share</code>).</li>
+      <li>Quality shares sum to one over all pixels, so they are aggregated with total weights.</li>
+      <li><code>n_gasflaring_locs</code> is constant within each country — a national count — and is published as such.</li>
+      <li>Medians and percentiles cannot be aggregated from district summaries; they are published at ADM2 only.</li>
+    </ol>
+  </section>
+
+  <section class="section" id="validation">
+    <h2>3. Validation results</h2>
+    <h3>Arithmetic</h3>
+    <ul>
+      <li>Country totals from ADM1 equal the ADM2 source to a relative difference of
+        {{ "%.1e"|format(val.arithmetic.country_total_max_rel_diff.adm1_wb.max_rel_diff_country_total) }} (World Bank units).</li>
+      <li>Quality shares sum to one within {{ val.arithmetic.quality_shares_sum_to_one_max_abs_dev }}; coverage lies in
+        [{{ val.arithmetic.coverage_range[0] }}, {{ val.arithmetic.coverage_range[1] }}].</li>
+      <li>Every provincial mean lies within the range of its district means; unique keys; no-data never reported as zero (automated tests).</li>
+    </ul>
+    <h3>Estimated pixel weights</h3>
+    <p>{{ "%.1f"|format(val.weights.share_of_lit_adm1_months_with_estimated_weight*100) }}% of lit province-months include any estimated weight.
+      Where they do, the estimated share of the valid weight has median {{ val.weights.estimated_share_quantiles_where_positive_and_lit["0.5"] }}.
+      Recovered district weights vary month to month by at most about 5% (90th percentile), which bounds the effect on the provincial mean at
+      {{ "%.2f"|format(val.weights.relative_change_of_mean_bound_quantiles["0.5"]*100) }}% (median) and
+      {{ "%.2f"|format(val.weights.relative_change_of_mean_bound_quantiles["0.9"]*100) }}% (90th percentile). Sums are unaffected.
+      Use <code>w_valid_estimated_share</code> to exclude affected rows when means matter.</p>
+
+    <h3>GADM crosswalk</h3>
+    <p>Share of world light (2020) by how its district was placed:</p>
+    <table><thead><tr><th>Method</th><th class="num">Share of light</th></tr></thead><tbody>
+      {% for k, v in val.crosswalk.share_world_light_2020_by_method.items() %}<tr><td class="mono">{{ k }}</td><td class="num">{{ "%.2f"|format(v*100) }}%</td></tr>{% endfor %}
+    </tbody></table>
+    <p>GADM units by grade: {% for k, v in val.crosswalk.gadm_units_by_grade.items() %}<b>{{ k }}</b> {{ v }}{% if not loop.last %}, {% endif %}{% endfor %}
+      (share of assigned light: {% for k, v in val.crosswalk.share_of_assigned_light_2020_by_grade.items() %}{{ k }} {{ "%.1f"|format(v*100) }}%{% if not loop.last %}, {% endif %}{% endfor %}).
+      {{ val.crosswalk.gadm_units_absorbing_others }} units absorb a smaller GADM unit. Sensitivity: in
+      {{ val.crosswalk.units_with_more_than_10pct_light_from_coarse_or_partial_placements }} GADM units more than 10% of the light comes from
+      coarse or partial placements; where a World Bank province maps one-to-one onto a GADM unit, both series are identical (tested).</p>
+
+    {% if val.benchmark %}
+    <h3 id="benchmark">Agreement with direct raster extraction</h3>
+    <p>Reference: {{ val.benchmark.reference }}. Compared {{ val.benchmark.unit_years }} unit-years in {{ val.benchmark.gadm_units_compared }} GADM units.</p>
+    <table><thead><tr><th style="width:42%">Statistic</th><th class="num">Value</th></tr></thead><tbody>
+      <tr><td>Correlation of log sums</td><td class="num">{{ val.benchmark.corr_log_sums }}</td></tr>
+      <tr><td>Ratio ours / direct, median (5th–95th pct.)</td><td class="num">{{ val.benchmark.ratio_ours_to_direct_quantiles["0.5"] }} ({{ val.benchmark.ratio_ours_to_direct_quantiles["0.05"] }}–{{ val.benchmark.ratio_ours_to_direct_quantiles["0.95"] }})</td></tr>
+      <tr><td>High-grade units only, median (5th–95th)</td><td class="num">{{ val.benchmark.ratio_ours_to_direct_quantiles_high_grade_only.get("0.5") }} ({{ val.benchmark.ratio_ours_to_direct_quantiles_high_grade_only.get("0.05") }}–{{ val.benchmark.ratio_ours_to_direct_quantiles_high_grade_only.get("0.95") }})</td></tr>
+      <tr><td>Within ±5% / ±10%</td><td class="num">{{ "%.0f"|format(val.benchmark.share_within_5pct*100) }}% / {{ "%.0f"|format(val.benchmark.share_within_10pct*100) }}%</td></tr>
+      <tr><td>Median ratio by country</td><td class="small" style="text-align:right">{% for k, v in val.benchmark.median_ratio_by_country.items() %}{{ k }}&nbsp;{{ v }}{% if not loop.last %} · {% endif %}{% endfor %}</td></tr>
+    </tbody></table>
+    <p class="small muted">{{ val.benchmark.caveat }} Unit-level results: <a href="data/v2/validation_benchmark_units.csv">validation_benchmark_units.csv</a>.</p>
+    {% endif %}
+
+    <h3>Official annual composite vs monthly data</h3>
+    <p>Across {{ "{:,}".format(val.annual.adm1_years_compared_12_months) }} province-years with 12 months of data, the official annual sum divided by the
+      average monthly sum has median {{ val.annual.ratio_official_to_monthly_mean_quantiles["0.5"] }}
+      (5th–95th: {{ val.annual.ratio_official_to_monthly_mean_quantiles["0.05"] }}–{{ val.annual.ratio_official_to_monthly_mean_quantiles["0.95"] }});
+      log correlation {{ val.annual.corr_log }}. {{ val.annual.note }}</p>
+
+    {% if val.dose %}
+    <h3>Descriptive check against DOSE regional GDP</h3>
+    <p>{{ "{:,}".format(val.dose.panel_rows_with_gdp_and_lights) }} region-years ({{ val.dose.regions }} regions, {{ val.dose.countries }} countries,
+      {{ val.dose.years[0] }}–{{ val.dose.years[1] }}). Cross-sectional correlation of log GDP and log lights (2015): {{ val.dose.cross_section_2015_corr_log_gdp_log_ntl }};
+      within-region slope with region and year fixed effects: {{ val.dose.within_region_slope_log_gdp_on_log_ntl_twoway_fe }}. {{ val.dose.note }}</p>
+    {% endif %}
+  </section>
+
+  <section class="section" id="limitations">
+    <h2>4. Known limitations</h2>
+    <ul>
+      <li>The GADM version is a crosswalk, not a raster re-extraction: districts are assigned whole, so units whose borders cut through
+        source districts carry some misallocated light (graded and flagged).</li>
+      <li>The source uses an older World Bank boundary vintage; ADM1 codes were later reused for different units in some countries.
+        Map outlines are drawn only where code and name still agree.</li>
+      <li>Monthly sums are underestimated when coverage is low (clouds; summer at high latitudes). Filter on <code>coverage</code>.</li>
+      <li>Medians/percentiles exist only at ADM2. Gas-flare variants are sums only at ADM1.</li>
+      <li>No raster-level re-validation was possible for every country: the direct-extraction benchmark covers 13 countries and three years.</li>
+    </ul>
+  </section>
+
+  <section class="section" id="alternatives">
+    <h2>5. Related products and prior art</h2>
+    <table>
+      <thead><tr><th>Product</th><th>What it offers</th><th>Relation to this dataset</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://github.com/worldbank/space2stats-stata">space2stats-stata</a> (World Bank)</td><td>Pulls the same ADM2 tables and can collapse them to ADM1/ADM0 on the fly</td>
+          <td>Same source. Its collapse averages district means without pixel weights and drops quality shares; no GADM linkage, no archived files.</td></tr>
+        <tr><td><a href="https://github.com/worldbank/blackmarble-stata">blackmarble-stata</a> (World Bank)</td><td>Direct Black Marble → GADM 4.1 ADM0/ADM1 extractions</td>
+          <td>More accurate in principle (raster-level); publicly available only for a few countries and years (used here as the benchmark).</td></tr>
+        <tr><td><a href="https://worldbank.github.io/blackmarbler/">blackmarbler</a> / <a href="https://pypi.org/project/blackmarblepy/">blackmarblepy</a></td><td>Download Black Marble tiles and aggregate to any polygons (NASA Earthdata token)</td>
+          <td>The gold standard for custom boundaries, medians or percentiles.</td></tr>
+        <tr><td>GLocal (Harvard Growth Lab, 2024)</td><td>Monthly and annual EOG VIIRS on GADM 3.6 ADM0–2</td><td>Different product (EOG, not Black Marble), different boundaries.</td></tr>
+        <tr><td>EOG VNL (Colorado School of Mines)</td><td>Annual/monthly global rasters</td><td>No administrative aggregates.</td></tr>
+      </tbody>
+    </table>
+    <p>This dataset's contribution is narrow and verifiable: an exactly weighted ADM1 aggregation of the Space2Stats Black Marble
+      tables with quality propagation, the native ADM2 data with corrected no-data handling, a documented GADM 4.1 and DOSE linkage, and
+      versioned, citable files.</p>
+  </section>
+</div>
+{% endblock %}

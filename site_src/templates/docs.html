@@ -1,0 +1,80 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap page-head">
+  <h1>Documentation</h1>
+  <p>Data dictionary, file layout, licences, version history and citation. The dictionary is generated from the same
+    schema the pipeline uses (<a href="data/v2/data_dictionary.csv">CSV</a> · <a href="data/v2/data_dictionary.json">JSON</a>).</p>
+</div>
+<div class="wrap">
+  <section class="section" id="dictionary">
+    <h2>Data dictionary</h2>
+    <p class="small muted">Products: <code>adm2</code> native · <code>adm1_wb</code> World Bank ADM1 · <code>adm1_gadm41</code> GADM 4.1 ADM1.
+      Frequencies: <code>m</code> monthly · <code>a</code> official annual composite · <code>afm</code> annual derived from monthly.</p>
+    <p class="small">Status:
+      {% for k, v in status.items() %}<span class="tag">{{ k }}</span> {{ v }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
+    <div class="table-scroll">
+      <table>
+        <thead><tr><th>Column</th><th>Products</th><th>Freq.</th><th>Unit</th><th>Status</th><th>Description</th></tr></thead>
+        <tbody>
+        {% for c in columns %}
+          <tr><td class="mono">{{ c.column }}</td><td class="small">{{ c.products }}</td><td class="small">{{ c.frequencies }}</td>
+            <td class="small">{{ c.unit }}</td><td><span class="tag">{{ c.status }}</span></td><td class="small">{{ c.description }}</td></tr>
+        {% endfor %}
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section prose" id="layout">
+    <h2>File layout</h2>
+<pre><code>data/v2/
+  adm2/{monthly,annual}/&lt;ISO3&gt;.{parquet,csv}                 native districts
+  adm1_wb/{monthly,annual,annual_from_monthly}/&lt;ISO3&gt;.{parquet,csv}
+  adm1_gadm41/{monthly,annual,annual_from_monthly}/&lt;ISO3&gt;.{parquet,csv}
+  &lt;product&gt;/&lt;product&gt;_&lt;freq&gt;_global.{parquet,csv.gz}       (large ones in the GitHub release)
+  crosswalks/                                                 ADM2 → GADM 4.1, match quality, QA
+  data_dictionary.{csv,json} · build_meta.json · manifest.json · validation.json</code></pre>
+    <p>Keys: <code>ADM2CD_c</code> + time (ADM2), <code>ADM1CD_c</code> + time (World Bank ADM1), <code>GID_1</code> + time (GADM).
+      Time is <code>date</code> (YYYY-MM) plus <code>year</code>/<code>month</code> in monthly files, <code>year</code> otherwise.
+      Missing values are empty cells in CSV and nulls in Parquet/Stata; a zero always means observed darkness.</p>
+  </section>
+
+  <section class="section prose" id="licences">
+    <h2>Licence inventory</h2>
+    <table>
+      <thead><tr><th>Component</th><th>Licence</th><th>How it is used</th></tr></thead>
+      <tbody>
+        <tr><td>World Bank Space2Stats Black Marble ADM2 tables (0066940 v2)</td><td>CC BY 4.0</td><td>Source of all values; redistributed in derived form with attribution</td></tr>
+        <tr><td>NASA Black Marble VNP46A3/A4</td><td>NASA open data (no restrictions)</td><td>Upstream product; cited</td></tr>
+        <tr><td>World Bank Official Boundaries (WB-GAD)</td><td>CC BY 4.0</td><td>Simplified outlines served for the maps; codes and names</td></tr>
+        <tr><td>GADM 4.1</td><td>Free for academic/non-commercial use; no redistribution</td><td>Used locally for the crosswalk; only <code>GID_1</code> codes and names are published, never geometry</td></tr>
+        <tr><td>DOSE V2.14 (Wenz et al. 2023; Zenodo 20035157)</td><td>CC BY 4.0</td><td>Selected DOSE columns (GDP, population) redistributed in the ready-to-merge panel with attribution; DOSE polygons used locally for linking, not redistributed</td></tr>
+        <tr><td>US BEA SAGDP state identifiers</td><td>US government work (public domain)</td><td>GeoFIPS codes and names in the crosswalk</td></tr>
+        <tr><td>IBGE state codes (API localidades)</td><td>Open data (IBGE)</td><td>UF codes and names in the crosswalk</td></tr>
+        <tr><td>World Bank blackmarble-stata extractions</td><td>Not stated</td><td>Used only to validate (comparison statistics published, files not redistributed)</td></tr>
+        <tr><td>hyparquet (vendored)</td><td>MIT</td><td>Reads Parquet in the browser</td></tr>
+        <tr><td>d3.js</td><td>ISC</td><td>Charts and maps</td></tr>
+        <tr><td>This dataset (derived data)</td><td>CC BY 4.0</td><td>—</td></tr>
+        <tr><td>This code</td><td>MIT</td><td>—</td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <section class="section prose" id="versions">
+    <h2>Version history</h2>
+    <ul>
+      {% for v in changelog %}<li><b>v{{ v.version }}</b> ({{ v.date }}) — {{ v.text }}</li>{% endfor %}
+    </ul>
+    <p class="small muted">Releases are immutable: a new source revision produces a new version; earlier versions stay available from their
+      GitHub release and git tag.</p>
+  </section>
+
+  <section class="section prose" id="cite">
+    <h2>Citation</h2>
+    <div class="callout mono small">{{ citation }}</div>
+    <p class="small">Also cite: World Bank, <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i> (dataset 0066940, v2, CC BY 4.0);
+      Román, M. O. et al. (2018). NASA's Black Marble nighttime lights product suite. <i>Remote Sensing of Environment</i> 210, 113–143.
+      <a href="https://doi.org/10.1016/j.rse.2018.03.017">doi:10.1016/j.rse.2018.03.017</a>.</p>
+  </section>
+</div>
+{% endblock %}
