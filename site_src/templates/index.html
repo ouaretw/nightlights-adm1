@@ -1,124 +1,121 @@
 {% extends "base.html" %}
 {% block content %}
-<section class="hero">
+<section class="home-hero">
   <div class="wrap">
     <p class="eyebrow">Open dataset · v{{ meta.version }}</p>
-    <h1>NASA Black Marble nighttime lights,<br>ready to merge with subnational economic data</h1>
-    <p>The World Bank publishes Black Marble nighttime-light statistics for districts (ADM2). Most subnational
-      economic data — regional GDP, human development, household surveys — are reported for states and provinces (ADM1).
-      This dataset bridges the two: exact ADM1 aggregates on the source's World Bank units, a GADM 4.1 version
-      keyed on <code style="background:rgba(255,255,255,.1);color:#fff">GID_1</code>, and the original ADM2 observations,
-      each with explicit quality and matching indicators.</p>
+    <h1>Nighttime lights for subnational economic research</h1>
+    <p class="lede">Explore and download NASA Black Marble nighttime-light statistics for states, provinces, and districts worldwide,
+      with documented geographic crosswalks and data-quality indicators.</p>
     <div class="btn-row">
-      <a class="btn" href="explore.html">Explore the data</a>
-      <a class="btn secondary" href="integration.html">Merge with economic data</a>
-      <a class="btn secondary" href="download.html">Download</a>
-    </div>
-
-    <figure class="wm-panel" aria-labelledby="wmTitle">
-      <div class="wm-head">
-        <div>
-          <h2 id="wmTitle">Average brightness by province (ADM1)</h2>
-          <p class="wm-sub">States, provinces and regions — the level at which regional GDP and most subnational economic data are reported.
-            Hover for values; click a province to open its country in the explorer.</p>
-        </div>
-        <div class="wm-ctl">
-          <div class="seg wm-seg" role="group" aria-label="Indicator">
-            <button type="button" data-wm="mean" aria-pressed="true">Average brightness</button>
-            <button type="button" data-wm="sum" aria-pressed="false">Total light</button>
-          </div>
-          <label class="wm-year">Year <output id="wmYearOut">{{ meta.coverage.years_official_annual[1] }}</output>
-            <input id="wmYear" type="range" min="0" max="12" step="1" value="12" aria-label="Map year"></label>
-          <button type="button" class="wm-btn" id="wmPlay">▶ Play</button>
-        </div>
-      </div>
-      <div class="wm-mapwrap">
-        <div id="worldmap"><p class="wm-msg">Loading map…</p></div>
-        <div class="wm-zoom" role="group" aria-label="Zoom">
-          <button type="button" class="wm-btn" id="wmIn" aria-label="Zoom in">+</button>
-          <button type="button" class="wm-btn" id="wmOut" aria-label="Zoom out">−</button>
-          <button type="button" class="wm-btn" id="wmReset" aria-label="Reset zoom">⟲</button>
-        </div>
-      </div>
-      <div class="legend wm-legend" id="wmLegend"></div>
-      <figcaption class="wm-cap">Official annual Black Marble composites on World Bank ADM1 units
-        (<a href="download.html">adm1_wb_annual</a>). <span id="wmCount"></span> provinces have an outline — today's World Bank outline where code and name agree,
-        otherwise rebuilt from the province's own districts. The rest are grey because they could not be matched safely
-        (<a href="methods.html#limitations">why</a>); their data are in every download.
-        Drag to pan, use the buttons or Ctrl + scroll to zoom. Boundaries: World Bank Official Boundaries; they do not imply any judgement on
-        the legal status of any territory. Hatched areas are of non-determined legal status.</figcaption>
-      <div id="wmTip" class="tooltip" hidden></div>
-    </figure>
-
-    <div class="kpis">
-      <div class="kpi"><b>{{ "{:,}".format(stats.countries) }}</b><span>countries &amp; territories</span></div>
-      <div class="kpi"><b>{{ "{:,}".format(stats.adm2) }}</b><span>ADM2 districts (native)</span></div>
-      <div class="kpi"><b>{{ "{:,}".format(stats.adm1_wb) }}</b><span>World Bank ADM1 units</span></div>
-      <div class="kpi"><b>{{ "{:,}".format(stats.adm1_gadm) }}</b><span>GADM 4.1 ADM1 units</span></div>
-      <div class="kpi"><b>{{ stats.months }}</b><span>months, {{ meta.coverage.months[0] }} – {{ meta.coverage.months[1] }}</span></div>
-      <div class="kpi"><b>{{ meta.coverage.years_official_annual[0] }}–{{ meta.coverage.years_official_annual[1] }}</b><span>official annual composites</span></div>
+      <a class="btn" href="explore.html">Explore Data</a>
+      <a class="btn secondary" href="download.html">Download Dataset</a>
     </div>
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap">
-    <h2>Three levels, clearly labelled</h2>
-    <div class="cards">
-      <div class="card">
-        <h3>ADM2 · native <span class="tag native">source</span></h3>
-        <p>The original Space2Stats district observations, untouched except that "no valid pixel" sums are set to
-          missing instead of the source's 0. Includes medians and percentiles, which cannot be aggregated.</p>
-      </div>
-      <div class="card">
-        <h3>ADM1 · World Bank units <span class="tag exact">exact</span></h3>
-        <p>Districts nest exactly in their World Bank provinces, so sums and maxima are exact and means are exact
-          coverage-weighted means. Country totals reconcile with the source to floating-point precision.</p>
-      </div>
-      <div class="card">
-        <h3>ADM1 · GADM 4.1 <span class="tag approx">crosswalk</span></h3>
-        <p>Whole districts assigned to the GADM province they overlap most. {{ "%.1f"|format(stats.gadm_share*100) }}% of
-          the world's light is assigned; every unit carries a match-quality grade, and unassigned districts are listed, never guessed.</p>
+<section class="wrap" aria-labelledby="wmTitle">
+  <figure class="panel wm" style="margin:0">
+    <div class="wm-bar">
+      <h2 id="wmTitle">Mean radiance by province (ADM1)</h2>
+      <div class="wm-ctl">
+        <div class="seg" role="group" aria-label="Indicator">
+          <button type="button" data-wm="mean" aria-pressed="true">Mean radiance</button>
+          <button type="button" data-wm="sum" aria-pressed="false">Sum of lights</button>
+        </div>
+        <label class="yearctl">Year <output id="wmYearOut" aria-hidden="true">{{ meta.coverage.years_official_annual[1] }}</output>
+          <input id="wmYear" type="range" min="0" max="12" step="1" value="12" aria-label="Map year"></label>
+        <label class="yearctl"><span class="sr-only">Zoom to country</span>
+          <input id="wmCountry" type="search" list="wmCountries" placeholder="Zoom to a country…" autocomplete="off" style="width:200px"></label>
+        <datalist id="wmCountries"></datalist>
       </div>
     </div>
+    <div class="mapframe"><div id="worldmap"><p class="map-msg">Loading map…</p></div></div>
+    <div class="wm-foot">
+      <div class="legend" id="wmLegend" aria-live="polite"></div>
+      <a id="wmOpen" class="btn sm secondary" hidden style="align-self:flex-start"></a>
+      <figcaption class="caption">Official annual Black Marble composites aggregated exactly to World Bank ADM1 units
+        (<code>adm1_wb_annual</code>). <span id="wmCount"></span> provinces have an outline: today's World Bank outline where code and
+        name agree, otherwise the union of the province's own districts. The remainder could not be matched to a boundary safely and are
+        hatched; their data are in every download (<a href="methods.html#outlines">map outlines</a>). Hover for values, click to open a
+        province in the explorer; drag to pan, use the buttons or Ctrl + scroll to zoom. Boundaries: World Bank Official Boundaries
+        (CC BY 4.0); they do not imply any judgement on the legal status of any territory.</figcaption>
+    </div>
+    <div id="wmTip" class="tooltip" hidden></div>
+  </figure>
+</section>
+
+<section class="wrap section" aria-label="Dataset coverage">
+  <div class="stats">
+    <div class="stat"><b>{{ "{:,}".format(stats.countries) }}</b><span>countries and territories</span></div>
+    <div class="stat"><b>{{ "{:,}".format(stats.adm1_wb) }}</b><span>ADM1 units · World Bank</span></div>
+    <div class="stat"><b>{{ "{:,}".format(stats.adm1_gadm) }}</b><span>ADM1 units · GADM 4.1</span></div>
+    <div class="stat"><b>{{ "{:,}".format(stats.adm2) }}</b><span>ADM2 districts (native)</span></div>
+    <div class="stat"><b>{{ meta.coverage.months[0] }} – {{ meta.coverage.months[1] }}</b><span>{{ stats.months }} monthly composites</span></div>
+    <div class="stat"><b>{{ meta.coverage.years_official_annual[0] }}–{{ meta.coverage.years_official_annual[1] }}</b><span>official annual composites</span></div>
   </div>
 </section>
 
-<section class="section">
-  <div class="wrap grid2">
-    <div class="prose">
-      <h2>What you can do here</h2>
-      <ul>
-        <li><b>Explore</b> any country at ADM1 or ADM2, monthly or annual, on a map, as time series, as annual changes,
-          with and without gas-flare light, and with the underlying observation quality.</li>
-        <li><b>Export</b> exactly the regions, years and indicators you need as CSV, or take full per-country and global
-          files in CSV, Parquet and Stata format.</li>
-        <li><b>Merge</b> with economic data using documented identifiers, crosswalk tables and Stata / R / Python examples.</li>
-        <li><b>Check</b> every number: methods, validation tests and known limitations are published with the data.</li>
+<section class="wrap section">
+  <div class="section-head"><h2>Workflows</h2></div>
+  <div class="grid3">
+    <article class="card workflow">
+      <span class="step">01 · Explore</span>
+      <h3>Explore regional nighttime lights</h3>
+      <p>Map any country at ADM1 or ADM2, follow regions over time, and inspect valid-pixel coverage, gap-filling and
+        crosswalk quality before you use a number.</p>
+      <div class="card-foot"><a href="explore.html">Open the explorer →</a></div>
+    </article>
+    <article class="card workflow">
+      <span class="step">02 · Merge</span>
+      <h3>Merge with economic data</h3>
+      <p>Ready-to-merge panel for DOSE regional GDP ({{ dose_linked }} of {{ dose_total }} regions linked), GADM 4.1 <code>GID_1</code>
+        keys, and US BEA and Brazil IBGE crosswalks, with Stata, R and Python code.</p>
+      <div class="card-foot"><a href="integration.html">Economic integration →</a></div>
+    </article>
+    <article class="card workflow">
+      <span class="step">03 · Download</span>
+      <h3>Download reproducible datasets</h3>
+      <p>CSV, Parquet and Stata files for every level and frequency, each with its exact size and SHA-256 checksum, versioned with
+        a tagged GitHub release.</p>
+      <div class="card-foot"><a href="download.html">Choose a file →</a></div>
+    </article>
+  </div>
+</section>
+
+<section class="wrap section">
+  <div class="grid2">
+    <div>
+      <h2>Source and attribution</h2>
+      <p class="serif">Values derive from the World Bank's <a href="https://datacatalog.worldbank.org/search/dataset/0066940"><i>Space2Stats – Monthly &amp; Annual
+        Black Marble Nighttime Lights</i></a> (dataset {{ meta.source.catalog_id }}, v{{ meta.source.catalog_version }}, CC BY 4.0), which aggregates
+        NASA's Black Marble VNP46A3/A4 radiance (Román et al. 2018) to World Bank ADM2 districts. This project aggregates those
+        districts to ADM1 exactly on World Bank units, approximately on GADM 4.1 units through a graded crosswalk, and republishes the
+        district data with corrected no-data handling.</p>
+      <p class="small"><a href="methods.html">Methods &amp; validation</a> · <a href="docs.html#dictionary">Data dictionary</a> ·
+        <a href="docs.html#licences">Licences</a> · <a href="docs.html#versions">Version history</a></p>
+      <h3 style="margin-top:18px">Cite this dataset</h3>
+      <pre class="cite" id="citeText">{{ citation }}</pre>
+      <div class="btn-row" style="margin-top:8px">
+        <button class="copy light" type="button" data-copy="citeText">Copy citation</button>
+        <a class="small" href="docs.html#cite">BibTeX and source citations</a>
+      </div>
+    </div>
+    <div>
+      <h2>Limitations</h2>
+      <ul class="limits">
+        <li><b>GADM values are approximate.</b> Districts are assigned whole to the GADM 4.1 unit they overlap most; every unit carries a match grade.
+          Only World Bank ADM1 values are exact aggregates.</li>
+        <li><b>Coverage varies.</b> Clouds and summer daylight at high latitudes reduce valid pixels; monthly sums are biased down when coverage is low.</li>
+        <li><b>Official annual ≠ mean of months.</b> NASA's annual composite and annual values derived from monthly data are separate products.</li>
+        <li><b>Associations, not effects.</b> Nighttime lights correlate with economic activity; nothing here estimates causal effects.</li>
+        <li><b>Series end.</b> Suomi NPP stopped delivering observations on 2 November 2026.</li>
       </ul>
+      <p class="small" style="margin-top:10px"><a href="methods.html#limitations">All known limitations →</a></p>
     </div>
-    <div class="prose">
-      <h2>What this is not</h2>
-      <ul>
-        <li>Not a new satellite product: values derive from the World Bank's Space2Stats aggregation of NASA Black Marble.</li>
-        <li>Not a GDP estimate. Nighttime lights correlate with economic activity; associations shown here are descriptive.</li>
-        <li>Not a substitute for raster-level extraction where you need medians, percentiles or custom boundaries
-          (see <a href="methods.html#alternatives">alternatives</a>).</li>
-      </ul>
-    </div>
-  </div>
-</section>
-
-<section class="section">
-  <div class="wrap prose">
-    <h2>Cite</h2>
-    <div class="callout mono small" id="cite">{{ citation }}</div>
-    <p class="small muted">Please also cite the source: World Bank, <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i>
-      (dataset 0066940, CC BY 4.0), and Román et al. (2018), <i>Remote Sensing of Environment</i> 210:113–143.</p>
   </div>
 </section>
 {% endblock %}
 {% block scripts %}
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="assets/js/worldmap.js"></script>
+<script type="module" src="assets/js/worldmap.js"></script>
 {% endblock %}

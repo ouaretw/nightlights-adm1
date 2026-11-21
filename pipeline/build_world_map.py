@@ -96,7 +96,8 @@ def main():
         g = g.set_index("year").reindex(years)
         first = g.dropna(subset=["NAM_1"]).iloc[0]
         units[code] = {"iso": first.ISO_A3, "country": first.NAM_0, "name": first.NAM_1,
-                       "mean": [sig(v) for v in g.ntl_mean], "sum": [sig(v) for v in g.ntl_sum]}
+                       "mean": [sig(v) for v in g.ntl_mean], "sum": [sig(v) for v in g.ntl_sum],
+                       "cov": [sig(v, 3) for v in g.coverage]}
     out = {"source": "adm1_wb_annual_global (official annual composites), World Bank ADM1 units",
            "years": years, "n_units_mapped": len(units),
            "n_units_total": int(pd.read_parquet(DATA / "adm1_wb" / "adm1_wb_annual_global.parquet",

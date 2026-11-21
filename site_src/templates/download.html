@@ -2,47 +2,99 @@
 {% block content %}
 <div class="wrap page-head">
   <h1>Download</h1>
-  <p>Every file below exists and is listed with its size and SHA-256 checksum from the build manifest
-    (<a href="data/v2/manifest.json">manifest.json</a>). Files on this site are served directly; the largest bundles and
-    Stata files are attached to the <a href="https://github.com/ouaretw/nightlights-adm1/releases/tag/v{{ meta.version }}">v{{ meta.version }} GitHub release</a>.
-    Per-country files for any product are also linked from the <a href="explore.html">explorer</a>.</p>
+  <p>Choose a dataset to see the exact file, its size, SHA-256 checksum, variables and caveats. Every link points to a file listed in the build
+    manifest (<a href="data/v2/manifest.json">manifest.json</a>): smaller files are served from this site, global CSV/Stata bundles from the
+    <a href="https://github.com/ouaretw/nightlights-adm1/releases/tag/v{{ meta.version }}">v{{ meta.version }} GitHub release</a>.</p>
 </div>
 
-<div class="wrap">
-  <div class="callout"><b>Which file do I need?</b>
-    Merging with GADM-based economic data (e.g. DOSE)? → <b>ADM1 · GADM 4.1</b>.
-    Working with World Bank units or want exact aggregates? → <b>ADM1 · World Bank</b>.
-    Need district detail, medians or percentiles? → <b>ADM2 native</b>.
-    Official NASA annual composites are in the <i>annual</i> files; <i>annual_from_monthly</i> files are derived from monthly data and kept separate.</div>
-
-  {% for group in groups %}
-  <section class="section" id="{{ group.id }}">
-    <h2>{{ group.title }} {% if group.tag %}<span class="tag {{ group.tagclass }}">{{ group.tag }}</span>{% endif %}</h2>
-    <p class="muted small">{{ group.note }}</p>
-    <div class="table-scroll">
-      <table class="dl-table">
-        <thead><tr><th>File</th><th>Frequency</th><th>Format</th><th class="num">Size</th><th>Host</th><th>SHA-256</th></tr></thead>
-        <tbody>
-        {% for f in group.files %}
-          <tr>
-            <td><a href="{{ f.href }}" download>{{ f.name }}</a></td>
-            <td>{{ f.freq }}</td><td>{{ f.fmt }}</td><td class="num">{{ f.size }}</td><td>{{ f.host }}</td>
-            <td class="mono small" title="{{ f.sha256 }}">{{ f.sha256[:12] }}…</td>
-          </tr>
-        {% endfor %}
-        </tbody>
-      </table>
+<div class="wrap picker">
+  <aside class="panel controls" aria-label="Dataset selection">
+    <div class="field">
+      <span class="label" id="lblL">Geographic level</span>
+      <div class="seg stack" role="group" aria-labelledby="lblL">
+        <button type="button" data-pl="adm1_wb" aria-pressed="true">ADM1 · World Bank units<small>Exact aggregation · key ADM1CD_c</small></button>
+        <button type="button" data-pl="adm1_gadm41" aria-pressed="false">ADM1 · GADM 4.1<small>Crosswalk, graded · key GID_1</small></button>
+        <button type="button" data-pl="adm2" aria-pressed="false">ADM2 · native districts<small>Source observations · key ADM2CD_c</small></button>
+      </div>
     </div>
-    {% if group.per_country %}<p class="small muted">Per-country: {{ group.per_country }}</p>{% endif %}
-  </section>
-  {% endfor %}
+    <div class="field">
+      <span class="label" id="lblF">Temporal frequency</span>
+      <div class="seg stack" role="group" aria-labelledby="lblF">
+        <button type="button" data-pf="annual" aria-pressed="true">Annual<small>NASA official annual composite</small></button>
+        <button type="button" data-pf="monthly" aria-pressed="false">Monthly<small>Monthly composites</small></button>
+        <button type="button" data-pf="annual_from_monthly" aria-pressed="false">Annual from monthly<small>Derived here; not the official composite</small></button>
+      </div>
+    </div>
+    <div class="field">
+      <span class="label" id="lblS">Geographic scope</span>
+      <div class="seg" role="group" aria-labelledby="lblS">
+        <button type="button" data-ps="global" aria-pressed="true">All countries</button>
+        <button type="button" data-ps="country" aria-pressed="false">One country</button>
+      </div>
+      <label class="sr-only" for="pCountry">Country</label>
+      <select id="pCountry" hidden></select>
+    </div>
+    <div class="field">
+      <span class="label" id="lblFmt">File format</span>
+      <div class="seg" role="group" aria-labelledby="lblFmt">
+        <button type="button" data-pk="csv" aria-pressed="true">CSV</button>
+        <button type="button" data-pk="parquet" aria-pressed="false">Parquet</button>
+        <button type="button" data-pk="stata" aria-pressed="false">Stata</button>
+      </div>
+      <span class="hint">R: read Parquet with <code>arrow::read_parquet()</code> or CSV with <code>readr</code>.</span>
+    </div>
+  </aside>
 
-  <section class="section prose" id="licences">
-    <h2>Licences &amp; citation</h2>
-    <p>Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source data: World Bank Space2Stats
-      Black Marble (CC BY 4.0), NASA Black Marble (public), World Bank Official Boundaries (CC BY 4.0). GADM 4.1 boundaries
-      are <b>not</b> redistributed; only GADM codes and names are used as identifiers. See <a href="docs.html#licences">licence inventory</a>.</p>
-    <div class="callout mono small">{{ citation }}</div>
-  </section>
+  <section class="panel" aria-live="polite" id="result"><div class="result-head"><p class="muted">Loading the file manifest…</p></div></section>
 </div>
+
+<div class="wrap section" id="all-files">
+  <details class="all-files">
+    <summary>All files ({{ n_files }} listed in the manifest)</summary>
+    <p class="small muted">The complete catalogue of global files, economic-integration files, crosswalks and QA tables. Per-country files follow the pattern
+      <code>data/v2/&lt;product&gt;/&lt;frequency&gt;/&lt;ISO3&gt;.parquet</code> (and <code>.csv</code> for ADM1 annual files) and are listed in the manifest.</p>
+    {% for group in groups %}
+    <section style="margin-top:22px" id="{{ group.id }}">
+      <h3>{{ group.title }} {% if group.tag %}<span class="tag {{ group.tagclass }}">{{ group.tag }}</span>{% endif %}</h3>
+      <p class="small muted">{{ group.note }}</p>
+      <div class="table-scroll">
+        <table class="dl-table">
+          <thead><tr><th scope="col">File</th><th scope="col">Frequency</th><th scope="col">Format</th><th scope="col" class="num">Size</th><th scope="col">Host</th><th scope="col">SHA-256</th></tr></thead>
+          <tbody>
+          {% for f in group.files %}
+            <tr>
+              <td><a href="{{ f.href }}" download>{{ f.name }}</a></td>
+              <td>{{ f.freq }}</td><td>{{ f.fmt }}</td><td class="num">{{ f.size }}</td><td>{{ f.host }}</td>
+              <td class="mono xs" title="{{ f.sha256 }}">{{ f.sha256[:16] }}…</td>
+            </tr>
+          {% endfor %}
+          </tbody>
+        </table>
+      </div>
+      {% if group.per_country %}<p class="xs muted">Per-country: {{ group.per_country }}</p>{% endif %}
+    </section>
+    {% endfor %}
+  </details>
+</div>
+
+<div class="wrap section" id="licences">
+  <div class="grid2">
+    <div>
+      <h2>Licence</h2>
+      <p class="serif">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source data: World Bank Space2Stats
+        Black Marble (CC BY 4.0), NASA Black Marble (open), World Bank Official Boundaries (CC BY 4.0). GADM 4.1 boundaries are <b>not</b>
+        redistributed; only GADM codes and names are used as identifiers. See the <a href="docs.html#licences">licence inventory</a>.</p>
+    </div>
+    <div>
+      <h2>Cite</h2>
+      <pre class="cite" id="citeText">{{ citation }}</pre>
+      <div class="btn-row" style="margin-top:8px"><button class="copy light" type="button" data-copy="citeText">Copy citation</button>
+        <a class="small" href="docs.html#cite">BibTeX</a></div>
+    </div>
+  </div>
+</div>
+<script id="pickerMeta" type="application/json">{{ picker_meta | tojson }}</script>
+{% endblock %}
+{% block scripts %}
+<script type="module" src="assets/js/download.js"></script>
 {% endblock %}

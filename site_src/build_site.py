@@ -116,6 +116,19 @@ def main():
              "months": 168, "gadm_share": qa["world_light_assigned_share"]}
     citation = (f"Ouaret, W. (2026). Night Lights ADM1: NASA Black Marble nighttime lights for ADM1 and ADM2 units, "
                 f"ready to merge with subnational economic data (v{man['version']}). https://ouaretw.github.io/nightlights-adm1/")
+    bibtex = "\n".join([
+        "@misc{ouaret2026nightlightsadm1,",
+        "  author       = {Ouaret, Walid},",
+        "  title        = {Night Lights {ADM1}: {NASA} Black Marble nighttime lights for {ADM1} and {ADM2} units, ready to merge with subnational economic data},",
+        "  year         = {2026},",
+        f"  version      = {{{man['version']}}},",
+        r"  howpublished = {\url{https://ouaretw.github.io/nightlights-adm1/}},",
+        "  note         = {Derived from World Bank Space2Stats dataset 0066940 (CC BY 4.0) and NASA Black Marble}",
+        "}"])
+    mf = {f["path"]: {"size": human(f["bytes"]), "href": f.get("url") or f["path"]} for f in man["files"]}
+    afm = pd.read_parquet(DATA / "adm1_wb" / "adm1_wb_annual_from_monthly_global.parquet", columns=["year"]).year
+    picker_meta = {"months": meta["coverage"]["months"], "years_official_annual": meta["coverage"]["years_official_annual"],
+                   "years_afm": [int(afm.min()), int(afm.max())], "version": man["version"]}
     ex_dir = ROOT / "examples"
     examples = {"stata": (ex_dir / "merge_dose.do").read_text(encoding="utf-8"),
                 "r": (ex_dir / "merge_dose.R").read_text(encoding="utf-8"),
@@ -123,14 +136,17 @@ def main():
     dose_unlinked = sum(v for k, v in dose["dose_regions_by_link_method"].items() if k in ("unlinked", "linked_but_no_district"))
 
     env = Environment(loader=FileSystemLoader(SRC / "templates"), autoescape=select_autoescape(["html"]))
-    common = {"nav": NAV, "meta": meta, "root": "", "citation": citation}
+    dose_linked = dose["dose_regions"] - dose_unlinked
+    common = {"nav": NAV, "meta": meta, "root": "", "citation": citation, "bibtex": bibtex}
     pages = {
-        "index": ("Overview", "NASA Black Marble nighttime lights at ADM1 and ADM2, ready to merge with subnational economic data.",
-                  {"stats": stats}),
+        "index": ("Nighttime lights for subnational economic research", "Explore and download NASA Black Marble nighttime-light statistics for states, provinces and districts worldwide, with documented crosswalks and data-quality indicators.",
+                  {"stats": stats, "dose_linked": dose_linked, "dose_total": dose["dose_regions"]}),
         "explore": ("Explore data", "Interactive maps, time series, quality and exports by country, level and boundary system.", {}),
         "integration": ("Economic integration", "Crosswalks and ready-to-merge panels for DOSE, GADM-based data, US BEA and Brazil IBGE.",
-                        {"dose": dose, "national": national, "dose_unlinked": dose_unlinked, "link_meaning": LINK_MEANING, "examples": examples}),
-        "download": ("Download", "Every data file with size and checksum.", {"groups": download_groups(man, man["version"])}),
+                        {"dose": dose, "national": national, "dose_unlinked": dose_unlinked, "dose_linked": dose_linked, "link_meaning": LINK_MEANING,
+                         "examples": examples, "mf": mf}),
+        "download": ("Download", "Choose a dataset by level, frequency, scope and format; every file with its size and SHA-256 checksum.",
+                     {"groups": download_groups(man, man["version"]), "picker_meta": picker_meta, "n_files": len(man["files"])}),
         "methods": ("Methods and validation", "Aggregation method, tested source assumptions, validation results and limitations.", {"val": val}),
         "docs": ("Documentation", "Data dictionary, file layout, licences and version history.",
                  {"columns": dic["columns"], "status": dic["status_legend"], "changelog": CHANGELOG}),

@@ -1,92 +1,150 @@
 {% extends "base.html" %}
+{% macro flink(path, label) -%}
+{%- set f = mf.get(path) -%}
+{%- if f %}<a href="{{ f.href }}" download>{{ label }}</a> <span class="num">{{ f.size }}</span>{% else %}<span class="muted">{{ label }} (not built)</span>{% endif -%}
+{%- endmacro %}
 {% block content %}
 <div class="wrap page-head">
   <h1>Economic integration</h1>
-  <p>How to put these lights next to subnational economic data: which file matches which dataset, how each link was
-    made, what could not be linked, and ready-to-run merge code. Region names alone are never treated as evidence that two
-    boundaries match; every link records its method.</p>
+  <p>Which nighttime-lights file to use with which economic dataset, how the geographies are joined, how complete the linkage is, and
+    ready-to-run merge code. Different boundary versions are not interchangeable: every link records how it was made, and region names
+    alone are never treated as evidence that two boundaries match.</p>
 </div>
 
 <div class="wrap">
-  <section class="section">
-    <h2>Which file for which dataset</h2>
-    <div class="table-scroll">
-    <table>
-      <thead><tr><th>Economic dataset</th><th>Its geography</th><th>Use</th><th>Status</th></tr></thead>
-      <tbody>
-        <tr><td><b>DOSE V2.14</b> (Wenz et al. 2023; Zenodo 20035157) — regional GDP, 1,667 regions, 83 countries</td>
-          <td>GADM 3.6 <code>GID_1</code>, plus DOSE's own polygons for 8+ countries</td>
-          <td><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.csv">panel_dose_v2_14_ntl</a> (ready-to-merge, 2012–2019) ·
-            <a href="data/v2/econ/dose/ntl_for_dose_regions_annual.csv">lights on DOSE regions, 2012–{{ meta.coverage.years_official_annual[1] }}</a> ·
-            <a href="data/v2/econ/dose/dose_region_links.csv">link table</a></td>
-          <td><span class="tag exact">built</span> {{ dose.dose_regions - dose_unlinked }} of {{ dose.dose_regions }} regions linked</td></tr>
-        <tr><td>Any dataset keyed on <b>GADM 4.1</b> <code>GID_1</code></td><td>GADM 4.1</td>
-          <td><a href="download.html#adm1_gadm41">ADM1 · GADM 4.1</a> files; join on <code>GID_1</code> + year</td><td><span class="tag approx">crosswalk</span> graded per unit</td></tr>
-        <tr><td><b>US BEA</b> state GDP (SAGDP)</td><td>State GeoFIPS (<code>06000</code> = California)</td>
-          <td><a href="data/v2/econ/national/crosswalk_gadm41_usa_bea_fips.csv">GID_1 ↔ GeoFIPS</a> ({{ national.usa_bea.exact_name }}/51 exact)</td><td><span class="tag exact">built</span></td></tr>
-        <tr><td><b>Brazil IBGE</b> state accounts</td><td>UF codes (<code>11</code> Rondônia … <code>53</code> DF)</td>
-          <td><a href="data/v2/econ/national/crosswalk_gadm41_bra_ibge_uf.csv">GID_1 ↔ UF</a> ({{ national.bra_ibge.exact_name }}/27 exact)</td><td><span class="tag exact">built</span></td></tr>
-        <tr><td><b>Global Data Lab SHDI</b> v10.2</td><td>GDL regions (<code>DZAr101</code>), often groups of ADM1 units; GDL Shapefiles v6.4</td>
-          <td>Not provided yet: data and shapefiles require a GDL login and are non-commercial; no published GDL→GADM correspondence. Many GDL regions are unions of ADM1 units, so they can be built by summing <code>ntl_sum</code> (and combining <code>ntl_mean</code> with <code>w_valid</code> weights) once the membership is known.</td>
-          <td><span class="tag">planned</span></td></tr>
-        <tr><td><b>OECD TL2</b> regional statistics</td><td>TL2024 codes (US + FIPS, NUTS-based in Europe)</td>
-          <td>Not provided: no public OECD boundary file was found. US TL2 = BEA states (above); most other OECD regional GDP already enters DOSE.</td><td><span class="tag">not available</span></td></tr>
-        <tr><td><b>Eurostat</b> NUTS 2 GDP</td><td>NUTS 2024 (GISCO geometry)</td><td>Requires an overlay with GISCO NUTS 2024; NUTS 2 ≠ ADM1 in many countries.</td><td><span class="tag">planned</span></td></tr>
-        <tr><td>Kummu et al. gridded GDP</td><td>Mixed reporting units</td><td>Not linked. Partly modelled; check for circularity if lights enter its downscaling.</td><td><span class="tag">not recommended</span></td></tr>
-      </tbody>
-    </table>
+  <section class="section" style="padding-top:8px" aria-labelledby="dose">
+    <div class="section-head"><h2 id="dose">DOSE regional GDP <span class="tag exact">built</span></h2>
+      <p>Wenz et al. (2023), <i>Scientific Data</i> 10, 425 · data {{ dose.dose_version }} · CC BY 4.0</p></div>
+    <div class="panel feature">
+      <div>
+        <h3>Ready-to-merge panel</h3>
+        <p class="serif">DOSE region-years from {{ dose.panel_years[0] }} to {{ dose.panel_years[1] }} already joined with nighttime lights aggregated to each DOSE
+          region from its own source districts, with the same exact rules as the rest of the dataset. Includes the link method and quality columns
+          for screening.</p>
+        <dl class="kv">
+          <dt>Recommended file</dt><dd><code>panel_dose_v2_14_ntl</code></dd>
+          <dt>DOSE geography</dt><dd class="text">GADM 3.6 <code>GID_1</code>, plus DOSE's own polygons where it uses other units</dd>
+          <dt>Join key</dt><dd><code>GID_1</code> + <code>year</code> (DOSE's identifiers, kept as in DOSE)</dd>
+          <dt>Lights</dt><dd class="text">official annual composites; <code>ntl_sum</code>, flare-excluded sums, coverage, quality shares</dd>
+        </dl>
+        <ul class="files" style="margin-top:14px">
+          <li><span>Panel · CSV</span><span>{{ flink("data/v2/econ/dose/panel_dose_v2_14_ntl.csv", "panel_dose_v2_14_ntl.csv") }}</span></li>
+          <li><span>Panel · Parquet</span><span>{{ flink("data/v2/econ/dose/panel_dose_v2_14_ntl.parquet", "panel_dose_v2_14_ntl.parquet") }}</span></li>
+          <li><span>Panel · Stata</span><span>{{ flink("data/v2/econ/dose/panel_dose_v2_14_ntl.dta", "panel_dose_v2_14_ntl.dta") }}</span></li>
+          <li><span>Lights on DOSE regions, 2012–{{ meta.coverage.years_official_annual[1] }} (bring your own DOSE)</span><span>{{ flink("data/v2/econ/dose/ntl_for_dose_regions_annual.csv", "CSV") }} · {{ flink("data/v2/econ/dose/ntl_for_dose_regions_annual.parquet", "Parquet") }} · {{ flink("data/v2/econ/dose/ntl_for_dose_regions_annual.dta", "Stata") }}</span></li>
+          <li><span>Link table (one row per DOSE region)</span><span>{{ flink("data/v2/econ/dose/dose_region_links.csv", "dose_region_links.csv") }}</span></li>
+          <li><span>Members (DOSE region ↔ ADM2 districts)</span><span>{{ flink("data/v2/econ/dose/dose_region_members_adm2.csv", "dose_region_members_adm2.csv") }}</span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Linkage coverage and quality</h3>
+        <p class="small" style="margin-bottom:4px"><b class="num">{{ dose_linked }}</b> of <b class="num">{{ dose.dose_regions }}</b> DOSE regions linked to source districts
+          ({{ "%.1f"|format(100 * dose_linked / dose.dose_regions) }}%).</p>
+        <div class="meter" role="img" aria-label="{{ dose_linked }} of {{ dose.dose_regions }} regions linked"><i style="width:{{ 100 * dose_linked / dose.dose_regions }}%"></i></div>
+        <p class="small muted">Panel: {{ "{:,}".format(dose.panel_rows_2012_on) }} region-years from 2012, {{ "{:,}".format(dose.panel_rows_with_lights) }} with lights.</p>
+        <table style="margin-top:10px">
+          <thead><tr><th scope="col">Link method</th><th scope="col" class="num">Regions</th><th scope="col">Meaning</th></tr></thead>
+          <tbody>
+          {% for k, v in dose.dose_regions_by_link_method.items() %}
+            <tr><td class="mono xs">{{ k }}</td><td class="num">{{ v }}</td><td class="xs">{{ link_meaning.get(k, "") }}</td></tr>
+          {% endfor %}
+          </tbody>
+        </table>
+        <p class="xs muted" style="margin-top:8px">Unlinked regions include Portugal's NUTS 3 units, whose DOSE IDs reuse GADM IDs for different areas; they are left out rather than joined by ID.</p>
+      </div>
     </div>
   </section>
 
-  <section class="section grid2">
-    <div class="prose">
-      <h2>How DOSE regions are linked</h2>
-      <p>Each DOSE region is linked to a set of source districts, then aggregated with the same exact rules as everything else.</p>
+  <section class="section" aria-labelledby="code">
+    <div class="section-head"><h2 id="code">Merge code</h2><p>Reads the published files over HTTPS; copy or download.</p></div>
+    <div class="panel">
+      <div class="tabs" role="tablist" id="codeTabs" aria-label="Language" style="padding:0 12px">
+        <button type="button" role="tab" aria-selected="true" data-lang="stata" id="tab-stata">Stata</button>
+        <button type="button" role="tab" aria-selected="false" data-lang="r" id="tab-r" tabindex="-1">R</button>
+        <button type="button" role="tab" aria-selected="false" data-lang="python" id="tab-python" tabindex="-1">Python</button>
+      </div>
+      {% set files = {"stata": "merge_dose.do", "r": "merge_dose.R", "python": "merge_dose.py"} %}
+      {% for lang, code in examples.items() %}
+      <div role="tabpanel" data-code="{{ lang }}" aria-labelledby="tab-{{ lang }}" {% if not loop.first %}hidden{% endif %} style="padding:12px">
+        <div class="codebox"><pre id="code-{{ lang }}"><code>{{ code }}</code></pre>
+          <button class="copy" type="button" data-copy="code-{{ lang }}">Copy</button></div>
+        <p class="small" style="margin:8px 0 0"><a href="examples/{{ files[lang] }}" download>Download {{ files[lang] }}</a></p>
+      </div>
+      {% endfor %}
+    </div>
+    <p class="small" style="margin-top:12px">If you use the DOSE panel, cite DOSE: Wenz, L., Carr, R. D., Kögel, N., Kotz, M. &amp; Kalkuhl, M. (2023).
+      DOSE – Global data set of reported sub-national economic output. <i>Scientific Data</i> 10, 425 (data V2.14, Zenodo record 20035157, CC BY 4.0).</p>
+  </section>
+
+  <section class="section" aria-labelledby="other">
+    <div class="section-head"><h2 id="other">Other built integrations</h2></div>
+    <div class="grid3">
+      <article class="card">
+        <h3>Any GADM 4.1 dataset <span class="tag approx">crosswalk</span></h3>
+        <p>Data keyed on GADM 4.1 <code>GID_1</code>. Use the ADM1 · GADM 4.1 files and join on <code>GID_1</code> + time. Values are approximate; screen on
+          <code>xw_match_quality</code>.</p>
+        <div class="card-foot"><a href="download.html#l=adm1_gadm41&f=annual&s=global&k=csv">ADM1 · GADM 4.1 files</a></div>
+      </article>
+      <article class="card">
+        <h3>US BEA state GDP <span class="tag exact">built</span></h3>
+        <p>SAGDP state GeoFIPS (<code>06000</code> = California) ↔ GADM 4.1 <code>GID_1</code>: {{ national.usa_bea.exact_name }}/51 exact name matches,
+          {{ national.usa_bea.bea_only }} unmatched.</p>
+        <div class="card-foot">{{ flink("data/v2/econ/national/crosswalk_gadm41_usa_bea_fips.csv", "crosswalk_gadm41_usa_bea_fips.csv") }}</div>
+      </article>
+      <article class="card">
+        <h3>Brazil IBGE state accounts <span class="tag exact">built</span></h3>
+        <p>UF codes (<code>11</code> Rondônia … <code>53</code> Distrito Federal) ↔ GADM 4.1 <code>GID_1</code>: {{ national.bra_ibge.exact_name }}/27 exact name matches,
+          {{ national.bra_ibge.ibge_only }} unmatched.</p>
+        <div class="card-foot">{{ flink("data/v2/econ/national/crosswalk_gadm41_bra_ibge_uf.csv", "crosswalk_gadm41_bra_ibge_uf.csv") }}</div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="planned">
+    <div class="section-head"><h2 id="planned">Planned and unsupported</h2><p>Not built. Listed so that their absence is explicit.</p></div>
+    <div class="table-scroll panel">
       <table>
-        <thead><tr><th>Method</th><th class="num">Regions</th><th>Meaning</th></tr></thead>
+        <thead><tr><th scope="col">Dataset</th><th scope="col">Its geography</th><th scope="col">Why it is not linked</th><th scope="col">Status</th></tr></thead>
         <tbody>
-        {% for k, v in dose.dose_regions_by_link_method.items() %}
-          <tr><td class="mono">{{ k }}</td><td class="num">{{ v }}</td><td class="small">{{ link_meaning.get(k, "") }}</td></tr>
-        {% endfor %}
+          <tr><td><b>Global Data Lab SHDI</b> v10.2</td><td>GDL regions (<code>DZAr101</code>), often groups of ADM1 units</td>
+            <td>Data and shapefiles require a GDL login and are non-commercial; no published GDL→GADM correspondence. Once membership is known, GDL regions can be built by summing <code>ntl_sum</code> and combining <code>ntl_mean</code> with <code>w_valid</code> weights.</td>
+            <td><span class="tag planned">planned</span></td></tr>
+          <tr><td><b>Eurostat</b> NUTS 2 GDP</td><td>NUTS 2024 (GISCO geometry)</td><td>Needs an overlay with GISCO NUTS 2024; NUTS 2 ≠ ADM1 in many countries.</td><td><span class="tag planned">planned</span></td></tr>
+          <tr><td><b>OECD TL2</b> regional statistics</td><td>TL2024 codes</td><td>No public OECD boundary file was found. US TL2 = BEA states (above); most other OECD regional GDP already enters DOSE.</td><td><span class="tag">not available</span></td></tr>
+          <tr><td>Kummu et al. gridded GDP</td><td>Mixed reporting units</td><td>Partly modelled; risk of circularity if nighttime lights enter its downscaling.</td><td><span class="tag bad">not recommended</span></td></tr>
         </tbody>
       </table>
     </div>
-    <div class="prose">
-      <h2>Before you merge</h2>
-      <ul>
-        <li><b>Years.</b> DOSE ends in {{ dose.panel_years[1] }}; lights start in 2012. The panel has
-          {{ "{:,}".format(dose.panel_rows_2012_on) }} DOSE region-years from 2012, {{ "{:,}".format(dose.panel_rows_with_lights) }} with lights.</li>
-        <li><b>Absorbed units.</b> Where a GADM unit is smaller than the source districts (e.g. Kiev City inside Kiev),
-          its light sits in the neighbour: see <code>gadm_unit_absorbs</code> / <code>xw_absorbs_units</code>. Merge those regions on the economic side too.</li>
-        <li><b>Reused IDs.</b> DOSE reuses some GADM IDs for different units (e.g. Portugal's NUTS 3 regions). These are left unlinked rather than joined by ID.</li>
-        <li><b>Quality filters.</b> Use <code>coverage</code>, <code>w_valid_estimated_share</code> and the link fields to drop weak observations.</li>
-        <li><b>Association ≠ causation.</b> Lights proxy activity; any elasticity you estimate is descriptive unless your design says otherwise.</li>
-      </ul>
-    </div>
   </section>
 
-  <section class="section">
-    <h2>Merge code</h2>
-    <div class="tabs" role="tablist" id="codeTabs">
-      <button role="tab" aria-selected="true" data-lang="stata">Stata</button>
-      <button role="tab" aria-selected="false" data-lang="r">R</button>
-      <button role="tab" aria-selected="false" data-lang="python">Python</button>
-    </div>
-    {% for lang, code in examples.items() %}
-    <pre data-code="{{ lang }}" {% if not loop.first %}hidden{% endif %}><code>{{ code }}</code></pre>
-    {% endfor %}
-    <p class="small">If you use the DOSE panel, cite DOSE: Wenz, L., Carr, R. D., Kögel, N., Kotz, M. &amp; Kalkuhl, M. (2023).
-      DOSE – Global data set of reported sub-national economic output. <i>Scientific Data</i> 10, 425 (data V2.14, Zenodo record 20035157, CC BY 4.0).</p>
-    <p class="small muted">Full scripts: <a href="examples/merge_dose.do">merge_dose.do</a> · <a href="examples/merge_dose.R">merge_dose.R</a> · <a href="examples/merge_dose.py">merge_dose.py</a>.
-      The Stata files (<code>.dta</code>) are in the <a href="download.html">downloads</a>.</p>
+  <section class="section" aria-labelledby="before">
+    <h2 id="before">Before you merge</h2>
+    <ul class="limits serif" style="max-width:860px">
+      <li><b>Years.</b> DOSE ends in {{ dose.panel_years[1] }}; lights start in 2012.</li>
+      <li><b>Absorbed units.</b> Where a GADM unit is smaller than the source districts (e.g. Kiev City inside Kiev), its light sits in the neighbour:
+        see <code>gadm_unit_absorbs</code> / <code>xw_absorbs_units</code>, and merge those regions on the economic side too.</li>
+      <li><b>Boundary versions.</b> DOSE uses GADM 3.6 identifiers; the GADM product uses GADM 4.1. Links are checked by name or geometry, never assumed from matching codes alone.</li>
+      <li><b>Quality filters.</b> Screen on <code>coverage</code>, <code>w_valid_estimated_share</code> and the link fields.</li>
+      <li><b>Association, not causation.</b> Any elasticity of GDP with respect to lights is descriptive unless your research design identifies it.</li>
+    </ul>
   </section>
 </div>
 {% endblock %}
 {% block scripts %}
 <script>
-  document.querySelectorAll('#codeTabs button').forEach((b) => b.addEventListener('click', () => {
-    document.querySelectorAll('#codeTabs button').forEach((x) => x.setAttribute('aria-selected', x === b));
-    document.querySelectorAll('pre[data-code]').forEach((p) => { p.hidden = p.dataset.code !== b.dataset.lang; });
-  }));
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('#codeTabs [role="tab"]'));
+    function pick(b) {
+      tabs.forEach(function (x) { var on = x === b; x.setAttribute('aria-selected', on); x.tabIndex = on ? 0 : -1; });
+      document.querySelectorAll('[data-code]').forEach(function (p) { p.hidden = p.dataset.code !== b.dataset.lang; });
+    }
+    tabs.forEach(function (b, i) {
+      b.addEventListener('click', function () { pick(b); });
+      b.addEventListener('keydown', function (e) {
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        var n = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length]; pick(n); n.focus();
+      });
+    });
+  })();
 </script>
 {% endblock %}

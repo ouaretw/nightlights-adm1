@@ -4,3 +4,7 @@ __pycache__/
 *.pyc
 .DS_Store
 .pytest_cache/
+tests/browser/shots/
+tests/browser/results_*.json
+tests/browser/ext_*.json
+tests/browser/release_links.json

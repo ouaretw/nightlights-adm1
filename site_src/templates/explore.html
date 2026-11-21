@@ -1,86 +1,123 @@
 {% extends "base.html" %}
 {% block content %}
-<div class="wrap page-head">
+<div class="wrap page-head" style="padding-bottom:14px">
   <h1>Explore data</h1>
-  <p>Every chart, table and export below is computed in your browser from the same per-country Parquet files offered
-    for download. Nothing is simulated; when a combination has no data or no map outline, the view says so.</p>
+  <p>Maps, time series, changes and quality indicators computed in your browser from the published per-country Parquet files.
+    Nothing is simulated: missing observations, observed zeros, quality exclusions and units without an outline are shown as such.</p>
 </div>
 <div class="wrap explorer">
-  <aside class="panel controls" aria-label="Data selection">
-    <label class="ctl">Country
-      <input id="country" list="countrylist" placeholder="Type a country…" autocomplete="off">
+  <button class="btn secondary filters-toggle" type="button" id="filtersToggle" aria-controls="controls" aria-expanded="false">Show filters</button>
+  <aside class="panel controls" id="controls" aria-label="Filters">
+    <h2>Selection</h2>
+    <div class="field">
+      <label class="label" for="country">Country</label>
+      <input id="country" type="search" list="countrylist" placeholder="Type a country or ISO code…" autocomplete="off">
       <datalist id="countrylist"></datalist>
-    </label>
-    <div class="ctl">Level
-      <div class="seg" role="group" aria-label="Administrative level">
-        <button data-level="adm1" aria-pressed="true">ADM1</button>
-        <button data-level="adm2" aria-pressed="false">ADM2</button>
+    </div>
+    <div class="field">
+      <span class="label" id="lblLevel">Administrative level</span>
+      <div class="seg" role="group" aria-labelledby="lblLevel">
+        <button type="button" data-level="adm1" aria-pressed="true">ADM1</button>
+        <button type="button" data-level="adm2" aria-pressed="false">ADM2</button>
       </div>
     </div>
-    <div class="ctl">Boundary system
-      <div class="seg" role="group" aria-label="Boundary system">
-        <button data-sys="wb" aria-pressed="true">World Bank</button>
-        <button data-sys="gadm" aria-pressed="false">GADM 4.1</button>
+    <div class="field">
+      <span class="label" id="lblSys">Boundary system</span>
+      <div class="seg" role="group" aria-labelledby="lblSys">
+        <button type="button" data-sys="wb" aria-pressed="true">World Bank</button>
+        <button type="button" data-sys="gadm" aria-pressed="false">GADM 4.1</button>
       </div>
-      <small id="sysNote" class="muted"></small>
+      <span class="hint" id="sysNote"></span>
     </div>
-    <div class="ctl">Frequency
-      <div class="seg" role="group" aria-label="Frequency">
-        <button data-freq="monthly" aria-pressed="false">Monthly</button>
-        <button data-freq="annual" aria-pressed="true">Annual</button>
-        <button data-freq="annual_from_monthly" aria-pressed="false" title="Annual values derived from monthly data (not the NASA composite)">From monthly</button>
+    <div class="field">
+      <label class="label" for="period">Period</label>
+      <select id="period" disabled><option>—</option></select>
+      <span class="hint">Shown on the map and in the region details.</span>
+    </div>
+    <div class="field">
+      <label class="label" for="indicator">Indicator</label>
+      <select id="indicator" disabled><option>—</option></select>
+      <span class="hint" id="indNote"></span>
+    </div>
+
+    <details class="adv" id="advanced">
+      <summary>Advanced</summary>
+      <div class="adv-summary" id="advSummary"></div>
+      <div class="adv-body">
+        <div class="field">
+          <span class="label" id="lblFreq">Frequency</span>
+          <div class="seg" role="group" aria-labelledby="lblFreq">
+            <button type="button" data-freq="monthly" aria-pressed="false">Monthly</button>
+            <button type="button" data-freq="annual" aria-pressed="true">Annual</button>
+            <button type="button" data-freq="annual_from_monthly" aria-pressed="false">From monthly</button>
+          </div>
+          <span class="hint" id="freqNote"></span>
+        </div>
+        <div class="field">
+          <span class="label" id="lblYears">Time window (charts, table, export)</span>
+          <div class="row2"><select id="y0" aria-label="First year"></select><select id="y1" aria-label="Last year"></select></div>
+        </div>
+        <div class="field">
+          <label class="label" for="minCov">Minimum valid-pixel coverage</label>
+          <select id="minCov">
+            <option value="0">None</option><option value="0.5" selected>≥ 50%</option><option value="0.8">≥ 80%</option><option value="0.95">≥ 95%</option>
+          </select>
+          <span class="hint">Rows below the threshold are excluded from maps, charts, table and export (hatched on the map).</span>
+        </div>
+        <label class="check"><input type="checkbox" id="noEst"><span>Exclude rows with &gt;10% estimated pixel weight</span></label>
+        <label class="check"><input type="checkbox" id="allObs"><span>Require every district to have valid data (ADM1)</span></label>
+        <label class="check"><input type="checkbox" id="hiMatch"><span>GADM: high-grade crosswalk matches only</span></label>
       </div>
-    </div>
-    <div class="ctl">Years
-      <div class="row2"><select id="y0" aria-label="First year"></select><select id="y1" aria-label="Last year"></select></div>
-    </div>
-    <label class="ctl">Indicator (map &amp; charts)
-      <select id="indicator"></select>
-      <small id="indNote" class="muted"></small>
-    </label>
-    <div class="ctl">Quality criteria
-      <label class="ctl" style="font-weight:400;text-transform:none;letter-spacing:0">Minimum valid-pixel coverage
-        <select id="minCov">
-          <option value="0">none</option><option value="0.5" selected>≥ 50%</option><option value="0.8">≥ 80%</option><option value="0.95">≥ 95%</option>
-        </select>
-      </label>
-      <label class="pill"><input type="checkbox" id="noEst" style="width:auto"> exclude units with &gt;10% estimated pixel weight</label>
-      <label class="pill"><input type="checkbox" id="hiMatch" style="width:auto"> GADM: high-quality matches only</label>
-    </div>
-    <div class="ctl">Export
-      <div class="checks" id="cols" aria-label="Columns to export"></div>
-      <div class="btn-row" style="margin-top:6px">
-        <button class="btn" id="exportCsv" disabled>Export selection (CSV)</button>
+    </details>
+
+    <details class="adv" id="exportBox">
+      <summary>Export</summary>
+      <div class="adv-body">
+        <span class="hint">CSV of the rows that pass the filters in the time window, with the checked columns.</span>
+        <div class="checks" id="cols" role="group" aria-label="Columns to export"></div>
+        <button class="btn sm" type="button" id="exportCsv" disabled>Export filtered rows (CSV)</button>
+        <div class="hint" id="fullFiles"></div>
       </div>
-      <small class="muted">Exports the filtered rows and checked columns for the selected years. Full files:</small>
-      <div id="fullFiles" class="small"></div>
-    </div>
+    </details>
   </aside>
 
-  <section aria-live="polite">
-    <div class="panel">
-      <div class="viewhead">
+  <div class="workspace">
+    <section class="panel" aria-labelledby="viewTitle">
+      <div class="viewbar">
         <h2 id="viewTitle">Choose a country</h2>
-        <span class="status" id="status"></span>
+        <span class="status" id="status" role="status"></span>
       </div>
-      <div class="tabs" role="tablist">
-        <button role="tab" data-view="map" aria-selected="true">Map</button>
-        <button role="tab" data-view="series" aria-selected="false">Time series</button>
-        <button role="tab" data-view="change" aria-selected="false">Annual change</button>
-        <button role="tab" data-view="flares" aria-selected="false">Gas flares</button>
-        <button role="tab" data-view="quality" aria-selected="false">Quality</button>
-        <button role="tab" data-view="compare" aria-selected="false">Compare boundaries</button>
-        <button role="tab" data-view="table" aria-selected="false">Table</button>
+      <div class="tabs view-tabs" role="tablist" aria-label="Views">
+        <button type="button" role="tab" data-view="map" aria-selected="true">Map</button>
+        <button type="button" role="tab" data-view="series" aria-selected="false">Time series</button>
+        <button type="button" role="tab" data-view="change" aria-selected="false">Annual change</button>
+        <button type="button" role="tab" data-view="flares" aria-selected="false">Gas flares</button>
+        <button type="button" role="tab" data-view="quality" aria-selected="false">Quality</button>
+        <button type="button" role="tab" data-view="compare" aria-selected="false">Compare boundaries</button>
+        <button type="button" role="tab" data-view="table" aria-selected="false">Table</button>
       </div>
-      <div id="viewControls" class="small muted" style="margin-bottom:8px"></div>
-      <div id="map" hidden></div>
-      <div id="chart" hidden></div>
-      <div id="legend" class="legend"></div>
-      <div id="tableWrap" class="table-scroll datatable" hidden><table id="table"><thead></thead><tbody></tbody></table></div>
-      <div id="empty" class="unavailable" hidden></div>
-    </div>
-    <p class="small muted" style="margin-top:10px">Selected regions: <span id="selList">none</span>. Click a region on the map or in the table to add or remove it (up to 8).</p>
-  </section>
+      <div class="view-controls" id="viewControls"></div>
+      <div class="view-body">
+        <div class="mapframe" id="mapframe" hidden><div id="map"></div></div>
+        <div id="chart" class="chart" hidden></div>
+        <div id="tableWrap" class="table-scroll datatable" hidden><table id="table"><thead></thead><tbody></tbody></table></div>
+        <div id="empty" class="unavailable"><div><b>Choose a country to begin.</b>Type a name in the Country box, or start with
+          <span id="quickPicks"></span>.</div></div>
+        <div id="notDrawn"></div>
+      </div>
+      <div class="view-legend legend" id="legend"></div>
+      <div class="selbar" id="selbar" aria-live="polite"></div>
+      <div class="view-foot">
+        <span class="hint" id="viewNote"></span>
+        <button class="btn sm secondary" type="button" id="exportView" disabled>Export view data (CSV)</button>
+      </div>
+    </section>
+
+    <section class="panel" id="regionPanel" aria-labelledby="regionTitle" aria-live="polite">
+      <div class="panel-head"><h2 id="regionTitle">Region details</h2><span class="hint">Click a region on the map, a bar, or a table row.</span></div>
+      <div class="region" id="region"><div><p class="muted small" style="margin:0">No region selected.</p></div></div>
+    </section>
+  </div>
 </div>
 <div id="tooltip" class="tooltip" hidden></div>
 {% endblock %}

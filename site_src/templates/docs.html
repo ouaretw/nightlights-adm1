@@ -6,13 +6,15 @@
     schema the pipeline uses (<a href="data/v2/data_dictionary.csv">CSV</a> · <a href="data/v2/data_dictionary.json">JSON</a>).</p>
 </div>
 <div class="wrap">
+  <nav class="small" aria-label="On this page">On this page: <a href="#dictionary">Data dictionary</a> · <a href="#layout">File layout</a> ·
+    <a href="#licences">Licences</a> · <a href="#versions">Version history</a> · <a href="#cite">Citation</a></nav>
   <section class="section" id="dictionary">
     <h2>Data dictionary</h2>
     <p class="small muted">Products: <code>adm2</code> native · <code>adm1_wb</code> World Bank ADM1 · <code>adm1_gadm41</code> GADM 4.1 ADM1.
       Frequencies: <code>m</code> monthly · <code>a</code> official annual composite · <code>afm</code> annual derived from monthly.</p>
     <p class="small">Status:
       {% for k, v in status.items() %}<span class="tag">{{ k }}</span> {{ v }}{% if not loop.last %} · {% endif %}{% endfor %}</p>
-    <div class="table-scroll">
+    <div class="table-scroll panel" style="max-height:640px">
       <table>
         <thead><tr><th>Column</th><th>Products</th><th>Freq.</th><th>Unit</th><th>Status</th><th>Description</th></tr></thead>
         <tbody>
@@ -71,7 +73,14 @@
 
   <section class="section prose" id="cite">
     <h2>Citation</h2>
-    <div class="callout mono small">{{ citation }}</div>
+    <h3>Text</h3>
+    <pre class="cite" id="citeText">{{ citation }}</pre>
+    <div class="btn-row" style="margin:8px 0 14px"><button class="copy light" type="button" data-copy="citeText">Copy citation</button></div>
+    <h3>BibTeX</h3>
+    <pre class="cite" id="citeBib">{{ bibtex }}</pre>
+    <div class="btn-row" style="margin:8px 0 14px"><button class="copy light" type="button" data-copy="citeBib">Copy BibTeX</button>
+      <a class="small" href="https://github.com/ouaretw/nightlights-adm1/blob/main/CITATION.cff">CITATION.cff</a></div>
+    <p class="small muted">No DOI has been minted for this dataset yet; cite the version number and URL.</p>
     <p class="small">Also cite: World Bank, <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i> (dataset 0066940, v2, CC BY 4.0);
       Román, M. O. et al. (2018). NASA's Black Marble nighttime lights product suite. <i>Remote Sensing of Environment</i> 210, 113–143.
       <a href="https://doi.org/10.1016/j.rse.2018.03.017">doi:10.1016/j.rse.2018.03.017</a>.</p>

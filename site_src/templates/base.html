@@ -5,22 +5,22 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <title>{{ title }} · Night Lights ADM1</title>
 <meta name="description" content="{{ description }}">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='7' fill='%230d1b33'/%3E%3Ccircle cx='11' cy='13' r='3' fill='%233b82f6'/%3E%3Ccircle cx='21' cy='19' r='2.2' fill='%2393c5fd'/%3E%3Ccircle cx='17' cy='9' r='1.4' fill='%23ffffff'/%3E%3Ccircle cx='9' cy='22' r='1.2' fill='%2360a5fa'/%3E%3C/svg%3E">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2311263B'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' stroke='%23DCE6ED' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='13' cy='15' r='2.4' fill='%23E5AD4E'/%3E%3Ccircle cx='25' cy='10' r='1.8' fill='%23E5AD4E'/%3E%3C/svg%3E">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="{{ root }}assets/css/site.css">
 </head>
 <body class="page-{{ page }}">
 <a class="skip" href="#main">Skip to content</a>
 <header class="topbar">
   <div class="wrap bar">
-    <a class="brand" href="{{ root }}index.html" aria-label="Night Lights ADM1 home">
-      <svg viewBox="0 0 32 32" width="26" height="26" aria-hidden="true"><rect width="32" height="32" rx="7" fill="currentColor"/><circle cx="11" cy="13" r="3" fill="#3b82f6"/><circle cx="21" cy="19" r="2.2" fill="#93c5fd"/><circle cx="17" cy="9" r="1.4" fill="#fff"/><circle cx="9" cy="22" r="1.2" fill="#60a5fa"/></svg>
-      <span>Night Lights <b>ADM1</b></span>
+    <a class="brand" href="{{ root }}index.html">
+      <svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#11263B"/><path d="M7 22l6-7 5 4 7-9" stroke="#DCE6ED" stroke-width="1.6" fill="none"/><circle cx="13" cy="15" r="2.4" fill="#E5AD4E"/><circle cx="25" cy="10" r="1.8" fill="#E5AD4E"/></svg>
+      <span>Night Lights ADM1</span><span class="ver">v{{ meta.version }}</span>
     </a>
-    <button class="navtoggle" aria-expanded="false" aria-controls="nav">Menu</button>
-    <nav id="nav" class="nav">
+    <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
       {% for href, label, key in nav %}
       <a href="{{ root }}{{ href }}" {% if key == page %}aria-current="page"{% endif %}>{{ label }}</a>
       {% endfor %}
@@ -31,23 +31,28 @@
 {% block content %}{% endblock %}
 </main>
 <footer class="foot">
-  <div class="wrap foot-grid">
-    <div>
-      <b>Night Lights ADM1</b> v{{ meta.version }} · data built {{ meta.built }}<br>
-      Source: World Bank Space2Stats Black Marble (dataset {{ meta.source.catalog_id }}, v{{ meta.source.catalog_version }}) from NASA Black Marble.
-    </div>
-    <div>
-      Derived data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · code MIT ·
-      <a href="https://github.com/ouaretw/nightlights-adm1">GitHub</a> ·
-      <a href="{{ root }}docs.html#licences">Licences</a><br>
-      Not an official World Bank or NASA product.
-    </div>
+  <div class="wrap foot-row">
+    <div>Night Lights ADM1 <span class="num">v{{ meta.version }}</span> · data built <span class="num">{{ meta.built }}</span> ·
+      derived from World Bank Space2Stats (dataset {{ meta.source.catalog_id }}) and NASA Black Marble.
+      Not an official World Bank or NASA product.</div>
+    <div><a href="https://github.com/ouaretw/nightlights-adm1">GitHub</a> ·
+      data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · code MIT ·
+      <a href="{{ root }}docs.html#licences">licences</a> · <a href="{{ root }}docs.html#cite">cite</a></div>
   </div>
 </footer>
 <script>
-  document.querySelector('.navtoggle')?.addEventListener('click', (e) => {
-    const nav = document.getElementById('nav'); const open = nav.classList.toggle('open');
-    e.currentTarget.setAttribute('aria-expanded', open);
+  (function () {
+    var t = document.querySelector('.navtoggle'), nav = document.getElementById('nav');
+    if (!t) return;
+    t.addEventListener('click', function () { var o = nav.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); t.setAttribute('aria-expanded', 'false'); t.focus(); } });
+  })();
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var src = document.getElementById(b.dataset.copy); if (!src) return;
+      navigator.clipboard.writeText(src.innerText).then(function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1400); },
+        function () { b.textContent = 'Select and copy'; });
+    });
   });
 </script>
 {% block scripts %}{% endblock %}
