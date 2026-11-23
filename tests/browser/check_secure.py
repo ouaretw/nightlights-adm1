@@ -30,7 +30,7 @@ check("encrypted page contains no page text", s == 200 and b"Nighttime" not in b
 s, body = get(B + "auth.json")
 a = json.loads(body); check("auth.json holds salt/check only", s == 200 and set(a) >= {"salt", "iterations", "check"} and PW not in body.decode())
 
-b = Browser(9353); b.viewport(1440, 1000)
+b = Browser(int(os.environ.get("NL_CDP_PORT", "9353"))); b.viewport(1440, 1000)
 def login(pw):
     b.js(f"document.getElementById('pw').value={json.dumps(pw)}; document.getElementById('f').requestSubmit(); 1")
 
