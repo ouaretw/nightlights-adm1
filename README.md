@@ -87,7 +87,8 @@ python pipeline/qa/aggregation_rules_benchmark.py
 python -c "import sys; sys.path.insert(0, 'pipeline'); import build_v2; build_v2.write_manifest()"
 python site_src/build_site.py
 pytest tests
-# password-protected site (password in secrets/site_password.txt or NLADM1_SITE_PASSWORD):
+# password-protected site (full-access password in secrets/site_password.txt or NLADM1_SITE_PASSWORD;
+# optional v2-only password in secrets/site_password_v2.txt or NLADM1_SITE_PASSWORD_V2):
 python scripts/build_secure_site.py          # -> build/pages/nightlights-adm1
 # optional browser checks (needs Microsoft Edge + websocket-client):
 python -m http.server 8766 --directory build/site &      # plain build, for:

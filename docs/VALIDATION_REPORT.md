@@ -151,14 +151,15 @@ The v2.0.0 and v2.1.0 manifests were compared:
 - Release-asset URLs still point to `releases/download/v2.0.0/` and are unchanged.
 - 11 files are new.
 
-### A10. Password protection (v3.0.0) — `tests/browser/check_secure.py`: 27/27
+### A10. Password protection (v3.0.0) — `tests/browser/check_secure.py`: 39/39
 
 Run against the encrypted build served by `tests/browser/pages_server.py`, which, like GitHub Pages, answers missing paths with `404.html`.
 
 **Without signing in:**
 - Plain page and data paths are not served.
 - `.enc` files contain no readable page text or data.
-- `auth.json` holds only the salt, iteration count and a test value.
+- `auth.json` holds only salts, the iteration count, the wrapped content keys and test values.
+- Data used by v2 is encrypted under the v2 key; v3-only files under the v3 key.
 
 **Signing in:**
 - A deep link is redirected to sign-in, keeping its target page and `#hash`.
@@ -171,12 +172,18 @@ Run against the encrypted build served by `tests/browser/pages_server.py`, which
 - Byte-range requests return 206 with the correct bytes.
 - v3 home, analysis, download and about pages work, with no JS errors.
 - The version bar switches to v2.
-- The v2 explorer and home map work on the shared data.
+- The v2 explorer and home map work on the shared data; v2 pages read the v2.0.0 manifest; the v2 bar links back to v3.
 - Old addresses (`/explore.html#…`) reach v3.
 
 **After signing out:**
 - Pages require the password again.
 - Data requests are refused (401).
+
+**With the v2-only password:**
+- A v3 deep link opens the same page in v2, with its `#hash`; a v3-only page (analysis) opens the v2 home page; old addresses reach v2.
+- The version bar has no link to v3.
+- v3 pages, v3-only data files and the v3 manifest are refused (403); the v2.0.0 manifest and shared files decrypt with correct SHA-256.
+- No JS errors; after signing out, v2 requires the password again.
 
 ## B. Proposed, not completed
 

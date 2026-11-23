@@ -1,9 +1,12 @@
 // Night Lights ADM1 - decrypting service worker (build __BUILD__).
-// Every page and data file of the site is stored encrypted (AES-256-GCM) as <path>.enc.
-// After sign-in, login.js stores the derived key in IndexedDB; this worker reads it,
-// fetches <path>.enc, decrypts it and answers the original request, including HEAD and
-// byte-range requests (used by the Parquet reader). Without a key nothing is decrypted.
+// Every page and data file of the site is stored encrypted (AES-256-GCM) as <path>.enc, under
+// one of two content keys named in the file header: "2" (v2 pages and the data v2 uses) or
+// "3" (v3 pages and v3-only data). After sign-in, login.js stores the keys the password
+// unlocked in IndexedDB; this worker reads them, fetches <path>.enc, decrypts it and answers
+// the original request, including HEAD and byte-range requests (used by the Parquet reader).
+// Without a key nothing is decrypted; a v2-only sign-in is sent from v3 addresses to v2.
 const BASE = new URL("./", self.location).pathname;
+const V2_OWN = new Set(["__V2_OWN__"]);   // data files for which v2 has its own (v2.0.0) copy
 const TYPES = {
   html: "text/html; charset=utf-8", js: "text/javascript; charset=utf-8", css: "text/css; charset=utf-8",
   json: "application/json; charset=utf-8", geojson: "application/geo+json", csv: "text/csv; charset=utf-8",
@@ -14,7 +17,7 @@ const TYPES = {
 const MEM_MAX = 200e6;            // decrypted-file cache (bytes)
 const mem = new Map();
 let memBytes = 0;
-let keyP = null;
+let keysP = null;
 
 function idb() {
   return new Promise((res, rej) => {
@@ -28,22 +31,29 @@ async function idbGet(k) {
   const db = await idb();
   return new Promise((res, rej) => { const q = db.transaction("kv").objectStore("kv").get(k); q.onsuccess = () => res(q.result); q.onerror = () => rej(q.error); });
 }
-async function getKey() {
-  if (!keyP) keyP = idbGet("key").then((raw) => (raw ? crypto.subtle.importKey("raw", raw, "AES-GCM", false, ["decrypt"]) : null));
-  const k = await keyP;
-  if (!k) keyP = null;
+// {"2": CryptoKey, "3": CryptoKey} - only the keys this sign-in unlocked; null when signed out
+async function getKeys() {
+  if (!keysP) keysP = idbGet("keys").then(async (raw) => {
+    if (!raw || !Object.keys(raw).length) return null;
+    const out = {};
+    for (const [id, k] of Object.entries(raw)) out[id] = await crypto.subtle.importKey("raw", k, "AES-GCM", false, ["decrypt"]);
+    return out;
+  });
+  const k = await keysP;
+  if (!k) keysP = null;
   return k;
 }
-function reset() { keyP = null; mem.clear(); memBytes = 0; }
+function reset() { keysP = null; mem.clear(); memBytes = 0; }
 
 self.addEventListener("install", () => self.skipWaiting());
 self.addEventListener("activate", (e) => e.waitUntil(self.clients.claim()));
 self.addEventListener("message", (e) => { if (e.data === "reset") reset(); });
 
-// v2/... and v3/... are the two site versions; both read the shared data/ folder.
+// v2/... and v3/... are the two site versions; both read the shared data/ folder, except
+// for the few files v2 keeps its own copy of (V2_OWN).
 function encPath(rel) {
-  const m = rel.match(/^v[23]\/data\/(.+)$/);
-  if (m) return "data/" + m[1] + ".enc";
+  const m = rel.match(/^(v[23])\/data\/(.+)$/);
+  if (m) return m[1] === "v2" && V2_OWN.has("data/" + m[2]) ? rel + ".enc" : "data/" + m[2] + ".enc";
   if (/^(v[23]|data)\//.test(rel)) return rel + ".enc";
   return null;
 }
@@ -52,6 +62,7 @@ self.addEventListener("fetch", (e) => {
   const url = new URL(e.request.url);
   if (url.origin !== self.location.origin || !url.pathname.startsWith(BASE)) return;
   let rel = decodeURIComponent(url.pathname.slice(BASE.length));
+  if (rel === "__access.json") { e.respondWith(access()); return; }
   if (rel === "v2" || rel === "v3") rel += "/";
   if (rel.endsWith("/")) rel += "index.html";
   const enc = encPath(rel);
@@ -59,15 +70,23 @@ self.addEventListener("fetch", (e) => {
   e.respondWith(serve(e.request, rel, url.search, enc));
 });
 
-async function plain(enc, key) {
+async function access() {
+  const k = (await getKeys()) || {};
+  return new Response(JSON.stringify({ signed_in: !!Object.keys(k).length, v2: !!k["2"], v3: !!k["3"] }),
+    { headers: { "Content-Type": TYPES.json, "Cache-Control": "no-store" } });
+}
+
+async function plain(enc, keys) {
   if (mem.has(enc)) { const v = mem.get(enc); mem.delete(enc); mem.set(enc, v); return v; }
   const r = await fetch(BASE + enc);
   if (!r.ok) return { status: r.status };
   const u8 = new Uint8Array(await r.arrayBuffer());
-  if (u8.length < 32 || u8[0] !== 78 || u8[1] !== 76 || u8[2] !== 69 || u8[3] !== 49) return { status: 500 };   // "NLE1"
+  if (u8.length < 33 || u8[0] !== 78 || u8[1] !== 76 || u8[2] !== 69 || u8[3] !== 50) return { status: 500 };   // "NLE2"
+  const key = keys[String.fromCharCode(u8[4])];
+  if (!key) return { status: 403 };                  // not included in this sign-in
   let data;
-  try { data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: u8.subarray(4, 16) }, key, u8.subarray(16)); }
-  catch { return { status: 403 }; }
+  try { data = await crypto.subtle.decrypt({ name: "AES-GCM", iv: u8.subarray(5, 17), additionalData: u8.subarray(0, 5) }, key, u8.subarray(17)); }
+  catch { return { status: 401 }; }                  // key no longer valid (password changed)
   const v = { status: 200, data };
   if (data.byteLength < 60e6) {
     mem.set(enc, v); memBytes += data.byteLength;
@@ -79,20 +98,34 @@ async function plain(enc, key) {
 function toLogin(rel, search, extra = "") {
   return Response.redirect(`${BASE}index.html?${extra}next=${encodeURIComponent(rel + search)}`, 302);
 }
+const page = (title, body, status) => new Response(
+  `<!doctype html><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>${title}</title>` +
+  `<p style="font-family:system-ui,sans-serif;padding:2em;max-width:40em">${body}</p>`, { status, headers: { "Content-Type": TYPES.html } });
 
 async function serve(req, rel, search, enc) {
   const nav = req.mode === "navigate";
-  const key = await getKey();
-  if (!key) return nav ? toLogin(rel, search) : new Response("Sign-in required", { status: 401 });
-  const p = await plain(enc, key);
-  if (p.status === 403) {            // key no longer valid (password changed)
+  const keys = await getKeys();
+  if (!keys) return nav ? toLogin(rel, search) : new Response("Sign-in required", { status: 401 });
+  const home = keys["3"] ? "v3/index.html" : "v2/index.html";
+  // v2-only sign-in: v3 addresses open the same page in v2 (or the v2 home page)
+  if (nav && rel.startsWith("v3/") && !keys["3"]) {
+    const v2 = "v2/" + rel.slice(3);
+    const ok = (await fetch(BASE + v2 + ".enc", { method: "HEAD" }).catch(() => ({ ok: false }))).ok;
+    return Response.redirect(BASE + (ok ? v2 + search : "v2/index.html"), 302);
+  }
+  const p = await plain(enc, keys);
+  if (p.status === 401) {
     reset();
     return nav ? toLogin(rel, search, "expired=1&") : new Response("Sign-in expired", { status: 401 });
   }
-  if (p.status !== 200) {
+  if (p.status === 403) {
     return nav
-      ? new Response(`<!doctype html><meta charset="utf-8"><title>Not found</title><p style="font-family:sans-serif;padding:2em">Page not found. <a href="${BASE}v3/index.html">Go to the home page</a>.</p>`, { status: 404, headers: { "Content-Type": TYPES.html } })
-      : new Response("Not found", { status: 404 });
+      ? page("Not available", `This page is not included in your access. <a href="${BASE}${home}">Go to the home page</a>.`, 403)
+      : new Response("Not included in your access", { status: 403 });
+  }
+  if (p.status !== 200) {
+    return nav ? page("Not found", `Page not found. <a href="${BASE}${home}">Go to the home page</a>.`, 404)
+               : new Response("Not found", { status: 404 });
   }
   const ext = (rel.split("/").pop().split(".").pop() || "").toLowerCase();
   const size = p.data.byteLength;

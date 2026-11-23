@@ -1,7 +1,8 @@
 """Browser checks for the password-protected build (scripts/build_secure_site.py).
 Serve build/pages on :8767 first (python -m http.server 8767 --directory build/pages), then run
 from this folder:   python check_secure.py
-The password is read from NLADM1_SITE_PASSWORD or secrets/site_password.txt."""
+Passwords: full access from NLADM1_SITE_PASSWORD or secrets/site_password.txt; v2 only from
+NLADM1_SITE_PASSWORD_V2 or secrets/site_password_v2.txt."""
 import json, os, time, urllib.request
 from pathlib import Path
 
@@ -10,6 +11,7 @@ from cdp import Browser
 ROOT = Path(__file__).resolve().parents[2]
 B = os.environ.get("NL_SECURE_BASE", "http://localhost:8767/nightlights-adm1/")
 PW = os.environ.get("NLADM1_SITE_PASSWORD") or (ROOT / "secrets" / "site_password.txt").read_text().strip()
+PW2 = os.environ.get("NLADM1_SITE_PASSWORD_V2") or (ROOT / "secrets" / "site_password_v2.txt").read_text().strip()
 R = []
 def check(name, cond, detail=""):
     R.append((name, bool(cond), detail)); print(("PASS " if cond else "FAIL ") + name, detail)
@@ -24,11 +26,14 @@ check("plain page path is not served (404 → sign-in redirect page)", s == 404 
 s, body = get(B + "data/v2/manifest.json")
 check("plain data path is not served", s == 404)
 s, body = get(B + "data/v2/manifest.json.enc")
-check("encrypted file is served but unreadable", s == 200 and body[:4] == b"NLE1" and b"sha256" not in body)
+check("encrypted file is served but unreadable", s == 200 and body[:5] == b"NLE23" and b"sha256" not in body)
+s, body = get(B + "data/v2/adm1_wb/annual/DZA.parquet.enc")
+check("data shared with v2 is under key 2", s == 200 and body[:5] == b"NLE22")
 s, body = get(B + "v3/index.html.enc")
 check("encrypted page contains no page text", s == 200 and b"Nighttime" not in body and b"<html" not in body)
 s, body = get(B + "auth.json")
-a = json.loads(body); check("auth.json holds salt/check only", s == 200 and set(a) >= {"salt", "iterations", "check"} and PW not in body.decode())
+a = json.loads(body); check("auth.json holds wrapped keys only (2 logins)", s == 200 and len(a["logins"]) == 2 and set(a["checks"]) == {"2", "3"}
+                            and PW not in body.decode() and PW2 not in body.decode())
 
 b = Browser(int(os.environ.get("NL_CDP_PORT", "9353"))); b.viewport(1440, 1000)
 def login(pw):
@@ -81,6 +86,9 @@ check("switch to v2 from the bar (About exists only in v3 -> v2 home)", b.js("lo
 b.goto("about:blank"); b.goto(B + "v2/explore.html#c=DZA&l=adm1&s=wb&f=annual&v=map", "document.querySelectorAll('#map .u').length>0", 60); time.sleep(1)
 check("v2 explorer works on shared data", b.js("document.querySelectorAll('#map .u').length") >= 40)
 check("v2 is the archived 2.0.0 site", "v2.0.0" in b.js("document.querySelector('.ver').textContent") and "viewing v2" in b.js("document.body.textContent"))
+time.sleep(1)
+check("full password: v2 bar keeps the link to v3", b.js("document.getElementById('nl-switch').hidden") is False)
+check("v2 pages read the v2.0.0 manifest", b.js("fetch('data/v2/manifest.json').then(r=>r.json()).then(m=>m.version)") == "2.0.0")
 b.goto("about:blank"); b.goto(B + "v2/index.html", "document.querySelectorAll('#worldmap .u').length>3000", 60)
 check("v2 home map works", True)
 
@@ -94,6 +102,38 @@ b.goto("about:blank"); b.goto(B + "v3/analysis.html", "document.getElementById('
 check("after sign-out pages require the password again", "index.html?next=" in b.js("location.href"))
 st = b.js("fetch('data/v2/manifest.json').then(r=>r.status)")
 check("after sign-out data requests are refused", st in (401, 404), st)
+b.errors()   # clear the expected 401 above
+
+# ---- v2-only password
+b.goto("about:blank"); b.goto(B + "v3/explore.html#c=KEN&l=adm1&s=wb&f=annual&v=map", "document.getElementById('pw')", 30); time.sleep(1)
+login(PW2)
+b.wait("location.pathname.endsWith('/v2/explore.html') && document.querySelectorAll('#map .u').length>0", 60); time.sleep(1.5)
+check("v2 password: v3 deep link opens the same page in v2 with its hash", b.js("location.hash").startswith("#c=KEN") and b.js("document.querySelectorAll('#map .u').length") >= 40, b.js("location.href"))
+time.sleep(1)
+check("v2 password: bar has no link to v3", "viewing v2" in b.js("document.body.textContent") and b.js("document.getElementById('nl-switch').hidden") is True)
+r2 = b.js("""(async()=>{
+  const acc = await fetch('../__access.json').then(r=>r.json());
+  const m = await fetch('data/v2/manifest.json').then(r=>r.json());
+  const f = m.files.find(x=>x.path.endsWith('adm1_wb/annual/DZA.parquet'));
+  const full = new Uint8Array(await fetch(f.path).then(r=>r.arrayBuffer()));
+  const dig = [...new Uint8Array(await crypto.subtle.digest('SHA-256', full))].map(x=>x.toString(16).padStart(2,'0')).join('');
+  const v3data = await fetch('../data/v2/analysis/summary.json').then(r=>r.status);
+  const v3man = await fetch('../data/v2/manifest.json').then(r=>r.status);
+  const v3page = await fetch('../v3/analysis.html').then(r=>r.status);
+  return {acc, version:m.version, sha:dig===f.sha256, v3data, v3man, v3page};
+})()""")
+check("v2 password: access is v2 only", r2["acc"] == {"signed_in": True, "v2": True, "v3": False}, r2["acc"])
+check("v2 password: v2 sees its own v2.0.0 manifest; shared file checksum ok", r2["version"] == "2.0.0" and r2["sha"], r2)
+check("v2 password: v3-only data, v3 manifest and v3 pages refused (403)", r2["v3data"] == r2["v3man"] == r2["v3page"] == 403, r2)
+b.goto("about:blank"); b.goto(B + "v3/analysis.html", "location.pathname.endsWith('/v2/index.html')", 40); time.sleep(0.5)
+check("v2 password: v3-only page (analysis) lands on the v2 home page", b.js("location.pathname").endswith("/v2/index.html"))
+b.goto("about:blank"); b.goto(B + "download.html", "location.pathname.endsWith('/v2/download.html') && document.querySelector('.filebox')", 40); time.sleep(0.5)
+check("v2 password: old public address reaches v2", b.js("location.pathname").endswith("/v2/download.html"))
+errs = [e for e in b.errors() if "403" not in e]
+check("no JS errors with the v2 password (other than the probed 403s)", not errs, errs[:4])
+b.goto("about:blank"); b.goto(B + "index.html?logout=1", "document.getElementById('msg').textContent.includes('signed out')", 30)
+b.goto("about:blank"); b.goto(B + "v2/index.html", "document.getElementById('pw')", 30)
+check("after v2 sign-out v2 requires the password again", "index.html?next=" in b.js("location.href"))
 b.shot("shots/secure_login.png", full=False)
 b.close()
 print(f"\n{sum(r[1] for r in R)}/{len(R)} passed")
