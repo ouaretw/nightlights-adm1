@@ -66,12 +66,12 @@ check("ADM2 from-monthly button disabled (keeps previous frequency)", "from mont
 print(json.dumps({"|".join(k): (v["href"] or "ALT:" + ",".join(v["alts"])) for k, v in list(combos.items())[:18]}, indent=0)[:2500])
 print("errors:", b.errors())
 
-# ---------------- links on every page
+# ---------------- links on every page (../ links lead outside the version folder; check_secure.py covers them)
 allbad = []
 for p in ["index", "explore", "analysis", "integration", "download", "methods", "docs", "about"]:
     b.goto(S + p + ".html"); time.sleep(0.8)
     links = b.js("[...new Set([...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')))]")
-    loc = [l for l in links if not l.startswith(("http", "#", "mailto", "blob")) and "#" not in l.split("/")[-1][:1]]
+    loc = [l for l in links if not l.startswith(("http", "#", "mailto", "blob", "../")) and "#" not in l.split("/")[-1][:1]]
     loc = sorted({l.split("#")[0] for l in loc if l.split("#")[0]})
     st = b.js("Promise.all(" + json.dumps(loc) + ".map(u=>fetch(u,{method:'HEAD'}).then(r=>[u,r.status]).catch(e=>[u,0])))")
     allbad += [(p, s) for s in st if s[1] != 200]

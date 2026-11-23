@@ -34,6 +34,8 @@ LINK_MEANING = {
     "unlinked": "no reliable link; left out rather than guessed",
 }
 CHANGELOG = [
+    {"version": "3.0.0", "date": "2026-11-23", "text": "Access restricted: the site and its data files are encrypted and opened with a shared password. "
+     "Content as 2.1.0 (Economic Analysis, national panel). The previous site (2.0.0) is kept at /v2/. Release files unchanged (v2.0.0 assets)."},
     {"version": "2.1.0", "date": "2026-11-23", "text": "Economic Analysis workspace (IMF WEO April 2023 groups, WDI population and GDP, DOSE regions; exploratory models with "
      "clustered errors, Moran's I and holdout validation); national (ADM0) panel; aggregation-rule benchmark against unweighted collapses; "
      "ADM0 view on the home map; About page with licences and future indicators. Release files unchanged (v2.0.0 assets)."},

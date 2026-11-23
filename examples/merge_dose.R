@@ -3,13 +3,15 @@
 library(arrow)
 library(dplyr)
 
-base <- "https://ouaretw.github.io/nightlights-adm1/data/v2"
+# Since v3.0 the site is password-protected: sign in, download the files named below from the
+# Economic integration page, and set base to the folder where you saved them.
+base <- "."
 
 # Ready-made panel (DOSE rows 2012-2019 joined with lights on DOSE region IDs)
-panel <- read_parquet(file.path(base, "econ/dose/panel_dose_v2_14_ntl.parquet"))
+panel <- read_parquet(file.path(base, "panel_dose_v2_14_ntl.parquet"))
 
 # Or: lights on DOSE regions, 2012-2024, to join with your own DOSE copy
-# ntl  <- read_parquet(file.path(base, "econ/dose/ntl_for_dose_regions_annual.parquet"))
+# ntl  <- read_parquet(file.path(base, "ntl_for_dose_regions_annual.parquet"))
 # dose <- read.csv("DOSE_V2.14.csv")
 # panel <- inner_join(dose, ntl, by = c("GID_1", "year"))
 
@@ -23,4 +25,4 @@ est <- panel |>
 fixest::feols(ln_grp ~ ln_ntl | GID_1 + year, data = est, cluster = ~GID_1)
 
 # Any GADM 4.1-keyed dataset: join on GID_1 + year
-gadm <- read_parquet(file.path(base, "adm1_gadm41/adm1_gadm41_annual_global.parquet"))
+gadm <- read_parquet(file.path(base, "adm1_gadm41_annual_global.parquet"))

@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="robots" content="noindex, nofollow">
+<title>Sign in · Night Lights ADM1</title>
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2311263B'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' stroke='%23DCE6ED' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='13' cy='15' r='2.4' fill='%23E5AD4E'/%3E%3Ccircle cx='25' cy='10' r='1.8' fill='%23E5AD4E'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="login.css">
+</head>
+<body>
+<main class="box">
+  <div class="brand">
+    <svg viewBox="0 0 32 32" width="28" height="28" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#11263B"/><path d="M7 22l6-7 5 4 7-9" stroke="#DCE6ED" stroke-width="1.6" fill="none"/><circle cx="13" cy="15" r="2.4" fill="#E5AD4E"/><circle cx="25" cy="10" r="1.8" fill="#E5AD4E"/></svg>
+    <span>Night Lights ADM1</span>
+  </div>
+  <h1>Sign in</h1>
+  <p>This site and its data files are available to invited users. Enter the shared password to continue.</p>
+  <form id="f" autocomplete="on">
+    <input type="text" name="username" value="nightlights-adm1" autocomplete="username" hidden>
+    <label for="pw">Password</label>
+    <input id="pw" name="password" type="password" autocomplete="current-password" required>
+    <button type="submit">Sign in</button>
+    <p id="msg" role="status" aria-live="polite"></p>
+  </form>
+  <p class="small">After signing in: <b>v3</b> (current) and <b>v2</b> (archived, November 2026). The password is checked in your
+    browser and pages are decrypted on this device; nothing is sent to a server.</p>
+  <noscript><p>JavaScript is required to sign in.</p></noscript>
+</main>
+<script src="login.js"></script>
+</body>
+</html>

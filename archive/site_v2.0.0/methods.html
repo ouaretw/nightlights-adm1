@@ -1,0 +1,224 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Methods and validation · Night Lights ADM1</title>
+<meta name="description" content="Aggregation method, tested source assumptions, validation results and limitations.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2311263B'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' stroke='%23DCE6ED' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='13' cy='15' r='2.4' fill='%23E5AD4E'/%3E%3Ccircle cx='25' cy='10' r='1.8' fill='%23E5AD4E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-methods">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#11263B"/><path d="M7 22l6-7 5 4 7-9" stroke="#DCE6ED" stroke-width="1.6" fill="none"/><circle cx="13" cy="15" r="2.4" fill="#E5AD4E"/><circle cx="25" cy="10" r="1.8" fill="#E5AD4E"/></svg>
+      <span>Night Lights ADM1</span><span class="ver">v2.0.0</span>
+    </a>
+    <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      
+      <a href="index.html" >Overview</a>
+      
+      <a href="explore.html" >Explore Data</a>
+      
+      <a href="integration.html" >Economic Integration</a>
+      
+      <a href="download.html" >Download</a>
+      
+      <a href="methods.html" aria-current="page">Methods &amp; Validation</a>
+      
+      <a href="docs.html" >Documentation</a>
+      
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap page-head">
+  <h1>Methods and validation</h1>
+  <p>What was done to the source, what was checked, and where uncertainty remains. All figures on this page are produced by
+    <code>pipeline/validate.py</code> and the automated tests (<a href="data/v2/validation.json">validation.json</a>).</p>
+</div>
+<div class="wrap">
+  <nav class="small" aria-label="On this page" style="margin-bottom:8px">On this page: <a href="#source">Source</a> · <a href="#assumptions">Source properties</a> ·
+    <a href="#boundaries">Boundaries &amp; outlines</a> · <a href="#validation">Validation</a> · <a href="#limitations">Limitations</a> · <a href="#alternatives">Related products</a></nav>
+</div>
+<div class="wrap prose">
+  <section class="section" id="source">
+    <h2>1. Source</h2>
+    <p>World Bank, <i>Space2Stats – Monthly &amp; Annual Black Marble Nighttime Lights</i> (dataset 0066940,
+      v2, CC BY 4.0): NASA Black Marble radiance (15 arc-seconds) aggregated directly to
+      39,366 ADM2 units of the World Bank Official Boundaries, monthly 2012-01 – 2025-12 and annual
+      2012–2024. The source documentation does not state the Black Marble
+      collection (C1 or C2); we therefore do not either. SHA-256 of the files used is recorded in <a href="data/v2/build_meta.json">build_meta.json</a>.</p>
+    <div class="callout warn"><b>Continuity.</b> Suomi NPP stopped delivering observations on 2 November 2026, so the VNP46
+      series that this source is built on will not extend much beyond its current end. Continuation will depend on NOAA-20
+      (VJ146) products, which this source does not use.</div>
+  </section>
+
+  <section class="section" id="assumptions">
+    <h2>2. Source properties the method relies on (tested on every build)</h2>
+    <ol>
+      <li>One row per district and period; each district carries exactly one ADM1 code (strict nesting). One row is missing in the
+        source (Svalbard, July 2022).</li>
+      <li><code>ntl_mean</code> is a coverage-weighted mean over valid pixels and <code>ntl_sum</code> the matching sum. The weights are
+        fractional (sum/mean is not an integer), so the valid weight <code>w_valid = sum / mean</code> is an identity, not an estimate,
+        whenever the mean is positive. A provincial mean <code>Σ sums / Σ w_valid</code> is then the exact coverage-weighted mean of the union.</li>
+      <li>When no pixel is valid, the source stores <code>sum = 0</code> with a missing mean. We set such sums to missing; a zero in
+        our files always means observed darkness. (6,180 World Bank province-months
+        that v1 showed as 0 are now missing.)</li>
+      <li>For valid but completely dark rows (mean = sum = 0) the weight cannot be recovered and is estimated from the district's
+        stable total weight; this is flagged (<code>w_valid_estimated</code>, <code>w_valid_estimated_share</code>).</li>
+      <li>Quality shares sum to one over all pixels, so they are aggregated with total weights.</li>
+      <li><code>n_gasflaring_locs</code> is constant within each country — a national count — and is published as such.</li>
+      <li>Medians and percentiles cannot be aggregated from district summaries; they are published at ADM2 only.</li>
+    </ol>
+  </section>
+
+  <section class="section" id="boundaries">
+    <h2>3. Boundaries, crosswalk and map outlines</h2>
+    <table>
+      <thead><tr><th scope="col">Product</th><th scope="col">Boundary source</th><th scope="col">How values are obtained</th><th scope="col">Status</th></tr></thead>
+      <tbody>
+        <tr><td>ADM2 native</td><td>World Bank Official Boundaries, source vintage</td><td>Copied from the source; "no valid pixel" sums set to missing</td><td><span class="tag native">source</span></td></tr>
+        <tr><td>ADM1 · World Bank</td><td>Same vintage (districts nest exactly)</td><td>Exact sums; coverage-weighted means</td><td><span class="tag exact">exact</span></td></tr>
+        <tr><td>ADM1 · GADM 4.1</td><td>GADM 4.1 (used locally, not redistributed)</td><td>Whole districts assigned to the GADM unit they overlap most (EPSG:6933); graded high/medium/low</td><td><span class="tag approx">crosswalk</span></td></tr>
+      </tbody>
+    </table>
+    <h3 id="outlines">Map outlines (display only)</h3>
+    <p>The source uses an older World Bank boundary vintage than the boundaries published today, and some ADM1 codes were reused for different units in
+      between. A World Bank ADM1 unit is therefore drawn with today's outline only when code and name agree. Otherwise its outline is rebuilt as the union of
+      the current ADM2 polygons that its own source districts were matched to — by construction, the area its values were summed over — never using a polygon
+      claimed by two provinces and never overlapping an outline already drawn; it is flagged approximate when some districts could not be matched. Units with
+      neither are not drawn and are listed below each map; their data are complete in every file. The status of every unit is in
+      <a href="data/v2/crosswalks/geo_match_wb_adm1.csv">geo_match_wb_adm1.csv</a>. ADM2 maps draw a district only when its code and name match today's layer.
+      Map outlines are simplified for display and must not be used for spatial analysis.</p>
+  </section>
+
+  <section class="section" id="validation">
+    <h2>4. Validation results</h2>
+    <h3>Arithmetic</h3>
+    <ul>
+      <li>Country totals from ADM1 equal the ADM2 source to a relative difference of
+        0.0e+00 (World Bank units).</li>
+      <li>Quality shares sum to one within 1e-06; coverage lies in
+        [0.0, 1.0].</li>
+      <li>Every provincial mean lies within the range of its district means; unique keys; no-data never reported as zero (automated tests).</li>
+    </ul>
+    <h3>Estimated pixel weights</h3>
+    <p>7.4% of lit province-months include any estimated weight.
+      Where they do, the estimated share of the valid weight has median 0.1345.
+      Recovered district weights vary month to month by at most about 5% (90th percentile), which bounds the effect on the provincial mean at
+      0.67% (median) and
+      2.68% (90th percentile). Sums are unaffected.
+      Use <code>w_valid_estimated_share</code> to exclude affected rows when means matter.</p>
+
+    <h3>GADM crosswalk</h3>
+    <p>Share of world light (2020) by how its district was placed:</p>
+    <table><thead><tr><th>Method</th><th class="num">Share of light</th></tr></thead><tbody>
+      <tr><td class="mono">adm1_as_current_adm2</td><td class="num">0.72%</td></tr><tr><td class="mono">adm1_name</td><td class="num">1.05%</td></tr><tr><td class="mono">adm1_outline</td><td class="num">1.31%</td></tr><tr><td class="mono">code_name</td><td class="num">89.92%</td></tr><tr><td class="mono">name</td><td class="num">4.32%</td></tr><tr><td class="mono">sibling_vote</td><td class="num">1.29%</td></tr><tr><td class="mono">single_unit</td><td class="num">0.00%</td></tr><tr><td class="mono">unassigned</td><td class="num">1.40%</td></tr>
+    </tbody></table>
+    <p>GADM units by grade: <b>high</b> 1956, <b>medium</b> 914, <b>low</b> 438
+      (share of assigned light: high 68.4%, low 3.6%, medium 27.9%).
+      63 units absorb a smaller GADM unit. Sensitivity: in
+      1017 GADM units more than 10% of the light comes from
+      coarse or partial placements; where a World Bank province maps one-to-one onto a GADM unit, both series are identical (tested).</p>
+
+    
+    <h3 id="benchmark">Agreement with direct raster extraction</h3>
+    <p>Reference: World Bank blackmarble-stata prototype: NASA Black Marble annual (VNP46A4) extracted directly to GADM 4.1 ADM1 with exactextractr; public S3 files for 13 countries x 2021-2023. Compared 411 unit-years in 126 GADM units.</p>
+    <table><thead><tr><th style="width:42%">Statistic</th><th class="num">Value</th></tr></thead><tbody>
+      <tr><td>Correlation of log sums</td><td class="num">0.99606</td></tr>
+      <tr><td>Ratio ours / direct, median (5th–95th pct.)</td><td class="num">1.0539 (0.8188–1.6224)</td></tr>
+      <tr><td>High-grade units only, median (5th–95th)</td><td class="num">1.0503 (0.8702–1.3096)</td></tr>
+      <tr><td>Within ±5% / ±10%</td><td class="num">37% / 65%</td></tr>
+      <tr><td>Median ratio by country</td><td class="small" style="text-align:right">AFG&nbsp;1.1184 · AGO&nbsp;1.0523 · ALB&nbsp;1.0499 · AND&nbsp;0.8774 · ARE&nbsp;1.0654 · ARG&nbsp;1.0405 · ARM&nbsp;1.0294 · ASM&nbsp;1.5455 · ATG&nbsp;1.0327 · AUS&nbsp;1.0419</td></tr>
+    </tbody></table>
+    <p class="small muted">The two pipelines may use different Black Marble collections, land/water masks and zonal-coverage rules; differences therefore mix crosswalk error with processing differences. The prototype&#39;s ntl_mean is below its median in several files, so means are not compared. Unit-level results: <a href="data/v2/validation_benchmark_units.csv">validation_benchmark_units.csv</a>.</p>
+    
+
+    <h3>Official annual composite vs monthly data</h3>
+    <p>Across 41,849 province-years with 12 months of data, the official annual sum divided by the
+      average monthly sum has median 0.8607
+      (5th–95th: 0.0892–0.9923);
+      log correlation 0.94616. The NASA annual composite is computed from daily observations over the year, not as a mean of monthly composites; the two are kept as separate products.</p>
+
+    
+    <h3>Descriptive check against DOSE regional GDP</h3>
+    <p>11,144 region-years (1569 regions, 76 countries,
+      2012–2019). Cross-sectional correlation of log GDP and log lights (2015): 0.8304;
+      within-region slope with region and year fixed effects: 0.2095. Descriptive association only, shown to document that the linkage behaves sensibly. Not a causal estimate.</p>
+    
+  </section>
+
+  <section class="section" id="limitations">
+    <h2>5. Known limitations</h2>
+    <ul>
+      <li>The GADM version is a crosswalk, not a raster re-extraction: districts are assigned whole, so units whose borders cut through
+        source districts carry some misallocated light (graded and flagged).</li>
+      <li>The source uses an older World Bank boundary vintage; ADM1 codes were later reused for different units in some countries.
+        A province is therefore drawn with today's outline only where code and name still agree; otherwise its outline is rebuilt as the
+        union of the current district polygons its own source districts were matched to (the area its data were summed over), and flagged
+        approximate when some districts could not be matched. Provinces with neither are not drawn
+        (status of every unit: <a href="data/v2/crosswalks/geo_match_wb_adm1.csv">geo_match_wb_adm1.csv</a>).</li>
+      <li>Monthly sums are underestimated when coverage is low (clouds; summer at high latitudes). Filter on <code>coverage</code>.</li>
+      <li>Medians/percentiles exist only at ADM2. Gas-flare variants are sums only at ADM1.</li>
+      <li>No raster-level re-validation was possible for every country: the direct-extraction benchmark covers 13 countries and three years.</li>
+    </ul>
+  </section>
+
+  <section class="section" id="alternatives">
+    <h2>6. Related products and prior art</h2>
+    <table>
+      <thead><tr><th>Product</th><th>What it offers</th><th>Relation to this dataset</th></tr></thead>
+      <tbody>
+        <tr><td><a href="https://github.com/worldbank/space2stats-stata">space2stats-stata</a> (World Bank)</td><td>Pulls the same ADM2 tables and can collapse them to ADM1/ADM0 on the fly</td>
+          <td>Same source. Its collapse averages district means without pixel weights and drops quality shares; no GADM linkage, no archived files.</td></tr>
+        <tr><td><a href="https://github.com/worldbank/blackmarble-stata">blackmarble-stata</a> (World Bank)</td><td>Direct Black Marble → GADM 4.1 ADM0/ADM1 extractions</td>
+          <td>More accurate in principle (raster-level); publicly available only for a few countries and years (used here as the benchmark).</td></tr>
+        <tr><td><a href="https://worldbank.github.io/blackmarbler/">blackmarbler</a> / <a href="https://pypi.org/project/blackmarblepy/">blackmarblepy</a></td><td>Download Black Marble tiles and aggregate to any polygons (NASA Earthdata token)</td>
+          <td>The gold standard for custom boundaries, medians or percentiles.</td></tr>
+        <tr><td>GLocal (Harvard Growth Lab, 2024)</td><td>Monthly and annual EOG VIIRS on GADM 3.6 ADM0–2</td><td>Different product (EOG, not Black Marble), different boundaries.</td></tr>
+        <tr><td>EOG VNL (Colorado School of Mines)</td><td>Annual/monthly global rasters</td><td>No administrative aggregates.</td></tr>
+      </tbody>
+    </table>
+    <p>This dataset's contribution is narrow and verifiable: an exactly weighted ADM1 aggregation of the Space2Stats Black Marble
+      tables with quality propagation, the native ADM2 data with corrected no-data handling, a documented GADM 4.1 and DOSE linkage, and
+      versioned, citable files.</p>
+  </section>
+</div>
+
+</main>
+<footer class="foot">
+  <div class="wrap foot-row">
+    <div>Night Lights ADM1 <span class="num">v2.0.0</span> · data built <span class="num">2026-11-20</span> ·
+      derived from World Bank Space2Stats (dataset 0066940) and NASA Black Marble.
+      Not an official World Bank or NASA product.</div>
+    <div><a href="https://github.com/ouaretw/nightlights-adm1">GitHub</a> ·
+      data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · code MIT ·
+      <a href="docs.html#licences">licences</a> · <a href="docs.html#cite">cite</a></div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var t = document.querySelector('.navtoggle'), nav = document.getElementById('nav');
+    if (!t) return;
+    t.addEventListener('click', function () { var o = nav.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); t.setAttribute('aria-expanded', 'false'); t.focus(); } });
+  })();
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var src = document.getElementById(b.dataset.copy); if (!src) return;
+      navigator.clipboard.writeText(src.innerText).then(function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1400); },
+        function () { b.textContent = 'Select and copy'; });
+    });
+  });
+</script>
+
+</body>
+</html>

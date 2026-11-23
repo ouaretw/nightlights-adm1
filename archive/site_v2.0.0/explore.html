@@ -1,0 +1,194 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Explore data · Night Lights ADM1</title>
+<meta name="description" content="Interactive maps, time series, quality and exports by country, level and boundary system.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2311263B'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' stroke='%23DCE6ED' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='13' cy='15' r='2.4' fill='%23E5AD4E'/%3E%3Ccircle cx='25' cy='10' r='1.8' fill='%23E5AD4E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-explore">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#11263B"/><path d="M7 22l6-7 5 4 7-9" stroke="#DCE6ED" stroke-width="1.6" fill="none"/><circle cx="13" cy="15" r="2.4" fill="#E5AD4E"/><circle cx="25" cy="10" r="1.8" fill="#E5AD4E"/></svg>
+      <span>Night Lights ADM1</span><span class="ver">v2.0.0</span>
+    </a>
+    <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      
+      <a href="index.html" >Overview</a>
+      
+      <a href="explore.html" aria-current="page">Explore Data</a>
+      
+      <a href="integration.html" >Economic Integration</a>
+      
+      <a href="download.html" >Download</a>
+      
+      <a href="methods.html" >Methods &amp; Validation</a>
+      
+      <a href="docs.html" >Documentation</a>
+      
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap page-head" style="padding-bottom:14px">
+  <h1>Explore data</h1>
+  <p>Maps, time series, changes and quality indicators computed in your browser from the published per-country Parquet files.
+    Nothing is simulated: missing observations, observed zeros, quality exclusions and units without an outline are shown as such.</p>
+</div>
+<div class="wrap explorer">
+  <button class="btn secondary filters-toggle" type="button" id="filtersToggle" aria-controls="controls" aria-expanded="false">Show filters</button>
+  <aside class="panel controls" id="controls" aria-label="Filters">
+    <h2>Selection</h2>
+    <div class="field">
+      <label class="label" for="country">Country</label>
+      <input id="country" type="search" list="countrylist" placeholder="Type a country or ISO code…" autocomplete="off">
+      <datalist id="countrylist"></datalist>
+    </div>
+    <div class="field">
+      <span class="label" id="lblLevel">Administrative level</span>
+      <div class="seg" role="group" aria-labelledby="lblLevel">
+        <button type="button" data-level="adm1" aria-pressed="true">ADM1</button>
+        <button type="button" data-level="adm2" aria-pressed="false">ADM2</button>
+      </div>
+    </div>
+    <div class="field">
+      <span class="label" id="lblSys">Boundary system</span>
+      <div class="seg" role="group" aria-labelledby="lblSys">
+        <button type="button" data-sys="wb" aria-pressed="true">World Bank</button>
+        <button type="button" data-sys="gadm" aria-pressed="false">GADM 4.1</button>
+      </div>
+      <span class="hint" id="sysNote"></span>
+    </div>
+    <div class="field">
+      <label class="label" for="period">Period</label>
+      <select id="period" disabled><option>—</option></select>
+      <span class="hint">Shown on the map and in the region details.</span>
+    </div>
+    <div class="field">
+      <label class="label" for="indicator">Indicator</label>
+      <select id="indicator" disabled><option>—</option></select>
+      <span class="hint" id="indNote"></span>
+    </div>
+
+    <details class="adv" id="advanced">
+      <summary>Advanced</summary>
+      <div class="adv-summary" id="advSummary"></div>
+      <div class="adv-body">
+        <div class="field">
+          <span class="label" id="lblFreq">Frequency</span>
+          <div class="seg" role="group" aria-labelledby="lblFreq">
+            <button type="button" data-freq="monthly" aria-pressed="false">Monthly</button>
+            <button type="button" data-freq="annual" aria-pressed="true">Annual</button>
+            <button type="button" data-freq="annual_from_monthly" aria-pressed="false">From monthly</button>
+          </div>
+          <span class="hint" id="freqNote"></span>
+        </div>
+        <div class="field">
+          <span class="label" id="lblYears">Time window (charts, table, export)</span>
+          <div class="row2"><select id="y0" aria-label="First year"></select><select id="y1" aria-label="Last year"></select></div>
+        </div>
+        <div class="field">
+          <label class="label" for="minCov">Minimum valid-pixel coverage</label>
+          <select id="minCov">
+            <option value="0">None</option><option value="0.5" selected>≥ 50%</option><option value="0.8">≥ 80%</option><option value="0.95">≥ 95%</option>
+          </select>
+          <span class="hint">Rows below the threshold are excluded from maps, charts, table and export (hatched on the map).</span>
+        </div>
+        <label class="check"><input type="checkbox" id="noEst"><span>Exclude rows with &gt;10% estimated pixel weight</span></label>
+        <label class="check"><input type="checkbox" id="allObs"><span>Require every district to have valid data (ADM1)</span></label>
+        <label class="check"><input type="checkbox" id="hiMatch"><span>GADM: high-grade crosswalk matches only</span></label>
+      </div>
+    </details>
+
+    <details class="adv" id="exportBox">
+      <summary>Export</summary>
+      <div class="adv-body">
+        <span class="hint">CSV of the rows that pass the filters in the time window, with the checked columns.</span>
+        <div class="checks" id="cols" role="group" aria-label="Columns to export"></div>
+        <button class="btn sm" type="button" id="exportCsv" disabled>Export filtered rows (CSV)</button>
+        <div class="hint" id="fullFiles"></div>
+      </div>
+    </details>
+  </aside>
+
+  <div class="workspace">
+    <section class="panel" aria-labelledby="viewTitle">
+      <div class="viewbar">
+        <h2 id="viewTitle">Choose a country</h2>
+        <span class="status" id="status" role="status"></span>
+      </div>
+      <div class="tabs view-tabs" role="tablist" aria-label="Views">
+        <button type="button" role="tab" data-view="map" aria-selected="true">Map</button>
+        <button type="button" role="tab" data-view="series" aria-selected="false">Time series</button>
+        <button type="button" role="tab" data-view="change" aria-selected="false">Annual change</button>
+        <button type="button" role="tab" data-view="flares" aria-selected="false">Gas flares</button>
+        <button type="button" role="tab" data-view="quality" aria-selected="false">Quality</button>
+        <button type="button" role="tab" data-view="compare" aria-selected="false">Compare boundaries</button>
+        <button type="button" role="tab" data-view="table" aria-selected="false">Table</button>
+      </div>
+      <div class="view-controls" id="viewControls"></div>
+      <div class="view-body">
+        <div class="mapframe" id="mapframe" hidden><div id="map"></div></div>
+        <div id="chart" class="chart" hidden></div>
+        <div id="tableWrap" class="table-scroll datatable" hidden><table id="table"><thead></thead><tbody></tbody></table></div>
+        <div id="empty" class="unavailable"><div><b>Choose a country to begin.</b>Type a name in the Country box, or start with
+          <span id="quickPicks"></span>.</div></div>
+        <div id="notDrawn"></div>
+      </div>
+      <div class="view-legend legend" id="legend"></div>
+      <div class="selbar" id="selbar" aria-live="polite"></div>
+      <div class="view-foot">
+        <span class="hint" id="viewNote"></span>
+        <button class="btn sm secondary" type="button" id="exportView" disabled>Export view data (CSV)</button>
+      </div>
+    </section>
+
+    <section class="panel" id="regionPanel" aria-labelledby="regionTitle" aria-live="polite">
+      <div class="panel-head"><h2 id="regionTitle">Region details</h2><span class="hint">Click a region on the map, a bar, or a table row.</span></div>
+      <div class="region" id="region"><div><p class="muted small" style="margin:0">No region selected.</p></div></div>
+    </section>
+  </div>
+</div>
+<div id="tooltip" class="tooltip" hidden></div>
+
+</main>
+<footer class="foot">
+  <div class="wrap foot-row">
+    <div>Night Lights ADM1 <span class="num">v2.0.0</span> · data built <span class="num">2026-11-20</span> ·
+      derived from World Bank Space2Stats (dataset 0066940) and NASA Black Marble.
+      Not an official World Bank or NASA product.</div>
+    <div><a href="https://github.com/ouaretw/nightlights-adm1">GitHub</a> ·
+      data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · code MIT ·
+      <a href="docs.html#licences">licences</a> · <a href="docs.html#cite">cite</a></div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var t = document.querySelector('.navtoggle'), nav = document.getElementById('nav');
+    if (!t) return;
+    t.addEventListener('click', function () { var o = nav.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); t.setAttribute('aria-expanded', 'false'); t.focus(); } });
+  })();
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var src = document.getElementById(b.dataset.copy); if (!src) return;
+      navigator.clipboard.writeText(src.innerText).then(function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1400); },
+        function () { b.textContent = 'Select and copy'; });
+    });
+  });
+</script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script type="module" src="assets/js/explore.js"></script>
+
+</body>
+</html>

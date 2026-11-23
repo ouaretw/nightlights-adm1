@@ -1,0 +1,321 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Economic integration · Night Lights ADM1</title>
+<meta name="description" content="Crosswalks and ready-to-merge panels for DOSE, GADM-based data, US BEA and Brazil IBGE.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2311263B'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' stroke='%23DCE6ED' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='13' cy='15' r='2.4' fill='%23E5AD4E'/%3E%3Ccircle cx='25' cy='10' r='1.8' fill='%23E5AD4E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-integration">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#11263B"/><path d="M7 22l6-7 5 4 7-9" stroke="#DCE6ED" stroke-width="1.6" fill="none"/><circle cx="13" cy="15" r="2.4" fill="#E5AD4E"/><circle cx="25" cy="10" r="1.8" fill="#E5AD4E"/></svg>
+      <span>Night Lights ADM1</span><span class="ver">v2.0.0</span>
+    </a>
+    <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      
+      <a href="index.html" >Overview</a>
+      
+      <a href="explore.html" >Explore Data</a>
+      
+      <a href="integration.html" aria-current="page">Economic Integration</a>
+      
+      <a href="download.html" >Download</a>
+      
+      <a href="methods.html" >Methods &amp; Validation</a>
+      
+      <a href="docs.html" >Documentation</a>
+      
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap page-head">
+  <h1>Economic integration</h1>
+  <p>Which nighttime-lights file to use with which economic dataset, how the geographies are joined, how complete the linkage is, and
+    ready-to-run merge code. Different boundary versions are not interchangeable: every link records how it was made, and region names
+    alone are never treated as evidence that two boundaries match.</p>
+</div>
+
+<div class="wrap">
+  <section class="section" style="padding-top:8px" aria-labelledby="dose">
+    <div class="section-head"><h2 id="dose">DOSE regional GDP <span class="tag exact">built</span></h2>
+      <p>Wenz et al. (2023), <i>Scientific Data</i> 10, 425 · data V2.14 (Zenodo 20035157) · CC BY 4.0</p></div>
+    <div class="panel feature">
+      <div>
+        <h3>Ready-to-merge panel</h3>
+        <p class="serif">DOSE region-years from 2012 to 2019 already joined with nighttime lights aggregated to each DOSE
+          region from its own source districts, with the same exact rules as the rest of the dataset. Includes the link method and quality columns
+          for screening.</p>
+        <dl class="kv">
+          <dt>Recommended file</dt><dd><code>panel_dose_v2_14_ntl</code></dd>
+          <dt>DOSE geography</dt><dd class="text">GADM 3.6 <code>GID_1</code>, plus DOSE's own polygons where it uses other units</dd>
+          <dt>Join key</dt><dd><code>GID_1</code> + <code>year</code> (DOSE's identifiers, kept as in DOSE)</dd>
+          <dt>Lights</dt><dd class="text">official annual composites; <code>ntl_sum</code>, flare-excluded sums, coverage, quality shares</dd>
+        </dl>
+        <ul class="files" style="margin-top:14px">
+          <li><span>Panel · CSV</span><span><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.csv" download>panel_dose_v2_14_ntl.csv</a> <span class="num">4.2 MB</span></span></li>
+          <li><span>Panel · Parquet</span><span><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.parquet" download>panel_dose_v2_14_ntl.parquet</a> <span class="num">2.7 MB</span></span></li>
+          <li><span>Panel · Stata</span><span><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.dta" download>panel_dose_v2_14_ntl.dta</a> <span class="num">5.0 MB</span></span></li>
+          <li><span>Lights on DOSE regions, 2012–2024 (bring your own DOSE)</span><span><a href="data/v2/econ/dose/ntl_for_dose_regions_annual.csv" download>CSV</a> <span class="num">5.4 MB</span> · <a href="data/v2/econ/dose/ntl_for_dose_regions_annual.parquet" download>Parquet</a> <span class="num">3.4 MB</span> · <a href="data/v2/econ/dose/ntl_for_dose_regions_annual.dta" download>Stata</a> <span class="num">6.9 MB</span></span></li>
+          <li><span>Link table (one row per DOSE region)</span><span><a href="data/v2/econ/dose/dose_region_links.csv" download>dose_region_links.csv</a> <span class="num">105.0 KB</span></span></li>
+          <li><span>Members (DOSE region ↔ ADM2 districts)</span><span><a href="data/v2/econ/dose/dose_region_members_adm2.csv" download>dose_region_members_adm2.csv</a> <span class="num">816.8 KB</span></span></li>
+        </ul>
+      </div>
+      <div>
+        <h3>Linkage coverage and quality</h3>
+        <p class="small" style="margin-bottom:4px"><b class="num">1632</b> of <b class="num">1667</b> DOSE regions linked to source districts
+          (97.9%).</p>
+        <div class="meter" role="img" aria-label="1632 of 1667 regions linked"><i style="width:97.9004199160168%"></i></div>
+        <p class="small muted">Panel: 11,763 region-years from 2012, 11,497 with lights.</p>
+        <table style="margin-top:10px">
+          <thead><tr><th scope="col">Link method</th><th scope="col" class="num">Regions</th><th scope="col">Meaning</th></tr></thead>
+          <tbody>
+          
+            <tr><td class="mono xs">gadm_id</td><td class="num">1483</td><td class="xs">same GID_1 in GADM 4.1, names agree</td></tr>
+          
+            <tr><td class="mono xs">dose_geometry</td><td class="num">91</td><td class="xs">DOSE&#39;s own polygon; districts ≥50% inside</td></tr>
+          
+            <tr><td class="mono xs">gadm_name</td><td class="num">30</td><td class="xs">unique near-exact name match within the country</td></tr>
+          
+            <tr><td class="mono xs">gadm_id_suffix</td><td class="num">23</td><td class="xs">GADM 4.1 uses suffix _2 for the same unit</td></tr>
+          
+            <tr><td class="mono xs">unlinked</td><td class="num">22</td><td class="xs">no reliable link; left out rather than guessed</td></tr>
+          
+            <tr><td class="mono xs">linked_but_no_district</td><td class="num">13</td><td class="xs">linked, but the unit receives no source district (absorbed by a neighbour)</td></tr>
+          
+            <tr><td class="mono xs">gadm_id_name_missing</td><td class="num">3</td><td class="xs">same GID_1; GADM 4.1 has no name to check (England, Cork, Zuid-Holland)</td></tr>
+          
+            <tr><td class="mono xs">gadm_manual</td><td class="num">2</td><td class="xs">researched renumbering (e.g. Santiago CHL.13_1 → CHL.14_1)</td></tr>
+          
+          </tbody>
+        </table>
+        <p class="xs muted" style="margin-top:8px">Unlinked regions include Portugal's NUTS 3 units, whose DOSE IDs reuse GADM IDs for different areas; they are left out rather than joined by ID.</p>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="code">
+    <div class="section-head"><h2 id="code">Merge code</h2><p>Reads the published files over HTTPS; copy or download.</p></div>
+    <div class="panel">
+      <div class="tabs" role="tablist" id="codeTabs" aria-label="Language" style="padding:0 12px">
+        <button type="button" role="tab" aria-selected="true" data-lang="stata" id="tab-stata">Stata</button>
+        <button type="button" role="tab" aria-selected="false" data-lang="r" id="tab-r" tabindex="-1">R</button>
+        <button type="button" role="tab" aria-selected="false" data-lang="python" id="tab-python" tabindex="-1">Python</button>
+      </div>
+      
+      
+      <div role="tabpanel" data-code="stata" aria-labelledby="tab-stata"  style="padding:12px">
+        <div class="codebox"><pre id="code-stata"><code>* Merge DOSE V2.14 regional GDP with NASA Black Marble nighttime lights (Night Lights ADM1 v2)
+* Ready-made panel: DOSE rows 2012-2019 already joined with lights on DOSE region IDs.
+* Requires: Stata 16+ (reads the CSV over https); reghdfe (ssc install reghdfe) for the last step.
+
+local base &#34;https://ouaretw.github.io/nightlights-adm1/data/v2&#34;
+
+* --- Option A: the ready-to-merge panel ---------------------------------------
+import delimited &#34;`base&#39;/econ/dose/panel_dose_v2_14_ntl.csv&#34;, clear case(preserve) encoding(utf8)
+
+* --- Option B: your own DOSE copy + lights on DOSE regions (2012-2024) ---------
+* import delimited &#34;DOSE_V2.14.csv&#34;, clear case(preserve) encoding(utf8)
+* tempfile dose
+* save `dose&#39;
+* import delimited &#34;`base&#39;/econ/dose/ntl_for_dose_regions_annual.csv&#34;, clear case(preserve) encoding(utf8)
+* merge 1:1 GID_1 year using `dose&#39;, keep(match)
+
+* Quality screen: linked regions, good pixel coverage, no absorbed GADM units
+keep if !inlist(ntl_link_method, &#34;unlinked&#34;, &#34;linked_but_no_district&#34;)
+keep if coverage &gt;= 0.8 &amp; ntl_link_absorbs == &#34;&#34;
+
+gen ln_grp = ln(grp_pc_usd * pop)
+gen ln_ntl = ln(ntl_sum)
+label var ln_ntl &#34;log Black Marble radiance sum (official annual composite)&#34;
+
+* Descriptive association with region and year fixed effects (not a causal estimate)
+reghdfe ln_grp ln_ntl, absorb(GID_1 year) vce(cluster GID_1)
+</code></pre>
+          <button class="copy" type="button" data-copy="code-stata">Copy</button></div>
+        <p class="small" style="margin:8px 0 0"><a href="examples/merge_dose.do" download>Download merge_dose.do</a></p>
+      </div>
+      
+      <div role="tabpanel" data-code="r" aria-labelledby="tab-r" hidden style="padding:12px">
+        <div class="codebox"><pre id="code-r"><code># Merge DOSE V2.14 regional GDP with NASA Black Marble nighttime lights (Night Lights ADM1 v2)
+# install.packages(c(&#34;arrow&#34;, &#34;dplyr&#34;, &#34;fixest&#34;))
+library(arrow)
+library(dplyr)
+
+base &lt;- &#34;https://ouaretw.github.io/nightlights-adm1/data/v2&#34;
+
+# Ready-made panel (DOSE rows 2012-2019 joined with lights on DOSE region IDs)
+panel &lt;- read_parquet(file.path(base, &#34;econ/dose/panel_dose_v2_14_ntl.parquet&#34;))
+
+# Or: lights on DOSE regions, 2012-2024, to join with your own DOSE copy
+# ntl  &lt;- read_parquet(file.path(base, &#34;econ/dose/ntl_for_dose_regions_annual.parquet&#34;))
+# dose &lt;- read.csv(&#34;DOSE_V2.14.csv&#34;)
+# panel &lt;- inner_join(dose, ntl, by = c(&#34;GID_1&#34;, &#34;year&#34;))
+
+est &lt;- panel |&gt;
+  filter(!ntl_link_method %in% c(&#34;unlinked&#34;, &#34;linked_but_no_district&#34;),
+         coverage &gt;= 0.8, ntl_link_absorbs == &#34;&#34;,
+         ntl_sum &gt; 0, grp_pc_usd &gt; 0) |&gt;
+  mutate(ln_grp = log(grp_pc_usd * pop), ln_ntl = log(ntl_sum))
+
+# Descriptive association with region and year fixed effects (not causal)
+fixest::feols(ln_grp ~ ln_ntl | GID_1 + year, data = est, cluster = ~GID_1)
+
+# Any GADM 4.1-keyed dataset: join on GID_1 + year
+gadm &lt;- read_parquet(file.path(base, &#34;adm1_gadm41/adm1_gadm41_annual_global.parquet&#34;))
+</code></pre>
+          <button class="copy" type="button" data-copy="code-r">Copy</button></div>
+        <p class="small" style="margin:8px 0 0"><a href="examples/merge_dose.R" download>Download merge_dose.R</a></p>
+      </div>
+      
+      <div role="tabpanel" data-code="python" aria-labelledby="tab-python" hidden style="padding:12px">
+        <div class="codebox"><pre id="code-python"><code>&#34;&#34;&#34;Merge DOSE V2.14 regional GDP with NASA Black Marble nighttime lights (Night Lights ADM1 v2).
+pip install pandas pyarrow linearmodels
+&#34;&#34;&#34;
+import numpy as np
+import pandas as pd
+
+BASE = &#34;https://ouaretw.github.io/nightlights-adm1/data/v2&#34;
+
+# Ready-made panel: DOSE rows 2012-2019 joined with lights on DOSE region IDs
+panel = pd.read_parquet(f&#34;{BASE}/econ/dose/panel_dose_v2_14_ntl.parquet&#34;)
+
+# Or: lights on DOSE regions (2012-2024) joined with your own DOSE copy
+# ntl = pd.read_parquet(f&#34;{BASE}/econ/dose/ntl_for_dose_regions_annual.parquet&#34;)
+# panel = pd.read_csv(&#34;DOSE_V2.14.csv&#34;).merge(ntl, on=[&#34;GID_1&#34;, &#34;year&#34;], how=&#34;inner&#34;)
+
+est = panel[
+    ~panel.ntl_link_method.isin([&#34;unlinked&#34;, &#34;linked_but_no_district&#34;])
+    &amp; (panel.coverage &gt;= 0.8)
+    &amp; (panel.ntl_link_absorbs.fillna(&#34;&#34;) == &#34;&#34;)
+    &amp; (panel.ntl_sum &gt; 0) &amp; (panel.grp_pc_usd &gt; 0)
+].assign(ln_grp=lambda d: np.log(d.grp_pc_usd * d[&#34;pop&#34;]), ln_ntl=lambda d: np.log(d.ntl_sum))
+
+# Descriptive association with region and year fixed effects (not causal)
+from linearmodels.panel import PanelOLS  # noqa: E402
+
+m = PanelOLS.from_formula(&#34;ln_grp ~ ln_ntl + EntityEffects + TimeEffects&#34;, est.set_index([&#34;GID_1&#34;, &#34;year&#34;]))
+print(m.fit(cov_type=&#34;clustered&#34;, cluster_entity=True))
+
+# Any GADM 4.1-keyed dataset: join on GID_1 + year
+gadm = pd.read_parquet(f&#34;{BASE}/adm1_gadm41/adm1_gadm41_annual_global.parquet&#34;)
+</code></pre>
+          <button class="copy" type="button" data-copy="code-python">Copy</button></div>
+        <p class="small" style="margin:8px 0 0"><a href="examples/merge_dose.py" download>Download merge_dose.py</a></p>
+      </div>
+      
+    </div>
+    <p class="small" style="margin-top:12px">If you use the DOSE panel, cite DOSE: Wenz, L., Carr, R. D., Kögel, N., Kotz, M. &amp; Kalkuhl, M. (2023).
+      DOSE – Global data set of reported sub-national economic output. <i>Scientific Data</i> 10, 425 (data V2.14, Zenodo record 20035157, CC BY 4.0).</p>
+  </section>
+
+  <section class="section" aria-labelledby="other">
+    <div class="section-head"><h2 id="other">Other built integrations</h2></div>
+    <div class="grid3">
+      <article class="card">
+        <h3>Any GADM 4.1 dataset <span class="tag approx">crosswalk</span></h3>
+        <p>Data keyed on GADM 4.1 <code>GID_1</code>. Use the ADM1 · GADM 4.1 files and join on <code>GID_1</code> + time. Values are approximate; screen on
+          <code>xw_match_quality</code>.</p>
+        <div class="card-foot"><a href="download.html#l=adm1_gadm41&f=annual&s=global&k=csv">ADM1 · GADM 4.1 files</a></div>
+      </article>
+      <article class="card">
+        <h3>US BEA state GDP <span class="tag exact">built</span></h3>
+        <p>SAGDP state GeoFIPS (<code>06000</code> = California) ↔ GADM 4.1 <code>GID_1</code>: 51/51 exact name matches,
+          0 unmatched.</p>
+        <div class="card-foot"><a href="data/v2/econ/national/crosswalk_gadm41_usa_bea_fips.csv" download>crosswalk_gadm41_usa_bea_fips.csv</a> <span class="num">2.3 KB</span></div>
+      </article>
+      <article class="card">
+        <h3>Brazil IBGE state accounts <span class="tag exact">built</span></h3>
+        <p>UF codes (<code>11</code> Rondônia … <code>53</code> Distrito Federal) ↔ GADM 4.1 <code>GID_1</code>: 27/27 exact name matches,
+          0 unmatched.</p>
+        <div class="card-foot"><a href="data/v2/econ/national/crosswalk_gadm41_bra_ibge_uf.csv" download>crosswalk_gadm41_bra_ibge_uf.csv</a> <span class="num">1.3 KB</span></div>
+      </article>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="planned">
+    <div class="section-head"><h2 id="planned">Planned and unsupported</h2><p>Not built. Listed so that their absence is explicit.</p></div>
+    <div class="table-scroll panel">
+      <table>
+        <thead><tr><th scope="col">Dataset</th><th scope="col">Its geography</th><th scope="col">Why it is not linked</th><th scope="col">Status</th></tr></thead>
+        <tbody>
+          <tr><td><b>Global Data Lab SHDI</b> v10.2</td><td>GDL regions (<code>DZAr101</code>), often groups of ADM1 units</td>
+            <td>Data and shapefiles require a GDL login and are non-commercial; no published GDL→GADM correspondence. Once membership is known, GDL regions can be built by summing <code>ntl_sum</code> and combining <code>ntl_mean</code> with <code>w_valid</code> weights.</td>
+            <td><span class="tag planned">planned</span></td></tr>
+          <tr><td><b>Eurostat</b> NUTS 2 GDP</td><td>NUTS 2024 (GISCO geometry)</td><td>Needs an overlay with GISCO NUTS 2024; NUTS 2 ≠ ADM1 in many countries.</td><td><span class="tag planned">planned</span></td></tr>
+          <tr><td><b>OECD TL2</b> regional statistics</td><td>TL2024 codes</td><td>No public OECD boundary file was found. US TL2 = BEA states (above); most other OECD regional GDP already enters DOSE.</td><td><span class="tag">not available</span></td></tr>
+          <tr><td>Kummu et al. gridded GDP</td><td>Mixed reporting units</td><td>Partly modelled; risk of circularity if nighttime lights enter its downscaling.</td><td><span class="tag bad">not recommended</span></td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="before">
+    <h2 id="before">Before you merge</h2>
+    <ul class="limits serif" style="max-width:860px">
+      <li><b>Years.</b> DOSE ends in 2019; lights start in 2012.</li>
+      <li><b>Absorbed units.</b> Where a GADM unit is smaller than the source districts (e.g. Kiev City inside Kiev), its light sits in the neighbour:
+        see <code>gadm_unit_absorbs</code> / <code>xw_absorbs_units</code>, and merge those regions on the economic side too.</li>
+      <li><b>Boundary versions.</b> DOSE uses GADM 3.6 identifiers; the GADM product uses GADM 4.1. Links are checked by name or geometry, never assumed from matching codes alone.</li>
+      <li><b>Quality filters.</b> Screen on <code>coverage</code>, <code>w_valid_estimated_share</code> and the link fields.</li>
+      <li><b>Association, not causation.</b> Any elasticity of GDP with respect to lights is descriptive unless your research design identifies it.</li>
+    </ul>
+  </section>
+</div>
+
+</main>
+<footer class="foot">
+  <div class="wrap foot-row">
+    <div>Night Lights ADM1 <span class="num">v2.0.0</span> · data built <span class="num">2026-11-20</span> ·
+      derived from World Bank Space2Stats (dataset 0066940) and NASA Black Marble.
+      Not an official World Bank or NASA product.</div>
+    <div><a href="https://github.com/ouaretw/nightlights-adm1">GitHub</a> ·
+      data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · code MIT ·
+      <a href="docs.html#licences">licences</a> · <a href="docs.html#cite">cite</a></div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var t = document.querySelector('.navtoggle'), nav = document.getElementById('nav');
+    if (!t) return;
+    t.addEventListener('click', function () { var o = nav.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); t.setAttribute('aria-expanded', 'false'); t.focus(); } });
+  })();
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var src = document.getElementById(b.dataset.copy); if (!src) return;
+      navigator.clipboard.writeText(src.innerText).then(function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1400); },
+        function () { b.textContent = 'Select and copy'; });
+    });
+  });
+</script>
+
+<script>
+  (function () {
+    var tabs = Array.prototype.slice.call(document.querySelectorAll('#codeTabs [role="tab"]'));
+    function pick(b) {
+      tabs.forEach(function (x) { var on = x === b; x.setAttribute('aria-selected', on); x.tabIndex = on ? 0 : -1; });
+      document.querySelectorAll('[data-code]').forEach(function (p) { p.hidden = p.dataset.code !== b.dataset.lang; });
+    }
+    tabs.forEach(function (b, i) {
+      b.addEventListener('click', function () { pick(b); });
+      b.addEventListener('keydown', function (e) {
+        if (e.key !== 'ArrowRight' && e.key !== 'ArrowLeft') return;
+        var n = tabs[(i + (e.key === 'ArrowRight' ? 1 : tabs.length - 1)) % tabs.length]; pick(n); n.focus();
+      });
+    });
+  })();
+</script>
+
+</body>
+</html>

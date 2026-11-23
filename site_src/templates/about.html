@@ -58,9 +58,10 @@
     <article class="card"><span class="step">1 · Source observations</span><h3>Public, not ours</h3>
       <p>NASA Black Marble radiance and the World Bank Space2Stats district tables (CC BY 4.0) are public. Anyone can obtain them; this
         project claims no exclusivity over them and keeps their attribution in every file.</p></article>
-    <article class="card"><span class="step">2 · Derived data and code</span><h3>Open, versioned, citable</h3>
-      <p>The aggregated panels, crosswalks and quality indicators are released under CC BY 4.0 and the code under MIT, with
-        version numbers and SHA-256 checksums. A DOI-backed archive (e.g. Zenodo) is planned; none has been minted yet.</p></article>
+    <article class="card"><span class="step">2 · Derived data and code</span><h3>Licensed, versioned, access by password</h3>
+      <p>The aggregated panels, crosswalks and quality indicators are licensed CC BY 4.0 and the code MIT, with version numbers and
+        SHA-256 checksums. Since v3.0 this site is password-protected; the licence applies to everyone given access. A DOI-backed
+        archive (e.g. Zenodo) is planned; none has been minted yet.</p></article>
     <article class="card"><span class="step">3 · Analyses and manuscripts</span><h3>Exploratory here, papers elsewhere</h3>
       <p>The analyses on this site are exploratory and public. Interpretations prepared for publication are not posted here until
         published; that does not restrict access to the data.</p></article>
@@ -81,7 +82,8 @@
 <section class="section" aria-labelledby="status">
   <h2 id="status">Project status</h2>
   <dl class="kv" style="max-width:820px">
-    <dt>Data version</dt><dd>v{{ meta.version }} · built {{ meta.built }}</dd>
+    <dt>Site version</dt><dd>v{{ meta.version }} · data built {{ meta.built }}</dd>
+    <dt>Access</dt><dd class="text">Password-protected since v3.0 (pages and data files are encrypted). The previous public version is kept, also behind the login, at <a href="../v2/index.html">v2</a>.</dd>
     <dt>Release files</dt><dd class="text">Large files are assets of the GitHub release <code>v{{ release_version }}</code>; every link is generated from <code>manifest.json</code></dd>
     <dt>Source series</dt><dd class="text">Suomi NPP stopped delivering observations on 2 November 2026; continuing the series needs NOAA-20/21 products the source does not use</dd>
     <dt>Collection</dt><dd class="text">The source does not state which Black Marble collection (C1 or C2) it uses; not yet confirmed with the World Bank</dd>

@@ -35,7 +35,7 @@ SITE = ROOT / "build" / "site"
 DATA = SITE / "data" / "v2"
 REL = ROOT / "build" / "release"
 XW = ROOT / "build" / "crosswalks"
-VERSION = "2.1.0"          # site + analysis layer
+VERSION = "3.0.0"          # site version (3.0: password-protected; v2 archived at /v2/)
 RELEASE_VERSION = "2.0.0"  # GitHub release holding the large files (unchanged since v2.0.0; never overwritten)
 PAGES_MAX = 95e6          # keep single files below GitHub's 100 MB limit
 

@@ -1,4 +1,6 @@
-# Validation report — Night Lights ADM1 v2.1.0 (2026-11-23)
+# Validation report — Night Lights ADM1 v3.0.0 (2026-11-23)
+
+v3.0.0 has the same data and analysis as v2.1.0; it adds password protection (A10).
 
 The report has two parts:
 
@@ -148,6 +150,33 @@ The v2.0.0 and v2.1.0 manifests were compared:
 - All 2,874 files listed in v2.0.0 have identical SHA-256 checksums.
 - Release-asset URLs still point to `releases/download/v2.0.0/` and are unchanged.
 - 11 files are new.
+
+### A10. Password protection (v3.0.0) — `tests/browser/check_secure.py`: 27/27
+
+Run against the encrypted build served by `tests/browser/pages_server.py`, which, like GitHub Pages, answers missing paths with `404.html`.
+
+**Without signing in:**
+- Plain page and data paths are not served.
+- `.enc` files contain no readable page text or data.
+- `auth.json` holds only the salt, iteration count and a test value.
+
+**Signing in:**
+- A deep link is redirected to sign-in, keeping its target page and `#hash`.
+- A wrong password is rejected.
+- The correct password opens the requested page.
+
+**Signed in:**
+- The explorer reads Parquet through the decrypting worker.
+- File size and SHA-256 after decryption equal `manifest.json`.
+- Byte-range requests return 206 with the correct bytes.
+- v3 home, analysis, download and about pages work, with no JS errors.
+- The version bar switches to v2.
+- The v2 explorer and home map work on the shared data.
+- Old addresses (`/explore.html#…`) reach v3.
+
+**After signing out:**
+- Pages require the password again.
+- Data requests are refused (401).
 
 ## B. Proposed, not completed
 

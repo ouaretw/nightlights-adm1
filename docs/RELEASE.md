@@ -12,7 +12,9 @@ available through their git tag and GitHub release.
 3. **Verify:** `pytest tests` must pass, including source-assumption and output tests. Then read `validation.json`.
 4. **Version.** Bump `VERSION` in `pipeline/build_v2.py`. Bump `RELEASE_VERSION` only when the files in `build/release/` change; it names the release that holds them. Then add a changelog entry in `site_src/build_site.py` and
    `CITATION.cff`, and commit. Then tag: `git tag -a vX.Y.Z -m "..." && git push origin vX.Y.Z`.
-5. **Publish the site and data:** `bash scripts/publish_pages.sh`. This force-pushes `build/site` to the orphan `gh-pages` branch.
+5. **Publish the site and data:** `python scripts/build_secure_site.py && bash scripts/publish_pages.sh`. This force-pushes the
+   encrypted build to the orphan `gh-pages` branch (see `docs/ACCESS.md`). To keep the previous site version reachable, copy its
+   pages into `archive/site_vX.Y.Z/` and add it to `scripts/build_secure_site.py`, as was done for v2.0.0.
    GitHub Pages must be set to *Deploy from a branch → gh-pages / (root)*.
 6. **Release assets.** Create the GitHub release for the tag and upload every file in `build/release/`, either in the
    web UI or with `gh release create vX.Y.Z build/release/*`. The download page links to

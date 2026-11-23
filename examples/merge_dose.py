@@ -4,13 +4,15 @@ pip install pandas pyarrow linearmodels
 import numpy as np
 import pandas as pd
 
-BASE = "https://ouaretw.github.io/nightlights-adm1/data/v2"
+# Since v3.0 the site is password-protected: sign in, download the files named below from the
+# Economic integration page, and set BASE to the folder where you saved them.
+BASE = "."
 
 # Ready-made panel: DOSE rows 2012-2019 joined with lights on DOSE region IDs
-panel = pd.read_parquet(f"{BASE}/econ/dose/panel_dose_v2_14_ntl.parquet")
+panel = pd.read_parquet(f"{BASE}/panel_dose_v2_14_ntl.parquet")
 
 # Or: lights on DOSE regions (2012-2024) joined with your own DOSE copy
-# ntl = pd.read_parquet(f"{BASE}/econ/dose/ntl_for_dose_regions_annual.parquet")
+# ntl = pd.read_parquet(f"{BASE}/ntl_for_dose_regions_annual.parquet")
 # panel = pd.read_csv("DOSE_V2.14.csv").merge(ntl, on=["GID_1", "year"], how="inner")
 
 est = panel[
@@ -27,4 +29,4 @@ m = PanelOLS.from_formula("ln_grp ~ ln_ntl + EntityEffects + TimeEffects", est.s
 print(m.fit(cov_type="clustered", cluster_entity=True))
 
 # Any GADM 4.1-keyed dataset: join on GID_1 + year
-gadm = pd.read_parquet(f"{BASE}/adm1_gadm41/adm1_gadm41_annual_global.parquet")
+gadm = pd.read_parquet(f"{BASE}/adm1_gadm41_annual_global.parquet")

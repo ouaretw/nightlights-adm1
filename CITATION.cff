@@ -2,7 +2,7 @@ cff-version: 1.2.0
 message: "If you use this dataset, please cite it as below, together with the World Bank source dataset."
 title: "Night Lights ADM1: NASA Black Marble nighttime lights for ADM1 and ADM2 units, ready to merge with subnational economic data"
 type: dataset
-version: "2.1.0"
+version: "3.0.0"
 date-released: "2026-11-23"
 license: CC-BY-4.0
 url: "https://ouaretw.github.io/nightlights-adm1/"

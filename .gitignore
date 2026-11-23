@@ -8,3 +8,4 @@ tests/browser/shots/
 tests/browser/results_*.json
 tests/browser/ext_*.json
 tests/browser/release_links.json
+secrets/

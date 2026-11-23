@@ -1,0 +1,493 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Download · Night Lights ADM1</title>
+<meta name="description" content="Choose a dataset by level, frequency, scope and format; every file with its size and SHA-256 checksum.">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%2311263B'/%3E%3Cpath d='M7 22l6-7 5 4 7-9' stroke='%23DCE6ED' stroke-width='1.6' fill='none'/%3E%3Ccircle cx='13' cy='15' r='2.4' fill='%23E5AD4E'/%3E%3Ccircle cx='25' cy='10' r='1.8' fill='%23E5AD4E'/%3E%3C/svg%3E">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;500&family=IBM+Plex+Sans:wght@400;500;600&family=Source+Serif+4:opsz,wght@8..60,400;8..60,600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body class="page-download">
+<a class="skip" href="#main">Skip to content</a>
+<header class="topbar">
+  <div class="wrap bar">
+    <a class="brand" href="index.html">
+      <svg viewBox="0 0 32 32" width="24" height="24" aria-hidden="true"><rect width="32" height="32" rx="6" fill="#11263B"/><path d="M7 22l6-7 5 4 7-9" stroke="#DCE6ED" stroke-width="1.6" fill="none"/><circle cx="13" cy="15" r="2.4" fill="#E5AD4E"/><circle cx="25" cy="10" r="1.8" fill="#E5AD4E"/></svg>
+      <span>Night Lights ADM1</span><span class="ver">v2.0.0</span>
+    </a>
+    <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
+    <nav id="nav" class="nav" aria-label="Main">
+      
+      <a href="index.html" >Overview</a>
+      
+      <a href="explore.html" >Explore Data</a>
+      
+      <a href="integration.html" >Economic Integration</a>
+      
+      <a href="download.html" aria-current="page">Download</a>
+      
+      <a href="methods.html" >Methods &amp; Validation</a>
+      
+      <a href="docs.html" >Documentation</a>
+      
+    </nav>
+  </div>
+</header>
+<main id="main">
+
+<div class="wrap page-head">
+  <h1>Download</h1>
+  <p>Choose a dataset to see the exact file, its size, SHA-256 checksum, variables and caveats. Every link points to a file listed in the build
+    manifest (<a href="data/v2/manifest.json">manifest.json</a>): smaller files are served from this site, global CSV/Stata bundles from the
+    <a href="https://github.com/ouaretw/nightlights-adm1/releases/tag/v2.0.0">v2.0.0 GitHub release</a>.</p>
+</div>
+
+<div class="wrap picker">
+  <aside class="panel controls" aria-label="Dataset selection">
+    <div class="field">
+      <span class="label" id="lblL">Geographic level</span>
+      <div class="seg stack" role="group" aria-labelledby="lblL">
+        <button type="button" data-pl="adm1_wb" aria-pressed="true">ADM1 · World Bank units<small>Exact aggregation · key ADM1CD_c</small></button>
+        <button type="button" data-pl="adm1_gadm41" aria-pressed="false">ADM1 · GADM 4.1<small>Crosswalk, graded · key GID_1</small></button>
+        <button type="button" data-pl="adm2" aria-pressed="false">ADM2 · native districts<small>Source observations · key ADM2CD_c</small></button>
+      </div>
+    </div>
+    <div class="field">
+      <span class="label" id="lblF">Temporal frequency</span>
+      <div class="seg stack" role="group" aria-labelledby="lblF">
+        <button type="button" data-pf="annual" aria-pressed="true">Annual<small>NASA official annual composite</small></button>
+        <button type="button" data-pf="monthly" aria-pressed="false">Monthly<small>Monthly composites</small></button>
+        <button type="button" data-pf="annual_from_monthly" aria-pressed="false">Annual from monthly<small>Derived here; not the official composite</small></button>
+      </div>
+    </div>
+    <div class="field">
+      <span class="label" id="lblS">Geographic scope</span>
+      <div class="seg" role="group" aria-labelledby="lblS">
+        <button type="button" data-ps="global" aria-pressed="true">All countries</button>
+        <button type="button" data-ps="country" aria-pressed="false">One country</button>
+      </div>
+      <label class="sr-only" for="pCountry">Country</label>
+      <select id="pCountry" hidden></select>
+    </div>
+    <div class="field">
+      <span class="label" id="lblFmt">File format</span>
+      <div class="seg" role="group" aria-labelledby="lblFmt">
+        <button type="button" data-pk="csv" aria-pressed="true">CSV</button>
+        <button type="button" data-pk="parquet" aria-pressed="false">Parquet</button>
+        <button type="button" data-pk="stata" aria-pressed="false">Stata</button>
+      </div>
+      <span class="hint">R: read Parquet with <code>arrow::read_parquet()</code> or CSV with <code>readr</code>.</span>
+    </div>
+  </aside>
+
+  <section class="panel" aria-live="polite" id="result"><div class="result-head"><p class="muted">Loading the file manifest…</p></div></section>
+</div>
+
+<div class="wrap section" id="all-files">
+  <details class="all-files">
+    <summary>All files (2874 listed in the manifest)</summary>
+    <p class="small muted">The complete catalogue of global files, economic-integration files, crosswalks and QA tables. Per-country files follow the pattern
+      <code>data/v2/&lt;product&gt;/&lt;frequency&gt;/&lt;ISO3&gt;.parquet</code> (and <code>.csv</code> for ADM1 annual files) and are listed in the manifest.</p>
+    
+    <section style="margin-top:22px" id="adm1_gadm41">
+      <h3>ADM1 · GADM 4.1 <span class="tag approx">for economic data</span></h3>
+      <p class="small muted">Keyed on GID_1. Districts assigned to GADM 4.1 units; graded per unit (xw_match_quality).</p>
+      <div class="table-scroll">
+        <table class="dl-table">
+          <thead><tr><th scope="col">File</th><th scope="col">Frequency</th><th scope="col">Format</th><th scope="col" class="num">Size</th><th scope="col">Host</th><th scope="col">SHA-256</th></tr></thead>
+          <tbody>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_annual_global.csv.gz" download>adm1_gadm41_annual_global.csv.gz</a></td>
+              <td>annual</td><td>CSV (gzip)</td><td class="num">2.8 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="c3315a52288753c8e8d5be18dcd56f0fefe58c2e3c4be14b330c90fadebbbe7c">c3315a52288753c8…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/adm1_gadm41/adm1_gadm41_annual_global.parquet" download>adm1_gadm41_annual_global.parquet</a></td>
+              <td>annual</td><td>Parquet</td><td class="num">6.4 MB</td><td>this site</td>
+              <td class="mono xs" title="41d30a9261f9873b2d7608a3272f406d2864e5bb404ceb4d2dcfa6e0b34245f0">41d30a9261f9873b…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_annual_global.dta.zip" download>adm1_gadm41_annual_global.dta.zip</a></td>
+              <td>annual</td><td>Stata (zip)</td><td class="num">4.4 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="292eaf94b52a71703970a3ffe20c4fbc88e19fd453191dd44e43aa63fc079914">292eaf94b52a7170…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_annual_from_monthly_global.csv.gz" download>adm1_gadm41_annual_from_monthly_global.csv.gz</a></td>
+              <td>annual from monthly</td><td>CSV (gzip)</td><td class="num">987.1 KB</td><td>GitHub release</td>
+              <td class="mono xs" title="d7e1b2ef19a5bf0746e4c4e2f4c45261e6e7327be3282a631067c47e79f37853">d7e1b2ef19a5bf07…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/adm1_gadm41/adm1_gadm41_annual_from_monthly_global.parquet" download>adm1_gadm41_annual_from_monthly_global.parquet</a></td>
+              <td>annual from monthly</td><td>Parquet</td><td class="num">1.5 MB</td><td>this site</td>
+              <td class="mono xs" title="3205213fffcb2b14aec50da5139ed750ecc95d85c475d5075e16f3c1334fd6a0">3205213fffcb2b14…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_annual_from_monthly_global.dta.zip" download>adm1_gadm41_annual_from_monthly_global.dta.zip</a></td>
+              <td>annual from monthly</td><td>Stata (zip)</td><td class="num">1.3 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="83479c2a659e30c20afdb5957b19444da412ea44530b430e979b654d5bc0267a">83479c2a659e30c2…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_monthly_global.csv.gz" download>adm1_gadm41_monthly_global.csv.gz</a></td>
+              <td>monthly</td><td>CSV (gzip)</td><td class="num">34.9 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="0229e28ebe25361e5edf4f126c7428b957d21995ba0a7c1dbd3dda28ec8df4aa">0229e28ebe25361e…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_monthly_by_country_csv.zip" download>adm1_gadm41_monthly_by_country_csv.zip</a></td>
+              <td>monthly</td><td>CSV bundle (zip)</td><td class="num">35.3 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="be13a6364748797c3938af858ae89b0078a61c111582fa0bd01ac7c737964642">be13a6364748797c…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_monthly_global.parquet" download>adm1_gadm41_monthly_global.parquet</a></td>
+              <td>monthly</td><td>Parquet</td><td class="num">62.8 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="a029fc16bd2b5dd70c9afbb9ff50ed35b3242c85b5ec3ed56d01512aad61742e">a029fc16bd2b5dd7…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_gadm41_monthly_global.dta.zip" download>adm1_gadm41_monthly_global.dta.zip</a></td>
+              <td>monthly</td><td>Stata (zip)</td><td class="num">55.8 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="b76e6f70fb287971a98e2ae702f6af43d9c66940a519ced9a95400a04538ac93">b76e6f70fb287971…</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+      <p class="xs muted">Per-country: data/v2/adm1_gadm41/&lt;frequency&gt;/&lt;ISO3&gt;.parquet (and .csv for annual files); or export from the explorer.</p>
+    </section>
+    
+    <section style="margin-top:22px" id="adm1_wb">
+      <h3>ADM1 · World Bank units <span class="tag exact">exact</span></h3>
+      <p class="small muted">Keyed on ADM1CD_c. Exact aggregation of the source districts.</p>
+      <div class="table-scroll">
+        <table class="dl-table">
+          <thead><tr><th scope="col">File</th><th scope="col">Frequency</th><th scope="col">Format</th><th scope="col" class="num">Size</th><th scope="col">Host</th><th scope="col">SHA-256</th></tr></thead>
+          <tbody>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_annual_global.csv.gz" download>adm1_wb_annual_global.csv.gz</a></td>
+              <td>annual</td><td>CSV (gzip)</td><td class="num">2.9 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="81550ef09227d5bd6608d5102ae33d90c22ef69f23f8159c00f9602d009a0896">81550ef09227d5bd…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/adm1_wb/adm1_wb_annual_global.parquet" download>adm1_wb_annual_global.parquet</a></td>
+              <td>annual</td><td>Parquet</td><td class="num">6.8 MB</td><td>this site</td>
+              <td class="mono xs" title="973859551bba64907b280184c7c2e4d30bded9a395df954e89bae29d5f91327b">973859551bba6490…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_annual_global.dta.zip" download>adm1_wb_annual_global.dta.zip</a></td>
+              <td>annual</td><td>Stata (zip)</td><td class="num">4.5 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="40c4352c1588957e3b7d7794b45ffbe740ed8f6f2b75b42f59046a0d57627467">40c4352c1588957e…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_annual_from_monthly_global.csv.gz" download>adm1_wb_annual_from_monthly_global.csv.gz</a></td>
+              <td>annual from monthly</td><td>CSV (gzip)</td><td class="num">1.0 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="cf78c4599260d6e6382b627212885636d79d78335300e955b59f3a94d5607c89">cf78c4599260d6e6…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/adm1_wb/adm1_wb_annual_from_monthly_global.parquet" download>adm1_wb_annual_from_monthly_global.parquet</a></td>
+              <td>annual from monthly</td><td>Parquet</td><td class="num">1.6 MB</td><td>this site</td>
+              <td class="mono xs" title="734df06971b010a15ec6b6ce5504e4c1492ee96879e78e8096899db04c830344">734df06971b010a1…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_annual_from_monthly_global.dta.zip" download>adm1_wb_annual_from_monthly_global.dta.zip</a></td>
+              <td>annual from monthly</td><td>Stata (zip)</td><td class="num">1.3 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="adde4b1ea43025aed6bd757596246e161ed5fde69df42a5628b4940592385a3c">adde4b1ea43025ae…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_monthly_global.csv.gz" download>adm1_wb_monthly_global.csv.gz</a></td>
+              <td>monthly</td><td>CSV (gzip)</td><td class="num">36.5 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="ff60da83dd603f5e01fd5f9c6c0fb5f654fdc80b5b4cdac2116e782cb9143751">ff60da83dd603f5e…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_monthly_by_country_csv.zip" download>adm1_wb_monthly_by_country_csv.zip</a></td>
+              <td>monthly</td><td>CSV bundle (zip)</td><td class="num">36.9 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="29014c1ef668c35e5829810f3f536bb46d22383bb34d84667d9a2c25ecc9117d">29014c1ef668c35e…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_monthly_global.parquet" download>adm1_wb_monthly_global.parquet</a></td>
+              <td>monthly</td><td>Parquet</td><td class="num">66.4 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="e60e31642921f6890828e187d55c5068398d81acc70da0cb7779169031d61fef">e60e31642921f689…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm1_wb_monthly_global.dta.zip" download>adm1_wb_monthly_global.dta.zip</a></td>
+              <td>monthly</td><td>Stata (zip)</td><td class="num">56.2 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="d61ac780e6c018ab1fa133992c3fcb69734e6fd533cf4e6523e3ecdf0a61da45">d61ac780e6c018ab…</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+      <p class="xs muted">Per-country: data/v2/adm1_wb/&lt;frequency&gt;/&lt;ISO3&gt;.parquet (and .csv for annual files); or export from the explorer.</p>
+    </section>
+    
+    <section style="margin-top:22px" id="adm2">
+      <h3>ADM2 · native districts <span class="tag native">source</span></h3>
+      <p class="small muted">Keyed on ADM2CD_c. Source observations (float32, as in the source) with corrected no-data handling, weights and GADM parent.</p>
+      <div class="table-scroll">
+        <table class="dl-table">
+          <thead><tr><th scope="col">File</th><th scope="col">Frequency</th><th scope="col">Format</th><th scope="col" class="num">Size</th><th scope="col">Host</th><th scope="col">SHA-256</th></tr></thead>
+          <tbody>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm2_annual_global.csv.gz" download>adm2_annual_global.csv.gz</a></td>
+              <td>annual</td><td>CSV (gzip)</td><td class="num">31.8 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="fb1819ce62ebb6d0071126c64ee375fff468ec9baa8beef5b164cc7910c815f4">fb1819ce62ebb6d0…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/adm2/adm2_annual_global.parquet" download>adm2_annual_global.parquet</a></td>
+              <td>annual</td><td>Parquet</td><td class="num">39.4 MB</td><td>this site</td>
+              <td class="mono xs" title="c485892195b6778eda15d29d73e59a8b098edc44b72e7d890f712ca7331f9c53">c485892195b6778e…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm2_annual_global.dta.zip" download>adm2_annual_global.dta.zip</a></td>
+              <td>annual</td><td>Stata (zip)</td><td class="num">31.5 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="0f558ef008a10ddd049504f20ef7b5339d7aac44c754c030658e699de3894849">0f558ef008a10ddd…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm2_monthly_global.csv.gz" download>adm2_monthly_global.csv.gz</a></td>
+              <td>monthly</td><td>CSV (gzip)</td><td class="num">269.0 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="91e99c3fd9654648adca4d14fc283ff7022ca6bdd80f1a76a0183282b977e5b3">91e99c3fd9654648…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="https://github.com/ouaretw/nightlights-adm1/releases/download/v2.0.0/adm2_monthly_global.parquet" download>adm2_monthly_global.parquet</a></td>
+              <td>monthly</td><td>Parquet</td><td class="num">254.7 MB</td><td>GitHub release</td>
+              <td class="mono xs" title="b1ea70bf41699e2b8a4ff5554c3df13a1ec53f396d6be8b66ba9c962a15b77a8">b1ea70bf41699e2b…</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+      <p class="xs muted">Per-country: data/v2/adm2/&lt;frequency&gt;/&lt;ISO3&gt;.parquet; CSV for any country from the explorer.</p>
+    </section>
+    
+    <section style="margin-top:22px" id="econ">
+      <h3>Economic integration </h3>
+      <p class="small muted">DOSE V2.14 panel and links; national crosswalks.</p>
+      <div class="table-scroll">
+        <table class="dl-table">
+          <thead><tr><th scope="col">File</th><th scope="col">Frequency</th><th scope="col">Format</th><th scope="col" class="num">Size</th><th scope="col">Host</th><th scope="col">SHA-256</th></tr></thead>
+          <tbody>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/dose_region_links.csv" download>dose_region_links.csv</a></td>
+              <td></td><td>CSV</td><td class="num">105.0 KB</td><td>this site</td>
+              <td class="mono xs" title="a3f5e54d375400eff0df797f678307797c8a025c6ebd564c96495cfe1e90c04d">a3f5e54d375400ef…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/dose_region_members_adm2.csv" download>dose_region_members_adm2.csv</a></td>
+              <td></td><td>CSV</td><td class="num">816.8 KB</td><td>this site</td>
+              <td class="mono xs" title="8d86d959d7e51c12acbc47b2787c00444dedcd618819e91da58baf7c12006ad8">8d86d959d7e51c12…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.csv" download>panel_dose_v2_14_ntl.csv</a></td>
+              <td></td><td>CSV</td><td class="num">4.2 MB</td><td>this site</td>
+              <td class="mono xs" title="3c6928833f2aadd1fc176b0b77d09f2f33f58732f43df003b1adc76a442eaf16">3c6928833f2aadd1…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/national/crosswalk_gadm41_bra_ibge_uf.csv" download>crosswalk_gadm41_bra_ibge_uf.csv</a></td>
+              <td></td><td>CSV</td><td class="num">1.3 KB</td><td>this site</td>
+              <td class="mono xs" title="c74495f8e90396adba0058a57cb1c5f70430a94cd3994013d24ae73bfe260923">c74495f8e90396ad…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/national/crosswalk_gadm41_usa_bea_fips.csv" download>crosswalk_gadm41_usa_bea_fips.csv</a></td>
+              <td></td><td>CSV</td><td class="num">2.3 KB</td><td>this site</td>
+              <td class="mono xs" title="64016169c8c4968cc3578f6f33d9e08261968860a8bd66da6286c254c5974f40">64016169c8c4968c…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.parquet" download>panel_dose_v2_14_ntl.parquet</a></td>
+              <td></td><td>Parquet</td><td class="num">2.7 MB</td><td>this site</td>
+              <td class="mono xs" title="d0cd9755c631a193acf19d37e0b8dd980241f1a6db4b1fe0c2fb2938e6cce92e">d0cd9755c631a193…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/panel_dose_v2_14_ntl.dta" download>panel_dose_v2_14_ntl.dta</a></td>
+              <td></td><td>Stata</td><td class="num">5.0 MB</td><td>this site</td>
+              <td class="mono xs" title="4813dabc7c0482b6cc65b0b9b26493f0162c5f9deeb1b17953c9df0df42e0be4">4813dabc7c0482b6…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/ntl_for_dose_regions_annual.csv" download>ntl_for_dose_regions_annual.csv</a></td>
+              <td>annual</td><td>CSV</td><td class="num">5.4 MB</td><td>this site</td>
+              <td class="mono xs" title="e38ee4b3d3c10c48c51d777a4252fd20e9234d8c21b3138438047d4d161a4de2">e38ee4b3d3c10c48…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/ntl_for_dose_regions_annual.parquet" download>ntl_for_dose_regions_annual.parquet</a></td>
+              <td>annual</td><td>Parquet</td><td class="num">3.4 MB</td><td>this site</td>
+              <td class="mono xs" title="cb09996f3a3b29b4b9c1c14516639ffec478343ff3733f816947b3dfca2aac39">cb09996f3a3b29b4…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/econ/dose/ntl_for_dose_regions_annual.dta" download>ntl_for_dose_regions_annual.dta</a></td>
+              <td>annual</td><td>Stata</td><td class="num">6.9 MB</td><td>this site</td>
+              <td class="mono xs" title="79b7ab2dd9fe24b596e89a3d0d7b9804d72311d738aa310f5eb6bcb18473538f">79b7ab2dd9fe24b5…</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+      
+    </section>
+    
+    <section style="margin-top:22px" id="crosswalks">
+      <h3>Crosswalks, QA and documentation </h3>
+      <p class="small muted">District → GADM crosswalk, match quality, coverage QA, map-outline audit, data dictionary, validation.</p>
+      <div class="table-scroll">
+        <table class="dl-table">
+          <thead><tr><th scope="col">File</th><th scope="col">Frequency</th><th scope="col">Format</th><th scope="col" class="num">Size</th><th scope="col">Host</th><th scope="col">SHA-256</th></tr></thead>
+          <tbody>
+          
+            <tr>
+              <td><a href="data/v2/crosswalks/crosswalk_adm2_to_gadm41.csv" download>crosswalk_adm2_to_gadm41.csv</a></td>
+              <td></td><td>CSV</td><td class="num">4.5 MB</td><td>this site</td>
+              <td class="mono xs" title="376d84b746251c9ab5bec3ee80da9b304a0998622b13b055c74e45dbddd3d592">376d84b746251c9a…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/crosswalks/gadm41_adm1_match_quality.csv" download>gadm41_adm1_match_quality.csv</a></td>
+              <td></td><td>CSV</td><td class="num">164.9 KB</td><td>this site</td>
+              <td class="mono xs" title="d648a915d15617d3d7212f3c5e6e4201cc6b320a78b3a6b2971fbaa964a927b0">d648a915d15617d3…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/crosswalks/gadm_units_without_data.csv" download>gadm_units_without_data.csv</a></td>
+              <td></td><td>CSV</td><td class="num">18.4 KB</td><td>this site</td>
+              <td class="mono xs" title="4ad8c83a3390c311e8da9c08b4b3045809a5988a0863621a1393bda56e237e63">4ad8c83a3390c311…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/crosswalks/geo_match_wb_adm1.csv" download>geo_match_wb_adm1.csv</a></td>
+              <td></td><td>CSV</td><td class="num">214.8 KB</td><td>this site</td>
+              <td class="mono xs" title="5d53409f0f09ef9983a1426e9982c245661b9d3cbb208211711f178da79ca316">5d53409f0f09ef99…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/crosswalks/qa_by_country.csv" download>qa_by_country.csv</a></td>
+              <td></td><td>CSV</td><td class="num">4.4 KB</td><td>this site</td>
+              <td class="mono xs" title="66ffcb183a6fed5fb92657ecb45ca2a776ea76e15393f4dea473cb1190c78463">66ffcb183a6fed5f…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/data_dictionary.csv" download>data_dictionary.csv</a></td>
+              <td></td><td>CSV</td><td class="num">7.5 KB</td><td>this site</td>
+              <td class="mono xs" title="7281f245451463898fad9edc14f4a03ea9a6bc341a62ed9e2f07bb468e92831a">7281f24545146389…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/validation_benchmark_units.csv" download>validation_benchmark_units.csv</a></td>
+              <td></td><td>CSV</td><td class="num">33.2 KB</td><td>this site</td>
+              <td class="mono xs" title="14717ad7aa515a28ec68ef80b1d3a69ad159a5afb7ae955ef4f7dc8c3c68c91d">14717ad7aa515a28…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/build_meta.json" download>build_meta.json</a></td>
+              <td></td><td>JSON</td><td class="num">1.2 KB</td><td>this site</td>
+              <td class="mono xs" title="844736c76791db2d0e714af27dc3f37c60b4077182a87b4feca99169f15361df">844736c76791db2d…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/crosswalks/qa_summary.json" download>qa_summary.json</a></td>
+              <td></td><td>JSON</td><td class="num">912 B</td><td>this site</td>
+              <td class="mono xs" title="82ee9f13aed066fa7f828e0e2af5fe0136410f591386df2201a7f8939ccd75e3">82ee9f13aed066fa…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/data_dictionary.json" download>data_dictionary.json</a></td>
+              <td></td><td>JSON</td><td class="num">15.9 KB</td><td>this site</td>
+              <td class="mono xs" title="1e65736ca9c9861e14765e37dd6a6f3a30ba50d3eb7e0b9d39f4a8fd22a8d4b2">1e65736ca9c9861e…</td>
+            </tr>
+          
+            <tr>
+              <td><a href="data/v2/validation.json" download>validation.json</a></td>
+              <td></td><td>JSON</td><td class="num">4.6 KB</td><td>this site</td>
+              <td class="mono xs" title="fc64f78d9831d3c7a8860c78ad6c8a54c9c10b8e8dac6fc82f26ea6a1ffa3e9e">fc64f78d9831d3c7…</td>
+            </tr>
+          
+          </tbody>
+        </table>
+      </div>
+      
+    </section>
+    
+  </details>
+</div>
+
+<div class="wrap section" id="licences">
+  <div class="grid2">
+    <div>
+      <h2>Licence</h2>
+      <p class="serif">Derived data: <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a>. Source data: World Bank Space2Stats
+        Black Marble (CC BY 4.0), NASA Black Marble (open), World Bank Official Boundaries (CC BY 4.0). GADM 4.1 boundaries are <b>not</b>
+        redistributed; only GADM codes and names are used as identifiers. See the <a href="docs.html#licences">licence inventory</a>.</p>
+    </div>
+    <div>
+      <h2>Cite</h2>
+      <pre class="cite" id="citeText">Ouaret, W. (2026). Night Lights ADM1: NASA Black Marble nighttime lights for ADM1 and ADM2 units, ready to merge with subnational economic data (v2.0.0). https://ouaretw.github.io/nightlights-adm1/</pre>
+      <div class="btn-row" style="margin-top:8px"><button class="copy light" type="button" data-copy="citeText">Copy citation</button>
+        <a class="small" href="docs.html#cite">BibTeX</a></div>
+    </div>
+  </div>
+</div>
+<script id="pickerMeta" type="application/json">{"months": ["2012-01", "2025-12"], "version": "2.0.0", "years_afm": [2012, 2025], "years_official_annual": [2012, 2024]}</script>
+
+</main>
+<footer class="foot">
+  <div class="wrap foot-row">
+    <div>Night Lights ADM1 <span class="num">v2.0.0</span> · data built <span class="num">2026-11-20</span> ·
+      derived from World Bank Space2Stats (dataset 0066940) and NASA Black Marble.
+      Not an official World Bank or NASA product.</div>
+    <div><a href="https://github.com/ouaretw/nightlights-adm1">GitHub</a> ·
+      data <a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · code MIT ·
+      <a href="docs.html#licences">licences</a> · <a href="docs.html#cite">cite</a></div>
+  </div>
+</footer>
+<script>
+  (function () {
+    var t = document.querySelector('.navtoggle'), nav = document.getElementById('nav');
+    if (!t) return;
+    t.addEventListener('click', function () { var o = nav.classList.toggle('open'); t.setAttribute('aria-expanded', o); });
+    document.addEventListener('keydown', function (e) { if (e.key === 'Escape' && nav.classList.contains('open')) { nav.classList.remove('open'); t.setAttribute('aria-expanded', 'false'); t.focus(); } });
+  })();
+  document.querySelectorAll('[data-copy]').forEach(function (b) {
+    b.addEventListener('click', function () {
+      var src = document.getElementById(b.dataset.copy); if (!src) return;
+      navigator.clipboard.writeText(src.innerText).then(function () { var o = b.textContent; b.textContent = 'Copied'; setTimeout(function () { b.textContent = o; }, 1400); },
+        function () { b.textContent = 'Select and copy'; });
+    });
+  });
+</script>
+
+<script type="module" src="assets/js/download.js"></script>
+
+</body>
+</html>
