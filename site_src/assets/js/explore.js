@@ -755,6 +755,7 @@ function renderRegion() {
       <div class="flags">${flags.join("") || '<span class="tag native">No quality flags</span>'}</div>
       <dl class="kv">${kv.join("")}</dl>
       ${change}
+      <div id="regionCtx" class="region-ctx"></div>
       <div class="btn-row" style="margin-top:14px">
         <button class="btn sm" type="button" id="dlRegion">Download region CSV</button>
         <button class="btn sm secondary" type="button" id="tblRegion">Show in table</button>
@@ -767,6 +768,69 @@ function renderRegion() {
     { yLabel: unit(ind) ? `[${unit(ind)}]` : ind, height: 190, zeroBase: !ind.match(/^(ln_|dln_|pct_change_)/) });
   $("dlRegion").onclick = () => downloadCsv(rs.filter(inWindow), st.cols, `ntl_${p.dir}_${st.freq}_${k}_${st.y0}-${st.y1}.csv`);
   $("tblRegion").onclick = () => setView("table");
+  regionContext(k, r);
+}
+
+// national rank, position in the national distribution, and economic indicators
+async function regionContext(k, r) {
+  const box = $("regionCtx"); if (!box) return;
+  const ind = st.indicator, tc = timeCol();
+  const peers = st.rows.filter((x) => x[tc] === st.period && x[ind] != null && isFinite(x[ind]));
+  const own = r && r[ind] != null && isFinite(r[ind]) ? r[ind] : null;
+  let html = "";
+  if (own != null && peers.length > 1) {
+    const higher = peers.filter((x) => x[ind] > own).length;
+    const lower = peers.filter((x) => x[ind] < own).length;
+    const vals = peers.map((x) => x[ind]).sort(d3.ascending);
+    html += `<h4>Within ${esc(st.index.find((x) => x.iso === st.iso)?.name ?? st.iso)}, ${esc(st.period)}</h4>
+      <dl class="kv"><dt>National rank (${esc(ind)})</dt><dd>${higher + 1} of ${peers.length}</dd>
+      <dt>Units below this one</dt><dd>${pct(lower / (peers.length - 1), 0)}</dd>
+      <dt>Median of units</dt><dd>${fmtExact(d3.median(vals))}</dd></dl><div id="regionDist" class="chart" style="height:44px"></div>
+      <p class="hint" style="margin:2px 0 0">Every ${st.level === "adm2" ? "district" : "unit"} of the country with a value in this period (quality filters not applied); this unit in dark.</p>`;
+  } else if (peers.length > 1) html += `<p class="hint">No value for this unit in ${esc(st.period)}, so no rank.</p>`;
+  // economic indicators
+  const [nat, dose] = await Promise.all([getJSON("data/v2/analysis/national.json"), getJSON("data/v2/analysis/dose_regions.json")]);
+  if (st.focus !== k || !$("regionCtx")) return;
+  const econ = [];
+  const year = typeof st.period === "number" ? st.period : Number(String(st.period).slice(0, 4));
+  const e = nat?.economies?.[st.iso];
+  if (e) {
+    const i = nat.years.indexOf(year);
+    econ.push(`<dt>Country population (WDI, ${year})</dt><dd>${i >= 0 && e.pop[i] != null ? d3.format(",.0f")(e.pop[i]) : "not reported"}</dd>`);
+    econ.push(`<dt>Country GDP pc, PPP 2021 $</dt><dd>${i >= 0 && e.gdppc[i] != null ? d3.format(",.0f")(e.gdppc[i]) : "not reported"}</dd>`);
+    econ.push(`<dt>IMF group (WEO Apr 2023)</dt><dd class="text">${esc({ advanced: "Advanced economy", emde: "Emerging market / developing", not_classified: "Not classified" }[e.imf] ?? "—")}</dd>`);
+  }
+  const d = dose?.regions?.[k];
+  const doseCountry = dose && Object.values(dose.regions).some((x) => x.iso === st.iso);
+  let doseNote = "";
+  if (d && st.sys === "gadm" && String(d.link).startsWith("gadm_id")) {
+    const yy = Math.min(Math.max(year, dose.years[0]), dose.years.at(-1)), j = dose.years.indexOf(yy);
+    econ.push(`<dt>Region population (DOSE, ${yy})</dt><dd>${d.pop[j] != null ? d3.format(",.0f")(d.pop[j]) : "not reported"}</dd>`);
+    econ.push(`<dt>Region GRP pc (DOSE, 2015 US$)</dt><dd>${d.grppc[j] != null ? d3.format(",.0f")(d.grppc[j]) : "not reported"}</dd>`);
+    if (d.sum[j] != null && d.pop[j] > 0) econ.push(`<dt>Radiance per person (${yy})</dt><dd>${fmtExact(d.sum[j] / d.pop[j])}</dd>`);
+    doseNote = `DOSE values are for the DOSE region with the same <code>GID_1</code>${yy !== year ? `, nearest DOSE year ${yy}` : ""}.`;
+  } else if (doseCountry && st.sys === "wb") {
+    doseNote = `Regional GDP and population (DOSE) are joined to GADM-based units: <a href="#" id="toGadm">switch to the GADM 4.1 version</a>. World Bank and GADM units are not interchangeable.`;
+  } else if (!doseCountry) doseNote = "No subnational GDP or population source is integrated for this country; none is estimated.";
+  if (econ.length || doseNote) html += `<h4 style="margin-top:12px">Economic indicators</h4>${econ.length ? `<dl class="kv">${econ.join("")}</dl>` : ""}
+    <p class="hint" style="margin:4px 0 0">${doseNote} Country values are national context, not values for this unit. <a href="analysis.html#b=${esc(st.iso)}">Compare units in Economic Analysis →</a></p>`;
+  box.innerHTML = html;
+  const tg = $("toGadm"); if (tg) tg.onclick = (ev) => { ev.preventDefault(); const b = document.querySelector('[data-sys="gadm"]'); if (b) b.click(); };
+  // distribution strip
+  const el = $("regionDist");
+  if (el && own != null) {
+    const pos = peers.map((x) => x[ind]).filter((v) => v > 0);
+    const W = Math.max(220, el.clientWidth || 260), H = 44, useLog = pos.length === peers.length && own > 0 && d3.max(pos) / d3.min(pos) > 50;
+    const x = (useLog ? d3.scaleLog() : d3.scaleLinear()).domain(d3.extent(useLog ? pos : peers.map((p) => p[ind]))).range([8, W - 8]);
+    if (x.domain()[0] === x.domain()[1]) return;
+    const svg = d3.select(el).append("svg").attr("viewBox", `0 0 ${W} ${H}`).attr("role", "img").attr("aria-label", `Position among ${peers.length} units`);
+    svg.append("line").attr("x1", 8).attr("x2", W - 8).attr("y1", 18).attr("y2", 18).attr("stroke", "#DCE6ED");
+    svg.append("g").selectAll("circle").data(peers.filter((p) => !useLog || p[ind] > 0)).join("circle").attr("cx", (p) => x(p[ind])).attr("cy", 18).attr("r", 3.5)
+      .attr("fill", "#C3D0DA").attr("opacity", 0.8);
+    svg.append("circle").attr("cx", x(own)).attr("cy", 18).attr("r", 6).attr("fill", "#11263B").attr("stroke", "#fff").attr("stroke-width", 1.5);
+    svg.append("text").attr("x", 8).attr("y", 40).attr("class", "bar-label").text(fmt(x.domain()[0]));
+    svg.append("text").attr("x", W - 8).attr("y", 40).attr("text-anchor", "end").attr("class", "bar-label").text(`${fmt(x.domain()[1])}${useLog ? " (log)" : ""}`);
+  }
 }
 
 // ------------------------------------------------------------------ export

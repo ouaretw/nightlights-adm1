@@ -22,7 +22,7 @@
     <button class="navtoggle" type="button" aria-expanded="false" aria-controls="nav">Menu</button>
     <nav id="nav" class="nav" aria-label="Main">
       {% for href, label, key in nav %}
-      <a href="{{ root }}{{ href }}" {% if key == page %}aria-current="page"{% endif %}>{{ label }}</a>
+      <a href="{{ root }}{{ href }}" {% if key == nav_active %}aria-current="{{ 'page' if key == page else 'true' }}"{% endif %}>{{ label }}</a>
       {% endfor %}
     </nav>
   </div>

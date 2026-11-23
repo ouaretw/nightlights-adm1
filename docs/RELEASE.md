@@ -10,7 +10,7 @@ available through their git tag and GitHub release.
    - US BEA: `https://apps.bea.gov/regional/zip/SAGDP.zip`
    - IBGE states: `https://servicodados.ibge.gov.br/api/v1/localidades/estados` → `raw/econ/ibge/estados.json`
 3. **Verify:** `pytest tests` must pass, including source-assumption and output tests. Then read `validation.json`.
-4. **Version.** Bump `VERSION` in `pipeline/build_v2.py`, add a changelog entry in `site_src/build_site.py` and
+4. **Version.** Bump `VERSION` in `pipeline/build_v2.py`. Bump `RELEASE_VERSION` only when the files in `build/release/` change; it names the release that holds them. Then add a changelog entry in `site_src/build_site.py` and
    `CITATION.cff`, and commit. Then tag: `git tag -a vX.Y.Z -m "..." && git push origin vX.Y.Z`.
 5. **Publish the site and data:** `bash scripts/publish_pages.sh`. This force-pushes `build/site` to the orphan `gh-pages` branch.
    GitHub Pages must be set to *Deploy from a branch → gh-pages / (root)*.

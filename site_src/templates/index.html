@@ -4,11 +4,12 @@
   <div class="wrap">
     <p class="eyebrow">Open dataset · v{{ meta.version }}</p>
     <h1>Nighttime lights for subnational economic research</h1>
-    <p class="lede">Explore and download NASA Black Marble nighttime-light statistics for states, provinces, and districts worldwide,
-      with documented geographic crosswalks and data-quality indicators.</p>
+    <p class="lede">NASA Black Marble nighttime-light statistics for countries, states, provinces and districts worldwide, aggregated with
+      documented rules and ready to merge with economic data.</p>
     <div class="btn-row">
-      <a class="btn" href="explore.html">Explore Data</a>
-      <a class="btn secondary" href="download.html">Download Dataset</a>
+      <a class="btn" href="explore.html">Explore the map</a>
+      <a class="btn secondary" href="analysis.html">Economic analysis</a>
+      <a class="btn secondary" href="download.html">Data &amp; downloads</a>
     </div>
   </div>
 </section>
@@ -18,9 +19,14 @@
     <div class="wm-bar">
       <h2 id="wmTitle">Mean radiance by province (ADM1)</h2>
       <div class="wm-ctl">
-        <div class="seg" role="group" aria-label="Indicator">
-          <button type="button" data-wm="mean" aria-pressed="true">Mean radiance</button>
-          <button type="button" data-wm="sum" aria-pressed="false">Sum of lights</button>
+        <div class="seg" role="group" aria-label="Level" style="min-width:170px">
+          <button type="button" data-wl="adm0" aria-pressed="false">Countries</button>
+          <button type="button" data-wl="adm1" aria-pressed="true">Provinces</button>
+        </div>
+        <div class="seg" role="group" aria-label="Indicator" style="min-width:300px">
+          <button type="button" data-wm="mean" aria-pressed="true">Mean</button>
+          <button type="button" data-wm="sum" aria-pressed="false">Total</button>
+          <button type="button" data-wm="pc" aria-pressed="false" disabled title="Countries only (WDI population)">Per person</button>
         </div>
         <label class="yearctl">Year <output id="wmYearOut" aria-hidden="true">{{ meta.coverage.years_official_annual[1] }}</output>
           <input id="wmYear" type="range" min="0" max="12" step="1" value="12" aria-label="Map year"></label>
@@ -34,7 +40,7 @@
       <div class="legend" id="wmLegend" aria-live="polite"></div>
       <a id="wmOpen" class="btn sm secondary" hidden style="align-self:flex-start"></a>
       <figcaption class="caption">Official annual Black Marble composites aggregated exactly to World Bank ADM1 units
-        (<code>adm1_wb_annual</code>). <span id="wmCount"></span> provinces have an outline: today's World Bank outline where code and
+        (<code>adm1_wb_annual</code>) and, for the country view, summed to national totals (<code>ntl_adm0_annual_econ</code>; per person: WDI population). <span id="wmCount"></span> provinces have an outline: today's World Bank outline where code and
         name agree, otherwise the union of the province's own districts. The remainder could not be matched to a boundary safely and are
         hatched; their data are in every download (<a href="methods.html#outlines">map outlines</a>). Hover for values, click to open a
         province in the explorer; drag to pan, use the buttons or Ctrl + scroll to zoom. Boundaries: World Bank Official Boundaries
@@ -66,17 +72,17 @@
       <div class="card-foot"><a href="explore.html">Open the explorer →</a></div>
     </article>
     <article class="card workflow">
-      <span class="step">02 · Merge</span>
-      <h3>Merge with economic data</h3>
-      <p>Ready-to-merge panel for DOSE regional GDP ({{ dose_linked }} of {{ dose_total }} regions linked), GADM 4.1 <code>GID_1</code>
-        keys, and US BEA and Brazil IBGE crosswalks, with Stata, R and Python code.</p>
-      <div class="card-foot"><a href="integration.html">Economic integration →</a></div>
+      <span class="step">02 · Analyse</span>
+      <h3>Compare lights with economic data</h3>
+      <p>Lights and development (IMF groups, GDP per capita), subnational disparities (China and any other country), and population versus
+        development, with exploratory models whose uncertainty is reported.</p>
+      <div class="card-foot"><a href="analysis.html">Economic analysis →</a></div>
     </article>
     <article class="card workflow">
       <span class="step">03 · Download</span>
       <h3>Download reproducible datasets</h3>
-      <p>CSV, Parquet and Stata files for every level and frequency, each with its exact size and SHA-256 checksum, versioned with
-        a tagged GitHub release.</p>
+      <p>CSV, Parquet and Stata files for every level and frequency, a national panel with IMF and WDI variables, and a ready-to-merge DOSE
+        panel ({{ dose_linked }} of {{ dose_total }} regions linked), each with its size and SHA-256 checksum.</p>
       <div class="card-foot"><a href="download.html">Choose a file →</a></div>
     </article>
   </div>
@@ -107,6 +113,7 @@
           Only World Bank ADM1 values are exact aggregates.</li>
         <li><b>Coverage varies.</b> Clouds and summer daylight at high latitudes reduce valid pixels; monthly sums are biased down when coverage is low.</li>
         <li><b>Official annual ≠ mean of months.</b> NASA's annual composite and annual values derived from monthly data are separate products.</li>
+        <li><b>Radiance is not GDP.</b> It reflects lighting technology, settlement, population and infrastructure as well as economic activity.</li>
         <li><b>Associations, not effects.</b> Nighttime lights correlate with economic activity; nothing here estimates causal effects.</li>
         <li><b>Series end.</b> Suomi NPP stopped delivering observations on 2 November 2026.</li>
       </ul>

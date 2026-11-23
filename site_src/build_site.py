@@ -19,9 +19,10 @@ ROOT = SRC.parent
 SITE = ROOT / "build" / "site"
 DATA = SITE / "data" / "v2"
 
-NAV = [("index.html", "Overview", "index"), ("explore.html", "Explore Data", "explore"),
-       ("integration.html", "Economic Integration", "integration"), ("download.html", "Download", "download"),
-       ("methods.html", "Methods & Validation", "methods"), ("docs.html", "Documentation", "docs")]
+NAV = [("explore.html", "Explore", "explore"), ("analysis.html", "Economic Analysis", "analysis"),
+       ("download.html", "Data & Downloads", "download"), ("methods.html", "Methods", "methods"), ("about.html", "About", "about")]
+# pages that live under a navigation section (URLs kept stable)
+NAV_ACTIVE = {"integration": "download", "docs": "download"}
 LINK_MEANING = {
     "gadm_id": "same GID_1 in GADM 4.1, names agree",
     "gadm_id_suffix": "GADM 4.1 uses suffix _2 for the same unit",
@@ -33,6 +34,9 @@ LINK_MEANING = {
     "unlinked": "no reliable link; left out rather than guessed",
 }
 CHANGELOG = [
+    {"version": "2.1.0", "date": "2026-11-23", "text": "Economic Analysis workspace (IMF WEO April 2023 groups, WDI population and GDP, DOSE regions; exploratory models with "
+     "clustered errors, Moran's I and holdout validation); national (ADM0) panel; aggregation-rule benchmark against unweighted collapses; "
+     "ADM0 view on the home map; About page with licences and future indicators. Release files unchanged (v2.0.0 assets)."},
     {"version": "2.0.0", "date": "2026-11-21", "text": "Native ADM2 product; no-data sums set to missing instead of 0; flagged estimated pixel weights; "
      "official annual and monthly-derived annual kept separate; log/asinh transforms and year-on-year changes; GADM 4.1 match grades and absorbed-unit flags; "
      "DOSE V2.14 linkage and ready-to-merge panel; US BEA and Brazil IBGE crosswalks; Stata files; validation report incl. direct-extraction benchmark; new portal."},
@@ -77,10 +81,15 @@ def download_groups(man, version):
         {"id": "econ", "title": "Economic integration", "tag": "", "tagclass": "",
          "note": "DOSE V2.14 panel and links; national crosswalks.",
          "files": pick(lambda p: p.startswith("data/v2/econ/") and not p.endswith(".json")), "per_country": ""},
+        {"id": "analysis", "title": "National panel and economic analysis", "tag": "new in 2.1", "tagclass": "exact",
+         "note": "Keyed on iso3 + year. National lights (exact sums of ADM1) with IMF WEO April 2023 groups and WDI population/GDP; "
+                 "the files behind the Economic Analysis page.",
+         "files": pick(lambda p: p.startswith("data/v2/adm0/") or (p.startswith("data/v2/analysis/") and not p.endswith("summary.json"))), "per_country": ""},
         {"id": "crosswalks", "title": "Crosswalks, QA and documentation", "tag": "", "tagclass": "",
          "note": "District → GADM crosswalk, match quality, coverage QA, map-outline audit, data dictionary, validation.",
          "files": pick(lambda p: p.startswith("data/v2/crosswalks/") or p in ("data/v2/data_dictionary.csv", "data/v2/data_dictionary.json",
                                                                                "data/v2/validation.json", "data/v2/validation_benchmark_units.csv",
+                                                                               "data/v2/validation_aggregation_rules.json",
                                                                                "data/v2/build_meta.json")), "per_country": ""},
     ]
 
@@ -106,6 +115,8 @@ def main():
     man = json.loads((DATA / "manifest.json").read_text(encoding="utf-8"))
     val = json.loads((DATA / "validation.json").read_text(encoding="utf-8"))
     dose = json.loads((DATA / "econ" / "dose" / "dose_link_summary.json").read_text(encoding="utf-8"))
+    agg = json.loads((DATA / "validation_aggregation_rules.json").read_text(encoding="utf-8"))
+    an_sum = json.loads((DATA / "analysis" / "summary.json").read_text(encoding="utf-8"))
     national = json.loads((DATA / "econ" / "national" / "national_crosswalks_summary.json").read_text(encoding="utf-8"))
     qa = json.loads((DATA / "crosswalks" / "qa_summary.json").read_text(encoding="utf-8"))
     dic = json.loads((DATA / "data_dictionary.json").read_text(encoding="utf-8"))
@@ -137,22 +148,32 @@ def main():
 
     env = Environment(loader=FileSystemLoader(SRC / "templates"), autoescape=select_autoescape(["html"]))
     dose_linked = dose["dose_regions"] - dose_unlinked
-    common = {"nav": NAV, "meta": meta, "root": "", "citation": citation, "bibtex": bibtex}
+    common = {"nav": NAV, "meta": meta, "root": "", "citation": citation, "bibtex": bibtex,
+              "release_version": man.get("release_version", man["version"]), "agg": agg, "mf": mf}
+    an_files = [(p, l) for p, l in (("data/v2/adm0/ntl_adm0_annual_econ.csv", "national panel (CSV)"),
+                                     ("data/v2/adm0/ntl_adm0_annual_econ.parquet", "Parquet"),
+                                     ("data/v2/adm0/ntl_adm0_annual_econ_dictionary.csv", "columns"),
+                                     ("data/v2/analysis/imf_weo_2023apr_groups.csv", "IMF groups"),
+                                     ("data/v2/analysis/models.json", "model estimates (JSON)")) if p in mf]
     pages = {
+        "analysis": ("Economic analysis", "Exploratory analyses of nighttime lights with IMF country groups, WDI population and GDP, and DOSE regional GDP.",
+                     {"an_files": an_files, "an_sum": an_sum}),
+        "about": ("About", "Purpose, contribution relative to existing World Bank tools, contributors, licences, project status and future indicators.", {}),
         "index": ("Nighttime lights for subnational economic research", "Explore and download NASA Black Marble nighttime-light statistics for states, provinces and districts worldwide, with documented crosswalks and data-quality indicators.",
                   {"stats": stats, "dose_linked": dose_linked, "dose_total": dose["dose_regions"]}),
         "explore": ("Explore data", "Interactive maps, time series, quality and exports by country, level and boundary system.", {}),
         "integration": ("Economic integration", "Crosswalks and ready-to-merge panels for DOSE, GADM-based data, US BEA and Brazil IBGE.",
                         {"dose": dose, "national": national, "dose_unlinked": dose_unlinked, "dose_linked": dose_linked, "link_meaning": LINK_MEANING,
-                         "examples": examples, "mf": mf}),
+                         "examples": examples}),
         "download": ("Download", "Choose a dataset by level, frequency, scope and format; every file with its size and SHA-256 checksum.",
                      {"groups": download_groups(man, man["version"]), "picker_meta": picker_meta, "n_files": len(man["files"])}),
-        "methods": ("Methods and validation", "Aggregation method, tested source assumptions, validation results and limitations.", {"val": val}),
+        "methods": ("Methods and validation", "Aggregation method, tested source assumptions, validation results and limitations.",
+                    {"val": val, "models_years": an_sum["years"]}),
         "docs": ("Documentation", "Data dictionary, file layout, licences and version history.",
                  {"columns": dic["columns"], "status": dic["status_legend"], "changelog": CHANGELOG}),
     }
     for key, (title, desc, ctx) in pages.items():
-        html = env.get_template(f"{key}.html").render(page=key, title=title, description=desc, **common, **ctx)
+        html = env.get_template(f"{key}.html").render(page=key, nav_active=NAV_ACTIVE.get(key, key), title=title, description=desc, **common, **ctx)
         (SITE / f"{key}.html").write_text(html, encoding="utf-8")
     # assets, examples
     shutil.copytree(SRC / "assets", SITE / "assets", dirs_exist_ok=True)

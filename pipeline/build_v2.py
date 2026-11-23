@@ -35,7 +35,8 @@ SITE = ROOT / "build" / "site"
 DATA = SITE / "data" / "v2"
 REL = ROOT / "build" / "release"
 XW = ROOT / "build" / "crosswalks"
-VERSION = "2.0.0"
+VERSION = "2.1.0"          # site + analysis layer
+RELEASE_VERSION = "2.0.0"  # GitHub release holding the large files (unchanged since v2.0.0; never overwritten)
 PAGES_MAX = 95e6          # keep single files below GitHub's 100 MB limit
 
 
@@ -276,8 +277,8 @@ def write_manifest():
                           "sha256": sha256(p), "host": "pages"})
     for p in sorted(REL.glob("*")):
         files.append({"path": p.name, "bytes": p.stat().st_size, "sha256": sha256(p), "host": "release",
-                      "url": f"https://github.com/ouaretw/nightlights-adm1/releases/download/v{VERSION}/{p.name}"})
-    (DATA / "manifest.json").write_text(json.dumps({"version": VERSION, "files": files}, indent=1), encoding="utf-8")
+                      "url": f"https://github.com/ouaretw/nightlights-adm1/releases/download/v{RELEASE_VERSION}/{p.name}"})
+    (DATA / "manifest.json").write_text(json.dumps({"version": VERSION, "release_version": RELEASE_VERSION, "files": files}, indent=1), encoding="utf-8")
     site_mb = sum(f["bytes"] for f in files if f["host"] == "pages") / 1e6
     rel_mb = sum(f["bytes"] for f in files if f["host"] == "release") / 1e6
     print(f"site data {site_mb:,.0f} MB, release assets {rel_mb:,.0f} MB, files {len(files)}")

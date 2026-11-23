@@ -1,0 +1,185 @@
+{% extends "base.html" %}
+{% block content %}
+<div class="wrap page-head">
+  <h1>Economic analysis</h1>
+  <p>Three exploratory modules that put the nighttime-light panel next to documented economic data: the IMF World Economic Outlook
+    classification (April 2023), World Bank WDI population and GDP, and DOSE subnational GDP. Every chart is drawn from processed files
+    you can download; every estimate below was produced by <code>pipeline/build_analysis.py</code>. These are associations, not causal
+    effects, and nighttime radiance is not a measure of GDP.</p>
+  <nav class="small" aria-label="On this page">Modules: <a href="#development">A · Lights and development</a> ·
+    <a href="#subnational">B · Subnational disparities</a> · <a href="#population">C · Population versus development</a> ·
+    <a href="#an-sources">Sources and caveats</a></nav>
+</div>
+
+<div class="wrap">
+<!-- ============================================================ A -->
+<section class="section" aria-labelledby="development" style="padding-top:8px">
+  <div class="section-head">
+    <h2 id="development">A · Nighttime lights and economic development</h2>
+    <p>Countries · official annual composites · IMF WEO April 2023 groups · WDI GDP per capita</p>
+  </div>
+  <p class="serif an-q">To what extent do national nighttime-light statistics distinguish economies at different levels of development?
+    The IMF grouping is an analytical classification, not a continuous income measure, and lights do not determine it.</p>
+  <div class="an-ctl" role="group" aria-label="Module A controls">
+    <label class="field"><span class="label">Year</span><select id="aYear"></select></label>
+    <div class="field"><span class="label">Radiance measure</span>
+      <div class="seg" id="aMeasure" role="group" aria-label="Radiance measure">
+        <button type="button" data-m="mean" aria-pressed="true">Mean</button>
+        <button type="button" data-m="sum" aria-pressed="false">Total</button>
+        <button type="button" data-m="pc" aria-pressed="false">Per person</button>
+        <button type="button" data-m="pcnogf" aria-pressed="false">Per person, no flares</button>
+      </div></div>
+    <label class="field"><span class="label">Highlight a country</span>
+      <input id="aFind" type="search" list="aCountries" placeholder="Type a country…" autocomplete="off"><datalist id="aCountries"></datalist></label>
+  </div>
+  <p class="hint" id="aMeasureNote"></p>
+  <div class="grid2 an-grid">
+    <figure class="panel an-fig">
+      <div class="panel-head"><h3 id="a1Title">Radiance and GDP per capita</h3><button class="btn sm ghost" type="button" data-export="a1">Export CSV</button></div>
+      <div class="chart" id="a1" style="height:360px"></div>
+      <figcaption class="an-cap" id="a1Cap"></figcaption>
+    </figure>
+    <figure class="panel an-fig">
+      <div class="panel-head"><h3>Distribution by IMF group</h3><button class="btn sm ghost" type="button" data-export="a2">Export CSV</button></div>
+      <div class="chart" id="a2" style="height:300px"></div>
+      <div id="a2Stats" class="an-stats"></div>
+      <figcaption class="an-cap" id="a2Cap"></figcaption>
+    </figure>
+  </div>
+  <div class="grid2 an-grid">
+    <figure class="panel an-fig">
+      <div class="panel-head"><h3 id="a3Title">Country ranking</h3><button class="btn sm ghost" type="button" data-export="a3">Export CSV</button></div>
+      <div class="table-scroll datatable" id="a3" style="max-height:420px"></div>
+      <figcaption class="an-cap" id="a3Cap"></figcaption>
+    </figure>
+    <figure class="panel an-fig">
+      <div class="panel-head"><h3>Correlation with log GDP per capita</h3></div>
+      <div class="panel-pad" id="a4"></div>
+      <figcaption class="an-cap">Spearman rank correlation and Pearson correlation of logs, countries with positive radiance and WDI GDP per
+        capita (PPP, constant 2021 international $). Within-group correlations show how much lights still order economies once the
+        group is fixed. Median radiance is not shown: a national or provincial median cannot be derived from district summaries
+        (<a href="methods.html#median">why</a>).</figcaption>
+    </figure>
+  </div>
+</section>
+
+<!-- ============================================================ B -->
+<section class="section" aria-labelledby="subnational">
+  <div class="section-head">
+    <h2 id="subnational">B · Subnational disparities</h2>
+    <p>ADM1 units of one country · China by default · any country can be chosen</p>
+  </div>
+  <p class="serif an-q">How unequal is nighttime light across a country's provinces, how has it changed, and how does it line up with
+    measured regional GDP and population where those exist? Provinces are compared with each other; none is labelled “advanced” on the
+    basis of radiance.</p>
+  <div class="an-ctl" role="group" aria-label="Module B controls">
+    <label class="field"><span class="label">Country</span><select id="bCountry"></select></label>
+    <label class="field"><span class="label">Year</span><select id="bYear"></select></label>
+    <div class="field"><span class="label">Measure</span>
+      <div class="seg" id="bMeasure" role="group" aria-label="Measure">
+        <button type="button" data-m="mean" aria-pressed="true">Mean</button>
+        <button type="button" data-m="sum" aria-pressed="false">Total</button>
+        <button type="button" data-m="share" aria-pressed="false">Share of national</button>
+      </div></div>
+  </div>
+  <div class="an-stats" id="bStats"></div>
+  <div class="grid2 an-grid">
+    <figure class="panel an-fig">
+      <div class="panel-head"><h3 id="b1Title">Province ranking</h3><button class="btn sm ghost" type="button" data-export="b1">Export CSV</button></div>
+      <div class="chart an-scroll" id="b1"></div>
+      <figcaption class="an-cap" id="b1Cap"></figcaption>
+    </figure>
+    <figure class="panel an-fig">
+      <div class="panel-head"><h3 id="b2Title">Change over time</h3><button class="btn sm ghost" type="button" data-export="b2">Export CSV</button></div>
+      <div class="chart" id="b2" style="height:340px"></div>
+      <figcaption class="an-cap" id="b2Cap"></figcaption>
+    </figure>
+  </div>
+  <figure class="panel an-fig" style="margin-top:20px">
+    <div class="panel-head"><h3 id="b3Title">Regional GDP, population and radiance</h3><button class="btn sm ghost" type="button" data-export="b3">Export CSV</button></div>
+    <div id="b3Body" class="an-b3"></div>
+    <figcaption class="an-cap" id="b3Cap"></figcaption>
+  </figure>
+</section>
+
+<!-- ============================================================ C -->
+<section class="section" aria-labelledby="population">
+  <div class="section-head">
+    <h2 id="population">C · Population versus economic development</h2>
+    <p>Countries (WDI) or regions (DOSE) · log scales · exploratory models</p>
+  </div>
+  <p class="serif an-q">Is total radiance jointly related to how many people live in a place and how productive they are? This is a
+    proposition raised in external feedback; the charts and models test it rather than assume it. Australia and India are marked as
+    illustrative cases.</p>
+  <div class="an-ctl" role="group" aria-label="Module C controls">
+    <div class="field"><span class="label">Units</span>
+      <div class="seg" id="cLevel" role="group" aria-label="Units">
+        <button type="button" data-l="nat" aria-pressed="true">Countries</button>
+        <button type="button" data-l="dose" aria-pressed="false">Regions (DOSE)</button>
+      </div></div>
+    <label class="field"><span class="label">Year</span><select id="cYear"></select></label>
+    <label class="field" id="cCountryWrap" hidden><span class="label">Regions of</span><select id="cCountry"></select></label>
+  </div>
+  <div class="an-quad">
+    <figure class="panel an-fig"><div class="panel-head"><h3>Total radiance vs population</h3><button class="btn sm ghost" type="button" data-export="c">Export CSV</button></div><div class="chart" id="c1" style="height:280px"></div><figcaption class="an-cap" id="c1Cap"></figcaption></figure>
+    <figure class="panel an-fig"><div class="panel-head"><h3 id="c2Title">Total radiance vs GDP</h3></div><div class="chart" id="c2" style="height:280px"></div><figcaption class="an-cap" id="c2Cap"></figcaption></figure>
+    <figure class="panel an-fig"><div class="panel-head"><h3 id="c3Title">Mean radiance vs GDP per capita</h3></div><div class="chart" id="c3" style="height:280px"></div><figcaption class="an-cap" id="c3Cap"></figcaption></figure>
+    <figure class="panel an-fig"><div class="panel-head"><h3 id="c4Title">Radiance per person vs GDP per capita</h3></div><div class="chart" id="c4" style="height:280px"></div><figcaption class="an-cap" id="c4Cap"></figcaption></figure>
+  </div>
+  <p class="hint" id="cNote"></p>
+
+  <div class="panel" style="margin-top:20px">
+    <div class="panel-head"><h3>Model: log(total radiance) ~ log(population) + log(GDP per capita)</h3></div>
+    <div class="panel-pad" id="cModels"></div>
+  </div>
+  <div class="panel" style="margin-top:20px">
+    <div class="panel-head"><h3>Out-of-sample prediction</h3></div>
+    <div class="panel-pad an-cv" id="cCv"></div>
+  </div>
+  <figure class="panel an-fig" style="margin-top:20px">
+    <div class="panel-head"><h3 id="c5Title">Over time: radiance, population and GDP</h3>
+      <label class="field an-inline"><span class="sr-only">Country</span><select id="c5Country"></select></label>
+      <button class="btn sm ghost" type="button" data-export="c5">Export CSV</button></div>
+    <div class="chart" id="c5" style="height:300px"></div>
+    <figcaption class="an-cap" id="c5Cap"></figcaption>
+  </figure>
+</section>
+
+<section class="section" aria-labelledby="an-sources">
+  <h2 id="an-sources">Sources and caveats</h2>
+  <div class="grid2">
+    <div>
+      <ul class="limits">
+        <li><b>Lights:</b> official annual Black Marble composites (World Bank Space2Stats 0066940) aggregated exactly from districts.
+          National values are sums over all ADM1 units of a code; China excludes the source's “Taiwan Sheng” unit, which is reported as
+          Taiwan to match the IMF and WDI economy definitions.</li>
+        <li><b>IMF:</b> World Economic Outlook, April 2023, Statistical Appendix, Tables B and E (41 advanced, 155 emerging market and
+          developing economies), parsed from the IMF PDF. Applied unchanged to every year.</li>
+        <li><b>WDI:</b> <code>SP.POP.TOTL</code>, <code>NY.GDP.PCAP.PP.KD</code>, <code>NY.GDP.MKTP.PP.KD</code> from the World Bank API
+          (retrieved <span id="wdiDate"></span>, CC BY 4.0).</li>
+        <li><b>DOSE V2.14</b> (Wenz et al. 2023, CC BY 4.0): regional population and gross regional product per capita (constant
+          2015 US$), 2012–2019 overlap; lights aggregated to each DOSE region from its own districts.</li>
+      </ul>
+    </div>
+    <div>
+      <ul class="limits">
+        <li><b>Radiance is not GDP.</b> It reflects lighting technology, settlement form, population, infrastructure and economic activity.</li>
+        <li><b>Mean radiance</b> averages over all land pixels, so large sparsely settled countries and provinces score low even when
+          their economies are large. <b>Total radiance</b> grows with population and area.</li>
+        <li><b>Gas flares</b> add light unrelated to settlement; the “no flares” measure removes 5 km buffers around flaring sites.</li>
+        <li><b>Missing economic data are left missing</b>; no GDP or population value is estimated. Logs are taken of positive values only,
+          and excluded observations are counted.</li>
+        <li><b>Dependence:</b> countries and regions are not independent draws. Standard errors are clustered and Moran's I of residuals is
+          reported; where it is significant, uncertainty is understated.</li>
+      </ul>
+    </div>
+  </div>
+  <p class="small">Files: {% for p, label in an_files %}<a href="{{ mf[p].href }}" download>{{ label }}</a> <span class="num">{{ mf[p].size }}</span>{% if not loop.last %} · {% endif %}{% endfor %}</p>
+</section>
+</div>
+<div id="anTip" class="tooltip" hidden></div>
+{% endblock %}
+{% block scripts %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script type="module" src="assets/js/analysis.js"></script>
+{% endblock %}

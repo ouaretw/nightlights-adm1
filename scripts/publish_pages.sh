@@ -2,7 +2,8 @@
 # Publish build/site to the orphan `gh-pages` branch as a single commit
 # (history of generated data is not kept on the branch; versions are kept as
 # tags + GitHub releases). Run from the repository root after:
-#   python pipeline/build_v2.py && python pipeline/build_world_map.py && python pipeline/validate.py && python site_src/build_site.py && pytest tests
+#   the build sequence in README.md ("Rebuild"), ending with
+#   python site_src/build_site.py && pytest tests
 set -euo pipefail
 PY=${PYTHON:-python}
 VERSION=$($PY -c "import json;print(json.load(open('build/site/data/v2/manifest.json'))['version'])")
@@ -20,4 +21,5 @@ git push -f origin HEAD:gh-pages
 popd >/dev/null
 git worktree remove --force "$TMP"
 git branch -D gh-pages-new >/dev/null 2>&1 || true
-echo "Published v$VERSION to gh-pages. Release assets: upload build/release/* to the v$VERSION GitHub release."
+REL=$($PY -c "import json;print(json.load(open('build/site/data/v2/manifest.json')).get('release_version',''))")
+echo "Published v$VERSION to gh-pages. Large files are expected in the v$REL GitHub release (see manifest.json)."

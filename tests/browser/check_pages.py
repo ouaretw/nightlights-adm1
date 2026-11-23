@@ -17,7 +17,17 @@ b.js("(()=>{const p=document.querySelector('#worldmap .u');const r=p.getBounding
 time.sleep(0.3)
 check("home tooltip shows value + coverage", b.js("!document.getElementById('wmTip').hidden && document.getElementById('wmTip').textContent.includes('coverage')"))
 b.js("document.querySelector('[data-wm=sum]').click()"); time.sleep(0.4)
-check("indicator toggle updates legend", "Sum of radiance" in b.js("document.getElementById('wmLegend').textContent"))
+check("indicator toggle updates legend", "Total radiance" in b.js("document.getElementById('wmLegend').textContent"))
+check("per person disabled at ADM1", b.js("document.querySelector('[data-wm=pc]').disabled"))
+b.js("document.querySelector('[data-wl=adm0]').click()"); time.sleep(0.6)
+check("country view shows countries", b.js("document.querySelector('.lyr-adm0').getAttribute('display')") is None and b.js("document.querySelector('.lyr-adm1').getAttribute('display')") == "none")
+b.js("document.querySelector('[data-wm=pc]').click()"); time.sleep(0.4)
+check("country view: per person legend", "per person" in b.js("document.getElementById('wmLegend').textContent") and "country (ADM0)" in b.js("document.getElementById('wmTitle').textContent"))
+b.js("(()=>{const p=[...document.querySelectorAll('.lyr-adm0 .u')].find(x=>x.__data__.iso==='IND');const r=p.getBoundingClientRect();p.dispatchEvent(new MouseEvent('mousemove',{bubbles:true,clientX:r.x+r.width/2,clientY:r.y+r.height/2}))})()"); time.sleep(0.3)
+tt = b.js("document.getElementById('wmTip').textContent")
+check("country tooltip: WDI population and IMF group", "Population (WDI)" in tt and "IMF" in tt, tt[:120])
+b.js("document.querySelector('[data-wl=adm1]').click()"); time.sleep(0.4)
+check("back to provinces resets per-person", b.js("document.querySelector('[data-wm=mean]').getAttribute('aria-pressed')") == "true")
 b.js("{const y=document.getElementById('wmYear');y.value=0;y.dispatchEvent(new Event('input'))}"); time.sleep(0.4)
 check("year slider updates title", "2012" in b.js("document.getElementById('wmTitle').textContent"))
 b.js("{const c=document.getElementById('wmCountry');c.value='Brazil (BRA)';c.dispatchEvent(new Event('change'))}"); time.sleep(2.5)
@@ -58,7 +68,7 @@ print("errors:", b.errors())
 
 # ---------------- links on every page
 allbad = []
-for p in ["index", "explore", "integration", "download", "methods", "docs"]:
+for p in ["index", "explore", "analysis", "integration", "download", "methods", "docs", "about"]:
     b.goto(S + p + ".html"); time.sleep(0.8)
     links = b.js("[...new Set([...document.querySelectorAll('a[href]')].map(a=>a.getAttribute('href')))]")
     loc = [l for l in links if not l.startswith(("http", "#", "mailto", "blob")) and "#" not in l.split("/")[-1][:1]]
@@ -67,16 +77,16 @@ for p in ["index", "explore", "integration", "download", "methods", "docs"]:
     allbad += [(p, s) for s in st if s[1] != 200]
     ext = [l for l in links if l.startswith("http")]
     json.dump(sorted(set(ext)), open(f"ext_{p}.json", "w"))
-check("all internal links on 6 pages resolve", not allbad, str(allbad[:8]))
+check("all internal links on 8 pages resolve", not allbad, str(allbad[:8]))
 
 # ---------------- responsive
 for w, h, mob in [(1440, 900, False), (1024, 800, False), (768, 1000, True), (390, 844, True)]:
     b.viewport(w, h, mob)
-    for p, extra in [("index", ""), ("explore", "#c=DZA&l=adm1&s=wb&f=annual&v=map"), ("integration", ""), ("download", ""), ("methods", ""), ("docs", "")]:
-        b.goto("about:blank"); b.goto(S + p + ".html" + extra); time.sleep(2.2 if p in ("index", "explore") else 0.8)
+    for p, extra in [("index", ""), ("explore", "#c=DZA&l=adm1&s=wb&f=annual&v=map"), ("analysis", ""), ("integration", ""), ("download", ""), ("methods", ""), ("docs", ""), ("about", "")]:
+        b.goto("about:blank"); b.goto(S + p + ".html" + extra); time.sleep(2.2 if p in ("index", "explore", "analysis") else 0.8)
         ov = b.js("document.documentElement.scrollWidth - window.innerWidth")
         check(f"no horizontal overflow {p} @{w}", ov <= 0, str(ov))
-        if w in (390, 1024) and p in ("index", "explore", "download", "integration"): b.shot(f"shots/{p}_{w}.png")
+        if w in (390, 1024) and p in ("index", "explore", "download", "integration", "about"): b.shot(f"shots/{p}_{w}.png")
     if w == 390:
         b.goto("about:blank"); b.goto(S + "explore.html#c=DZA&l=adm1&s=wb&f=annual&v=map", "document.querySelectorAll('#map .u').length>0"); time.sleep(1)
         check("mobile: filters collapsed by default", b.js("document.getElementById('controls').classList.contains('collapsed')"))

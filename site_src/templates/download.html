@@ -1,10 +1,33 @@
 {% extends "base.html" %}
 {% block content %}
 <div class="wrap page-head">
-  <h1>Download</h1>
+  <h1>Data &amp; downloads</h1>
   <p>Choose a dataset to see the exact file, its size, SHA-256 checksum, variables and caveats. Every link points to a file listed in the build
     manifest (<a href="data/v2/manifest.json">manifest.json</a>): smaller files are served from this site, global CSV/Stata bundles from the
-    <a href="https://github.com/ouaretw/nightlights-adm1/releases/tag/v{{ meta.version }}">v{{ meta.version }} GitHub release</a>.</p>
+    <a href="https://github.com/ouaretw/nightlights-adm1/releases/tag/v{{ release_version }}">v{{ release_version }} GitHub release</a>
+    (unchanged in v{{ meta.version }}).</p>
+  <nav class="small" aria-label="In this section">Also in this section: <a href="integration.html">Economic integration (DOSE, GADM, BEA, IBGE)</a> ·
+    <a href="docs.html">Documentation and data dictionary</a> · <a href="docs.html#versions">Versions</a> · <a href="docs.html#cite">Cite</a></nav>
+</div>
+
+<div class="wrap" style="margin-bottom:18px">
+  <div class="table-scroll panel"><table>
+    <caption class="sr-only">Research products</caption>
+    <thead><tr><th>Research product</th><th>Key</th><th>Files</th></tr></thead>
+    <tbody>
+      <tr><td><b>ADM1 annual panel</b> · official composites {{ meta.coverage.years_official_annual[0] }}–{{ meta.coverage.years_official_annual[1] }}</td><td><code>ADM1CD_c</code> or <code>GID_1</code> + <code>year</code></td>
+        <td>Select below: ADM1 → Annual → Global</td></tr>
+      <tr><td><b>ADM1 monthly panel</b> · {{ meta.coverage.months[0] }} – {{ meta.coverage.months[1] }}</td><td>… + <code>date</code></td><td>Select below: ADM1 → Monthly</td></tr>
+      <tr><td><b>Country subsets</b></td><td>as above</td><td>Select “One country” below</td></tr>
+      <tr><td><b>Selected variables and years</b></td><td>as above</td><td>Explorer → Export (filtered rows, chosen columns)</td></tr>
+      <tr><td><b>National panel with IMF groups, WDI population and GDP</b> <span class="tag exact">new</span></td><td><code>iso3</code> + <code>year</code></td>
+        <td>{% for p, l in [("data/v2/adm0/ntl_adm0_annual_econ.csv","CSV"),("data/v2/adm0/ntl_adm0_annual_econ.parquet","Parquet"),("data/v2/adm0/ntl_adm0_annual_econ_dictionary.csv","columns")] %}{% if p in mf %}<a href="{{ mf[p].href }}" download>{{ l }}</a> <span class="num">{{ mf[p].size }}</span>{% if not loop.last %} · {% endif %}{% endif %}{% endfor %}</td></tr>
+      <tr><td><b>DOSE regional panel</b> (GDP, population, lights)</td><td><code>GID_1</code> + <code>year</code></td><td><a href="integration.html#dose">Economic integration</a></td></tr>
+      <tr><td><b>Data dictionary</b></td><td></td><td><a href="docs.html#dictionary">Documentation</a> · {% if "data/v2/data_dictionary.csv" in mf %}<a href="{{ mf["data/v2/data_dictionary.csv"].href }}" download>CSV</a>{% endif %}</td></tr>
+      <tr><td><b>Boundary metadata and crosswalks</b></td><td><code>ADM2CD_c</code> → <code>GID_1</code></td><td><a href="#crosswalks">All files → Crosswalks</a> · <a href="methods.html#boundaries">method</a></td></tr>
+      <tr><td><b>Quality control and validation</b></td><td></td><td>{% for p, l in [("data/v2/validation.json","validation.json"),("data/v2/validation_aggregation_rules.json","aggregation rules"),("data/v2/validation_benchmark_units.csv","benchmark units")] %}{% if p in mf %}<a href="{{ mf[p].href }}" download>{{ l }}</a>{% if not loop.last %} · {% endif %}{% endif %}{% endfor %}</td></tr>
+      <tr><td><b>Reproducibility</b></td><td></td><td><a href="https://github.com/ouaretw/nightlights-adm1#rebuild">Rebuild instructions</a> · <a href="data/v2/build_meta.json">build_meta.json</a> (source checksums)</td></tr>
+    </tbody></table></div>
 </div>
 
 <div class="wrap picker">
